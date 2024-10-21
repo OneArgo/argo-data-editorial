@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  navbar:
+    pinned: true
+    logo: assets/images/quartologo.png
+    tools:
+      - icon: gitlab
+        menu:
+          - text: Source Code
+            href: https://gitlab.ifremer.fr/cp7b596/quartoweb-test
+          - text: Report an Issue
+            href: https://gitlab.ifremer.fr/cp7b596/quartoweb-test/-/issues
+    left:
+      - href: index.qmd
+        text: Home
+      - href: docs/Documentations/documentationshome.qmd
+        text: Documentations
+      - href: docs/Tutorials/tutorialshome.qmd
+        text: Tutorials
+  sidebar:
+    style: "docked"
+    search: false
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Documentations"
+        contents:
+          - docs/Documentations/documentationshome.qmd
+      - section: "Tutorials"
+        contents:
+          - docs/Tutorials/tutorialshome.qmd
+          - docs/Tutorials/jupyternotebook.qmd
+          - docs/Tutorials/quartobook.qmd
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Note** - This website is in development"
+    type: warning
+    position: below-navbar
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/styles.css
+    toc: true
+
