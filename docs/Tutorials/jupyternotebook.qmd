@@ -1,0 +1,178 @@
+---
+title: "Jupyter Notebook"
+---
+
+# Introduction
+
+
+# Project's Structure
+
+```{mermaid}
+flowchart LR
+A[[assets]]
+A --> images[[images]]
+images --> favicon(favicon.ico)
+images --> logo(logo.png)
+
+B[[_build]]
+B --> html[[html]]
+B --> jupyterexec[[jupyter_execute]]
+html --> htmlfiles[[html Files]] --> N[[...]]
+jupyterexec --> execfiles[[.ipynb Files]] --> V[[...]]
+
+C[[docs]]
+C --> firstPart[[firstPart]]
+C --> secondPart[[secondPart]]
+C --> intro(intro.md)
+
+firstPart --> markdown(mardown.md)
+firstPart --> markdown-notebooks(markdown-notebooks.md)
+
+secondPart --> notebooks(notebooks.ipynb)
+
+classDef folder fill:#f96
+class A,B,C,N,V,images,firstPart,secondPart,html,jupyterexec,htmlfiles,execfiles folder
+```
+
+::: {.column-margin}
+Diagram legend
+
+```{mermaid}
+flowchart LR
+A[[FOLDER]]
+B(FILE)
+
+classDef folder fill:#f96
+class A folder
+```
+:::
+
+```{mermaid}
+flowchart LR
+D(_config.yml)
+E(references.bib)
+F(requirements.txt)
+G(_toc.yml)
+```
+
+## assets
+
+```{mermaid}
+flowchart LR
+A[[assets]]
+A --> images[[images]]
+images --> favicon(favicon.ico)
+images --> logo(logo.png)
+
+classDef folder fill:#f96
+class A,images folder
+```
+
+>the **assets** directory serves as the main storage location for media.
+>It contains one subdirectorie:
+
+- **images**: This folder holds all the `image files` used in the project. Any **visual elements** that need to be displayed within the notebook or across the project are stored here.
+
+## _build
+
+```{mermaid}
+flowchart LR
+B[[_build]]
+B --> html[[html]]
+B --> jupyterexec[[jupyter_execute]]
+html --> htmlfiles[[html Files]] --> N[[...]]
+jupyterexec --> execfiles[[.ipynb Files]] --> V[[...]]
+
+classDef folder fill:#f96
+class B,html,jupyterexec,htmlfiles,execfiles folder
+```
+
+>The `_build` directory contains the **compiled versions** of the project in various formats, facilitating **different types of outputs**.
+>Inside this directory, you will find two key subdirectories:
+
+- **html**: This folder contains the project rendered in **HTML format**. It is the **web-ready version of the project**, allowing for easy navigation and sharing in a web browser.
+
+- **jupyter_execute**: This folder holds all the **executable .ipynb files**. These are the Jupyter Notebook files that have been executed within their environment, containing both the **code** and the **output** from running the notebook cells.
+
+The `_build` directory helps in **organizing the project’s outputs**, making it easy to access both the HTML version for viewing and the executable files for further development or execution.
+
+## docs
+
+```{mermaid}
+flowchart LR
+
+C[[docs]]
+C --> firstPart[[firstPart]]
+C --> secondPart[[secondPart]]
+C --> intro(intro.md)
+
+firstPart --> markdown(mardown.md)
+firstPart --> markdown-notebooks(markdown-notebooks.md)
+
+secondPart --> notebooks(notebooks.ipynb)
+
+classDef folder fill:#f96
+class C,firstPart,secondPart folder
+```
+
+> The **docs** directory serves as the **main content repository** for the project, housing all the **pages** and **sections** that make up the website or documentation. This directory contains the following elements:
+
+- **firstPart** and **secondPart**: These subdirectories represent different **sections** or **parts** of the project, and they contain the **pages relevant** to each part. Each subdirectory organizes related content, making it easier to **structure** and **navigate** through the project.
+
+- **intro.md**: It is key markdown files. intro.md typically serves as the introduction page of the project.
+
+The docs directory can include files in various formats, primarily `.md`(Markdown) and ``.ipynb`` (Jupyter Notebook). These files make up the different pages of the web-based project, whether in **text** form or **including code** and outputs from notebooks.
+
+This directory ensures that all the content displayed on the website is **well-organized** and **easily** accessible.
+
+## _config.yml
+
+```{mermaid}
+flowchart LR
+D(_config.yml)
+```
+
+>The `_config.yml` file is a key configuration file for the Jupyter Book project. It allows users to c**ustomize various settings**, including project **metadata**, **execution options**, and **integration** features.
+>Below are the main elements included in this file:
+
+- **Project Metadata**:
+    - **title**: The *title* of the book.
+    - **author**: The *name of the author* or g*roup responsible* for the book.
+    - **logo**: The *path to the logo image*, displayed on the website.
+
+- **Bibliographic Information**:
+    - **bibtex_bibfiles**: Specifies the BibTeX file, **references.bib**, for managing citations within the book.
+
+- **Repository Settings**:
+    - **url**: The URL of the project’s **online repository**.
+    - **path_to_book**: The relative path to the book in the repository.
+    - **branch**: Specifies which branch of the repository is used for creating links, typically master or main.
+
+- **HTML Customization**:
+    - **favicon**: Specifies the path to the favicon icon for the site.
+    - **use_issues_button** and **use_repository_button**: These options enable GitHub buttons for quick access to the repository and issue tracker.
+
+This configuration file centralizes important settings and options, making it easy to manage the project's structure, appearance, and behavior during the build process
+
+## references.bib
+
+```{mermaid}
+flowchart LR
+E(references.bib)
+```
+
+
+
+## requirements.txt
+
+```{mermaid}
+flowchart LR
+F(requirements.txt)
+```
+
+## _toc.yml
+
+```{mermaid}
+flowchart LR
+G(_toc.yml)
+```
