@@ -4,7 +4,127 @@ title: "Jupyter Notebook"
 
 # Introduction
 
+>**Jupyter Book** is a powerful tool that allows you to **create** and **publish** **interactive** content, such as **notebooks**, **code**, and **rich** **text**, all in one cohesive format. It's widely used in **data science**, **research**, and **education** for creating dynamic **documentation** and educational resources.
+>
+>The goal of this tutorial is to guide you through the process of **publishing a Jupyter Book online**. Whether you’re starting from an **existing project** or **cloning one from GitLab**, we’ll cover the steps necessary to set up your book, customize its content, and make it accessible to others on the web.
+
 # Installation
+
+## Existing project
+
+>In first part, we will focus on **publishing an existing documentation project** that is hosted on a repository. We will guide you through the steps necessary to take this pre-existing documentation and make it **accessible online**. By the end of this process, you will have your documentation live and ready for others to view and use.
+
+### Your existing project
+
+![](../../assets/images/img_jupyter/contentsansci.png)
+
+Here are all the files in our project. To publish our documentation online, we need to add the `.gitlab-ci.yml` file. This file will provide the GitLab pipeline with **instructions** to **automatically build the pages** and set up the **necessary environment**.
+
+### ADD .gitlab-ci.yml
+
+To add the configuration file, we will open the online IDE provided by GitLab.
+
+![](../../assets/images/img_jupyter/ouvertureIDEligne.png)
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+Once the IDE is open, you should see the list of files and directories that make up your project.
+
+![](../../assets/images/img_jupyter/creationfichiergitlab-ci.png)
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+
+At the root of this project, we will create the .gitlab-ci.yml file.
+
+![](../../assets/images/img_jupyter/syntaxefichier.png)
+
+:::
+:::
+
+### ADD .gitlab-ci.yml's content
+
+Once the file is created, you need to add the following code:
+
+```{python}
+#| eval: false
+---
+include:
+    - project: dev-ops/templates/automatisation/ci-cd
+      ref: features/doc-quarto
+      file: /templates/pipeline-documentation-quarto.yml
+
+variables:
+  DOCUMENTATION_PYTHON_REQUIREMENTS: "requirements.txt"
+
+```
+
+### Update the repository
+
+Once the content is added, simply push the changes to update the repository.
+
+![](../../assets/images/img_jupyter/pushdesmodifications.png)
+
+Now our repository is up to date! We can see our `.gitlab-ci.yml` file.
+
+![](../../assets/images/img_jupyter/contentavecCi.png)
+
+### Pipelines
+
+Once our repository is updated, GitLab will interpret our file and execute the configured steps. We can monitor the successful execution of these steps through the pipelines, which will run automatically. In our case, the pipeline will create an environment, install dependencies, build our Jupyter Notebook, and finally, publish our book.
+
+:::::: {.columns}
+::: {.column width="20%"}
+
+![](../../assets/images/img_jupyter/menupipeline.png)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+
+![](../../assets/images/img_jupyter/pipelineencours.png)
+
+:::
+:::
+
+After about 1-2 minutes, the pipeline should be complete. We can check the visual indicators to confirm its successful execution.
+
+![](../../assets/images/img_jupyter/pipelineok.png)
+
+### Gitlab pages
+
+if the pipeline execution encountered no errors, our Jupyter Notebook has been successfully published. We can now verify that it is online by visiting the book via the link provided by GitLab Pages.
+
+![](../../assets/images/img_jupyter/gitlabpages.png)
+
+By clicking on GitLab Pages, you should be redirected to your published book. For more settings related to the creation of the URL, you can navigate to the GitLab Pages section from the side menu.
+
+:::::: {.columns}
+::: {.column width="20%"}
+
+![](../../assets/images/img_jupyter/menupages.png)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+
+![](../../assets/images/img_jupyter/lienpages.png)
+
+:::
+:::
+
+## Project clone from GitLab
 
 # Jupyter-Notebook's Structure
 
