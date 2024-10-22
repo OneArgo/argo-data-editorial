@@ -1,0 +1,8 @@
+---
+include:
+    - project: dev-ops/templates/automatisation/ci-cd
+      ref: features/doc-quarto
+      file: /templates/pipeline-documentation-quarto.yml
+
+variables:
+  DOCUMENTATION_PYTHON_REQUIREMENTS: "requirements.txt"
