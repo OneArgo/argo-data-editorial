@@ -4,87 +4,66 @@ title: "Jupyter Notebook"
 
 # Introduction
 
+# Installation
 
-# Project's Structure
+# Jupyter-Notebook's Structure
 
-```{mermaid}
-flowchart LR
-A[[assets]]
-A --> images[[images]]
-images --> favicon(favicon.ico)
-images --> logo(logo.png)
-
-B[[_build]]
-B --> html[[html]]
-B --> jupyterexec[[jupyter_execute]]
-html --> htmlfiles[[html Files]] --> N[[...]]
-jupyterexec --> execfiles[[.ipynb Files]] --> V[[...]]
-
-C[[docs]]
-C --> firstPart[[firstPart]]
-C --> secondPart[[secondPart]]
-C --> intro(intro.md)
-
-firstPart --> markdown(mardown.md)
-firstPart --> markdown-notebooks(markdown-notebooks.md)
-
-secondPart --> notebooks(notebooks.ipynb)
-
-classDef folder fill:#f96
-class A,B,C,N,V,images,firstPart,secondPart,html,jupyterexec,htmlfiles,execfiles folder
 ```
-
-::: {.column-margin}
-Diagram legend
-
-```{mermaid}
-flowchart LR
-A[[FOLDER]]
-B(FILE)
-
-classDef folder fill:#f96
-class A folder
-```
-:::
-
-```{mermaid}
-flowchart LR
-D(_config.yml)
-E(references.bib)
-F(requirements.txt)
-G(_toc.yml)
+.
+├── assets
+│   └── images
+│       ├── favicon.ico
+│       └── logo.png
+├── build
+│   ├── html
+│   │   └── html Files
+│   │       └── ...
+│   └── jupyter_execute
+│       └── .ipynb Files
+│           └── ...
+├── docs
+│   ├── firstPart
+│   │   ├── markdown-notebooks.md
+│   │   └── markdown.md
+│   ├── secondPart
+│   │   └── notebooks.ipynb
+│   └── intro.md
+├── _config.yml
+├── _toc.yml
+├── .gitignore
+├── .gitlab-ci.yml
+├── references.bib
+└── requirements.txt
 ```
 
 ## assets
 
-```{mermaid}
-flowchart LR
-A[[assets]]
-A --> images[[images]]
-images --> favicon(favicon.ico)
-images --> logo(logo.png)
-
-classDef folder fill:#f96
-class A,images folder
+```
+.
+├── assets
+│   └── images
+│       ├── favicon.ico
+│       └── logo.png
+[...]
 ```
 
->the **assets** directory serves as the main storage location for media.
+>the `assets` directory serves as the main storage location for media.
 >It contains one subdirectorie:
 
 - **images**: This folder holds all the `image files` used in the project. Any **visual elements** that need to be displayed within the notebook or across the project are stored here.
 
 ## _build
 
-```{mermaid}
-flowchart LR
-B[[_build]]
-B --> html[[html]]
-B --> jupyterexec[[jupyter_execute]]
-html --> htmlfiles[[html Files]] --> N[[...]]
-jupyterexec --> execfiles[[.ipynb Files]] --> V[[...]]
-
-classDef folder fill:#f96
-class B,html,jupyterexec,htmlfiles,execfiles folder
+```
+[...]
+├── build
+│   ├── html
+│   │   └── html Files
+│   │       └── ...
+│   └── jupyter_execute
+│       └── .ipynb Files
+│           └── ...
+[...]
 ```
 
 >The `_build` directory contains the **compiled versions** of the project in various formats, facilitating **different types of outputs**.
@@ -98,24 +77,19 @@ The `_build` directory helps in **organizing the project’s outputs**, making i
 
 ## docs
 
-```{mermaid}
-flowchart LR
-
-C[[docs]]
-C --> firstPart[[firstPart]]
-C --> secondPart[[secondPart]]
-C --> intro(intro.md)
-
-firstPart --> markdown(mardown.md)
-firstPart --> markdown-notebooks(markdown-notebooks.md)
-
-secondPart --> notebooks(notebooks.ipynb)
-
-classDef folder fill:#f96
-class C,firstPart,secondPart folder
+```
+[...]
+├── docs
+│   ├── firstPart
+│   │   ├── markdown-notebooks.md
+│   │   └── markdown.md
+│   ├── secondPart
+│   │   └── notebooks.ipynb
+│   └── intro.md
+[...]
 ```
 
-> The **docs** directory serves as the **main content repository** for the project, housing all the **pages** and **sections** that make up the website or documentation. This directory contains the following elements:
+> The `docs` directory serves as the **main content repository** for the project, housing all the **pages** and **sections** that make up the website or documentation. This directory contains the following elements:
 
 - **firstPart** and **secondPart**: These subdirectories represent different **sections** or **parts** of the project, and they contain the **pages relevant** to each part. Each subdirectory organizes related content, making it easier to **structure** and **navigate** through the project.
 
@@ -127,52 +101,139 @@ This directory ensures that all the content displayed on the website is **well-o
 
 ## _config.yml
 
-```{mermaid}
-flowchart LR
-D(_config.yml)
+```
+├── _config.yml
 ```
 
 >The `_config.yml` file is a key configuration file for the Jupyter Book project. It allows users to c**ustomize various settings**, including project **metadata**, **execution options**, and **integration** features.
 >Below are the main elements included in this file:
 
 - **Project Metadata**:
-    - **title**: The *title* of the book.
-    - **author**: The *name of the author* or g*roup responsible* for the book.
-    - **logo**: The *path to the logo image*, displayed on the website.
+#- **title**: The *title* of the book.
+#- **author**: The *name of the author* or g*roup responsible* for the book.
+#- **logo**: The *path to the logo image*, displayed on the website.
 
 - **Bibliographic Information**:
-    - **bibtex_bibfiles**: Specifies the BibTeX file, **references.bib**, for managing citations within the book.
+#- **bibtex_bibfiles**: Specifies the BibTeX file, **references.bib**, for managing citations within the book.
 
 - **Repository Settings**:
-    - **url**: The URL of the project’s **online repository**.
-    - **path_to_book**: The relative path to the book in the repository.
-    - **branch**: Specifies which branch of the repository is used for creating links, typically master or main.
+#- **url**: The URL of the project’s **online repository**.
+#- **path_to_book**: The relative path to the book in the repository.
+#- **branch**: Specifies which branch of the repository is used for creating links, typically master or main.
 
 - **HTML Customization**:
-    - **favicon**: Specifies the path to the favicon icon for the site.
-    - **use_issues_button** and **use_repository_button**: These options enable GitHub buttons for quick access to the repository and issue tracker.
+#- **favicon**: Specifies the path to the favicon icon for the site.
+#- **use_issues_button** and **use_repository_button**: These options enable GitHub buttons for quick access to the repository and issue tracker.
 
 This configuration file centralizes important settings and options, making it easy to manage the project's structure, appearance, and behavior during the build process
 
-## references.bib
+## _toc.yml
 
-```{mermaid}
-flowchart LR
-E(references.bib)
+```
+├── _toc.yml
 ```
 
+>The `_toc.yml` file is essential for defining the structure and navigation of your Jupyter Book. It organizes how content is displayed in the book, breaking it down into parts and chapters. Here's a simple explanation of the contents of this specific file:
 
+- **format**: jb-book: This specifies that the format of the book follows the Jupyter Book structure.
+- **root**: docs/intro: This line sets the intro.md file (located in the docs directory) as the **root** or **homepage** of the book. It will be the first page that users see when they open the book.
+
+- **parts**: This section is used to divide the book into **different parts or sections**. In this case, there are two parts:
+    - **First Part**: This part is labeled with the caption "First Part" and contains all the chapters from the firstPart directory. The **glob**: docs/firstPart/* line means that all the files inside the docs/firstPart/ directory will be included as chapters in this part.
+    - **Second Part**: Similar to the first part, this section is labeled "Second Part" and includes all the chapters from the docs/secondPart directory.
+
+By organizing the content into **parts** and **chapters**, the _toc.yml file controls h**ow users will navigate through your book**, ensuring a clear and structured presentation of the material.
+
+## gitlab-ci.yml
+
+```
+├── .gitlab-ci.yml
+```
+
+The `.gitlab-ci.yml` file is a configuration file used for **GitLab CI/CD pipelines**. It defines the instructions for how your project will be **built**, **tested**, and **deployed**. Here’s a breakdown of the contents of this specific file:
+
+- **include**: This section allows you to include **external configuration templates** from other projects.
+
+- **variables**: This section is used to define **environment variables** that can be used throughout the CI/CD pipeline. In this file, the variable DOCUMENTATION_PYTHON_REQUIREMENTS is set to "requirements.txt", indicating the file that contains the Python package requirements needed to build the documentation.
+
+::: {.callout-warning title="Important"}
+This file should **not be modified**, as any changes could disrupt the build and deployment process of the book online. It is crucial to maintain its integrity to ensure that the CI/CD pipeline operates correctly.
+:::
+
+By using this configuration file, you can automate tasks related to your Jupyter Book project, such as installing dependencies, building the documentation, and deploying it to a server or hosting service.
+
+## references.bib
+
+```
+├── references.bib
+```
+The `references.bib` file is a BibTeX file used to manage citations for your Jupyter Book project. It contains bibliographic entries for various academic works, allowing you to cite these sources throughout your book easily.
+
+::: {.callout-note collapse="true"}
+## More about references.bib structure:
+- Bibliographic Entry Structure: Each entry in the file represents a different source and follows a specific format. For example, here’s an entry for a journal article:
+
+```bibtex
+@article{holdgraf_rapid_2016,
+    title = {Rapid tuning shifts in human auditory cortex enhance speech intelligibility},
+    volume = {7},
+    issn = {2041-1723},
+    url = {http://www.nature.com/doifinder/10.1038/ncomms13654},
+    doi = {10.1038/ncomms13654},
+    number = {May},
+    journal = {Nature Communications},
+    author = {Holdgraf, Christopher Ramsay and de Heer, Wendy and Pasley, Brian N. and Rieger, Jochem W. and Crone, Nathan and Lin, Jack J. and Knight, Robert T. and Theunissen, Frédéric E.},
+    year = {2016},
+    pages = {13654},
+    file = {Holdgraf et al. - 2016 - Rapid tuning shifts in human auditory cortex enhance speech intelligibility.pdf:C\:\\Users\\chold\\Zotero\\storage\\MDQP3JWE\\Holdgraf et al. - 2016 - Rapid tuning shifts in human auditory cortex
+    enhance speech intelligibility.pdf:application/pdf}
+}
+```
+
+- Key Components of the Entry:
+
+- **@article**: This indicates the type of the bibliographic entry (in this case, an article).
+- **Citation Key**: holdgraf_rapid_2016 serves as a unique identifier for this entry, allowing it to be cited in your book.
+- **title**: The title of the article.
+- **author**: The list of authors of the article, formatted as "Last Name, First Name".
+- **year**: The year of publication.
+- **journal**: The name of the journal where the article was published.
+- **volume**, number, pages: Additional details about the publication, such as volume number, issue number, and page range.
+- **url and doi**: Links to access the article online.
+- **file**: A path to a local copy of the article (if applicable).
+:::
+
+The `references.bib` file plays a crucial role in ensuring that all academic references are well-organized and easily accessible for citation throughout your Jupyter Book project. When you reference an entry in your content, it will automatically format the citation according to the specified style.
 
 ## requirements.txt
 
-```{mermaid}
-flowchart LR
-F(requirements.txt)
+```
+└── requirements.txt
 ```
 
-## _toc.yml
+The `requirements.txt` file is a standard file used in Python projects to specify the **dependencies required** to run the project. This file lists all the external libraries and packages that need to be installed to ensure that your **Jupyter Book functions correctly**.
 
-```{mermaid}
-flowchart LR
-G(_toc.yml)
+::: {.callout-note collapse="true"}
+## More about requirements.txt structure:
+Below is a simple explanation of the contents of this specific file:
+
+- **Dependencies**: Each line in the requirements.txt file represents a **package** that your **project** **requires**. Here’s an example of what the content might look like:
+
+```rust
+jupyter-book
+matplotlib
+numpy
+ipyleaflet
+plotly
+pandas
 ```
+
+**Key Packages Explained**:
+
+- **jupyter-book**: The primary package needed to build and publish the Jupyter Book.
+- **matplotlib**: A widely-used plotting library for creating static, animated, and interactive visualizations in Python.
+- **numpy**: A fundamental package for numerical computing in Python, essential for handling arrays and performing mathematical operations.
+- **ipyleaflet**: A library that provides interactive maps for Jupyter notebooks, useful for geographical data visualization.
+- **plotly**: A graphing library that makes interactive plots, dashboards, and web applications.
+- **pandas**: A powerful data manipulation and analysis library that provides data structures like DataFrames.
+:::
