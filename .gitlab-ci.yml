@@ -1,7 +1,7 @@
 ---
 include:
     - project: dev-ops/templates/automatisation/ci-cd
-      ref: features/doc-quarto
+      ref: main
       file: /templates/pipeline-documentation-quarto.yml
 
 variables:
