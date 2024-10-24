@@ -2,9 +2,12 @@ project:
   type: website
 
 website:
+  page-navigation: true
+  bread-crumbs: true
   navbar:
     pinned: true
     logo: assets/images/quartologo.png
+    collapse-below: lg
     tools:
       - icon: gitlab
         menu:
@@ -20,19 +23,25 @@ website:
       - href: docs/Tutorials/tutorialshome.qmd
         text: Tutorials
   sidebar:
-    style: "docked"
-    search: false
-    contents:
-      - text: "Home"
-        href: index.qmd
-      - section: "Documentations"
-        contents:
-          - docs/Documentations/documentationshome.qmd
-      - section: "Tutorials"
-        contents:
-          - docs/Tutorials/tutorialshome.qmd
-          - docs/Tutorials/jupyternotebook.qmd
-          - docs/Tutorials/quartobook.qmd
+    - id: Tutorials
+      title: "Tutorials"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - docs/Tutorials/tutorialshome.qmd
+        - text: "Tutorial: Publish Jupyter notebook"
+          href: docs/Tutorials/jupyternotebook.qmd
+        - text: "Tutorial: Publish Quarto book"
+          href: docs/Tutorials/quartobook.qmd
+    - id: Documentations
+      title: "Documentations"
+      style: "floating"
+      collapse-level: 1
+      align: left
+      contents:
+        - docs/Documentations/documentationshome.qmd
+
   announcement:
     icon: info-circle
     dismissable: true

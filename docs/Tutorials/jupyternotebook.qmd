@@ -56,12 +56,11 @@ Once the file is created, you need to add the following code:
 ---
 include:
     - project: dev-ops/templates/automatisation/ci-cd
-      ref: features/doc-quarto
-      file: /templates/pipeline-documentation-quarto.yml
+      ref: main
+      file: /templates/pipeline-documentation-jupyterbook.yml
 
 variables:
   DOCUMENTATION_PYTHON_REQUIREMENTS: "requirements.txt"
-
 ```
 
 ### Update the repository
@@ -124,7 +123,7 @@ By clicking on GitLab Pages, you should be redirected to your published book. Fo
 :::
 :::
 
-## Project clone from GitLab
+## New Project clone from Template jupyter-book GitLab
 
 # Jupyter-Notebook's Structure
 
@@ -225,27 +224,78 @@ This directory ensures that all the content displayed on the website is **well-o
 ├── _config.yml
 ```
 
->The `_config.yml` file is a key configuration file for the Jupyter Book project. It allows users to c**ustomize various settings**, including project **metadata**, **execution options**, and **integration** features.
->Below are the main elements included in this file:
+>The `_config.yml` file plays a central role in **configuring your Jupyter Book project**. It allows you to define critical settings for the book's **appearance**, **content execution**, **citation** **management**, **PDF output**, and integration with **online repositories**. Let’s break down each section for more detail.
 
-- **Project Metadata**:
-#- **title**: The *title* of the book.
-#- **author**: The *name of the author* or g*roup responsible* for the book.
-#- **logo**: The *path to the logo image*, displayed on the website.
+### Title and Author
 
-- **Bibliographic Information**:
-#- **bibtex_bibfiles**: Specifies the BibTeX file, **references.bib**, for managing citations within the book.
+```yaml
+title: My sample book
+author: The Jupyter Book Community
+logo: ./assets/images/logo.png
+```
+- **title**: The title of your book, which will appear at the top of every page and in the site’s metadata. It helps identify the book clearly.
 
-- **Repository Settings**:
-#- **url**: The URL of the project’s **online repository**.
-#- **path_to_book**: The relative path to the book in the repository.
-#- **branch**: Specifies which branch of the repository is used for creating links, typically master or main.
+- **author**: The name of the author or group responsible for the book's content. This helps to credit the creators.
 
-- **HTML Customization**:
-#- **favicon**: Specifies the path to the favicon icon for the site.
-#- **use_issues_button** and **use_repository_button**: These options enable GitHub buttons for quick access to the repository and issue tracker.
+- **logo**: The path to an image used as the logo for the site. This image typically appears in the header on each page.
 
-This configuration file centralizes important settings and options, making it easy to manage the project's structure, appearance, and behavior during the build process
+### Notebook Execution
+
+```yaml
+execute:
+  execute_notebooks: force
+```
+- **execute_notebooks**: force: This forces the re-execution of all notebooks every time the book is built. It ensures that the displayed output is always up to date, but it can increase the build time if there are many notebooks to execute.
+
+- Other possible options:
+
+  - "**auto**": Only execute notebooks if they haven't been executed already.
+
+  - "**off**": Disables notebook execution entirely during the build process.
+
+### PDF Export via LaTeX
+
+```yaml
+latex:
+  latex_documents:
+    targetname: book.tex
+```
+- **latex_documents**: This setting defines the name of the LaTeX output file when generating a PDF version of your book. In this case, the file will be named book.tex. This is useful if you need to customize how your book is presented when exported to PDF format.
+
+### Citation Management with BibTeX
+
+```yaml
+bibtex_bibfiles:
+  - references.bib
+```
+- **bibtex_bibfiles**: This allows you to include BibTeX files for managing citations in the book. In this case, the references.bib file will be used to handle **academic references** or **citations** within the content. This is especially useful for **research-focused books** or **publications**.
+
+### Online Repository Information
+
+```yaml
+repository:
+  url: https://gitlab.ifremer.fr/dev-ops/templates/project/docs-jupyterbook
+  branch: main
+```
+- **url**: The URL of the online repository hosting the project, in this case, a GitLab repository. This link can be displayed in the book, allowing users to **view the source code** or **contribute to the project**.
+
+- **branch**: The repository branch that will be used for creating links in the book. Typically, main or master is used, but it can be customized based on your version control workflow.
+
+### HTML Customization
+
+```yaml
+html:
+  favicon: ./assets/images/favicon.ico
+  use_issues_button: true
+  use_repository_button: true
+```
+- **favicon**: The path to the favicon icon, which is displayed in the browser tab. This allows you to further customize the book’s appearance and add a branding element.
+
+- **use_issues_button**: Enables the Issues button on the book's interface, which redirects users to the issue tracker on your repository. This makes it easier to manage feedback or bug reports from users.
+
+- **use_repository_button**: Enables the Repository button, allowing users to quickly access the source code of your project. This encourages contributions or simply offers access to the repository.
+
+Mastering this file will help you create a **well-organized**, **functional**, and **professional documentation project**.
 
 ## _toc.yml
 
@@ -255,14 +305,82 @@ This configuration file centralizes important settings and options, making it ea
 
 >The `_toc.yml` file is essential for defining the structure and navigation of your Jupyter Book. It organizes how content is displayed in the book, breaking it down into parts and chapters. Here's a simple explanation of the contents of this specific file:
 
+### Key Components of _toc.yml
+
 - **format**: jb-book: This specifies that the format of the book follows the Jupyter Book structure.
+  - **Description**: This specifies that the format of the book follows the **Jupyter Book structure**. It informs the Jupyter Book system that it should render the content according to its specifications.
+
 - **root**: docs/intro: This line sets the intro.md file (located in the docs directory) as the **root** or **homepage** of the book. It will be the first page that users see when they open the book.
 
 - **parts**: This section is used to divide the book into **different parts or sections**. In this case, there are two parts:
-    - **First Part**: This part is labeled with the caption "First Part" and contains all the chapters from the firstPart directory. The **glob**: docs/firstPart/* line means that all the files inside the docs/firstPart/ directory will be included as chapters in this part.
-    - **Second Part**: Similar to the first part, this section is labeled "Second Part" and includes all the chapters from the docs/secondPart directory.
 
-By organizing the content into **parts** and **chapters**, the _toc.yml file controls h**ow users will navigate through your book**, ensuring a clear and structured presentation of the material.
+```yaml
+format: jb-book
+root: docs/intro
+parts:
+  - caption: First Part
+    chapters:
+      - glob: docs/firstPart/*
+  - caption: Seconde Part
+    chapters:
+      - glob: docs/secondPart/*
+```
+**globs**: Patterns that specify which files to **include**. For instance, docs/firstPart/* means that **all files** in the firstPart directory will be included as **chapters** in this part.
+
+**individual files**: You can also list specific markdown files instead of using globs, like this:
+
+```yaml
+- file: docs/firstPart/chapter1.md
+- file: docs/firstPart/chapter2.md
+```
+
+### Advanced Features of _toc.yml
+
+#### Custom Titles and Captions:
+
+- You can specify **custom titles** for sections or files using the `title` attribute, which can be helpful for clarity.
+
+```yaml
+- file: docs/firstPart/chapter1.md
+  title: "Understanding Chapter 1"
+```
+
+#### Nested Sections:
+
+- You can create a more complex hierarchy with **nested sections**, which can be useful for large books:
+
+```yaml
+- caption: "First Part"
+  sections:
+    - file: docs/firstPart/chapter1.md
+    - caption: "Subsection"
+      sections:
+        - file: docs/firstPart/subsection1.md
+```
+
+#### Linking External Resources:
+
+- You can link to external **resources or documents** to provide additional context or references:
+
+```yaml
+- caption: "External Resources"
+  sections:
+    - file: https://example.com/resource
+```
+
+### Importance of Navigation
+
+By organizing the content into **parts** and **chapters**, the `_toc.yml` file controls how users will **navigate through your book**, ensuring a **clear** and **structured** presentation of the material. A well-structured `_toc.yml` enhances user experience by allowing readers to easily **find** and **access** the content they are interested in.
+
+#### Best Practices for Using `_toc.yml`
+
+- **Logical Organization**: Organize content in a **logical manner**, **grouping related topics together**.
+
+- **Consistent Naming**: Use consistent naming conventions for files and sections to improve readability.
+
+- **Regular Updates**: Keep the `_toc.yml` file updated as you **add** or **remove** content from your book.
+
+- **Test Navigation**: After modifying the `_toc.yml`, **test** the navigation in the built book to ensure all links and sections work correctly.
 
 ## gitlab-ci.yml
 
@@ -270,7 +388,7 @@ By organizing the content into **parts** and **chapters**, the _toc.yml file con
 ├── .gitlab-ci.yml
 ```
 
-The `.gitlab-ci.yml` file is a configuration file used for **GitLab CI/CD pipelines**. It defines the instructions for how your project will be **built**, **tested**, and **deployed**. Here’s a breakdown of the contents of this specific file:
+>The `.gitlab-ci.yml` file is a configuration file used for **GitLab CI/CD pipelines**. It defines the instructions for how your project will be **built**, **tested**, and **deployed**. Here’s a breakdown of the contents of this specific file:
 
 - **include**: This section allows you to include **external configuration templates** from other projects.
 
@@ -280,14 +398,14 @@ The `.gitlab-ci.yml` file is a configuration file used for **GitLab CI/CD pipeli
 This file should **not be modified**, as any changes could disrupt the build and deployment process of the book online. It is crucial to maintain its integrity to ensure that the CI/CD pipeline operates correctly.
 :::
 
-By using this configuration file, you can automate tasks related to your Jupyter Book project, such as installing dependencies, building the documentation, and deploying it to a server or hosting service.
+By using this configuration file, you can **automate** tasks related to your Jupyter Book project, such as **installing** **dependencies**, **building** the **documentation**, and **deploying** it to a s**erver or hosting service**.
 
 ## references.bib
 
 ```
 ├── references.bib
 ```
-The `references.bib` file is a BibTeX file used to manage citations for your Jupyter Book project. It contains bibliographic entries for various academic works, allowing you to cite these sources throughout your book easily.
+>The `references.bib` file is a BibTeX file used to manage citations for your Jupyter Book project. It contains bibliographic entries for various academic works, allowing you to cite these sources throughout your book easily.
 
 ::: {.callout-note collapse="true"}
 ## More about references.bib structure:
@@ -331,7 +449,11 @@ The `references.bib` file plays a crucial role in ensuring that all academic ref
 └── requirements.txt
 ```
 
-The `requirements.txt` file is a standard file used in Python projects to specify the **dependencies required** to run the project. This file lists all the external libraries and packages that need to be installed to ensure that your **Jupyter Book functions correctly**.
+In Python projects, there are several files that can be used to **manage dependencies**, each serving different purposes and working with different tools. While your project might only use **requirements.txt**, it is important to also understand other files like **environment.yaml** and **pyproject.toml**, as you might encounter them in other contexts. Below is an explanation of these three files.
+
+### requirements.txt
+
+>The `requirements.txt` file is a standard file used in Python projects to specify the **dependencies required** to run the project. This file lists all the external libraries and packages that need to be installed to ensure that your **Jupyter Book functions correctly**.
 
 ::: {.callout-note collapse="true"}
 ## More about requirements.txt structure:
@@ -351,9 +473,105 @@ pandas
 **Key Packages Explained**:
 
 - **jupyter-book**: The primary package needed to build and publish the Jupyter Book.
+
 - **matplotlib**: A widely-used plotting library for creating static, animated, and interactive visualizations in Python.
+
 - **numpy**: A fundamental package for numerical computing in Python, essential for handling arrays and performing mathematical operations.
+
 - **ipyleaflet**: A library that provides interactive maps for Jupyter notebooks, useful for geographical data visualization.
+
 - **plotly**: A graphing library that makes interactive plots, dashboards, and web applications.
+
 - **pandas**: A powerful data manipulation and analysis library that provides data structures like DataFrames.
 :::
+
+### environment.yaml
+
+>In contrast to `requirements.txt`, which is used with pip, the environment.yaml file is used with **conda**, another popular Python **environment manager**, especially in data science.
+
+::: {.callout-note collapse="true"}
+## More about environment.yaml structure:
+Below is a simple explanation of the contents of this specific file:
+
+```rust
+name: my_environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter-book
+  - matplotlib
+  - numpy
+  - ipyleaflet
+  - plotly
+  - pandas
+  - pip
+  - pip:
+    - some-pip-only-package
+```
+
+**Key Packages Explained**:
+
+- **name**: The name of the conda environment.
+
+- **channels**: Specifies where conda will look for packages.
+
+- **dependencies**: A list of dependencies to install, including both Python libraries and other non-Python tools.
+
+- **pip**: If some dependencies are not available through conda, they can be installed via pip inside the file.
+:::
+
+### pyproject.toml
+
+>The `pyproject.toml` file is a new method introduced by PEP 518 to define the **metadata and dependencies of a Python project**, especially for projects that use modern build tools like **Poetry** or **Flit**.
+
+::: {.callout-note collapse="true"}
+## More about pyproject.toml structure:
+Below is a simple explanation of the contents of this specific file:
+
+```rust
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = "A Python project."
+authors = ["Author <author@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter-book = "^0.11"
+matplotlib = "^3.4"
+numpy = "^1.21"
+ipyleaflet = "^0.14"
+plotly = "^5.0"
+pandas = "^1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^21.7b0"
+```
+
+**Key Packages Explained**:
+
+- **[build-system]**: Defines the required build tools, such as **setuptools** and **wheel**.
+
+- **[tool.poetry]**: Information about the project, including the name, version, and authors.
+
+- **[tool.poetry.dependencies]**: List of dependencies required to run the project.
+
+- **[tool.poetry.dev-dependencies]**: List of dependencies required for development (testing, linting, etc.).
+:::
+
+### **Comparison of `requirements.txt`, `environment.yaml`, and `pyproject.toml` Files:**
+
+| Feature                  | `requirements.txt`       | `environment.yaml`  | `pyproject.toml`   |
+|--------------------------|--------------------------|---------------------|--------------------|
+| **Manager**              | pip                      | conda               | Poetry/Flit        |
+| **Environment**          | Python                   | Multi-language      | Python             |
+| **Version Support**      | Yes, manual              | Yes, precise        | Yes, automatic     |
+| **Channel Usage**        | No                       | Yes (conda-forge)   | No                 |
+| **Dev Dependencies**     | No, requires another file| Yes                 | Yes                |
