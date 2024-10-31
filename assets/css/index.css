@@ -1,12 +1,17 @@
-.nav-fixed{
+body.quarto-light{
     background: url(../images/hp_bg.svg) no-repeat;
     min-height: 95vh;
     background-size: cover;
 }
 
-.title{
+body.quarto-light .title{
     font-size: 2.5rem;
     color: #153561;
+}
+
+body.quarto-dark .title{
+    font-size: 2.5rem;
+    color: #007B8A;
 }
 
 .column-screen {
@@ -22,8 +27,13 @@
     border-radius: 8px;
 }
 
-.hero-banner h1 {
+body.quarto-light .hero-banner h1 {
     color: #153561;
+    font-size: 2.5rem;
+}
+
+body.quarto-dark .hero-banner h1 {
+    color: #007B8A;
     font-size: 2.5rem;
 }
 
