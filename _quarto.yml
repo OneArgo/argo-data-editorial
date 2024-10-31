@@ -53,8 +53,6 @@ website:
 
 format:
   html:
-    resources:
-      - assets/js/main.js
     theme:
         light: flatly
         dark: darkly
