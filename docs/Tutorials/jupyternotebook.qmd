@@ -1,6 +1,13 @@
 ---
 title: "Jupyter Notebook"
+format:
+    html:
+        css:
+        - ../../assets/css/tutorialshome.css
+        - ../../assets/css/_tool-chooser.css
 ---
+
+{{< include ../_tool-chooser.md >}}
 
 # Introduction
 
@@ -124,6 +131,188 @@ By clicking on GitLab Pages, you should be redirected to your published book. Fo
 :::
 
 ## New Project clone from Template jupyter-book GitLab
+
+>The goal is to **publish a Jupyter-book starting from a project that doesn’t yet exist**. We’ll go through how to get a **Jupyter book template**, **create a personal GitLab project**, add this new book to your GitLab project, and **publish** **it**.
+
+### Open a new Terminal
+
+There is two ways to open a new terminal on a Linux computer.
+
+Use the shortcut :
+
+```{python}
+#| eval: false
+Ctrl + Alt + T
+```
+
+OR
+
+![](../../assets/images/terminal.png)
+
+### Create a new project on Gitlab
+
+The first step before pull the Jupyter book template is to **create a new personnal gitlab project**.
+You will stock in it your documentation.
+
+From this URL : <https://gitlab.ifremer.fr/>
+
+:::::: {.columns}
+::: {.column width="45%"}
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-50-34.png)
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-50-45.png)
+
+:::
+:::
+
+---
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-58-56.png)
+
+---
+
+On this page, enter your **project name** and chose your **users name** or a **group** where you want your documentation to be.
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-59-28.png)
+
+When you are ready you can **create your project**.
+
+---
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2011-00-02.png)
+
+### Clone the Jupyter book template
+
+In your **terminal**, you should be at your **home directory**.
+
+From here :
+
+```{python}
+#| eval: false
+ls
+```
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2011-36-13.png)
+
+You will **create** a folder where to clone the template and where your **future documentation will be**.
+
+```{python}
+#| eval: false
+cd ./Documents
+mkdir Documentations
+cd ./Documentations
+```
+
+Now you are in your **project folder**. You have to clone the template.
+
+```{python}
+#| eval: false
+git clone https://gitlab.ifremer.fr/dev-ops/templates/project/docs-jupyterbook.git
+```
+
+```{python}
+#| eval: false
+cd ./docs-jupyterbook
+```
+
+Once your are in the **root of the directory** where your template files are located, we need to change the **URL of the target GitLab project** to match the **new project** you created earlier.
+
+![](../../assets/images/quarto_pulltemplate/Capture d’écran du 2024-10-28 11-00-02.png)
+
+We can check the **current URL** by typing the following command: `git remote -v`, which will show that it points to the **template project**. Therefore, we need to enter the following command:
+
+```{python}
+#| eval: false
+git remote set-url origin [https://gitlab.ifremer.fr/user/our-document-url]
+```
+
+After entering this command, we can verify that the URL is correct by typing:
+
+```{python}
+#| eval: false
+git remote -v
+```
+
+Once we have changed our target URL, we need to **create a branch** to add the content of the Jupyter book template to our remote project. To do this, we should use the following command:
+
+```{python}
+#| eval: false
+git checkout -b "feature/add_content"
+```
+
+Next, we simply **push** the content using the following command:
+
+```{python}
+#| eval: false
+git push --set-upstream origin feature/add_content
+```
+
+After executing this command, a **merge request** will be created for our project. We then need to go and accept this merge request to finalize the **upload of the content** to our remote project.
+
+![](../../assets/images/quarto_pulltemplate/merge1.png)
+
+Once the required information is provided, **create the merge**.
+
+![](../../assets/images/quarto_pulltemplate/merge2.png)
+
+::: {.callout-important collapse="true"}
+## Merge Blocked:
+
+Your merge may be **blocked** due to conflicts. Until these conflicts are resolved, the merge cannot proceed. Simply click on **"Resolve conflicts"** to address them.
+
+![](../../assets/images/quarto_pulltemplate/merge3.png)
+
+To resolve conflicts, you’ll need to **accept** one version of the changes. We will choose the **"Use theirs"** option, as these changes are the ones we want to push to our project.
+Once selected, the conflict will be resolved, and the **merge** should be **unblocked**.
+
+:::
+
+Once the **merge** is **ready**, simply finalize the branch merge.
+
+![](../../assets/images/quarto_pulltemplate/merge5.png)
+
+Once the branch merge is **complete**, the **jobs** **will** **launch** **automatically**. This is a **series of actions** that will **publish** your documentation.
+This process should take **2-3 minutes**, and you don’t need to do anything.
+
+![](../../assets/images/quarto_pulltemplate/pipeline1.png)
+
+Here is the result after a **2-3 minutes** wait :
+
+![](../../assets/images/quarto_pulltemplate/pipelineé.png)
+
+The various **stages** have **completed** **successfully**. We will now verify that our **documentation** is **online**.
+
+By clicking on **GitLab** **Pages**, you should be redirected to your **published** **book**.
+
+![](../../assets/images/img_jupyter/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2016-47-27.png)
+
+For more settings related to the creation of the **URL**, you can navigate to the GitLab Pages section from the side menu.
+
+:::::: {.columns}
+::: {.column width="20%"}
+
+![](../../assets/images/img_jupyter/menupages.png)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+
+![](../../assets/images/quarto_pulltemplate/pagesurl2.png)
+
+:::
+:::
 
 # Jupyter-Notebook's Structure
 

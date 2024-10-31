@@ -1,5 +1,32 @@
 ---
-title: "Tutoriels' Home"
+title: "Tutorials' Home"
+format:
+    html:
+        css: ../../assets/css/tutorialshome.css
 ---
 
-About this site
+# Introduction
+
+
+
+::: {.grid .step .column-page-right}
+
+::: {.g-col-lg-3 .g-col-12}
+## Publish a Notebook
+
+#### Choose your tool<br/>and get started{.fw-light}
+:::
+
+::: {.tool .g-col-lg-9 .g-col-12}
+
+
+<a href="./jupyternotebook.qmd" role="button" class="btn btn-outline-light">
+![](../../assets/images/jupyterlogo.png){width="79" fig-alt="Jupyter logo."}Jupyter Book
+</a>
+
+<a href="./quartobook.qmd" role="button" class="btn btn-outline-light">
+![](../../assets/images/favicon.png){width="79" fig-alt="Quarto logo."}Quarto Book
+</a>
+
+:::
+:::

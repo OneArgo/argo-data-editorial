@@ -1,16 +1,319 @@
 ---
 title: "Quarto Book"
+format:
+    html:
+        css:
+        - ../../assets/css/tutorialshome.css
+        - ../../assets/css/_tool-chooser.css
 ---
+
+{{< include ../_tool-chooser.md >}}
 
 # Introduction
 
-**Quarto** is a versatile publishing system that allows you to **create** **documents**, **websites**, **books**, **blogs**, and even **interactive** **reports**. It supports a variety of **formats**, **including markdown**, **Jupyter Notebooks**, and **R Markdown**, and allows for the **execution of code** within your documents, making it an excellent tool for **data science**, **research**, and **technical documentation**.
-
-This tutorial aims to walk you through the process of **publishing a Quarto project online**. Whether you're starting a **new project** or working from an **existing repository**, we’ll guide you through the **setup**, **customization**, and **deployment** steps to ensure your content—along with any embedded code—is accessible and well-presented on the web.
+>**Quarto** is a versatile publishing system that allows you to **create** **documents**, **websites**, **books**, **blogs**, and even **interactive** **reports**. It supports a variety of **formats**, **including markdown**, **Jupyter Notebooks**, and **R Markdown**, and allows for the **execution of code** within your documents, making it an excellent tool for **data science**, **research**, and **technical documentation**.
+>
+>This tutorial aims to walk you through the process of **publishing a Quarto project online**. Whether you're starting a **new project** or working from an **existing repository**, we’ll guide you through the **setup**, **customization**, and **deployment** steps to ensure your content along with any embedded code is accessible and well-presented on the web.
 
 # Instalation
 ## Existing Project
+
+>In first part, we will focus on **publishing an existing documentation project** that is hosted on a repository. We will guide you through the steps necessary to take this pre-existing documentation and make it **accessible online**. By the end of this process, you will have your documentation live and ready for others to view and use.
+
+### Your existing project
+
+![](../../assets/images/img_quarto/files.png)
+
+Here are all the files in our project. To publish our documentation online, we need to add the `.gitlab-ci.yml` file. This file will provide the GitLab pipeline with **instructions** to **automatically build the pages** and set up the **necessary environment**.
+
+### ADD .gitlab-ci.yml
+
+To add the configuration file, we will open the online IDE provided by GitLab.
+
+![](../../assets/images/img_quarto/openwebide.png)
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+Once the IDE is open, you should see the list of files and directories that make up your project.
+
+![](../../assets/images/img_quarto/newfilewebide.png)
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+
+At the root of this project, we will create the .gitlab-ci.yml file.
+
+![](../../assets/images/img_quarto/newfilename.png)
+
+:::
+:::
+
+### ADD .gitlab-ci.yml's content
+
+Once the file is created, you need to add the following code:
+
+```{python}
+#| eval: false
+---
+include:
+    - project: dev-ops/templates/automatisation/ci-cd
+      ref: main
+      file: /templates/pipeline-documentation-quarto.yml
+
+variables:
+  DOCUMENTATION_PYTHON_REQUIREMENTS: "requirements.txt"
+```
+
+### Update the repository
+
+Once the content is added, simply push the changes to update the repository.
+
+![](../../assets/images/img_quarto/commitandpush.png)
+
+Now our repository is up to date! We can see our `.gitlab-ci.yml` file.
+
+![](../../assets/images/img_quarto/files2.png)
+
+### Pipelines
+
+Once our repository is updated, GitLab will interpret our file and execute the configured steps. We can monitor the successful execution of these steps through the pipelines, which will run automatically.
+
+In our case, the pipeline will create an environment, install dependencies, build our Quarto Book, and finally, publish our book.
+
+:::::: {.columns}
+::: {.column width="20%"}
+
+![](../../assets/images/img_jupyter/menupipeline.png)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+
+![](../../assets/images/img_quarto/runningpipeline.png)
+
+:::
+:::
+
+After about 2-3 minutes, the pipeline should be complete. We can check the visual indicators to confirm its successful execution.
+
+![](../../assets/images/img_quarto/donepipeline.png)
+
+### Gitlab pages
+
+if the pipeline execution encountered no errors, our Quarto Book has been successfully published. We can now verify that it is online by visiting the book via the link provided by GitLab Pages.
+
+![](../../assets/images/img_quarto/pages.png)
+
+By clicking on GitLab Pages, you should be redirected to your published book. For more settings related to the creation of the URL, you can navigate to the GitLab Pages section from the side menu.
+
+:::::: {.columns}
+::: {.column width="20%"}
+
+![](../../assets/images/img_jupyter/menupages.png)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+
+![](../../assets/images/img_quarto/pagesurl.png)
+
+:::
+:::
+
 ## New Project Clone From Template Quarto GitLab
+
+>The goal is to **publish a Quarto book starting from a project that doesn’t yet exist**. We’ll go through how to get a **Quarto book template**, **create a personal GitLab project**, add this new book to your GitLab project, and **publish** **it**.
+
+### Open a new Terminal
+
+There is two ways to open a new terminal on a Linux computer.
+
+Use the shortcut :
+
+```{python}
+#| eval: false
+Ctrl + Alt + T
+```
+
+OR
+
+![](../../assets/images/terminal.png)
+
+### Create a new project on Gitlab
+
+The first step before pull the Quarto book template is to **create a new personnal gitlab project**.
+You will stock in it your documentation.
+
+From this URL : <https://gitlab.ifremer.fr/>
+
+:::::: {.columns}
+::: {.column width="45%"}
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-50-34.png)
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-50-45.png)
+
+:::
+:::
+
+---
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-58-56.png)
+
+---
+
+On this page, enter your **project name** and chose your **users name** or a **group** where you want your documentation to be.
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2010-59-28.png)
+
+When you are ready you can **create your project**.
+
+---
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2011-00-02.png)
+
+### Clone the Quarto book template
+
+In your **terminal**, you should be at your **home directory**.
+
+From here :
+
+```{python}
+#| eval: false
+ls
+```
+
+![](../../assets/images/quarto_pulltemplate/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-28%2011-36-13.png)
+
+You will **create** a folder where to clone the template and where your **future documentation will be**.
+
+```{python}
+#| eval: false
+cd ./Documents
+mkdir Documentations
+cd ./Documentations
+```
+
+Now you are in your **project folder**. You have to clone the template.
+
+```{python}
+#| eval: false
+git clone https://gitlab.ifremer.fr/dev-ops/templates/project/docs-quartobook.git
+```
+
+```{python}
+#| eval: false
+cd ./docs-quartobook
+```
+
+Once your are in the **root of the directory** where your template files are located, we need to change the **URL of the target GitLab project** to match the **new project** you created earlier.
+
+![](../../assets/images/quarto_pulltemplate/Capture d’écran du 2024-10-28 11-00-02.png)
+
+We can check the **current URL** by typing the following command: `git remote -v`, which will show that it points to the **template project**. Therefore, we need to enter the following command:
+
+```{python}
+#| eval: false
+git remote set-url origin [https://gitlab.ifremer.fr/user/our-document-url]
+```
+
+After entering this command, we can verify that the URL is correct by typing:
+
+```{python}
+#| eval: false
+git remote -v
+```
+
+Once we have changed our target URL, we need to **create a branch** to add the content of the Quarto book template to our remote project. To do this, we should use the following command:
+
+```{python}
+#| eval: false
+git checkout -b "feature/add_content"
+```
+
+Next, we simply **push** the content using the following command:
+
+```{python}
+#| eval: false
+git push --set-upstream origin feature/add_content
+```
+
+After executing this command, a **merge request** will be created for our project. We then need to go and accept this merge request to finalize the **upload of the content** to our remote project.
+
+![](../../assets/images/quarto_pulltemplate/merge1.png)
+
+Once the required information is provided, **create the merge**.
+
+![](../../assets/images/quarto_pulltemplate/merge2.png)
+
+::: {.callout-important collapse="true"}
+## Merge Blocked:
+
+Your merge may be **blocked** due to conflicts. Until these conflicts are resolved, the merge cannot proceed. Simply click on **"Resolve conflicts"** to address them.
+
+![](../../assets/images/quarto_pulltemplate/merge3.png)
+
+To resolve conflicts, you’ll need to **accept** one version of the changes. We will choose the **"Use theirs"** option, as these changes are the ones we want to push to our project.
+Once selected, the conflict will be resolved, and the **merge** should be **unblocked**.
+
+:::
+
+Once the **merge** is **ready**, simply finalize the branch merge.
+
+![](../../assets/images/quarto_pulltemplate/merge5.png)
+
+Once the branch merge is **complete**, the **jobs** **will** **launch** **automatically**. This is a **series of actions** that will **publish** your documentation.
+This process should take **2-3 minutes**, and you don’t need to do anything.
+
+![](../../assets/images/quarto_pulltemplate/pipeline1.png)
+
+Here is the result after a **2-3 minutes** wait :
+
+![](../../assets/images/quarto_pulltemplate/pipelineé.png)
+
+The various **stages** have **completed** **successfully**. We will now verify that our **documentation** is **online**.
+
+By clicking on **GitLab** **Pages**, you should be redirected to your **published** **book**.
+
+![](../../assets/images/quarto_pulltemplate/pages.png)
+
+For more settings related to the creation of the **URL**, you can navigate to the GitLab Pages section from the side menu.
+
+:::::: {.columns}
+::: {.column width="20%"}
+
+![](../../assets/images/img_jupyter/menupages.png)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+
+![](../../assets/images/quarto_pulltemplate/pagesurl2.png)
+
+:::
+:::
 
 # Quarto-book' Structure
 
@@ -94,7 +397,102 @@ This directory ensures that all the content displayed on the website is **well-o
 
 ## _quarto.yml
 
+>This configuration file is in `YAML`, a structured data format ideal for **configuration files**. This file will define the **main settings** for your **Quarto book project**.
 
+### project
+
+```yaml
+project:
+  type: book
+```
+
+This line defines the **project type** as a **book**. Quarto supports several **types of projects**, like **website**, **article**, and **book**. Here, type: book specifies that the project will be **assembled as a book** with a **table of contents** and **organized chapters**.
+
+### Title and Author
+
+The book section holds the **main information** about the book.
+**title**, **favicon**, **author**, **date**
+
+```yaml
+title: My First Quarto Book
+favicon: ./assets/images/favicon.png
+author: Norah Jones
+date: 09/10/2024
+```
+
+- **title**: The book's title, usually appearing on the cover and in the browser’s title bar.
+
+- **favicon**: Path to an icon (here ./assets/images/favicon.png) to display in the browser tab.
+
+- **author**: The book’s author, here Norah Jones.
+
+- **date**: Publication date, useful for showing the last updated date.
+
+
+### sidebar
+
+```yaml
+sidebar:
+  logo: ./assets/images/quartologo.png
+  title: "My first quarto book"
+```
+
+- **logo**: An image to display in the sidebar, often a logo for the project or book.
+
+- **title**: The title appearing in the sidebar, which could be the full book title or a shortened version.
+
+### chapters
+
+```yaml
+chapters:
+  - index.qmd
+  - part: "First Part"
+    chapters:
+    - docs/firstPart/markdown.qmd
+  - part: "Second Part"
+    chapters:
+    - docs/secondPart/codeblock.qmd
+    - docs/secondPart/advancedcodeblock.qmd
+  - docs/references.qmd
+```
+
+This section organizes **the book’s content**.
+Basic Structure
+
+>**Chapters** are listed in an array format with .qmd files (Quarto Markdown files).
+>
+>**Chapters** appear in the order listed.
+
+Explanation of Elements
+
+- **index.qmd**: The book's **index** or **homepage file**, often placed first.
+
+- **part**: "First Part": part allows grouping chapters under a section. Here, "First Part" contains one chapter: markdown.qmd.
+
+- **chapters**: Specific chapters for each part. Each .qmd file represents a chapter in that part.
+
+- **docs/references.qmd**: A references chapter, typically containing the book’s bibliography.
+
+### bibliography
+
+```yaml
+bibliography: references.bib
+```
+
+This line specifies the **bibliography** file in **BibTeX** format (here, references.bib) containing references you can cite within the book.
+
+### format Section
+
+The format section defines the book’s appearance settings : **html**
+
+```yaml
+html:
+  theme: default
+  css: assets/css/main.css
+```
+
+- **theme**: The book’s **main theme** (here, default). Quarto offers several themes (like **cosmo**, **journal**, **flatly**, etc.).
+- **css**: Path to a custom CSS file for styling the book.
 
 ## .gitlab-ci.yml
 
