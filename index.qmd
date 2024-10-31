@@ -1,7 +1,90 @@
 ---
-title: "quartoweb-test"
+hide-description: true
+section-divs: false
+toc: false
+format:
+    html:
+        css: assets/css/index.css
 ---
 
-This is a Quarto website.
+::: {.column-screen}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.hero-banner}
+:::
+
+
+:::{.column-page}
+
+::: {.hero-banner}
+
+
+::: {.content-block}
+
+::: {.hero-text}
+# Welcome to Open Science Cloud
+
+### Hub for all documentation, guides, and tutorials
+
+This organization aims to manage projects and applications to facilitate data discovery, access, visualization, and analysis.
+
+This website serves as a comprehensive hub for all documentation, guides, and tutorials related to the Open Science Cloud project. Our goal is to centralize resources to make research tools and data more accessible and streamlined for the scientific community and beyond.
+
+In addition, we encourage community contributions. Anyone can add valuable resources and documentation via our repository, allowing for a dynamic and ever-evolving collection of knowledge.
+
+Below is a functional architecture diagram of the project:
+
+![](./assets/images/architecture.png)
+
+:::
+
+:::
+
+:::
+:::
+
+
+:::
+
+:::{.column-page}
+
+::: {.hello-quarto .alt-background}
+::: {.content-block}
+
+::: {.hello-quarto-banner}
+<ul class="nav nav-pills"  style="margin-bottom: 10px;" id="hello-quarto-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="python-tab" data-bs-toggle="tab" data-bs-target="#python" type="button" role="tab" aria-controls="python" aria-selected="true">Documentations</button>
+    </li>
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="knitr-tab" data-bs-toggle="tab" data-bs-target="#knitr" type="button" role="tab" aria-controls="knitr" aria-selected="false">Tutorials</button>
+    </li>
+</ul>
+
+:::
+
+
+<div class="tab-content" id="hello-quarto-tabcontent">
+
+<div class="tab-pane fade  show active" id="python" role="tabpanel" aria-labelledby="python-tab">
+
+Documentation provides users with a complete reference, covering all aspects of a topic or tool. It includes technical details, feature descriptions, and best practices, enabling users to deepen their understanding and quickly find answers to specific questions they encounter.
+
+::: {.learn-more}
+[See all Documentations »](/docs/Documentations/documentationshome.qmd)
+:::
+
+</div>
+
+<div class="tab-pane fade" id="knitr" role="tabpanel" aria-labelledby="knitr-tab">
+
+Tutorials allow users to follow a series of practical steps to accomplish a specific task. Designed to be instructional, they guide the user through the process, making learning easier through concrete examples and detailed instructions.
+
+::: {.learn-more}
+[See all Tutorials »](/docs/Tutorials/tutorialshome.qmd)
+:::
+
+</div>
+
+</div>
+
+:::

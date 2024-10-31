@@ -2,19 +2,21 @@ project:
   type: website
 
 website:
+  favicon: assets/images/logo ifremer RVB.png
   page-navigation: true
   bread-crumbs: true
+  page-footer:
+    left: |
+      Proudly supported by OSC
+    center:
+      - icon: gitlab
+        href: https://gitlab.ifremer.fr/osc/documentation/osc-web
+        aria-label: osc-web GitLab
+        text: Source Code
   navbar:
     pinned: true
-    logo: assets/images/quartologo.png
+    logo: assets/images/logo ifremer RVB.png
     collapse-below: lg
-    tools:
-      - icon: gitlab
-        menu:
-          - text: Source Code
-            href: https://gitlab.ifremer.fr/cp7b596/quartoweb-test
-          - text: Report an Issue
-            href: https://gitlab.ifremer.fr/cp7b596/quartoweb-test/-/issues
     left:
       - href: index.qmd
         text: Home
@@ -47,11 +49,14 @@ website:
     dismissable: true
     content: "**Note** - This website is in development"
     type: warning
-    position: below-navbar
+    position: above-navbar
 
 format:
   html:
-    theme: flatly
+    theme:
+        light: flatly
+        dark: darkly
     css: assets/css/styles.css
     toc: true
+
 
