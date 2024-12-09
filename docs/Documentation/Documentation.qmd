@@ -28,7 +28,7 @@ title: "Documentation"
 - BGC-Argo quality control manual for pH [https://doi.org/10.13155/97828](https://doi.org/10.13155/97828) 
 - BGC Argo quality control manual for particles backscattering [https://doi.org/10.13155/60262](https://doi.org/10.13155/60262) 
 
-# Cookbooks, core-Argo
+# Cookbooks, Core-Argo
 - Argo DAC profile cookbook [https://dx.doi.org/10.13155/41151](https://dx.doi.org/10.13155/41151)
 - Argo DAC trajectory cookbook [https://dx.doi.org/10.13155/29824](https://dx.doi.org/10.13155/29824)
 -Common method for determining position and Time and attribute the appropriate QC

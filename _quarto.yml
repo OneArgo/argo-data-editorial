@@ -10,7 +10,7 @@ website:
       Argo data management
     center:
       - icon: gitlab
-        href: https://gitlab.ifremer.fr/coriolis/web/argoDataManagement
+        href: https://gitlab.ifremer.fr/coriolis/argodatamgt
         aria-label: Argo data management web GitLab
         text: Source Code
   navbar:
