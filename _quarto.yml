@@ -2,52 +2,37 @@ project:
   type: website
 
 website:
-  favicon: assets/images/logo ifremer RVB.png
+  favicon: assets/images/Argo_logo_tallspacer.png
   page-navigation: true
   bread-crumbs: true
   page-footer:
     left: |
-      Proudly supported by OSC
+      Argo data management
     center:
       - icon: gitlab
-        href: https://gitlab.ifremer.fr/osc/documentation/osc-web
-        aria-label: osc-web GitLab
+        href: https://gitlab.ifremer.fr/coriolis/web/argoDataManagement
+        aria-label: Argo data management web GitLab
         text: Source Code
   navbar:
     pinned: true
-    logo: assets/images/logo ifremer RVB.png
+    logo: assets/images/Argo_logo_tallspacer.png
     collapse-below: lg
     left:
       - href: index.qmd
         text: Home
-      - href: docs/Documentations/documentationshome.qmd
-        text: Documentations
-      - href: docs/Tutorials/tutorialshome.qmd
-        text: Tutorials
-  sidebar:
-    - id: Tutorials
-      title: "Tutorials"
-      style: "floating"
-      collapse-level: 2
-      align: left
-      contents:
-        - docs/Tutorials/tutorialshome.qmd
-        - text: "Tutorial: Publish Jupyter notebook"
-          href: docs/Tutorials/jupyternotebook.qmd
-        - text: "Tutorial: Publish Quarto book"
-          href: docs/Tutorials/quartobook.qmd
-    - id: Documentations
-      title: "Documentations"
-      style: "floating"
-      collapse-level: 1
-      align: left
-      contents:
-        - docs/Documentations/documentationshome.qmd
+      - href: docs/News/News.qmd
+        text: News
+      - href: docs/DataAccess/DataAccess.qmd
+        text: Data access
+      - href: docs/Documentation/Documentation.qmd
+        text: Documentation
+      - href: docs/DataManagementTeam/DataManagementTeam.qmd
+        text: Data management team
 
   announcement:
     icon: info-circle
     dismissable: true
-    content: "**Note** - This website is in development"
+    content: "**Note** - will soon replace http://www.argodatamgt.org"
     type: warning
     position: above-navbar
 

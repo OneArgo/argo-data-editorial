@@ -1,0 +1,29 @@
+---
+title: "Data access"
+---
+
+
+## GDAC ftp, https, s3 services
+Argo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.
+
+- [ftp://ftp.ifremer.fr/ifremer/argo](ftp://ftp.ifremer.fr/ifremer/argo)
+- [https://data-argo.ifremer.fr](https://data-argo.ifremer.fr) / [https://usgodae.org/pub/outgoing/argo](https://usgodae.org/pub/outgoing/argo)
+- s3: Argo data are updated daily on [https://registry.opendata.aws/argo-gdac-marinedata](https://registry.opendata.aws/argo-gdac-marinedata) 
+
+## Data format
+Argo data, metadata, technical data are managed in NetCDF files.  
+The index files list and provide a short description the NetCDF files content. The index files format is ASCII "csv" (comma separated values).  
+The description of the Argo formats, the file naming conventions and more are documented in 
+
+- Argo user's manual: [https://dx.doi.org/10.13155/29825](https://dx.doi.org/10.13155/29825)
+
+## GDAC organization
+GDACs are continuously updated in real-time and delayed mode with data from Data Assembly Centers (DACs).
+The Argo GDAC dataset provides 3 "views" of the data profiles:
+
+- DAC: a directory per data assembly center / a directory per profiler / a file per profile
+
+- GEO: a directory per ocean / a directory per year in the ocean / a directory per month of the year / a directory per day of the month / a file per profile of the day
+
+- LATEST_DATA: a directory per year / a directory per month of the year / a directory per day of the month / a file per profile of the day
+

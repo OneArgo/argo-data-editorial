@@ -1,0 +1,21 @@
+---
+title: "Data management team"
+---
+This section refers to Argo Data Management Team (ADMT) components, members as well as access to meeting reports.  
+The ADMT executive committee is composed of at least one representative of each institute involved in Argo data management activities:
+
+- National Data centers (DACs)
+- Delayed mode operators (DM)
+- Argo Regional centers (ARC)
+- Global data centers (GDAC)
+- Global data repository center (GADR)
+
+The ADMT executive committee coordinates the data management activities to ensure an integrated access to Argo data independant to where it's processed. 
+It defines:
+
+- the Argo data management infrastructure and the role of each component
+- the data formats
+- the quality control procedures both in real-tine and delayed mode
+
+It reports to the Argo Steering Team (AST) on data management issues.
+

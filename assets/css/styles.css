@@ -64,7 +64,7 @@ body.quarto-dark .tab-content p{
 /* Pseudo-élément pour le logo sombre */
 .navbar-brand::before {
     content: "";
-    background-image: url('../images/Logo Ifremer Blanc.png');
+    background-image: url('../images/Argo_logo_tallspacer.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -82,7 +82,7 @@ body.quarto-dark .tab-content p{
 /* Pseudo-élément pour le logo clair */
 .quarto-light .navbar-brand::after {
     content: "";
-    background-image: url('../images/logo ifremer RVB.png');
+    background-image: url('../images/Argo_logo_tallspacer.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;

@@ -1,0 +1,11 @@
+---
+title: "System components"
+---
+Argo data are processed and distributed through a network involving different actors .
+•	National Centres (DACs) : the data Centres who collect, qualify, process and distribute the float data for which they are responsible. Data are distributed to PIs and the GTS within 24 hours of the float surfacing. They also send the data to the Global Data Centers.
+•	Global Data Centres (GDACS): two distribution points of Argo data distribution on Internet. They are located in Coriolis/Ifremer/France and US GODAE/USA .Coordination between these centres occurs daily.
+•	Delayed Mode Operators: they carry out delayed mode QC and return data to National Centres within a year of observations.
+•	Argo Regional Centres (ARCs ): they check the consistency of the Argo data for a specified geographical area. They also foster the collection of recent CTD data for delayed mode purposes, organize delayed mode QC of floats, provide specific Argo products.
+•	Argo Information Centre (AIC): located at OceanOPS in ToulouseBrest, France, responsible for providing information on the Argo program.
+•	Argo long term archive: data Centre located in NODC/USA in charge of ensuring the long term archive of all the Argo data.
+
