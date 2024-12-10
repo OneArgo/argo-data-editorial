@@ -2,6 +2,8 @@
 title: "Data management team"
 ---
 This section refers to Argo Data Management Team (ADMT) components, members as well as access to meeting reports.  
+
+# ADMT executive committee
 The ADMT executive committee is composed of at least one representative of each institute involved in Argo data management activities:
 
 - National Data centers (DACs)
@@ -18,4 +20,32 @@ It defines:
 - the quality control procedures both in real-tine and delayed mode
 
 It reports to the Argo Steering Team (AST) on data management issues.
+
+# Components of the Argo Data System / Argo Data System components
+Argo data are processed and distributed through a network involving different actors .
+
+- National Centres (DACs) : the data Centres who collect, qualify, process and distribute the float data for which they are responsible. Data are distributed to PIs and the GTS within 24 hours of the float surfacing. They also send the data to the Global Data Centers.
+- Global Data Centres (GDACS): two distribution points of Argo data distribution on Internet. They are located in Coriolis/Ifremer/France and US GODAE/USA .Coordination between these centres occurs daily.
+- Delayed Mode Operators: they carry out delayed mode QC and return data to National Centres within a year of observations.
+- Argo Regional Centres (ARCs ): they check the consistency of the Argo data for a specified geographical area. They also foster the collection of recent CTD data for delayed mode purposes, organize delayed mode QC of floats, provide specific Argo products.
+- Argo Information Centre (AIC): located at OceanOPS in ToulouseBrest, France, responsible for providing information on the Argo program.
+- Argo long term archive: data Centre located in NODC/USA in charge of ensuring the long term archive of all the Argo data.
+
+![The Argo data system](images/Argo_Data_System_graphic-1-1536x1408.jpg)
+
+![The Argo data centres](images/Argo_Data_System_graphic-1-1536x1408.jpg)
+
+## ADMT Executive Committee
+The ADMT is co-chaired by Claire Gourcuff from Euro-Argo/France and Megan Scanderbeg from SCRIPPS/USA.
+Each country is represented by a person that is in charge of implemented in his country what has been agreed by the team.
+
+## ADMT Terms of Reference 
+It supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements.
+It is composed of a Primary and an Alternative representatives for each of the following main ADMT topics. The Primary and Alternative representatives coordinate so that at least one will attend the  Exec Board meetings. Both representatives can attend the same meetings if both are available.
+On each topic the Primary and Alternative representatives are in charge of working with the  ADMT members on the actions linked to their topic and monitoring progress. 
+
+- Identify issues and possible solutions to be discussed at the Exec Board meetings and at the  ADMT meetings.
+- Ensure effective communications with various user groups via outreach activities.
+- Ensure Argo data adhere to the FAIR data principles.
+
 

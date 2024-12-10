@@ -1,9 +1,11 @@
 ---
 title: "Data access"
 ---
+## Argo data sources
+There are many sources of Argo data depending on the desired format, source and application.
+A complete presentation is available on [https://argo.ucsd.edu/data](https://argo.ucsd.edu/data)
 
-
-## GDAC ftp, https, s3 services
+## Ftp, https, s3 data services
 Argo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.
 
 - [ftp://ftp.ifremer.fr/ifremer/argo](ftp://ftp.ifremer.fr/ifremer/argo)
@@ -17,37 +19,40 @@ The description of the Argo formats, the file naming conventions and more are do
 
 - Argo user's manual: [https://dx.doi.org/10.13155/29825](https://dx.doi.org/10.13155/29825)
 
-## GDAC organization
+## Organization
 GDACs are continuously updated in real-time and delayed mode with data from Data Assembly Centers (DACs).
 The Argo GDAC dataset provides 3 "views" of the data profiles:
 
 - DAC: a directory per data assembly center / a directory per profiler / a file per profile
-
 - GEO: a directory per ocean / a directory per year in the ocean / a directory per month of the year / a directory per day of the month / a file per profile of the day
-
 - LATEST_DATA: a directory per year / a directory per month of the year / a directory per day of the month / a file per profile of the day
 
 ## Argo data selection
 Argo Data Selection is a web interface to discover, select and subset Argo data. Your selection can be downloaded as NetCDF or CSV files.
+
 - [https://dataselection.euro-argo.eu](https://dataselection.euro-argo.eu)
 
 ## Argo floats dashboard
 Argo Floats Dashboard is a web interface to discover Argo floats with metadata, maps, graphics and technical alerts.
+
 - [https://fleetmonitoring.euro-argo.eu/dashboard](https://fleetmonitoring.euro-argo.eu/dashboard)
 
 ## Argo DOI, Digital Object Identifier
 A digital object identifier (DOI) is a unique identifier for an electronic document or a dataset.  
-Argo data-management assigns DOIs to its documents and datasets for two main objectives
+Argo data-management assigns DOIs to its documents and datasets for two main objectives:
+
 - Citation: in a publication the DOI is efficiently tracked by bibliographic surveys
 - Traceability: the DOI is a direct and permanent link to the document or data set used in a publication
 
 Argo floats data and metadata from Global Data Assembly Centre (Argo GDAC)
+
 - https://doi.org/10.17882/42182
 
-## Argo GDAC synchronization service
+## Argo synchronization service
 The rsync server "vdmzrs.ifremer.fr" server provides a synchronization service between the "dac" directory of the GDAC with a user mirror. The "dac" index files are available from "argo-index".
 
 From the user side, the rysnc service:
+
 - Downloads the new files
 - Downloads the updated files
 - Removes the files that have been removed from the GDAC
@@ -57,19 +62,20 @@ From the user side, the rysnc service:
 
 ### Examples
 Synchronization of a particular float, based on the data centre in charge of data processing:
+
 - rsync -avzh --delete vdmzrs.ifremer.fr::argo/coriolis/69001 /home/mydirectory/...
 - rsync -avzh --delete vdmzrs.ifremer.fr::argo/aoml/1900050 /home/mydirectory/...
 - rsync -avzh --delete vdmzrs.ifremer.fr::argo-index/ /home/mydirectory/...
 - Synchronization of the whole dac directory of Argo GDAC
+-- rsync -avzh --delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/...
 
-rsync -avzh --delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/...
-
-## ERDDAP data server
-ERDDAP is NOAA’s data server to scientific data
-ERDDAP is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps. This particular ERDDAP installation has oceanographic data (for example, data from Argo floats, satellites and buoys).
+## Erddap data server
+Erddap is NOAA’s data server to scientific data
+Erddap is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps. This particular Erddap installation has oceanographic data (for example, data from Argo floats, satellites and buoys).
 
 - [https://erddap.ifremer.fr/erddap/tabledap/ArgoFloats.html](https://erddap.ifremer.fr/erddap/tabledap/ArgoFloats.html)
 
 ## Thredds data server
-Unidata's THREDDS Data Server (TDS) is a web server that provides metadata and data access for scientific datasets, using OPeNDAP, OGC WMS, WCS, HTTP protocols.
-- https://tds0.ifremer.fr/thredds/catalog/CORIOLIS-ARGO-GDAC-OBS/catalog.html
+Unidata's Thredds Data Server (TDS) is a web server that provides metadata and data access for scientific datasets, using OPeNDAP, OGC WMS, WCS, HTTP protocols.
+
+- [https://tds0.ifremer.fr/thredds/catalog/CORIOLIS-ARGO-GDAC-OBS/catalog.html](https://tds0.ifremer.fr/thredds/catalog/CORIOLIS-ARGO-GDAC-OBS/catalog.html)
