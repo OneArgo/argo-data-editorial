@@ -3,6 +3,7 @@ include:
     - project: dev-ops/templates/automatisation/ci-cd
       ref: main
       file: /templates/pipeline-documentation-quarto.yml
+    - component: $CI_SERVER_FQDN/dev-ops/templates/automatisation/ci-cd/pipeline-documentation-quarto@~latest
 
 variables:
   DOCUMENTATION_PYTHON_REQUIREMENTS: "requirements.txt"
