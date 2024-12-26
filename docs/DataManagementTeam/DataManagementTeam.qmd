@@ -1,9 +1,35 @@
 ---
 title: "Data management team"
 ---
+
+# Argo Data System components
+Argo data are processed and distributed through a network involving different actors .
+
+- National Centres (DACs) : the data Centres who collect, qualify, process and distribute the float data for which they are responsible. Data are distributed to PIs and the GTS within 24 hours of the float surfacing. They also send the data to the Global Data Centers.
+- Global Data Centres (GDACS): two distribution points of Argo data distribution on Internet. They are located in Coriolis/Ifremer/France and US GODAE/USA .Coordination between these centres occurs daily.
+- Delayed Mode Operators: they carry out delayed mode QC and return data to National Centres within a year of observations.
+- Argo Regional Centres (ARCs ): they check the consistency of the Argo data for a specified geographical area. They also foster the collection of recent CTD data for delayed mode purposes, organize delayed mode QC of floats, provide specific Argo products.
+- Argo Information Centre (AIC): located at OceanOPS in ToulouseBrest, France, responsible for providing information on the Argo program.
+- Argo long term archive: data Centre located in NODC/USA in charge of ensuring the long term archive of all the Argo data.
+
+![The Argo data system](images/ArgoDataSystem.png){width=50% height=50%}
+
+![The Argo data centres](images/Argo-Data-Centres.png){width=80% height=80%}
+
+
+# ADMT Terms of Reference 
 This section refers to Argo Data Management Team (ADMT) components, members as well as access to meeting reports.  
+It supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements.
+It is composed of a Primary and an Alternative representatives for each of the following main ADMT topics. The Primary and Alternative representatives coordinate so that at least one will attend the  Exec Board meetings. Both representatives can attend the same meetings if both are available.
+On each topic the Primary and Alternative representatives are in charge of working with the  ADMT members on the actions linked to their topic and monitoring progress. 
+
+- Identify issues and possible solutions to be discussed at the Exec Board meetings and at the  ADMT meetings.
+- Ensure effective communications with various user groups via outreach activities.
+- Ensure Argo data adhere to the FAIR data principles.
 
 # ADMT executive committee
+The ADMT is co-chaired by Claire Gourcuff from Euro-Argo/France and Megan Scanderbeg from SCRIPPS/USA.
+Each country is represented by a person that is in charge of implemented in his country what has been agreed by the team.
 The ADMT executive committee is composed of at least one representative of each institute involved in Argo data management activities:
 
 - National Data centers (DACs)
@@ -21,31 +47,57 @@ It defines:
 
 It reports to the Argo Steering Team (AST) on data management issues.
 
-# Components of the Argo Data System / Argo Data System components
-Argo data are processed and distributed through a network involving different actors .
 
-- National Centres (DACs) : the data Centres who collect, qualify, process and distribute the float data for which they are responsible. Data are distributed to PIs and the GTS within 24 hours of the float surfacing. They also send the data to the Global Data Centers.
-- Global Data Centres (GDACS): two distribution points of Argo data distribution on Internet. They are located in Coriolis/Ifremer/France and US GODAE/USA .Coordination between these centres occurs daily.
-- Delayed Mode Operators: they carry out delayed mode QC and return data to National Centres within a year of observations.
-- Argo Regional Centres (ARCs ): they check the consistency of the Argo data for a specified geographical area. They also foster the collection of recent CTD data for delayed mode purposes, organize delayed mode QC of floats, provide specific Argo products.
-- Argo Information Centre (AIC): located at OceanOPS in ToulouseBrest, France, responsible for providing information on the Argo program.
-- Argo long term archive: data Centre located in NODC/USA in charge of ensuring the long term archive of all the Argo data.
+# Meetings and reports
 
-![The Argo data system](images/Argo_Data_System_graphic-1-1536x1408.jpg)
+## ADMT meetings
 
-![The Argo data centres](images/Argo_Data_System_graphic-1-1536x1408.jpg)
+| Meeting |  | location |  | date |  | link |
+|---|---|---|---|
+| 25th Argo Data Management | Trieste | 21-25 Oct 2024 | | 
+| 24th Argo Data Management | Hobart | 23-27 Oct 2023 | [ADMT-24 report (includes BGC session)](/docs/Report/ADMT24-Report-Final.pdf)| |
+| 23rd Argo Data Management | Miami | 8-10-Dec 2022 | [ADMT-23 report](/docs/Report/ADMT23-2022-ADMT-23report-VF.pdf)|
+| 22nd Argo Data Management | Virtual meeting | 8-10-Dec 2021 | [ADMT-22 report](/docs/Report/ADMT22-2022-ADMT-22report-VF.pdf)|
+| 21st Argo Data Management | Virtual Meeting | 2-4-Dec 2020 | [ADMT-21 report](/docs/Report/ADMT21Report-VF-all.pdf)| 
+| 20th Argo Data Management | Villefranche | 16-18 Oct 2019 |  [ADMT-20 report](/docs/Report/ADMT20-20th_ADMT_meeting_Report_V1.0.pdf)|
+| 19th Argo Data Management|  San Diego | 5-7 Dec 2018 |  [ADMT-19  report](/docs/Report/ADMT19-meeting-report-VF.pdf)|
+| 18th Argo Data Management | Hamburg | 29 Nov- 1 Dec 2017 | [ADMT-18 report](/docs/Report/ADMT18-18thARGODATAMANAGEMENTMEETING.pdf)|
+| 17th Argo Data Management | Tianjin | 28-30 Sept 2016 | [ADMT-17 report](/docs/Report/ADMT17-17thARGODATAMANAGEMENTMEETING_V2.0.pdf)|
+| 16th Argo Data Management | Bermuda | 4-6 Nov 2015 | [ADMT-16 report](/docs/Report/ADMT16-16thARGODATAMANAGEMENTMEETING_VF.pdf)|
+| 15th Argo Data Management | Ottawa | 5-7 Nov 2014 | [ADMT-15 report](/docs/Report/ADMT15-15thARGODATAMANAGEMENTMEETING_VF.pdf)|
+| 14th Argo Data Management | Liverpool | 16-18 Oct 2013 | [ADMT-14 report](/docs/Report/14thARGODATAMANAGEMENTMEETINGV1.1.pdf)|
+| 13th Argo Data Management | Hyderabad | 14-16 Nov 2012 | [ADMT-13 report](/docs/Report/ADMT13-meeting-V1.1.pdf)|
+| 12th Argo Data Management | Seoul | 16-18 Nov 2011 | [ADMT-12 report](/docs/Report/ADMT12-12thARGODATAMANAGEMENTMEETINGV1.3.pdf)|
+| 11th Argo Data Management | Hamburg | 20-22 Oct 2010 | [ADMT-11 report](/docs/Report/ADMT11-11thARGODATAMANAGEMENTMEETINGV1.2.pdf)|
+| 10th Argo Data Management | Toulouse | 30 Sep-2 Oct 2009 | [ADMT-10 report](/docs/Report/ADMT10-10thARGODATAMANAGEMENTMEETINGV1.1.pdf)|
+| 9th Argo Data Management | Hawaii | 29-31 October 2008 |  [ADMT-09 report](/docs/Report/9thARGODATAMANAGEMENTMEETING-VF.pdf)|
+| 8th Argo Data Management | Hobart | 14-16 November 2007 | [ADMT-08 report](/docs/Report/ADMT08-Argo-DM-report-8th.pdf)|
+| 7th Argo Data Management | Tianjin | 1-3 November 2006 | [ADMT-07 report](/docs/Report/ADMT07-Argo-DM-report-7th.pdf)|
+| 6th Argo Data Management | Tokyo | 8-10 November 2005 | [ADMT-06 report](/docs/Report/ADMT06-Argo-DM-report-6th.pdf)|
+| 5th Argo Data Management | Southampton | 29 Sept - 1 Oct 2004 | [ADMT-05 report](/docs/Report/ADMT05-argo-DM-report-5th.pdf)|
+| 4th Argo Data Management | Monterey | 5-7 Nov 2003 | [ADMT-04 report](/docs/Report/ADMT04-Argo-DM-report-4th.pdf)|
+| 3rd Argo Data Management | Ottawa | 18-20 Oct 2002 | [ADMT-03 report](/docs/Report/ADMT03-Argo-DM-report-3rd.pdf)|
+| 2nd Argo Data Management | Brest | 12-14 Nov 2001 | [ADMT-02 report](/docs/Report/ADMT02-argo-dm-report-2nd.pdf) |
+| 1st Argo Data Management | Brest | 3-5 October 2000 | [ADMT-01 report](/docs/Report/ADMT01-Argo-DM-report-1st.pdf) |
 
-## ADMT Executive Committee
-The ADMT is co-chaired by Claire Gourcuff from Euro-Argo/France and Megan Scanderbeg from SCRIPPS/USA.
-Each country is represented by a person that is in charge of implemented in his country what has been agreed by the team.
+## ADMT BGC meetings
 
-## ADMT Terms of Reference 
-It supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements.
-It is composed of a Primary and an Alternative representatives for each of the following main ADMT topics. The Primary and Alternative representatives coordinate so that at least one will attend the  Exec Board meetings. Both representatives can attend the same meetings if both are available.
-On each topic the Primary and Alternative representatives are in charge of working with the  ADMT members on the actions linked to their topic and monitoring progress. 
+| Meeting | location | date | link |
+|---|---|---|---|
+| 11th BGC-Argo Data Management |  | 6-7 Dec 2022  | [ADMT-BGC-11 report missing](/docs/Report/) |
+| 10th BGC-Argo Data Management |  | 6-7 Dec 2021 | [ADMT-BGC-10 report](/docs/Report/BGC10-10thBGC-WORKSHOPADMT2021.pdf) | 
+| 9th BGC-Argo Data Management | Virtual meeting | 30 November - 1 Dec 2020 | [ADMT-BGC-09 report](/docs/Report/BGC09-BGC_meeting_ADMT2020_Minutes.pdf) | 
+| 8th BGC-Argo Data Management | Villefranche | 14-15 Oct 2019 | [ADMT-BGC-08 report](/docs/Report/BGC08_reports.pdf) | 
+| 7th BGC-Argo Data Management|  San Diego | 3-4 Dec 2018 | [ADMT-BGC-07 report](/docs/Report/BGC07_reports_final.pdf) |
+| 6th BGC-Argo Data Management | Hamburg | 27-28 Nov 2017 | [ADMT-BGC-06 report](/docs/Report/BGC06-minutes_BGC6_ADMT18.pdf) |
+| 5th BGC-Argo Data Management | Tianjin | 26-27 Sept 2016 | [ADMT-BGC-05 report](/docs/Report/5thBCG-ArgoDataManagementReport.pdf) |
+| 4th BGC-Argo Data Management | Bermuda | 2-3 Nov 2015 | [ADMT-BGC-04 report](/docs/Report/Bioargo_ADMT16_meetingreport.pdf) |
+| 3rd BGC-Argo Data Management | Ottawa | 3-4 Nov 2014 | [ADMT-BGC-03 report](/docs/Report/BGC03-3rd-Bioargo_ADMT15_meetingreport.pdf) |
+| 2nd BGC-Argo Data Management | Liverpool | 14-15 Oct 2013 | [ADMT-BGC-02 report](/docs/Report/admt14-workshop-2-bgc-argo-herve-claustre-feed-back.pdf) |
+| 1st BGC-Argo Data Management | Hyderabad | 12-13 Nov 2012 | [ADMT-BGC-01 report](/docs/Report/BIOArgo_Report_ADMT13_FINAL.pdf) |
 
-- Identify issues and possible solutions to be discussed at the Exec Board meetings and at the  ADMT meetings.
-- Ensure effective communications with various user groups via outreach activities.
-- Ensure Argo data adhere to the FAIR data principles.
+## ADMT delayed mode meetings
 
-
+| Meeting | location | date | link |
+|---|---|---|---|
+| 1st Delayed Mode workshop | San Diego | 8-13 April 2005 | [ADMT-DM-WS report](/docs/Report/SanDiegoMeetingReport_dmqcworkshop.pdf)|
