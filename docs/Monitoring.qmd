@@ -1,7 +1,7 @@
 ---
-title: "Monitoring at GDAC"
+title: "Monitoring GDAC content"
 ---
-Every week the following statistic are compiled on the Argo data available on Argo Coriolis GDAC portal
+The Argo GDAC content monitoring is updated once a week.
 
 ## Active floats statistics
 
