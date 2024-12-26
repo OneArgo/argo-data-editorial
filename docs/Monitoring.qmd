@@ -1,0 +1,12 @@
+---
+title: "Monitoring at GDAC"
+---
+Every week the following statistic are compiled on the Argo data available on Argo Coriolis GDAC portal
+
+## Active floats statistics
+
+## All floats statistics
+
+## Delayed mode statistics
+
+## Metadata weekly report
