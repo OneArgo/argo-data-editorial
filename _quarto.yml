@@ -22,12 +22,18 @@ website:
         text: Home
       - href: docs/News/News.qmd
         text: News
-      - href: docs/DataAccess/DataAccess.qmd
-        text: Data access
-      - href: docs/Documentation/Documentation.qmd
+      - href: docs/DataAccess.qmd
+        text: Data
+      - href: docs/Documentation.qmd
         text: Documentation
-      - href: docs/DataManagementTeam/DataManagementTeam.qmd
-        text: Data management team
+      - href: docs/DataManagementTeam.qmd
+        text: ADMT
+      - href: docs/Dmqc.qmd
+        text: DMQC
+      - href: docs/ArgoVocabulary.qmd
+        text: Vocabularies
+      - href: docs/Monitoring.qmd
+        text: Monitoring
 
   announcement:
     icon: info-circle
