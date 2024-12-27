@@ -1,0 +1,129 @@
+{
+   "DELAYED" : {
+      "TOTAL" : 2585915,
+      "GDAC" : {
+         "INCOIS" : [
+            39996
+         ],
+         "BODC" : [
+            102064
+         ],
+         "KMA" : [
+            35092
+         ],
+         "JMA" : [
+            214200
+         ],
+         "CSIRO" : [
+            216832
+         ],
+         "MEDS" : [
+            52388
+         ],
+         "CORIOLIS" : [
+            429866
+         ],
+         "KORDI" : [
+            14504
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "AOML" : [
+            1417356
+         ],
+         "CSIO" : [
+            61229
+         ]
+      }
+   },
+   "ALL" : {
+      "GDAC" : {
+         "AOML" : [
+            8955
+         ],
+         "CSIO" : [
+            555
+         ],
+         "NMDIS" : [
+            19
+         ],
+         "KORDI" : [
+            125
+         ],
+         "CORIOLIS" : [
+            3784
+         ],
+         "MEDS" : [
+            702
+         ],
+         "JMA" : [
+            1937
+         ],
+         "CSIRO" : [
+            1164
+         ],
+         "BODC" : [
+            896
+         ],
+         "INCOIS" : [
+            531
+         ],
+         "KMA" : [
+            256
+         ]
+      },
+      "TOTAL" : 18924
+   },
+   "DATE" : "24/12/2024",
+   "COLOR" : {
+      "GTS" : "#52FFA5",
+      "NMDIS" : "#A50000",
+      "KORDI" : "#FF5500",
+      "CSIO" : "#00AAFF",
+      "AOML" : "#0000A5",
+      "CSIRO" : "#00FFFF",
+      "JMA" : "#FFFF00",
+      "KMA" : "#FFAA00",
+      "INCOIS" : "#A5FF52",
+      "BODC" : "#0000FF",
+      "CORIOLIS" : "#0055FF",
+      "MEDS" : "#FF0000"
+   },
+   "ACTIVE" : {
+      "GDAC" : {
+         "KORDI" : [
+            15
+         ],
+         "AOML" : [
+            2228
+         ],
+         "CSIO" : [
+            72
+         ],
+         "INCOIS" : [
+            69
+         ],
+         "BODC" : [
+            149
+         ],
+         "KMA" : [
+            4
+         ],
+         "JMA" : [
+            169
+         ],
+         "CSIRO" : [
+            285
+         ],
+         "MEDS" : [
+            192
+         ],
+         "CORIOLIS" : [
+            735
+         ]
+      },
+      "TOTAL" : 3918
+   }
+}
+
