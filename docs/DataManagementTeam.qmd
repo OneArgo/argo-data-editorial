@@ -14,7 +14,7 @@ Argo data are processed and distributed through a network involving different ac
 
 ![The Argo data system](/assets/images/ArgoDataSystem.png){width=50% height=50%}
 
-![The Argo data centres](/assets/images/Argo-Data-Centres.png){width=80% height=80%}
+![The Argo data centres](/assets/images/ArgoDataCentres.png){width=80% height=80%}
 
 
 # ADMT Terms of Reference 
