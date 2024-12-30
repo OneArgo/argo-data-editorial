@@ -43,4 +43,6 @@ format:
     css: assets/css/styles.css
     toc: true
 
+resources:
+  - "assets/json/*.json"        # Inclut tout le répertoire 'data' (fichiers et sous-répertoires)
 
