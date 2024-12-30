@@ -35,13 +35,6 @@ website:
       - href: docs/Monitoring.qmd
         text: Monitoring
 
-  announcement:
-    icon: info-circle
-    dismissable: true
-    content: "**Note** - will soon replace http://www.argodatamgt.org"
-    type: warning
-    position: above-navbar
-
 format:
   html:
     theme:
