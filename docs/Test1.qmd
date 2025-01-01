@@ -12,23 +12,8 @@ The Argo GDAC content monitoring is updated once a week.
 	</head>
 </html>
 
-## All floats distribution
-<div id="pie_graph"></div>
-
 ## Histogram
 <div id="Histogram"></div>
-
-## Histogram percent
-<div id="Histogram_percent"></div>
-
-## Histogram delayed mode profiles
-<div id="Histogram_delayed"></div>
-
-## Histogram delayed mode profiles percent
-<div id="Histogram_delayed_percent"></div>
-
-## Histogram delayed mode profiles available for DM
-<div id="Histogram_delayed_available"></div>
 
 ## More on Argo floats dashboard
 <a href="https://fleetmonitoring.euro-argo.eu" target="_blank" rel="noopener noreferrer">https://fleetmonitoring.euro-argo.eu</a>
