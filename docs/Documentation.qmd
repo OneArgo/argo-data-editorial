@@ -15,7 +15,7 @@ title: "Documentation"
   - [Technical and configuration parameters units](Documentation/TableTechAndConfUnitsV2.3.xlsx){target="_blank"}
 - Argo metadata files
   - [Configuration parameter names, core-Argo](Documentation/Core_Argo_ConfigurationParameterNames_20220801.xlsx){target="_blank"}
-  - [Configuration parameter names, BGC-Argo](Documentation/Bio_Argo_Configuration_Parameter_Names_V1.0_20210402.xlsx){target="_blank"}
+  - [Configuration parameter names, BGC-Argo](Documentation/Bio_Argo_Configuration_Parameter_Names_V1.0_20241219.xlsx){target="_blank"}
 - [Surface pressure correction table](Documentation/SurfacePressureCorrectionTable.xls){target="_blank"}
 
 # Quality control
