@@ -1,0 +1,6 @@
+---
+title: "BGC-Argo configuration parameter names December 2024 release"
+---
+On December 19th 2024, Catherine Schmechtig distributed an update of BGC-Argo configuration parameter names.  
+This update is available on [Documentation](/docs/Documentation.html)  
+A secondary optode sensor on a stick is accepted.
