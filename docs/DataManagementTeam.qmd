@@ -1,51 +1,109 @@
 ---
 title: "Data management team"
 ---
+The Argo Data Management Team (ADMT) is composed of at least one representative of each institute involved in Argo data management activities. It reports to the Argo Steering Team on data management issues.  
+The role of the ADMT is to coordinate the data management activities for Argo to ensure an integrated access to Argo data independent to where it's processed. It defines:
+
+- the Argo data management infrastructure and the role of each component
+- the data format and its evolution
+- the quality control procedures both in real-time and delayed mode
 
 # Argo Data System components
-Argo data are processed and distributed through a network involving different actors .
+Argo data are processed and distributed through a network involving different actors:
 
-- National Centres (DACs) : the data Centres who collect, qualify, process and distribute the float data for which they are responsible. Data are distributed to PIs and the GTS within 24 hours of the float surfacing. They also send the data to the Global Data Centers.
-- Global Data Centres (GDACS): two distribution points of Argo data distribution on Internet. They are located in Coriolis/Ifremer/France and US GODAE/USA .Coordination between these centres occurs daily.
-- Delayed Mode Operators: they carry out delayed mode QC and return data to National Centres within a year of observations.
-- Argo Regional Centres (ARCs ): they check the consistency of the Argo data for a specified geographical area. They also foster the collection of recent CTD data for delayed mode purposes, organize delayed mode QC of floats, provide specific Argo products.
-- Argo Information Centre (AIC): located at OceanOPS in ToulouseBrest, France, responsible for providing information on the Argo program.
-- Argo long term archive: data Centre located in NODC/USA in charge of ensuring the long term archive of all the Argo data.
+- National Data Assembly Centres (DACs): the data centres who collect, qualify, process and distribute the float data for which they are responsible. Data are distributed to the GTS within 24 hours of the float surfacing. The DACs also send the data to the Global Data Assembly Centres.
+- Global Data Assembly Centres (GDACS): two official distribution points of Argo data on Internet. They are located in Coriolis/Ifremer/France and US GODAE/USA. Coordination between these 2 centres occurs daily.
+- Delayed Mode operators: they carry out Delayed Mode QC (DMQC) and return data to DACs within a year of observations.
+- Argo Regional Centres (ARCs): they check the consistency of the Argo data for a specified geographical area. They also foster the collection of recent CTD data for DMQC purposes, organize DMQC, provide specific Argo products.
+- Argo Information Centre (AIC): located at OceanOPS in Brest, France, responsible for providing information on the Argo programme.
+- Argo long term archive: Global Argo Data Repository (GADR) located in NCEI/USA in charge of ensuring the long term archive of all the Argo data.
+
 
 ![The Argo data system](/assets/images/ArgoDataSystem.png){width=50% height=50%}
 
 ![The Argo data centres](/assets/images/ArgoDataCentres.png){width=80% height=80%}
 
 
-# ADMT Terms of Reference 
-This section refers to Argo Data Management Team (ADMT) components, members as well as access to meeting reports.  
-It supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements.
-It is composed of a Primary and an Alternative representatives for each of the following main ADMT topics. The Primary and Alternative representatives coordinate so that at least one will attend the  Exec Board meetings. Both representatives can attend the same meetings if both are available.
-On each topic the Primary and Alternative representatives are in charge of working with the  ADMT members on the actions linked to their topic and monitoring progress. 
+# ADMT national representatives
+The Argo Data Management Team (ADMT) is currently co-chaired by Megan Scanderbeg from SCRIPPS/USA and Claire Gourcuff from Euro-Argo/France.
+Each country is represented by one or several persons in charge of Argo data management in their country.
 
-- Identify issues and possible solutions to be discussed at the Exec Board meetings and at the  ADMT meetings.
-- Ensure effective communications with various user groups via outreach activities.
-- Ensure Argo data adhere to the FAIR data principles.
+| COUNTRY | Data Management Function | Name | Address | Email |
+|---|---|---|---|---|
+| AUSTRALIA | DAC | Dirk Slawinski | CSIRO Environment, Indian Ocean Marine Research Centre, M097, 35 Stirling Highway, Crawley, WA 6009, Australia | Dirk.Slawinski@csiro.au |
+| AUSTRALIA | DAC | Gabriela Semolini Pilo | CSIRO Environment, GPO Box 1538 Hobart, TAS 7000, Australia | Gabriela.Semolinipilo@csiro.au |
+| AUSTRALIA | Delayed Mode Operator | Jenny Lovell | CSIRO Environment, GPO Box 1538 Hobart, TAS 7000, Australia | Jenny.Lovell@csiro.au |
+| AUSTRALIA | BGC Delayed Mode Operator | Christina Schallenberg | CSIRO Environment, GPO Box 1538 Hobart, TAS 7000, Australia | Christina.schallenberg@csiro.au |
+| CANADA | DAC | Anh Tran | MEDS, Fisheries and Oceans Canada, 200 Kent St Ottawa, On, K1A 0E6 Canada | Anh.Tran@dfo-mpo.gc.ca |
+| CANADA | Delayed Mode Operator | Zhimin (Robert) Ma | MEDS, Fisheries and Oceans Canada, 200 Kent St Ottawa, On, K1A 0E6 Canada | Zhimin.Ma@dfo-mpo.gc.ca |
+| CANADA | BGC Delayed Mode Operator | Chris Gordon | BIO, Van Steenburgh Building 308, Dartmouth, Nova Scotia | Chris.Gordon@dfo-mpo.gc.ca |
+| CHINA | DAC | MingMei Dong | NMDIS, No.93 Liuwei Road, Hedong District, Tianjin, China, 300171 | dmm_nmdis@163.com |
+| CHINA | DAC | Zenghong Liu | CSIO, Second Institute of Oceanography, MNR, No. 36 Baochubei Road, Hangzhou, Zhejiang, China 310012 | liuzenghong@139.com |
+| CHINA | BGC data | Xiaogang Xing | CSIO, Second Institute of Oceanography, MNR, No. 36 Baochubei Road, Hangzhou, Zhejiang, China 310012 | xing@sio.org.cn |
+| FRANCE | DAC/GDAC | Thierry Carval | Ifremer OPS/Coriolis BP 70 29280 Plouzané France | Thierry.Carval@ifremer.fr |
+| FRANCE | DAC | Vincent Bernard | Ifremer OPS/Coriolis BP 70 29280 Plouzané France | Vincent.Bernard@ifremer.fr |
+| FRANCE | BGC Delayed Mode Operator | Raphaelle Sauzede | CNRS - IMEV, quai de la darse, 06230 Villefranche sur mer, France | Raphaelle.sauzede@imev-mer.fr |
+| FRANCE | DAC BGC | Catherine Schmechtig | CNRS -OSU ECCE TERRA, 4 place Jussieu, 75252 Paris cedex 05, France | schmechtig@obs-vlfr.fr |
+| FRANCE | Delayed Mode Operator | Christine Coatanoan | Ifremer OPS/Coriolis BP 70 29280 Plouzané France | Christine.Coatanoan@ifremer.fr |
+| FRANCE | A-ARC | Cecile Cabanes | Ifremer OPS/Coriolis BP 70 29280 Plouzané France | Cecile.Cabanes@ifremer.fr |
+| FRANCE | DAC CLS | Solène ROUTABOUL | Argos Scientific Applications C L S / Direction of the Argos Applications 8-10 rue Hermès, Parc Technologique du Canal 31526 Ramonville Saint-Agne Cedex, France | sroutaboul@groupcls.com |
+| Europe | European coordination | Claire Gourcuff | Euro-Argo ERIC, Plouzané, France | claire.gourcuft@euro-argo.eu |
+| Europe | European coordination | Romain Cancouët | Euro-Argo ERIC, Plouzané, France | romain.cancouet@euro-argo.eu |
+| Europe | European coordination | Delphine Dobler | Euro-Argo ERIC, Plouzané, France | delphine.dobler@euro-argo.eu |
+| GERMANY | Delayed Mode Operator | Birgit Klein | Bundesamt fuer Seeschifffahrt und Hydrographie (BSH) Bernhard-Nocht-Str. 78 20359 Hamburg, Germany | birgit.klein@bsh.de |
+| GERMANY | BGC Delayed Mode Operator | Henry Bittig | Leibniz Institute for Baltic Sea Research Warnemünde, Seestraße 15, 18119 Rostock-Warnemünde, Germany | henry.bittig@io-warnemuende.de |
+| INDIA | DAC & I-ARC | TVS Udaya Bhaskar | Indian National Centre for Ocean Information Services, Post Box No:21,"Ocean Valley",Gajularamaram B.O, Via- IDA Jeedimetla S.O, Hyderabad - 500 055, India. | uday@incois.gov.in |
+| ITALY | Delayed Mode Operator and MEDArgo-ARC | Giulio Notarstefano | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | gnotarstefano@inogs.it |
+| ITALY | Delayed Mode Operator and MEDArgo-ARC | Antonella Gallo | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | agallo@inogs.it |
+| JAPAN | DAC | Chihiro Kawamura | Japan Meteorological Agency 3-6-9 Toranomon, Minato-ku, Tokyo, 105-8341, Japan | argoadmin@climar.kishou.go.jp<br>c_kawamura@met.kishou.go.jp |
+| JAPAN | Delayed Mode Operator | Kanako Sato | JAMSTEC, 2-15 Natsushima-cho, Yokosuka, 237-0061 Japan | k_sato@jamstec.go.jp |
+| JAPAN | P-ARC | Shigeki Hosoda | JAMSTEC, 2-15 Natsushima-cho, Yokosuka, 237-0061 Japan | hosodas@jamstec.go.jp |
+| SOUTH KOREA | DAC KMA | Ki-Ryong Kang | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | krkang@kma.go.kr |
+| SOUTH KOREA | Delayed Mode Operator | Sora Kim | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | srkim1227@knu.ac.kr |
+| SOUTH KOREA | Delayed Mode Operator | Yumi Song | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | ymsong@knu.ac.kr |
+| SOUTH KOREA | DAC KIOST/KORDI | Sung-Dae Kim | Korea Institute of Ocean Science & Technology, 787 Haean-ro(st), Ansan, Gyeonggi, 15627, Korea | sdkim@kiost.ac.kr |
+| SPAIN | Delayed Mode Operator | Alberto Gonzalez Santa | Instituto Español de Oceanografía, Centro Oceanográfico de Canarias, Dársena pesquera de San Andrés, parcela 8, 38180 Santa Cruz de Tenerife Spain | alberto.gonzalez@ieo.es |
+| SPAIN | Delayed Mode Operator | Lara Diaz | SOCIB | ldiaz@socib.es |
+| UK | DAC | Clare Bellingham | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | crbilhm@bodc.ac.uk |
+| UK | Core/Deep/BGC DMQC, SO-ARC | Kamila Walicka | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | kamwal@bodc.ac.uk |
+| UK | DAC, BGC DMQC, NERC Vocabulary Server | Violetta Paba | National Oceanography Centre, European Way, Southampton, SO14 3ZH, United Kingdom | vpaba@bodc.ac.uk |
+| UK | SO-ARC, NERC Vocabulary Server | Roseanna Wright | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | roswri@bodc.ac.uk |
+| UK | BGC and Deep Argo PI | Brian King | National Oceanography Centre, European Way, Southampton, SO14 3ZH, United Kingdom | bak@noc.ac.uk |
+| UK | BGC Argo | Giorgio Dall'Olmo | Plymouth Marine Laboratory, Prospect Place, The Hoe, Plymouth PL1 3DH, United Kingdom | gdal@pml.ac.uk |
+| USA | Core and BGC DAC | Claudia Schmid | NOAA/AOML/PHOD 4301 Rickenbacker Causeway Miami, Florida 33149 USA | Claudia.Schmid@noaa.gov |
+| USA | Delayed Mode Operator | Annie Wong | School of Oceanography University of Washington 1503 NE Boat Street Seattle, WA 98195 | apsw@uw.edu |
+| USA | Delayed Mode Operator | Matthew Alkire | School of Oceanography University of Washington 1503 NE Boat Street Seattle WA 98195 | alkirem@uw.edu |
+| USA | Delayed Mode Operator | John Gilson | Scripps Institution of Oceanography, UCSD 9500 Gilman Drive La Jolla CA, 92093 | jgilson@ucsd.edu |
+| USA | Reference Database | Steve Diggs | Scripps Institution of Oceanography, UCSD 9500 Gilman Drive La Jolla CA, 92093 | sdiggs@ucsd.edu |
+| USA | Delayed Mode Operator | Pelle Robbins | Woods Hole Oceanographic Institution 266 Woods Hole Road Woods Hole, MA 02543-1050 U.S.A. | probbins@whoi.edu |
+| USA | BGC Argo Delayed Mode Operator | Tanya Maurer | Monterey Bay Aquarium Research Institute, 7700 Sandholdt Rd, Moss Landing, CA 95039 | tmaurer@mbari.org |
+| USA | BGC Argo Delayed Mode Operator | Josh Plant | Monterey Bay Aquarium Research Institute, 7700 Sandholdt Rd, Moss Landing, CA 95039 | jplant@mbari.org |
+| USA | Global Argo Data Repository | Tim Boyer | National Centers for Environmental Information, 1315 East West Highway Silver Spring MD, 201910 USA | tim.boyer@noaa.gov |
 
-# ADMT executive committee
-The ADMT is co-chaired by Claire Gourcuff from Euro-Argo/France and Megan Scanderbeg from SCRIPPS/USA.
-Each country is represented by a person that is in charge of implemented in his country what has been agreed by the team.
-The ADMT executive committee is composed of at least one representative of each institute involved in Argo data management activities:
+# ADMT Executive Board
+## Terms of Reference
+The Executive Board supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements.
+It is composed of a Primary and an Alternate representative for each of the main ADMT topics. The Primary and Alternate representatives coordinate so that at least one will attend the Executive Board meetings. Both representatives can attend the same meetings if both are available.
 
-- National Data centers (DACs)
-- Delayed mode operators (DM)
-- Argo Regional centers (ARC)
-- Global data centers (GDAC)
-- Global data repository center (GADR)
+On each topic the Primary and Alternate representatives are in charge of working with the ADMT members on the actions linked to their topic and monitoring progress:
+•	Identify issues and possible solutions to be discussed at the Executive Board meetings and at the ADMT meetings.
+•	Ensure effective communications with various user groups via outreach activities.
+•	Ensure Argo data adhere to the FAIR data principles.
 
-The ADMT executive committee coordinates the data management activities to ensure an integrated access to Argo data independant to where it's processed. 
-It defines:
-
-- the Argo data management infrastructure and the role of each component
-- the data formats
-- the quality control procedures both in real-tine and delayed mode
-
-It reports to the Argo Steering Team (AST) on data management issues.
+## Members
+| Role | Primary | Alternate |
+|---|---|---|
+| Argo Data Management Chairs | Megan Scanderbeg<br>Claire Gourcuff |  |
+| Argo Director | Breck Owens |  |
+| Argo Steering Team Chairs | Susan Wijffels<br>Brian King |  |
+| BGC Mission | Catherine Schmechtig<br>Tanya Maurer |  |
+| Technical Coordination/Monitoring | Victor Turpin<br>Orens De Fommervault |  |
+| GDACs | Thierry Carval<br>Michael Frost |  |
+| Delay Mode Operators | Annie Wong<br>Cécile Cabanes |  |
+| DACs | Claudia Schmid<br>Anh Tran |  |
+| ARCs | Uday Bhaskar<br>Shigeki Hosoda |  |
+| GADR | Tim Boyer |  |
+| Format / User Manual | Thierry Carval<br>Annie Wong |  |
 
 
 # Meetings and reports
