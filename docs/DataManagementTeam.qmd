@@ -112,7 +112,7 @@ On each topic the Primary and Alternate representatives are in charge of working
 
 | Meeting |  | location |  | date |  | link |
 |---|---|---|---|
-| 25th Argo Data Management | Trieste | 21-25 Oct 2024 | | 
+| 25th Argo Data Management | Trieste | 21-25 Oct 2024 |[ADMT-25 report](https://doi.org/10.13155/104797){target="_blank"} | 
 | 24th Argo Data Management | Hobart | 23-27 Oct 2023 | [ADMT-24 report (includes BGC session)](/docs/Report/ADMT24-Report-Final.pdf)| |
 | 23rd Argo Data Management | Miami | 8-10-Dec 2022 | [ADMT-23 report](/docs/Report/ADMT23-2022-ADMT-23report-VF.pdf)|
 | 22nd Argo Data Management | Virtual meeting | 8-10-Dec 2021 | [ADMT-22 report](/docs/Report/ADMT22-2022-ADMT-22report-VF.pdf)|
