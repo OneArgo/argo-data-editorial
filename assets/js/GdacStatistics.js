@@ -4,7 +4,7 @@ $(function () {
 	var height= 175000;
 	var sorted_collection = {};
 	
-	$.getJSON("/assets/json/histogram_gdac.json", function(data) {
+	$.getJSON("https://co.ifremer.fr/co/co040702/co-argoGdac/json/histogram_gdac.json", function(data) {
 		var series = [];
 		var series_all_axes = [];
 		//Tri des données
@@ -117,7 +117,7 @@ $(function () {
 		}
 	});
 
-	$.getJSON("/assets/json/histogram_gdac_delayed.json", function(data) {
+	$.getJSON("https://co.ifremer.fr/co/co040702/co-argoGdac/json/histogram_gdac_delayed.json", function(data) {
 		var series = [];
 		var series_available = [];
 		var delayed_values = [];
@@ -268,7 +268,7 @@ $(function () {
 		}
 	});
 
-	$.getJSON("/assets/json/platform_pie.json", function(data) {
+	$.getJSON("https://co.ifremer.fr/co/co040702/co-argoGdac/json/platform_pie.json", function(data) {
 		var donnee = [];
 		if ($("#active_pie_graph").length > 0){
 			//Tri des données
