@@ -8,15 +8,15 @@ title: "Documentation"
 
 # Argo data formats
 - The Argo data formats are described in the "Argo user's manual" [https://dx.doi.org/10.13155/29825](https://dx.doi.org/10.13155/29825){target="_blank"}
-- [Argo physical parameters list: core-Argo and BGC-Argo](Documentation/argo-parameters-list-core-and-b_20240912.xlsx){target="_blank"}
+- [Argo physical parameters list: core-Argo and BGC-Argo](docs/argo-parameters-list-core-and-b_20240912.xlsx){target="_blank"}
 - Argo user manual for technical files
-  - [Technical parameters names](Documentation/ArgoTechnicalParameterNames_v8.3.xlsx){target="_blank"}
-  - [Technical parameters naming convention rules](Documentation/Technical_Naming_Convention_rules_V4.doc){target="_blank"}
-  - [Technical and configuration parameters units](Documentation/TableTechAndConfUnitsV2.3.xlsx){target="_blank"}
+  - [Technical parameters names](docs/ArgoTechnicalParameterNames_v8.3.xlsx){target="_blank"}
+  - [Technical parameters naming convention rules](docs/Technical_Naming_Convention_rules_V4.doc){target="_blank"}
+  - [Technical and configuration parameters units](docs/TableTechAndConfUnitsV2.3.xlsx){target="_blank"}
 - Argo metadata files
-  - [Configuration parameter names, core-Argo](Documentation/Core_Argo_ConfigurationParameterNames_20220801.xlsx){target="_blank"}
-  - [Configuration parameter names, BGC-Argo](Documentation/Bio_Argo_Configuration_Parameter_Names_V1.0_20241219.xlsx){target="_blank"}
-- [Surface pressure correction table](Documentation/SurfacePressureCorrectionTable.xls){target="_blank"}
+  - [Configuration parameter names, core-Argo](docs/Core_Argo_ConfigurationParameterNames_20220801.xlsx){target="_blank"}
+  - [Configuration parameter names, BGC-Argo](docs/Bio_Argo_Configuration_Parameter_Names_V1.0_20241219.xlsx){target="_blank"}
+- [Surface pressure correction table](docs/SurfacePressureCorrectionTable.xls){target="_blank"}
 
 # Quality control
 - Argo quality control manual for CTD and trajectory data [https://dx.doi.org/10.13155/33951](https://dx.doi.org/10.13155/33951){target="_blank"}
@@ -31,7 +31,7 @@ title: "Documentation"
 # Cookbooks, Core-Argo
 - Argo DAC profile cookbook [https://dx.doi.org/10.13155/41151](https://dx.doi.org/10.13155/41151){target="_blank"}
 - Argo DAC trajectory cookbook [https://dx.doi.org/10.13155/29824](https://dx.doi.org/10.13155/29824){target="_blank"}
-- [Common method for determining position and Time and attribute the appropriate QC](Documentation/Method-Position-Time-QC.pdf){target="_blank"}
+- [Common method for determining position and Time and attribute the appropriate QC](docs/Method-Position-Time-QC.pdf){target="_blank"}
 - Core-Argo DMQC cookbook [https://doi.org/10.13155/78994](https://doi.org/10.13155/78994){target="_blank"}
  
 # Cookbooks, BGC-Argo

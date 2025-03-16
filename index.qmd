@@ -1,34 +1,13 @@
 ---
-hide-description: true
-section-divs: false
-toc: false
-format:
-    html:
-        theme: yeti
-        css:
-            - assets/css/index.css
-            - assets/css/styles.css
----
-::: {.column-screen}
-::: {.hero-banner}
-::: {.column-page}
-::: {.hero-banner}
-::: {.content-block}
-::: {.hero-text}
----
 title: ADMT - Argo data management team
-lightbox: true
 ---
 We provide access to Argo data, we document data processing, formats and quality control procedures.
 
-- More information on Argo ? [visit Argo program](https://argo.ucsd.edu/)<br>
+- More information on Argo ? [visit Argo program](https://argo.ucsd.edu/){target="_blank"}<br>
 - A question ? [contact argo.net](mailto:support@argo.net)<br>
 
 
 # How to acknowledge Argo data ?
 Since Argo data are freely available, we kindly request that the following acknowledgement be included in any publication or product that utilizes Argo data:  
 *"These data were collected and made freely available by the International Argo Program and the national programs that contribute to it. ([https://argo.ucsd.edu](https://argo.ucsd.edu), [https://www.ocean-ops.org](https://www.ocean-ops.org)). The Argo Program is part of the Global Ocean Observing System."*
-
-
-
 
