@@ -46,135 +46,149 @@ The free-moving nature of profiling floats means that most float measurements ar
 ### Latest version of the Argo reference database
 The CTD reference database for Argo is updated on a yearly bases by Coriolis team or when there are enough new data to justify an upgrade. The CTD are provided by the PIs, the ARC, Clivar Hydrographic Center and NODC/USA. In areas with poor CTD data, good Argo profiles are used for the delayed mode QC. This Argo reference database is updated by SCRIPPS (J Gilson).
 
-Access to reference databases:
+**Access to reference databases**  
 Because the CTD database may contain CTD data that is not yet freely available, access is restricted to those performing DMQC on the data. To request access, email codac@ifremet.fr.
 
-December 2022
+**December 2022**
 A new version of the ARGO climatology (ARGO_for_DMQC_2022V03) is available on the ftp site.
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2022V03_media_mosaic.png" alt="Argo climatology 2022-12" style="max-width: 100%;">
+</div>
 
-January 2022
+
+**January 2022**
 A new version of the ARGO climatology (ARGO_for_DMQC_2021V03) is available on the ftp site.
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2021V03_media_mosaic.png" alt="Argo climatology 2022-01" style="max-width: 100%;">
+</div>
 
-Argo Reference database 2021V03
-
-December 2021
+**December 2021**
 A new version of the CTD reference database (2021V02) is available on the ftp site. This version takes into account some corrections following the feedback received by the users. Some CTDs have also been added: CTDs provided by scientists, CTDs made during float deployments and some GO-SHIP CTDs retrieved from the CCHDO website.
 
-CTD Reference Database 2021V02
-CTD Reference Database 2021V02
+<div style="text-align: center;">
+  <img src="/assets/images/CTD-Reference-Database-2021V02_media_mosaic.png" alt="CTD Reference Database 2021V02" style="max-width: 100%;">
+</div>
 
-March 2021
-A new version of the CTD reference database (2021V01) is available on the ftp site. This version takes into account the GO-SHIP Easy Ocean dataset (flag GSD in QCLEVEL), dedicated to delayed mode deep Argo floats data, as well as somes new CTD (CCHDO, scientists,...). 
+**March 2021**
+A new version of the CTD reference database (2021V01) is available on the ftp site. This version takes into account the GO-SHIP Easy Ocean dataset (flag GSD in QCLEVEL), dedicated to delayed mode deep Argo floats data, as well as somes new CTD (CCHDO, scientists,...).
+<div style="text-align: center;">
+  <img src="/assets/images/CTD-Reference-Database-2021V01_media_mosaic.png" alt="CTD Reference Database 2021V01" style="max-width: 100%;">
+</div>
 
-CTD Reference Database 2021V01
-CTD Reference Database 2021V01
+**January 2022**
+A new version of the ARGO climatology (ARGO_for_DMQC_2021V03) is available on the ftp site.
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2021V03_media_mosaic.png" alt="Argo climatology 2022-01" style="max-width: 100%;">
+</div>
 
-Ifremer/Coriolis
-April 2015
 
+**April 2015**
 A new version of the ARGO climatology (ARGO_for_DMQC_2015V01) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2015V01_media_mosaic.png" alt="Argo climatology 2015V01" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2015V01
-Argo Reference Database 2015V01
-
-Ifremer/Coriolis
-
-January 2015
+**January 2015**
 A new version of the ARGO climatology (ARGO_for_DMQC_2014V04) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2014V04_content_embed_medium.gif" alt="Argo climatology 2014V04" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2014V04
-Argo Reference Database 2014V04
 
-Ifremer/Coriolis
-
-December 2014
+**December 2014**
 A new version of the CTD reference database (2014V01) is available on the ftp site. This version takes into account somes new CTD (CCHDO, scientists) and a detailled control check on boxes of the area 1. (others areas will be corrected in next versions).
+<div style="text-align: center;">
+  <img src="/assets/images/CTD-Reference-Database-2014V01_media_mosaic.png" alt="CTD Reference Database 2014V01" style="max-width: 100%;">
+</div>
 
-CTD Reference Database 2014V01
-CTD Reference Database 2014V01
 
-
-October 2014
+**October 2014**
 A new version of the ARGO climatology (ARGO_for_DMQC_2014V03) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2014V03_content_embed_medium.gif" alt="Argo climatology 2014V03" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2014V03
-Argo Reference Database 2014V03
 
-
-July 2014
+**July 2014**
 A new version of the ARGO climatology (ARGO_for_DMQC_2014V02) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2014V02_content_embed_medium.gif" alt="Argo climatology 2014V02" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2014V02
-Argo Reference Database 2014V02
 
-January 2014
+**January 2014**
 A new version of the ARGO climatology (ARGO_for_DMQC_2013V04) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2013V04_content_embed_medium.gif" alt="Argo climatology 2013V04" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2013V04
-Argo Reference Database 2013V04
 
-
-October 2013
+**October 2013**
 A new version of the ARGO climatology (ARGO_for_DMQC_2013V03) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2013V03_content_embed_medium.gif" alt="Argo climatology 2013V03" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2013V03
-Argo Reference Database 2013V03
 
-
-March 2013
+**March 2013**
 A new version of the CTD reference database (2013V01) is available on the ftp site. This version takes into account update from WOD2009 and some corrections on data.
+<div style="text-align: center;">
+  <img src="/assets/images/CTD-Reference-Database-2013V01_content_embed_small.png" alt="CTD reference database 2013V01" style="max-width: 100%;">
+</div>
 
-CTD Reference Database 2013V01
-CTD Reference Database 2013V01
 
-Ifremer/Coriolis
-
- 
-
-July 2012
+**July 2012**
 A new version of the ARGO climatology (ARGO_for_DMQC_2012V02) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2012-V02_content_embed_small.gif" alt="Argo climatology 2012V02" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2012 V02
-Argo Reference Database 2012 V02
 
-
-March 2012
+**March 2012**
 A new version of the CTD reference database (2012V01) is available on the ftp site. This version takes into account update from WOD2009 and some new CTD from scientists.
+<div style="text-align: center;">
+  <img src="/assets/images/CTD-Reference-Database-2012V01_content_embed_small.png" alt="CTD Reference Database 2012V01" style="max-width: 100%;">
+</div>
 
-CTD Reference Database 2012V01
-CTD Reference Database 2012V01
 
-
-March 2011
+**March 2011**
 A new version of the CTD reference database (2010V02) is available on the ftp site. This version takes into account correction done on CTD data from the version 2010V01 and some new CTD from scientists.
+<div style="text-align: center;">
+  <img src="/assets/images/CTD-Reference-Database-2010-V02_medium.png" alt="CTD Reference Database 2010V02" style="max-width: 100%;">
+</div>
 
-CTD Reference Database 2010 V02
-Coriolis
-
-December 2010
+**December 2010**
 A new version of the ARGO climatology (ARGO_for_DMQC_2010V04) is available on the ftp site
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2010-V04_medium.gif" alt="Argo climatology 2010V04" style="max-width: 100%;">
+</div>
 
-Argo Reference Database 2010 V04
-Coriolis
-
-April 2010
+**April 2010**
 A new version of the ARGO climatology (ARGO_for_DMQC_2010V01) is available on the ftp site
-
-Argo Reference Database 2010 V01
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-Reference-Database-2010-V01_medium.jpg" alt="Argo climatology 2010V01" style="max-width: 100%;">
+</div>
  
 
-February 2010
+**February 2010**
 A new version of the CTD reference database is available on the ftp site. This version takes into account the CTD data from the WOD2009.
+<div style="text-align: center;">
+  <img src="/assets/images/CTD-reference-database-2010V1_medium.png" alt="CTD Reference Database 2010V01" style="max-width: 100%;">
+</div>
 
-CTD reference database 2010V1
 
-July 2009
-A new version of the ARGO climatology (ARGO_for_DMQC_2009V02) is available on the ftp site
+**July 2009**
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-profile-reference-database-October-2008_medium.gif" alt="CTD Reference Database 2008" style="max-width: 100%;">
+</div>
 
 Argo profile reference database October 2008
  
 
-July 2008
+**July 2008**
+<div style="text-align: center;">
+  <img src="/assets/images/Argo-CTD-Reference-Data-base-July-2008_medium.png" alt="CTD Reference Database 2008" style="max-width: 100%;">
+</div>
 Argo CTD Reference Data base July 2008
  
 
