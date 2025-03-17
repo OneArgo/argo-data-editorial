@@ -85,7 +85,7 @@ A new version of the ARGO climatology (ARGO_for_DMQC_2021V03) is available on th
 **April 2015**
 A new version of the ARGO climatology (ARGO_for_DMQC_2015V01) is available on the ftp site
 <div style="text-align: center;">
-  <img src="/assets/images/Argo-Reference-Database-2015V01_media_mosaic.png" alt="Argo climatology 2015V01" style="max-width: 100%;">
+  <img src="/assets/images/Argo-Reference-Database-2015V01_content_embed_medium.gif" alt="Argo climatology 2015V01" style="max-width: 100%;">
 </div>
 
 **January 2015**
@@ -98,7 +98,7 @@ A new version of the ARGO climatology (ARGO_for_DMQC_2014V04) is available on th
 **December 2014**
 A new version of the CTD reference database (2014V01) is available on the ftp site. This version takes into account somes new CTD (CCHDO, scientists) and a detailled control check on boxes of the area 1. (others areas will be corrected in next versions).
 <div style="text-align: center;">
-  <img src="/assets/images/CTD-Reference-Database-2014V01_media_mosaic.png" alt="CTD Reference Database 2014V01" style="max-width: 100%;">
+  <img src="/assets/images/CTD-Reference-Database-2014V01_content_embed_medium.png" alt="CTD Reference Database 2014V01" style="max-width: 100%;">
 </div>
 
 
