@@ -46,7 +46,7 @@ format:
       - assets/js/script.js.html
 
 resources:
-  - "assets/json/*.json"
+  - "assets/json/"
   - "assets/images/"
   - "assets/js/"
 

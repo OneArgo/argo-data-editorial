@@ -59,7 +59,7 @@ A new version of the ARGO climatology (ARGO_for_DMQC_2022V03) is available on th
 **January 2022**
 A new version of the ARGO climatology (ARGO_for_DMQC_2021V03) is available on the ftp site.
 <div style="text-align: center;">
-  <img src="/assets/images/Argo-Reference-Database-2021V03_media_mosaic.png" alt="Argo climatology 2022-01" style="max-width: 100%;">
+  <img src="/assets/images/Argo-Reference-database-2021V03_media_mosaic.png" alt="Argo climatology 2022-01" style="max-width: 100%;">
 </div>
 
 **December 2021**
