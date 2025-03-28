@@ -78,7 +78,7 @@ Each country is represented by one or several persons in charge of Argo data man
 | USA | Delayed Mode Operator | Pelle Robbins | Woods Hole Oceanographic Institution 266 Woods Hole Road Woods Hole, MA 02543-1050 U.S.A. | probbins@whoi.edu |
 | USA | BGC Argo Delayed Mode Operator | Tanya Maurer | Monterey Bay Aquarium Research Institute, 7700 Sandholdt Rd, Moss Landing, CA 95039 | tmaurer@mbari.org |
 | USA | BGC Argo Delayed Mode Operator | Josh Plant | Monterey Bay Aquarium Research Institute, 7700 Sandholdt Rd, Moss Landing, CA 95039 | jplant@mbari.org |
-| USA | Global Argo Data Repository | Tim Boyer | National Centers for Environmental Information, 1315 East West Highway Silver Spring MD, 201910 USA | tim.boyer@noaa.gov |
+| USA | Global Argo Data Repository | Zhankun Wang | National Centers for Environmental Information, 1315 East West Highway Silver Spring MD, 201910 USA | zhankun.wang@noaa.gov |
 
 # ADMT Executive Board
 ## Terms of Reference
@@ -102,7 +102,7 @@ On each topic the Primary and Alternate representatives are in charge of working
 | Delay Mode Operators | Annie Wong<br>Cécile Cabanes |  |
 | DACs | Claudia Schmid<br>Anh Tran |  |
 | ARCs | Uday Bhaskar<br>Shigeki Hosoda |  |
-| GADR | Tim Boyer |  |
+| GADR | Zhankun Wang |  |
 | Format / User Manual | Thierry Carval<br>Annie Wong |  |
 
 
