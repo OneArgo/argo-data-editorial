@@ -20,29 +20,33 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: docs/News/News.qmd
+      - href: news/News.qmd
         text: News
-      - href: docs/DataAccess.qmd
+      - href: DataAccess.qmd
         text: Data
-      - href: docs/Documentation.qmd
+      - href: Documentation.qmd
         text: Documentation
-      - href: docs/DataManagementTeam.qmd
+      - href: DataManagementTeam.qmd
         text: ADMT
-      - href: docs/Dmqc.qmd
+      - href: Dmqc.qmd
         text: DMQC
-      - href: docs/ArgoVocabulary.qmd
+      - href: ArgoVocabulary.qmd
         text: Vocabularies
-      - href: docs/Monitoring.qmd
+      - href: Monitoring.qmd
         text: Monitoring
 
 format:
   html:
     theme:
-        light: yeti
-        dark: darkly
+      light: yeti
+      dark: darkly
     css: assets/css/styles.css
     toc: true
+    include-after-body:
+      - assets/js/script.js.html
 
 resources:
-  - "assets/json/*.json"        # Inclut tout le répertoire 'data' (fichiers et sous-répertoires)
+  - "assets/json/"
+  - "assets/images/"
+  - "assets/js/"
 
