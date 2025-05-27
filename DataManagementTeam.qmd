@@ -53,24 +53,25 @@ Each country is represented by one or several persons in charge of Argo data man
 | GERMANY | Delayed Mode Operator | Birgit Klein | Bundesamt fuer Seeschifffahrt und Hydrographie (BSH) Bernhard-Nocht-Str. 78 20359 Hamburg, Germany | birgit.klein@bsh.de |
 | GERMANY | BGC Delayed Mode Operator | Henry Bittig | Leibniz Institute for Baltic Sea Research Warnemünde, Seestraße 15, 18119 Rostock-Warnemünde, Germany | henry.bittig@io-warnemuende.de |
 | INDIA | DAC & I-ARC | TVS Udaya Bhaskar | Indian National Centre for Ocean Information Services, Post Box No:21,"Ocean Valley",Gajularamaram B.O, Via- IDA Jeedimetla S.O, Hyderabad - 500 055, India. | uday@incois.gov.in |
+| INDIA | DAC & I-ARC | Pavan Kumar J. | Indian National Centre for Ocean Information Services, Post Box No:21,"Ocean Valley",Gajularamaram B.O, Via- IDA Jeedimetla S.O, Hyderabad - 500 055, India. | pavankumar.j@incois.gov.in |
 | ITALY | Delayed Mode Operator and MEDArgo-ARC | Giulio Notarstefano | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | gnotarstefano@inogs.it |
 | ITALY | Delayed Mode Operator and MEDArgo-ARC | Antonella Gallo | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | agallo@inogs.it |
-| JAPAN | DAC | Chihiro Kawamura | Japan Meteorological Agency 3-6-9 Toranomon, Minato-ku, Tokyo, 105-8341, Japan | argoadmin@climar.kishou.go.jp<br>c_kawamura@met.kishou.go.jp |
+| JAPAN | DAC | Mayu Yamamoto | Japan Meteorological Agency 3-6-9 Toranomon, Minato-ku, Tokyo, 105-8341, Japan | argoadmin@climar.kishou.go.jp<br>mayu_yamamoto@met.kishou.go.jp |
 | JAPAN | Delayed Mode Operator | Kanako Sato | JAMSTEC, 2-15 Natsushima-cho, Yokosuka, 237-0061 Japan | k_sato@jamstec.go.jp |
 | JAPAN | P-ARC | Shigeki Hosoda | JAMSTEC, 2-15 Natsushima-cho, Yokosuka, 237-0061 Japan | hosodas@jamstec.go.jp |
 | SOUTH KOREA | DAC KMA | Ki-Ryong Kang | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | krkang@kma.go.kr |
+| SOUTH KOREA | DAC KMA | HyeongJun Jo | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | hjjo543@gmail.com |
 | SOUTH KOREA | Delayed Mode Operator | Sora Kim | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | srkim1227@knu.ac.kr |
 | SOUTH KOREA | Delayed Mode Operator | Yumi Song | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | ymsong@knu.ac.kr |
-| SOUTH KOREA | DAC KIOST/KORDI | Sung-Dae Kim | Korea Institute of Ocean Science & Technology, 787 Haean-ro(st), Ansan, Gyeonggi, 15627, Korea | sdkim@kiost.ac.kr |
+| SOUTH KOREA | DAC KIOST/KORDI | Kyunghee Oh | Korea Institute of Ocean Science & Technology, 787 Haean-ro(st), Ansan, Gyeonggi, 15627, Korea | khoh@kiost.ac.kr |
 | SPAIN | Delayed Mode Operator | Alberto Gonzalez Santa | Instituto Español de Oceanografía, Centro Oceanográfico de Canarias, Dársena pesquera de San Andrés, parcela 8, 38180 Santa Cruz de Tenerife Spain | alberto.gonzalez@ieo.es |
 | SPAIN | Delayed Mode Operator | Lara Diaz | SOCIB | ldiaz@socib.es |
 | UK | DAC | Clare Bellingham | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | crbilhm@bodc.ac.uk |
-| UK | Core/Deep/BGC DMQC, SO-ARC | Kamila Walicka | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | kamwal@bodc.ac.uk |
-| UK | DAC, BGC DMQC, NERC Vocabulary Server | Violetta Paba | National Oceanography Centre, European Way, Southampton, SO14 3ZH, United Kingdom | vpaba@bodc.ac.uk |
+| UK | DAC, Core/Deep/BGC DMQC, SO-ARC | Kamila Walicka | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | kamwal@bodc.ac.uk |
 | UK | SO-ARC, NERC Vocabulary Server | Roseanna Wright | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | roswri@bodc.ac.uk |
 | UK | BGC and Deep Argo PI | Brian King | National Oceanography Centre, European Way, Southampton, SO14 3ZH, United Kingdom | bak@noc.ac.uk |
 | UK | BGC Argo | Giorgio Dall'Olmo | Plymouth Marine Laboratory, Prospect Place, The Hoe, Plymouth PL1 3DH, United Kingdom | gdal@pml.ac.uk |
-| USA | Core and BGC DAC | Claudia Schmid | NOAA/AOML/PHOD 4301 Rickenbacker Causeway Miami, Florida 33149 USA | Claudia.Schmid@noaa.gov |
+| USA | Core and BGC DAC | Candice Hall | NOAA/AOML/PHOD 4301 Rickenbacker Causeway Miami, Florida 33149 USA | candice.hall@noaa.gov<br>AOML.ARGO@noaa.gov |
 | USA | Delayed Mode Operator | Annie Wong | School of Oceanography University of Washington 1503 NE Boat Street Seattle, WA 98195 | apsw@uw.edu |
 | USA | Delayed Mode Operator | Matthew Alkire | School of Oceanography University of Washington 1503 NE Boat Street Seattle WA 98195 | alkirem@uw.edu |
 | USA | Delayed Mode Operator | John Gilson | Scripps Institution of Oceanography, UCSD 9500 Gilman Drive La Jolla CA, 92093 | jgilson@ucsd.edu |
