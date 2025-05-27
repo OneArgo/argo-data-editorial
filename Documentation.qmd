@@ -46,7 +46,6 @@ title: "Documentation"
 
 # Cookbooks, GDAC
 - Description of the Argo GDAC File Checks: Data Format and Consistency Checks [https://dx.doi.org/10.13155/46120](https://dx.doi.org/10.13155/46120){target="_blank"}
-- Description of the Argo GDAC BGC File Merge Process [https://dx.doi.org/10.13155/52154](https://dx.doi.org/10.13155/52154){target="_blank"}
 - BGC-Argo synthetic profile file processing and format on Coriolis GDAC [https://doi.org/10.13155/55637](https://doi.org/10.13155/55637){target="_blank"}
 - Argo GDAC cookbook [https://doi.org/10.13155/46202](https://doi.org/10.13155/46202){target="_blank"}
 

@@ -1,42 +1,38 @@
 ---
-title: "Argo Vocabulary"
+title: "Vocabularies"
 ---
-Argo vocabularies
-Argo vocabularies, originally known as reference tables, are used extensively to constrain the contents of the Argo NetCDF files, and to enhance the interoperability of the Argo data system. The Argo Data Management Team chose in 2019 to use the NERC Vocabulary Server (NVS), to further enhance Argo data interoperability
+# Argo vocabularies
+Originally known as reference tables, they are used extensively to constrain the contents of the Argo NetCDF files, and to enhance the interoperability of the Argo data system. The Argo Data Management Team chose in 2019 to use the NERC Vocabulary Server (NVS), to further enhance Argo data interoperability
 
 Argo vocabularies are always evolving, to reflect evolution of Argo technology. These evolutions are managed by the Argo Vocabulary Task Team (AVTT), under the umbrella of the ADMT.
 
- 
-
-The NVS
+## The NVS
 The NERC Vocabulary Server (NVS) provides access to lists of standardised terms that cover a broad spectrum of the oceanographic domain and associated communities. The NVS is technically-managed and hosted by the British Oceanographic Data Centre (BODC), a national facility that is part of the UK’s National Oceanography Centre (NOC). Key funding sources for the NVS include the UK’s Natural Environment Research Council (NERC) as well as European Union’s initiatives such as the Open Network for Marine Environmental Data (NETMAR) programme, the SeaDataNet / SeaDataCloud projects and the Horizons 2020 ENVRI-FAIR project.
 
 The NVS conforms to a set of standards designed to be compatible with Semantic Web tools and technologies, allowing its content to support the interoperability of datasets on the Web known as Linked Data. The NVS can be accessed via content negotiation (as RDF/XML), SPARQL endpoint or SOAP web services, upon which browser access is built.
-
  
 
-VocPrez
+## VocPrez
 The NVS web user interface is called VocPrez, and can be accessed through the link vocab.nerc.ac.uk. VocPrez hosts general information on controlled vocabularies, a complete list of NVS collections (under ‘Vocabularies’) and Simple Knowledge Organization System (SKOS) concept schemes (under ‘Thesauri’), an interactive SPARQL endpoint to allow for machine-readable NVS query responses, and link to other tools hosted on the BODC website.
 
 One of the most useful features of VocPrez is the NVS Search interface. This allows a user to search for a term (aka ‘concept’) in a vocabulary collection; search for a term across vocabulary collections; search for vocabulary collections; and explore mappings (i.e. relationships) of terms linking different collections. Search results may be downloaded in tab-delimited (tsv) as well as comma-delimited (csv) formats; moreover, search queries produce search results links that may be bookmarked and shared.
-
  
 
-Argo on the NVS
+## Argo on the NVS
 Argo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: [https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance](https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance), and will display a list of all the Argo collections (or tables) created to date.
 
 Please see below a list of all original Argo reference tables extracted from the Argo User Manual (‘No.’), their corresponding NVS collection IDs (‘Vocab’) and links to the NVS collections themselves as VocPrez search results (‘Search URL’):
 
 Please note that each collection also has a static URL, linked in the ‘Vocabularies’ page on VocPrez: [https://vocab.nerc.ac.uk/collection/?filter=Argo](https://vocab.nerc.ac.uk/collection/?filter=Argo).
 
-## The Argo Vocabulary Task Team (AVTT)
+# The Argo Vocabulary Task Team (AVTT)
 The Argo NVS collections are overseen by a sub-group of the Argo Data Management Team called the Argo Vocabulary Task Team (AVTT). Each AVTT member is responsible for a subset of Argo tables/collections, based on their interest and contributions. AVTT members are the Editors of the tables/collections, in charge of making appropriate changes on the NVS on behalf of the Argo community.
 
 The work of the AVTT is coordinated by an AVTT facilitator and managed in the ArgoVocab repository of the OneArgo github: [https://github.com/OneArgo/ArgoVocabs](https://github.com/OneArgo/ArgoVocabs)
 
 The AVTT meets several times per year in between annual ADMT meetings, to discuss requests from the Argo community for the evolution of Argo vocabularies.
 
-## How to request new entries and suggest changes to Argo vocabulary
+# How to request new entries and suggest changes to Argo vocabulary
 To propose a new Argo code in a vocabulary or initiate a discussion about an existing concept or collection, anyone can open an issue in the ArgoVocabs repository under the OneArgo github:
 
 [https://github.com/OneArgo/ArgoVocabs](https://github.com/OneArgo/ArgoVocabs) 
@@ -49,7 +45,7 @@ All Argo vocabulary issues are visible on the AVTT issues dashboard (a "project"
 
 If you need help or have questions about this process, please contact Danielle Wright or Victor Turpin.
 
-## Resources
+# Resources
 M2M access to the NVS via API (NVS SPARQL endpoint)
 For machine to machine (M2M) access to the Argo Vocabularies on the NVS, the NVS SPARQL endpoint can be used.
 
@@ -62,7 +58,6 @@ For a basic example, please see the "m2m_NVS_sparql.ipynb" file.
 To test, open the file into a Jupyter Notebook; edit lines marked by '# Switch' to select either prefLabel/altLabel, and point to specific Argo vocabularies by inserting its name (e.g. 'R03') where the line is marked by '# Edit'.
 
  
-
 Access to Argo vocabulary in python: argopy.ArgoNVSReferenceTables feature
 ArgoNVSReferenceTables is a feature that easily provides access and search to Argo vocabularies from python:
 
