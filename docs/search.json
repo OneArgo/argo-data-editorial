@@ -21,25 +21,18 @@
     "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
   },
   {
-    "objectID": "news/ParametersUpdate.html",
-    "href": "news/ParametersUpdate.html",
-    "title": "Parameters list updated on 2024-11-05",
+    "objectID": "news/20250605-DocumentUpdate.html",
+    "href": "news/20250605-DocumentUpdate.html",
+    "title": "Documentation: 4 lists now managed in NVS vocabulary server",
     "section": "",
-    "text": "The parameters list was updated"
+    "text": "These 4 documents have been removed from the “Documentation” page. They are now available in the NVS vocabulary server, which is a more suitable place for such documents.\n\nArgo physical parameters list: core-Argo and BGC-Argo R03\nTechnical parameters names R14\nConfiguration parameter names, core-Argo R18\nConfiguration parameter names, BGC-Argo R18"
   },
   {
-    "objectID": "news/BGC-Argo-configurationParameterNames.html",
-    "href": "news/BGC-Argo-configurationParameterNames.html",
+    "objectID": "news/20241219-BGC-Argo-configurationParameterNames.html",
+    "href": "news/20241219-BGC-Argo-configurationParameterNames.html",
     "title": "BGC-Argo configuration parameter names December 2024 release",
     "section": "",
     "text": "On December 19th 2024, Catherine Schmechtig distributed an update of BGC-Argo configuration parameter names.\nThis update is available on Documentation\nA secondary optode sensor on a stick is accepted."
-  },
-  {
-    "objectID": "news/AdmtActions.html",
-    "href": "news/AdmtActions.html",
-    "title": "ADMT actions issued on 2024-11-06",
-    "section": "",
-    "text": "The ADMT actions were updated"
   },
   {
     "objectID": "index.html",
@@ -235,7 +228,7 @@
     "href": "Documentation.html",
     "title": "Documentation",
     "section": "",
-    "text": "How is Argo data management organized ?\n\nA beginners’ guide to accessing Argo data\nArgo data FAQ\n\n\n\nArgo data formats\n\nThe Argo data formats are described in the “Argo user’s manual” https://dx.doi.org/10.13155/29825\nArgo physical parameters list: core-Argo and BGC-Argo\nArgo user manual for technical files\n\nTechnical parameters names\nTechnical parameters naming convention rules\nTechnical and configuration parameters units\n\nArgo metadata files\n\nConfiguration parameter names, core-Argo\nConfiguration parameter names, BGC-Argo\n\nSurface pressure correction table\n\n\n\nQuality control\n\nArgo quality control manual for CTD and trajectory data https://dx.doi.org/10.13155/33951\nArgo quality control manual for dissolved oxygen concentration https://doi.org/10.13155/46542\nBGC-Argo quality control manual for biogeochemical data https://dx.doi.org/10.13155/40879\nBGC-Argo quality control manual for chlorophyll-A concentration https://dx.doi.org/10.13155/35385\nBGC-Argo quality control manual for nitrate concentration https://doi.org/10.13155/84370\nBGC-Argo quality control for radiometry https://doi.org/10.13155/62466\nBGC-Argo quality control manual for pH https://doi.org/10.13155/97828\nBGC Argo quality control manual for particles backscattering https://doi.org/10.13155/60262\n\n\n\nCookbooks, Core-Argo\n\nArgo DAC profile cookbook https://dx.doi.org/10.13155/41151\nArgo DAC trajectory cookbook https://dx.doi.org/10.13155/29824\nCommon method for determining position and Time and attribute the appropriate QC\nCore-Argo DMQC cookbook https://doi.org/10.13155/78994\n\n\n\nCookbooks, BGC-Argo\n\nProcessing Argo oxygen data at the DAC level cookbook https://doi.org/10.13155/39795\nBGC-Argo processing particle backscattering at the DAC level https://dx.doi.org/10.13155/39459\nBGC-Argo processing chlorophyll-A concentration at the DAC level https://dx.doi.org/10.13155/39468\nBGC-Argo processing Argo measurement timing information at the DAC level https://dx.doi.org/10.13155/47998\nProcessing BGC-Argo CDOM concentration at the DAC level https://doi.org/10.13155/54541\nProcessing Bio-Argo nitrate concentration at the DAC Level https://dx.doi.org/10.13155/46121\nProcessing BGC-Argo Radiometric data at the DAC level https://doi.org/10.13155/51541\nProcessing BGC-Argo pH data at the DAC level https://doi.org/10.13155/57195\n\n\n\nCookbooks, GDAC\n\nDescription of the Argo GDAC File Checks: Data Format and Consistency Checks https://dx.doi.org/10.13155/46120\nBGC-Argo synthetic profile file processing and format on Coriolis GDAC https://doi.org/10.13155/55637\nArgo GDAC cookbook https://doi.org/10.13155/46202"
+    "text": "How is Argo data management organized ?\n\nA beginners’ guide to accessing Argo data\nArgo data FAQ\n\n\n\nArgo data formats\n\nThe Argo data formats are described in the “Argo user’s manual” https://dx.doi.org/10.13155/29825\nArgo user manual for technical files\n\nTechnical parameters naming convention rules\nTechnical and configuration parameters units\n\nArgo metadata files\n\nConfiguration parameter names, core-Argo\nConfiguration parameter names, BGC-Argo\n\nSurface pressure correction table\n\n\n\nQuality control\n\nArgo quality control manual for CTD and trajectory data https://dx.doi.org/10.13155/33951\nArgo quality control manual for dissolved oxygen concentration https://doi.org/10.13155/46542\nBGC-Argo quality control manual for biogeochemical data https://dx.doi.org/10.13155/40879\nBGC-Argo quality control manual for chlorophyll-A concentration https://dx.doi.org/10.13155/35385\nBGC-Argo quality control manual for nitrate concentration https://doi.org/10.13155/84370\nBGC-Argo quality control for radiometry https://doi.org/10.13155/62466\nBGC-Argo quality control manual for pH https://doi.org/10.13155/97828\nBGC Argo quality control manual for particles backscattering https://doi.org/10.13155/60262\n\n\n\nCookbooks, Core-Argo\n\nArgo DAC profile cookbook https://dx.doi.org/10.13155/41151\nArgo DAC trajectory cookbook https://dx.doi.org/10.13155/29824\nCommon method for determining position and Time and attribute the appropriate QC\nCore-Argo DMQC cookbook https://doi.org/10.13155/78994\n\n\n\nCookbooks, BGC-Argo\n\nProcessing Argo oxygen data at the DAC level cookbook https://doi.org/10.13155/39795\nBGC-Argo processing particle backscattering at the DAC level https://dx.doi.org/10.13155/39459\nBGC-Argo processing chlorophyll-A concentration at the DAC level https://dx.doi.org/10.13155/39468\nBGC-Argo processing Argo measurement timing information at the DAC level https://dx.doi.org/10.13155/47998\nProcessing BGC-Argo CDOM concentration at the DAC level https://doi.org/10.13155/54541\nProcessing Bio-Argo nitrate concentration at the DAC Level https://dx.doi.org/10.13155/46121\nProcessing BGC-Argo Radiometric data at the DAC level https://doi.org/10.13155/51541\nProcessing BGC-Argo pH data at the DAC level https://doi.org/10.13155/57195\n\n\n\nCookbooks, GDAC\n\nDescription of the Argo GDAC File Checks: Data Format and Consistency Checks https://dx.doi.org/10.13155/46120\nBGC-Argo synthetic profile file processing and format on Coriolis GDAC https://doi.org/10.13155/55637\nArgo GDAC cookbook https://doi.org/10.13155/46202"
   },
   {
     "objectID": "Monitoring.html",
@@ -294,24 +287,17 @@
     "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
   },
   {
-    "objectID": "news/ArgoAnnualReport2024.html",
-    "href": "news/ArgoAnnualReport2024.html",
-    "title": "Argo annual report 2024",
+    "objectID": "news/20250526-UserManual.html",
+    "href": "news/20250526-UserManual.html",
+    "title": "Argo user’s manual v3.42.0 release",
     "section": "",
-    "text": "The report waspublished on xxx : https://doixxx.org"
+    "text": "Here is the version 3.42.0 of Argo user’s manual https://dx.doi.org/10.13155/29825\nIt includes 12 changes:\n\n§2.2.1 optional global attribute “id” contains “Argo GDAC DOI” Argo GDAC data DOI global attribute is optional and recommended https://github.com/nvs-vocabs/ArgoVocabs/issues/43 and https://github.com/OneArgo/ADMT/issues/72\nThroughout the document: added links to individual Reference tables in the NVS\n§2.2.4 §2.3.4 §2.4.4 PI_NAME has a controlled vocabulary https://github.com/OneArgo/ArgoVocabs/issues/6\n§2.4.7.1.1 Float sensor status within Argo program https://github.com/OneArgo/ArgoVocabs/issues/76\n§2.4.7.1 SENSOR_FIRMWARE_VERSION https://github.com/OneArgo/ArgoVocabs/issues/55\n§2.4.5 deployment_platform dimension extended to string128 https://github.com/OneArgo/ArgoVocabs/issues/2#issuecomment-2437421119\n§3.1 add “Argo auxiliary meta-data” data type\n§3.2.1: add a comment to provide examples when *_qc= ‘ ‘ can occur as per https://github.com/OneArgo/ArgoVocabs/issues/21\n§3.22 … §3.28: remove the remaining tyinurl\n§3.11 change from grey list to supplemental sensor exclusion list in reference table 11 https://github.com/OneArgo/ADMT/discussions/70\n§3.33 add PI_NAME reference table\n§6.2 remove greylist paragraph, the sensor exclusion list (greylist) management is internal, documented in the Quality control manual. https://github.com/OneArgo/ADMT/discussions/70"
   },
   {
     "objectID": "news/News.html",
     "href": "news/News.html",
     "title": "News",
     "section": "",
-    "text": "aaa bbb ccc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nADMT actions issued on 2024-11-06\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArgo annual report 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBGC-Argo configuration parameter names December 2024 release\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParameters list updated on 2024-11-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/Test.html#la-suite",
-    "href": "news/Test.html#la-suite",
-    "title": "Test",
-    "section": "La suite",
-    "text": "La suite\nappearance"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\n\n\n\n\nJun 5, 2025\n\n\n\n\n\nDocumentation: 4 lists now managed in NVS vocabulary server\n\n\n\n\n\nweb\n\n\n\n\nMay 26, 2025\n\n\n\n\n\nArgo user’s manual v3.42.0 release\n\n\n\n\n\nmanual\n\n\n\n\nDec 19, 2024\n\n\n\n\n\nBGC-Argo configuration parameter names December 2024 release\n\n\n\n\n\nvocab\n\n\n\n\n\nNo matching items"
   }
 ]

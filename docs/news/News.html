@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -136,7 +136,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -191,154 +191,136 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">News</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">News</h1>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
   </div>
-  
-
-
-</header>
-
-
-<p>aaa bbb ccc</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1731704712305" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../news/AdmtActions.html" class="no-external"></a></p><a href="../news/AdmtActions.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../news/AdmtActions.html" class="no-external"></a></p>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/AdmtActions.html" class="no-external">ADMT actions issued on 2024-11-06</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/AdmtActions.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../news/AdmtActions.html" class="no-external">The ADMT actions were updated</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../news/AdmtActions.html" class="no-external"></a></p><a href="../news/AdmtActions.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1731704436314" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="../news/ArgoAnnualReport2024.html" class="no-external"></a></p><a href="../news/ArgoAnnualReport2024.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../news/ArgoAnnualReport2024.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/ArgoAnnualReport2024.html" class="no-external">Argo annual report 2024</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/ArgoAnnualReport2024.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../news/ArgoAnnualReport2024.html" class="no-external">The report waspublished on xxx : https://doixxx.org</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../news/ArgoAnnualReport2024.html" class="no-external"></a></p><a href="../news/ArgoAnnualReport2024.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1739776105940" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<div class="thumbnail">
-<p><a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external"></a></p><a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external">BGC-Argo configuration parameter names December 2024 release</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external">On December 19th 2024, Catherine Schmechtig distributed an update of BGC-Argo configuration parameter names.<br>
-This update is available on Documentation<br>
-A secondary optode…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external"></a></p><a href="../news/BGC-Argo-configurationParameterNames.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1731704636432" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../news/ParametersUpdate.html" class="no-external"></a></p><a href="../news/ParametersUpdate.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../news/ParametersUpdate.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/ParametersUpdate.html" class="no-external">Parameters list updated on 2024-11-05</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/ParametersUpdate.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../news/ParametersUpdate.html" class="no-external">The parameters list was updated</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../news/ParametersUpdate.html" class="no-external"></a></p><a href="../news/ParametersUpdate.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1739776105946" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<div class="thumbnail">
-<p><a href="../news/Test.html" class="no-external"></a></p><a href="../news/Test.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../news/Test.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/Test.html" class="no-external">Test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../news/Test.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../news/Test.html" class="no-external">appearance</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../news/Test.html" class="no-external"></a></p><a href="../news/Test.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Description
+</th>
+<th>
+Categories
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="d2Vi" data-listing-date-sort="1749074400000" data-listing-file-modified-sort="1749399581688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49" data-listing-title-sort="Documentation: 4 lists now managed in NVS vocabulary server" data-listing-filename-sort="20250605-DocumentUpdate.qmd">
+<td>
+<span class="listing-date">Jun 5, 2025</span>
+</td>
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../news/20250605-DocumentUpdate.html" class="title listing-title">Documentation: 4 lists now managed in NVS vocabulary server</a>
+</td>
+<td>
+<span class="listing-description">These 4 documents have been removed from the “Documentation” page. They are now available in the NVS vocabulary server, which is a more suitable…</span>
+</td>
+<td>
+<span class="listing-categories">web</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="bWFudWFs" data-listing-date-sort="1748210400000" data-listing-file-modified-sort="1749399581701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141" data-listing-title-sort="Argo user’s manual v3.42.0 release" data-listing-filename-sort="20250526-UserManual.qmd">
+<td>
+<span class="listing-date">May 26, 2025</span>
+</td>
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../news/20250526-UserManual.html" class="title listing-title">Argo user’s manual v3.42.0 release</a>
+</td>
+<td>
+<span class="listing-description">Here is the version 3.42.0 of Argo user’s manual https://dx.doi.org/10.13155/29825</span>
+</td>
+<td>
+<span class="listing-categories">manual</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="dm9jYWI=" data-listing-date-sort="1734562800000" data-listing-file-modified-sort="1749399581713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="BGC-Argo configuration parameter names December 2024 release" data-listing-filename-sort="20241219-BGC-Argo-configurationParameterNames.qmd">
+<td>
+<span class="listing-date">Dec 19, 2024</span>
+</td>
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div></span>
+</td>
+<td>
+<a href="../news/20241219-BGC-Argo-configurationParameterNames.html" class="title listing-title">BGC-Argo configuration parameter names December 2024 release</a>
+</td>
+<td>
+<span class="listing-description">On December 19th 2024, Catherine Schmechtig distributed an update of BGC-Argo configuration parameter names.<br>
+This update is available on Documentation<br>…</span>
+</td>
+<td>
+<span class="listing-categories">vocab</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

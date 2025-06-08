@@ -22,9 +22,21 @@
 
 .external-link::after {
     content: " ↗"; /* Ou une icône de votre choix */
-    font-size: 0.8em;
+    font-size: 90%;
+    color: #153561; /* Couleur de l'icône */
   }
 
+body {
+  font-size: 80%; /* Ou 15px, 95%, etc. */
+}
+h1 {
+  font-size: 2.2em; /* Exemple: légèrement plus petit que la taille par défaut */
+  color: #153561;
+}
+h2 {
+  font-size: 1.8em; /* Exemple: légèrement plus petit que la taille par défaut */
+  color: #153561;
+}
 
 /* Icône de lune pour le mode clair */
 body.quarto-light .quarto-color-scheme-toggle > i {
