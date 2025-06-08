@@ -8,9 +8,7 @@ title: "Documentation"
 
 # Argo data formats
 - The Argo data formats are described in the "Argo user's manual" [https://dx.doi.org/10.13155/29825](https://dx.doi.org/10.13155/29825){target="_blank"}
-- [Argo physical parameters list: core-Argo and BGC-Argo](docs/argo-parameters-list-core-and-b_20240912.xlsx){target="_blank"}
 - Argo user manual for technical files
-  - [Technical parameters names](docs/ArgoTechnicalParameterNames_v8.3.xlsx){target="_blank"}
   - [Technical parameters naming convention rules](docs/Technical_Naming_Convention_rules_V4.doc){target="_blank"}
   - [Technical and configuration parameters units](docs/TableTechAndConfUnitsV2.3.xlsx){target="_blank"}
 - Argo metadata files

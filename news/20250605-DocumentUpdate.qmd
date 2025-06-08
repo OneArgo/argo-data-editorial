@@ -1,0 +1,15 @@
+---
+title: "Documentation: 4 lists now managed in NVS vocabulary server"
+date: "2025-06-05"
+categories: [web]
+#image: "chemin/vers/ton/image.jpg"
+---
+These 4 documents have been removed from the "Documentation" page.
+They are now available in the NVS vocabulary server, which is a more suitable place for such documents.
+
+- Argo physical parameters list: core-Argo and BGC-Argo [R03](http://vocab.nerc.ac.uk/collection/R03/current/){target="_blank"}
+- Technical parameters names [R14](http://vocab.nerc.ac.uk/collection/R14/current/){target="_blank"}
+- Configuration parameter names, core-Argo [R18](http://vocab.nerc.ac.uk/collection/R18/current/){target="_blank"}
+- Configuration parameter names, BGC-Argo [R18](http://vocab.nerc.ac.uk/collection/R18/current/){target="_blank"}
+
+

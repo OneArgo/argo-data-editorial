@@ -1,4 +1,0 @@
----
-title: "Parameters list updated on 2024-11-05"
----
-The parameters list was updated
