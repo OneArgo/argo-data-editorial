@@ -1,0 +1,702 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ADMT - Argo data management team",
+    "section": "",
+    "text": "We provide access to Argo data, we document data processing, formats and quality control procedures.\n\nMore information on Argo ? visit Argo program\nA question ? contact argo.net\n\n\nHow to acknowledge Argo data ?\nSince Argo data are freely available, we kindly request that the following acknowledgement be included in any publication or product that utilizes Argo data:\n“These data were collected and made freely available by the International Argo Program and the national programs that contribute to it. (https://argo.ucsd.edu, https://www.ocean-ops.org). The Argo Program is part of the Global Ocean Observing System.”"
+  },
+  {
+    "objectID": "docs/News/News.html",
+    "href": "docs/News/News.html",
+    "title": "News",
+    "section": "",
+    "text": "aaa bbb ccc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nADMT actions issued on 2024-11-06\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArgo annual report 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParameters list updated on 2024-11-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/News/AdmtActions.html",
+    "href": "docs/News/AdmtActions.html",
+    "title": "ADMT actions issued on 2024-11-06",
+    "section": "",
+    "text": "The ADMT actions were updated"
+  },
+  {
+    "objectID": "docs/DataManagementTeam/SystemComponents.html",
+    "href": "docs/DataManagementTeam/SystemComponents.html",
+    "title": "System components",
+    "section": "",
+    "text": "Argo data are processed and distributed through a network involving different actors . • National Centres (DACs) : the data Centres who collect, qualify, process and distribute the float data for which they are responsible. Data are distributed to PIs and the GTS within 24 hours of the float surfacing. They also send the data to the Global Data Centers. • Global Data Centres (GDACS): two distribution points of Argo data distribution on Internet. They are located in Coriolis/Ifremer/France and US GODAE/USA .Coordination between these centres occurs daily. • Delayed Mode Operators: they carry out delayed mode QC and return data to National Centres within a year of observations. • Argo Regional Centres (ARCs ): they check the consistency of the Argo data for a specified geographical area. They also foster the collection of recent CTD data for delayed mode purposes, organize delayed mode QC of floats, provide specific Argo products. • Argo Information Centre (AIC): located at OceanOPS in ToulouseBrest, France, responsible for providing information on the Argo program. • Argo long term archive: data Centre located in NODC/USA in charge of ensuring the long term archive of all the Argo data."
+  },
+  {
+    "objectID": "docs/DataAccess/DataAccess.html",
+    "href": "docs/DataAccess/DataAccess.html",
+    "title": "Data access",
+    "section": "",
+    "text": "Argo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.\n\nftp://ftp.ifremer.fr/ifremer/argo\nhttps://data-argo.ifremer.fr / https://usgodae.org/pub/outgoing/argo\ns3: Argo data are updated daily on https://registry.opendata.aws/argo-gdac-marinedata"
+  },
+  {
+    "objectID": "docs/DataAccess/DataAccess.html#gdac-ftp-https-s3-services",
+    "href": "docs/DataAccess/DataAccess.html#gdac-ftp-https-s3-services",
+    "title": "Data access",
+    "section": "",
+    "text": "Argo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.\n\nftp://ftp.ifremer.fr/ifremer/argo\nhttps://data-argo.ifremer.fr / https://usgodae.org/pub/outgoing/argo\ns3: Argo data are updated daily on https://registry.opendata.aws/argo-gdac-marinedata"
+  },
+  {
+    "objectID": "docs/DataAccess/DataAccess.html#data-format",
+    "href": "docs/DataAccess/DataAccess.html#data-format",
+    "title": "Data access",
+    "section": "Data format",
+    "text": "Data format\nArgo data, metadata, technical data are managed in NetCDF files.\nThe index files list and provide a short description the NetCDF files content. The index files format is ASCII “csv” (comma separated values).\nThe description of the Argo formats, the file naming conventions and more are documented in\n\nArgo user’s manual: https://dx.doi.org/10.13155/29825"
+  },
+  {
+    "objectID": "docs/DataAccess/DataAccess.html#gdac-organization",
+    "href": "docs/DataAccess/DataAccess.html#gdac-organization",
+    "title": "Data access",
+    "section": "GDAC organization",
+    "text": "GDAC organization\nGDACs are continuously updated in real-time and delayed mode with data from Data Assembly Centers (DACs). The Argo GDAC dataset provides 3 “views” of the data profiles:\n\nDAC: a directory per data assembly center / a directory per profiler / a file per profile\nGEO: a directory per ocean / a directory per year in the ocean / a directory per month of the year / a directory per day of the month / a file per profile of the day\nLATEST_DATA: a directory per year / a directory per month of the year / a directory per day of the month / a file per profile of the day"
+  },
+  {
+    "objectID": "docs/DataManagementTeam/DataManagementTeam.html",
+    "href": "docs/DataManagementTeam/DataManagementTeam.html",
+    "title": "Data management team",
+    "section": "",
+    "text": "This section refers to Argo Data Management Team (ADMT) components, members as well as access to meeting reports.\nThe ADMT executive committee is composed of at least one representative of each institute involved in Argo data management activities:\n\nNational Data centers (DACs)\nDelayed mode operators (DM)\nArgo Regional centers (ARC)\nGlobal data centers (GDAC)\nGlobal data repository center (GADR)\n\nThe ADMT executive committee coordinates the data management activities to ensure an integrated access to Argo data independant to where it’s processed. It defines:\n\nthe Argo data management infrastructure and the role of each component\nthe data formats\nthe quality control procedures both in real-tine and delayed mode\n\nIt reports to the Argo Steering Team (AST) on data management issues."
+  },
+  {
+    "objectID": "docs/Documentation/Documentation.html",
+    "href": "docs/Documentation/Documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "How is Argo data management organized ?\n\nA beginners’ guide to accessing Argo data\nArgo data FAQ\n\n\n\nArgo data formats\n\nThe Argo data formats are described in the “Argo user’s manual” https://dx.doi.org/10.13155/29825\nArgo physical parameters list: core-Argo and BGC-Argo\nArgo user manual for technical files – Technical parameters names – Technical parameters naming convention rules – Technical and configuration parameters units\nArgo metadata files – Configuration parameter names, core-Argo – Configuration parameter names, BGC-Argo – Surface pressure correction table\n\n\n\nQuality control\n\nArgo quality control manual for CTD and trajectory data https://dx.doi.org/10.13155/33951\nArgo quality control manual for dissolved oxygen concentration https://doi.org/10.13155/46542\nBGC-Argo quality control manual for biogeochemical data https://dx.doi.org/10.13155/40879\nBGC-Argo quality control manual for chlorophyll-A concentration https://dx.doi.org/10.13155/35385\nBGC-Argo quality control manual for nitrate concentration https://doi.org/10.13155/84370\nBGC-Argo quality control for radiometry https://doi.org/10.13155/62466\nBGC-Argo quality control manual for pH https://doi.org/10.13155/97828\nBGC Argo quality control manual for particles backscattering https://doi.org/10.13155/60262\n\n\n\nCookbooks, core-Argo\n\nArgo DAC profile cookbook https://dx.doi.org/10.13155/41151\nArgo DAC trajectory cookbook https://dx.doi.org/10.13155/29824 -Common method for determining position and Time and attribute the appropriate QC -Core-Argo DMQC cookbook https://doi.org/10.13155/78994\n\n\n\nCookbooks, BGC-Argo\n\nProcessing Argo oxygen data at the DAC level cookbook https://doi.org/10.13155/39795\nBGC-Argo processing particle backscattering at the DAC level https://dx.doi.org/10.13155/39459\nBGC-Argo processing chlorophyll-A concentration at the DAC level https://dx.doi.org/10.13155/39468\nBGC-Argo processing Argo measurement timing information at the DAC level https://dx.doi.org/10.13155/47998\nProcessing BGC-Argo CDOM concentration at the DAC level https://doi.org/10.13155/54541\nProcessing Bio-Argo nitrate concentration at the DAC Level https://dx.doi.org/10.13155/46121\nProcessing BGC-Argo Radiometric data at the DAC level https://doi.org/10.13155/51541\nProcessing BGC-Argo pH data at the DAC level https://doi.org/10.13155/57195\n\n\n\nCookbooks, GDAC\n\nDescription of the Argo GDAC File Checks: Data Format and Consistency Checks https://dx.doi.org/10.13155/46120\nDescription of the Argo GDAC BGC File Merge Process https://dx.doi.org/10.13155/52154\nBGC-Argo synthetic profile file processing and format on Coriolis GDAC https://doi.org/10.13155/55637\nArgo GDAC cookbook https://doi.org/10.13155/46202"
+  },
+  {
+    "objectID": "docs/News/ArgoAnnualReport2024.html",
+    "href": "docs/News/ArgoAnnualReport2024.html",
+    "title": "Argo annual report 2024",
+    "section": "",
+    "text": "The report waspublished on xxx : https://doixxx.org"
+  },
+  {
+    "objectID": "docs/News/ParametersUpdate.html",
+    "href": "docs/News/ParametersUpdate.html",
+    "title": "Parameters list updated on 2024-11-05",
+    "section": "",
+    "text": "The parameters list was updated"
+  },
+  {
+    "objectID": "Test1.html",
+    "href": "Test1.html",
+    "title": "Monitoring GDAC content",
+    "section": "",
+    "text": "The Argo GDAC content monitoring is updated once a week."
+  },
+  {
+    "objectID": "Test1.html#histogram",
+    "href": "Test1.html#histogram",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "Test1.html#more-on-argo-floats-dashboard",
+    "href": "Test1.html#more-on-argo-floats-dashboard",
+    "title": "Monitoring GDAC content",
+    "section": "More on Argo floats dashboard",
+    "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
+  },
+  {
+    "objectID": "docs/News/BGC-Argo-configurationParameterNames.html",
+    "href": "docs/News/BGC-Argo-configurationParameterNames.html",
+    "title": "BGC-Argo configuration parameter names December 2024 release",
+    "section": "",
+    "text": "On December 19th 2024, Catherine Schmechtig distributed an update of BGC-Argo configuration parameter names.\nThis update is available on Documentation\nA secondary optode sensor on a stick is accepted."
+  },
+  {
+    "objectID": "docs/Documentation.html",
+    "href": "docs/Documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "How is Argo data management organized ?\n\nA beginners’ guide to accessing Argo data\nArgo data FAQ\n\n\n\nArgo data formats\n\nThe Argo data formats are described in the “Argo user’s manual” https://dx.doi.org/10.13155/29825\nArgo physical parameters list: core-Argo and BGC-Argo\nArgo user manual for technical files\n\nTechnical parameters names\nTechnical parameters naming convention rules\nTechnical and configuration parameters units\n\nArgo metadata files\n\nConfiguration parameter names, core-Argo\nConfiguration parameter names, BGC-Argo\n\nSurface pressure correction table\n\n\n\nQuality control\n\nArgo quality control manual for CTD and trajectory data https://dx.doi.org/10.13155/33951\nArgo quality control manual for dissolved oxygen concentration https://doi.org/10.13155/46542\nBGC-Argo quality control manual for biogeochemical data https://dx.doi.org/10.13155/40879\nBGC-Argo quality control manual for chlorophyll-A concentration https://dx.doi.org/10.13155/35385\nBGC-Argo quality control manual for nitrate concentration https://doi.org/10.13155/84370\nBGC-Argo quality control for radiometry https://doi.org/10.13155/62466\nBGC-Argo quality control manual for pH https://doi.org/10.13155/97828\nBGC Argo quality control manual for particles backscattering https://doi.org/10.13155/60262\n\n\n\nCookbooks, Core-Argo\n\nArgo DAC profile cookbook https://dx.doi.org/10.13155/41151\nArgo DAC trajectory cookbook https://dx.doi.org/10.13155/29824\nCommon method for determining position and Time and attribute the appropriate QC\nCore-Argo DMQC cookbook https://doi.org/10.13155/78994\n\n\n\nCookbooks, BGC-Argo\n\nProcessing Argo oxygen data at the DAC level cookbook https://doi.org/10.13155/39795\nBGC-Argo processing particle backscattering at the DAC level https://dx.doi.org/10.13155/39459\nBGC-Argo processing chlorophyll-A concentration at the DAC level https://dx.doi.org/10.13155/39468\nBGC-Argo processing Argo measurement timing information at the DAC level https://dx.doi.org/10.13155/47998\nProcessing BGC-Argo CDOM concentration at the DAC level https://doi.org/10.13155/54541\nProcessing Bio-Argo nitrate concentration at the DAC Level https://dx.doi.org/10.13155/46121\nProcessing BGC-Argo Radiometric data at the DAC level https://doi.org/10.13155/51541\nProcessing BGC-Argo pH data at the DAC level https://doi.org/10.13155/57195\n\n\n\nCookbooks, GDAC\n\nDescription of the Argo GDAC File Checks: Data Format and Consistency Checks https://dx.doi.org/10.13155/46120\nDescription of the Argo GDAC BGC File Merge Process https://dx.doi.org/10.13155/52154\nBGC-Argo synthetic profile file processing and format on Coriolis GDAC https://doi.org/10.13155/55637\nArgo GDAC cookbook https://doi.org/10.13155/46202"
+  },
+  {
+    "objectID": "docs/DataManagementTeam.html",
+    "href": "docs/DataManagementTeam.html",
+    "title": "Data management team",
+    "section": "",
+    "text": "The Argo Data Management Team (ADMT) is composed of at least one representative of each institute involved in Argo data management activities. It reports to the Argo Steering Team on data management issues.\nThe role of the ADMT is to coordinate the data management activities for Argo to ensure an integrated access to Argo data independent to where it’s processed. It defines:"
+  },
+  {
+    "objectID": "docs/DataManagementTeam.html#terms-of-reference",
+    "href": "docs/DataManagementTeam.html#terms-of-reference",
+    "title": "Data management team",
+    "section": "Terms of Reference",
+    "text": "Terms of Reference\nThe Executive Board supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements. It is composed of a Primary and an Alternate representative for each of the main ADMT topics. The Primary and Alternate representatives coordinate so that at least one will attend the Executive Board meetings. Both representatives can attend the same meetings if both are available.\nOn each topic the Primary and Alternate representatives are in charge of working with the ADMT members on the actions linked to their topic and monitoring progress: • Identify issues and possible solutions to be discussed at the Executive Board meetings and at the ADMT meetings. • Ensure effective communications with various user groups via outreach activities. • Ensure Argo data adhere to the FAIR data principles."
+  },
+  {
+    "objectID": "docs/DataManagementTeam.html#members",
+    "href": "docs/DataManagementTeam.html#members",
+    "title": "Data management team",
+    "section": "Members",
+    "text": "Members\n\n\n\n\n\n\n\n\nRole\nPrimary\nAlternate\n\n\n\n\nArgo Data Management Chairs\nMegan ScanderbegClaire Gourcuff\n\n\n\nArgo Director\nBreck Owens\n\n\n\nArgo Steering Team Chairs\nSusan WijffelsBrian King\n\n\n\nBGC Mission\nCatherine SchmechtigTanya Maurer\n\n\n\nTechnical Coordination/Monitoring\nVictor TurpinOrens De Fommervault\n\n\n\nGDACs\nThierry CarvalMichael Frost\n\n\n\nDelay Mode Operators\nAnnie WongCécile Cabanes\n\n\n\nDACs\nClaudia SchmidAnh Tran\n\n\n\nARCs\nUday BhaskarShigeki Hosoda\n\n\n\nGADR\nTim Boyer\n\n\n\nFormat / User Manual\nThierry CarvalAnnie Wong"
+  },
+  {
+    "objectID": "docs/DataManagementTeam.html#admt-meetings",
+    "href": "docs/DataManagementTeam.html#admt-meetings",
+    "title": "Data management team",
+    "section": "ADMT meetings",
+    "text": "ADMT meetings\n\n\n\nMeeting\n\nlocation\n\n\n\n\n\n25th Argo Data Management\nTrieste\n21-25 Oct 2024\nADMT-25 report\n\n\n24th Argo Data Management\nHobart\n23-27 Oct 2023\nADMT-24 report (includes BGC session)\n\n\n23rd Argo Data Management\nMiami\n8-10-Dec 2022\nADMT-23 report\n\n\n22nd Argo Data Management\nVirtual meeting\n8-10-Dec 2021\nADMT-22 report\n\n\n21st Argo Data Management\nVirtual Meeting\n2-4-Dec 2020\nADMT-21 report\n\n\n20th Argo Data Management\nVillefranche\n16-18 Oct 2019\nADMT-20 report\n\n\n19th Argo Data Management\nSan Diego\n5-7 Dec 2018\nADMT-19 report\n\n\n18th Argo Data Management\nHamburg\n29 Nov- 1 Dec 2017\nADMT-18 report\n\n\n17th Argo Data Management\nTianjin\n28-30 Sept 2016\nADMT-17 report\n\n\n16th Argo Data Management\nBermuda\n4-6 Nov 2015\nADMT-16 report\n\n\n15th Argo Data Management\nOttawa\n5-7 Nov 2014\nADMT-15 report\n\n\n14th Argo Data Management\nLiverpool\n16-18 Oct 2013\nADMT-14 report\n\n\n13th Argo Data Management\nHyderabad\n14-16 Nov 2012\nADMT-13 report\n\n\n12th Argo Data Management\nSeoul\n16-18 Nov 2011\nADMT-12 report\n\n\n11th Argo Data Management\nHamburg\n20-22 Oct 2010\nADMT-11 report\n\n\n10th Argo Data Management\nToulouse\n30 Sep-2 Oct 2009\nADMT-10 report\n\n\n9th Argo Data Management\nHawaii\n29-31 October 2008\nADMT-09 report\n\n\n8th Argo Data Management\nHobart\n14-16 November 2007\nADMT-08 report\n\n\n7th Argo Data Management\nTianjin\n1-3 November 2006\nADMT-07 report\n\n\n6th Argo Data Management\nTokyo\n8-10 November 2005\nADMT-06 report\n\n\n5th Argo Data Management\nSouthampton\n29 Sept - 1 Oct 2004\nADMT-05 report\n\n\n4th Argo Data Management\nMonterey\n5-7 Nov 2003\nADMT-04 report\n\n\n3rd Argo Data Management\nOttawa\n18-20 Oct 2002\nADMT-03 report\n\n\n2nd Argo Data Management\nBrest\n12-14 Nov 2001\nADMT-02 report\n\n\n1st Argo Data Management\nBrest\n3-5 October 2000\nADMT-01 report"
+  },
+  {
+    "objectID": "docs/DataManagementTeam.html#admt-bgc-meetings",
+    "href": "docs/DataManagementTeam.html#admt-bgc-meetings",
+    "title": "Data management team",
+    "section": "ADMT BGC meetings",
+    "text": "ADMT BGC meetings\n\n\n\nMeeting\nlocation\ndate\nlink\n\n\n\n\n11th BGC-Argo Data Management\n\n6-7 Dec 2022\nADMT-BGC-11 report missing\n\n\n10th BGC-Argo Data Management\n\n6-7 Dec 2021\nADMT-BGC-10 report\n\n\n9th BGC-Argo Data Management\nVirtual meeting\n30 November - 1 Dec 2020\nADMT-BGC-09 report\n\n\n8th BGC-Argo Data Management\nVillefranche\n14-15 Oct 2019\nADMT-BGC-08 report\n\n\n7th BGC-Argo Data Management\nSan Diego\n3-4 Dec 2018\nADMT-BGC-07 report\n\n\n6th BGC-Argo Data Management\nHamburg\n27-28 Nov 2017\nADMT-BGC-06 report\n\n\n5th BGC-Argo Data Management\nTianjin\n26-27 Sept 2016\nADMT-BGC-05 report\n\n\n4th BGC-Argo Data Management\nBermuda\n2-3 Nov 2015\nADMT-BGC-04 report\n\n\n3rd BGC-Argo Data Management\nOttawa\n3-4 Nov 2014\nADMT-BGC-03 report\n\n\n2nd BGC-Argo Data Management\nLiverpool\n14-15 Oct 2013\nADMT-BGC-02 report\n\n\n1st BGC-Argo Data Management\nHyderabad\n12-13 Nov 2012\nADMT-BGC-01 report"
+  },
+  {
+    "objectID": "docs/DataManagementTeam.html#admt-delayed-mode-meetings",
+    "href": "docs/DataManagementTeam.html#admt-delayed-mode-meetings",
+    "title": "Data management team",
+    "section": "ADMT delayed mode meetings",
+    "text": "ADMT delayed mode meetings\n\n\n\nMeeting\nlocation\ndate\nlink\n\n\n\n\n1st Delayed Mode workshop\nSan Diego\n8-13 April 2005\nADMT-DM-WS report"
+  },
+  {
+    "objectID": "docs/ArgoVocabulary.html",
+    "href": "docs/ArgoVocabulary.html",
+    "title": "Argo Vocabulary",
+    "section": "",
+    "text": "Argo vocabularies Argo vocabularies, originally known as reference tables, are used extensively to constrain the contents of the Argo NetCDF files, and to enhance the interoperability of the Argo data system. The Argo Data Management Team chose in 2019 to use the NERC Vocabulary Server (NVS), to further enhance Argo data interoperability\nArgo vocabularies are always evolving, to reflect evolution of Argo technology. These evolutions are managed by the Argo Vocabulary Task Team (AVTT), under the umbrella of the ADMT.\nThe NVS The NERC Vocabulary Server (NVS) provides access to lists of standardised terms that cover a broad spectrum of the oceanographic domain and associated communities. The NVS is technically-managed and hosted by the British Oceanographic Data Centre (BODC), a national facility that is part of the UK’s National Oceanography Centre (NOC). Key funding sources for the NVS include the UK’s Natural Environment Research Council (NERC) as well as European Union’s initiatives such as the Open Network for Marine Environmental Data (NETMAR) programme, the SeaDataNet / SeaDataCloud projects and the Horizons 2020 ENVRI-FAIR project.\nThe NVS conforms to a set of standards designed to be compatible with Semantic Web tools and technologies, allowing its content to support the interoperability of datasets on the Web known as Linked Data. The NVS can be accessed via content negotiation (as RDF/XML), SPARQL endpoint or SOAP web services, upon which browser access is built.\nVocPrez The NVS web user interface is called VocPrez, and can be accessed through the link vocab.nerc.ac.uk. VocPrez hosts general information on controlled vocabularies, a complete list of NVS collections (under ‘Vocabularies’) and Simple Knowledge Organization System (SKOS) concept schemes (under ‘Thesauri’), an interactive SPARQL endpoint to allow for machine-readable NVS query responses, and link to other tools hosted on the BODC website.\nOne of the most useful features of VocPrez is the NVS Search interface. This allows a user to search for a term (aka ‘concept’) in a vocabulary collection; search for a term across vocabulary collections; search for vocabulary collections; and explore mappings (i.e. relationships) of terms linking different collections. Search results may be downloaded in tab-delimited (tsv) as well as comma-delimited (csv) formats; moreover, search queries produce search results links that may be bookmarked and shared.\nArgo on the NVS Argo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance, and will display a list of all the Argo collections (or tables) created to date.\nPlease see below a list of all original Argo reference tables extracted from the Argo User Manual (‘No.’), their corresponding NVS collection IDs (‘Vocab’) and links to the NVS collections themselves as VocPrez search results (‘Search URL’):\nPlease note that each collection also has a static URL, linked in the ‘Vocabularies’ page on VocPrez: https://vocab.nerc.ac.uk/collection/?filter=Argo."
+  },
+  {
+    "objectID": "docs/ArgoVocabulary.html#the-argo-vocabulary-task-team-avtt",
+    "href": "docs/ArgoVocabulary.html#the-argo-vocabulary-task-team-avtt",
+    "title": "Argo Vocabulary",
+    "section": "The Argo Vocabulary Task Team (AVTT)",
+    "text": "The Argo Vocabulary Task Team (AVTT)\nThe Argo NVS collections are overseen by a sub-group of the Argo Data Management Team called the Argo Vocabulary Task Team (AVTT). Each AVTT member is responsible for a subset of Argo tables/collections, based on their interest and contributions. AVTT members are the Editors of the tables/collections, in charge of making appropriate changes on the NVS on behalf of the Argo community.\nThe work of the AVTT is coordinated by an AVTT facilitator and managed in the ArgoVocab repository of the OneArgo github: https://github.com/OneArgo/ArgoVocabs\nThe AVTT meets several times per year in between annual ADMT meetings, to discuss requests from the Argo community for the evolution of Argo vocabularies."
+  },
+  {
+    "objectID": "docs/ArgoVocabulary.html#how-to-request-new-entries-and-suggest-changes-to-argo-vocabulary",
+    "href": "docs/ArgoVocabulary.html#how-to-request-new-entries-and-suggest-changes-to-argo-vocabulary",
+    "title": "Argo Vocabulary",
+    "section": "How to request new entries and suggest changes to Argo vocabulary",
+    "text": "How to request new entries and suggest changes to Argo vocabulary\nTo propose a new Argo code in a vocabulary or initiate a discussion about an existing concept or collection, anyone can open an issue in the ArgoVocabs repository under the OneArgo github:\nhttps://github.com/OneArgo/ArgoVocabs\nIf the issue concerns a specific reference table, it is advised to label the issue with the name of the associated reference table (‘Rxx’). The issue is then assigned to the editor(s) in charge of the reference table. If the issue is a request for a new entry in a table, when approved, the new code is published on NVS, the Argo NetCDF file Format Checker is updated, and the issue is closed. In some cases where the decision is not straightforward, to ensure that the discussion is picked up, the Argo data management mailing list(s) may be contacted, providing the link to the Github issue in question. It is advisable to observe a two-week time limit to progress a discussion; if no comments or feedback ensue in that time frame, the decision can be considered approved by the AVTT and may be be implemented as suggested. If there is no consensus, or if the issue has large implications, the issue requires further discussion at the ADMT annual meeting. If you are unsure of which category your issue falls into, please do not hesitate to contact the ADMT co-chairs.\nAll Argo vocabulary issues are visible on the AVTT issues dashboard (a “project” under the OneArgo github), with associated status reflected in the various columns:\nhttps://github.com/orgs/OneArgo/projects/4/views/1\nIf you need help or have questions about this process, please contact Danielle Wright or Victor Turpin."
+  },
+  {
+    "objectID": "docs/ArgoVocabulary.html#resources",
+    "href": "docs/ArgoVocabulary.html#resources",
+    "title": "Argo Vocabulary",
+    "section": "Resources",
+    "text": "Resources\nM2M access to the NVS via API (NVS SPARQL endpoint) For machine to machine (M2M) access to the Argo Vocabularies on the NVS, the NVS SPARQL endpoint can be used.\nGeneral information on the NVS SPARQL endpoint can be found on the NVS website: https://vocab.nerc.ac.uk/sparql/\nSPARQL queries can be integrated into code written in other programming languages (Python, Matlab etc.).\nFor a basic example, please see the “m2m_NVS_sparql.ipynb” file.\nTo test, open the file into a Jupyter Notebook; edit lines marked by ‘# Switch’ to select either prefLabel/altLabel, and point to specific Argo vocabularies by inserting its name (e.g. ‘R03’) where the line is marked by ‘# Edit’.\nAccess to Argo vocabulary in python: argopy.ArgoNVSReferenceTables feature ArgoNVSReferenceTables is a feature that easily provides access and search to Argo vocabularies from python:\nhttps://argopy.readthedocs.io/en/latest/metadata_fetching.html#reference-tables\nhttps://argopy.readthedocs.io/en/latest/generated/argopy.related.ArgoNVSReferenceTables."
+  },
+  {
+    "objectID": "docs/ArgoVocabulary.html#list-of-argo-vocabulary-editors",
+    "href": "docs/ArgoVocabulary.html#list-of-argo-vocabulary-editors",
+    "title": "Argo Vocabulary",
+    "section": "List of Argo vocabulary editors",
+    "text": "List of Argo vocabulary editors\nhttps://github.com/OneArgo/ArgoVocabs#editors-list"
+  },
+  {
+    "objectID": "docs/ArgoVocabulary.html#updates-on-the-nvs-by-editors",
+    "href": "docs/ArgoVocabulary.html#updates-on-the-nvs-by-editors",
+    "title": "Argo Vocabulary",
+    "section": "Updates on the NVS by editors",
+    "text": "Updates on the NVS by editors\nArgo Vocabulary Editors can update the Argo NVS collections they are responsible for by using the NVS Vocab Editor. Registration on the BODC and VocPrez websites are necessary before updates can be made. Please contact the BODC Vocabulary Management team at vocab.services@bodc.ac.uk for support."
+  },
+  {
+    "objectID": "docs/DataAccess.html",
+    "href": "docs/DataAccess.html",
+    "title": "Data access",
+    "section": "",
+    "text": "There are many sources of Argo data depending on the desired format, source and application. A complete presentation is available on https://argo.ucsd.edu/data"
+  },
+  {
+    "objectID": "docs/DataAccess.html#argo-data-sources",
+    "href": "docs/DataAccess.html#argo-data-sources",
+    "title": "Data access",
+    "section": "",
+    "text": "There are many sources of Argo data depending on the desired format, source and application. A complete presentation is available on https://argo.ucsd.edu/data"
+  },
+  {
+    "objectID": "docs/DataAccess.html#ftp-https-s3-data-services",
+    "href": "docs/DataAccess.html#ftp-https-s3-data-services",
+    "title": "Data access",
+    "section": "Ftp, https, s3 data services",
+    "text": "Ftp, https, s3 data services\nArgo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.\n\nftp://ftp.ifremer.fr/ifremer/argo\nhttps://data-argo.ifremer.fr / https://usgodae.org/pub/outgoing/argo\ns3: Argo data are updated daily on https://registry.opendata.aws/argo-gdac-marinedata"
+  },
+  {
+    "objectID": "docs/DataAccess.html#data-format",
+    "href": "docs/DataAccess.html#data-format",
+    "title": "Data access",
+    "section": "Data format",
+    "text": "Data format\nArgo data, metadata, technical data are managed in NetCDF files.\nThe index files list and provide a short description the NetCDF files content. The index files format is ASCII “csv” (comma separated values).\nThe description of the Argo formats, the file naming conventions and more are documented in\n\nArgo user’s manual: https://dx.doi.org/10.13155/29825"
+  },
+  {
+    "objectID": "docs/DataAccess.html#organization",
+    "href": "docs/DataAccess.html#organization",
+    "title": "Data access",
+    "section": "Organization",
+    "text": "Organization\nGDACs are continuously updated in real-time and delayed mode with data from Data Assembly Centers (DACs). The Argo GDAC dataset provides 3 “views” of the data profiles:\n\nDAC: a directory per data assembly center / a directory per profiler / a file per profile\nGEO: a directory per ocean / a directory per year in the ocean / a directory per month of the year / a directory per day of the month / a file per profile of the day\nLATEST_DATA: a directory per year / a directory per month of the year / a directory per day of the month / a file per profile of the day"
+  },
+  {
+    "objectID": "docs/DataAccess.html#argo-data-selection",
+    "href": "docs/DataAccess.html#argo-data-selection",
+    "title": "Data access",
+    "section": "Argo data selection",
+    "text": "Argo data selection\nArgo Data Selection is a web interface to discover, select and subset Argo data. Your selection can be downloaded as NetCDF or CSV files.\n\nhttps://dataselection.euro-argo.eu"
+  },
+  {
+    "objectID": "docs/DataAccess.html#argo-floats-dashboard",
+    "href": "docs/DataAccess.html#argo-floats-dashboard",
+    "title": "Data access",
+    "section": "Argo floats dashboard",
+    "text": "Argo floats dashboard\nArgo Floats Dashboard is a web interface to discover Argo floats with metadata, maps, graphics and technical alerts.\n\nhttps://fleetmonitoring.euro-argo.eu/dashboard"
+  },
+  {
+    "objectID": "docs/DataAccess.html#argo-doi-digital-object-identifier",
+    "href": "docs/DataAccess.html#argo-doi-digital-object-identifier",
+    "title": "Data access",
+    "section": "Argo DOI, Digital Object Identifier",
+    "text": "Argo DOI, Digital Object Identifier\nA digital object identifier (DOI) is a unique identifier for an electronic document or a dataset.\nArgo data-management assigns DOIs to its documents and datasets for two main objectives:\n\nCitation: in a publication the DOI is efficiently tracked by bibliographic surveys\nTraceability: the DOI is a direct and permanent link to the document or data set used in a publication\n\nArgo floats data and metadata from Global Data Assembly Centre (Argo GDAC)\n\nhttps://doi.org/10.17882/42182"
+  },
+  {
+    "objectID": "docs/DataAccess.html#argo-synchronization-service",
+    "href": "docs/DataAccess.html#argo-synchronization-service",
+    "title": "Data access",
+    "section": "Argo synchronization service",
+    "text": "Argo synchronization service\nThe rsync server “vdmzrs.ifremer.fr” server provides a synchronization service between the “dac” directory of the GDAC with a user mirror. The “dac” index files are available from “argo-index”.\nFrom the user side, the rysnc service:\n\nDownloads the new files\nDownloads the updated files\nRemoves the files that have been removed from the GDAC\nCompresses/uncompresses the files during the transfer\nPreserves the files creation/update dates\nLists all the files that have been transferred (easy to use for a user side post-processing)\n\n\nExamples\nSynchronization of a particular float, based on the data centre in charge of data processing:\n\nrsync -avzh –delete vdmzrs.ifremer.fr::argo/coriolis/69001 /home/mydirectory/…\nrsync -avzh –delete vdmzrs.ifremer.fr::argo/aoml/1900050 /home/mydirectory/…\nrsync -avzh –delete vdmzrs.ifremer.fr::argo-index/ /home/mydirectory/…\nSynchronization of the whole dac directory of Argo GDAC – rsync -avzh –delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/…"
+  },
+  {
+    "objectID": "docs/DataAccess.html#erddap-data-server",
+    "href": "docs/DataAccess.html#erddap-data-server",
+    "title": "Data access",
+    "section": "Erddap data server",
+    "text": "Erddap data server\nErddap is NOAA’s data server to scientific data Erddap is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps. This particular Erddap installation has oceanographic data (for example, data from Argo floats, satellites and buoys).\n\nhttps://erddap.ifremer.fr/erddap/tabledap/ArgoFloats.html"
+  },
+  {
+    "objectID": "docs/DataAccess.html#thredds-data-server",
+    "href": "docs/DataAccess.html#thredds-data-server",
+    "title": "Data access",
+    "section": "Thredds data server",
+    "text": "Thredds data server\nUnidata’s Thredds Data Server (TDS) is a web server that provides metadata and data access for scientific datasets, using OPeNDAP, OGC WMS, WCS, HTTP protocols.\n\nhttps://tds0.ifremer.fr/thredds/catalog/CORIOLIS-ARGO-GDAC-OBS/catalog.html"
+  },
+  {
+    "objectID": "docs/Dmqc.html",
+    "href": "docs/Dmqc.html",
+    "title": "DMQC",
+    "section": "",
+    "text": "This section is dedicated to Delayed Mode Quality Control activities."
+  },
+  {
+    "objectID": "docs/Dmqc.html#tools-for-dmqc",
+    "href": "docs/Dmqc.html#tools-for-dmqc",
+    "title": "DMQC",
+    "section": "Tools for DMQC",
+    "text": "Tools for DMQC\nThis page aggregates the information related to DMQC tools available to Argo DMQC community\nthe GitHub repository for OWC (https://github.com/ArgoDMQC/matlab_owc) the GitHub repository for the PMEL GUI (https://github.com/ArgoDMQC/PMEL_GUI) the GitHub repository for the SOCCOM/BGC-Argo processing (https://github.com/SOCCOM-BGCArgo/ARGO_PROCESSING) the visual quality control for Argo NetCDF data files Scoop-Argo : https://www.seanoe.org/data/00374/48531/\nWebpage to be updated in the coming months. In the meantime please refer to the list provided here."
+  },
+  {
+    "objectID": "docs/Dmqc.html#what-float-should-i-process-first",
+    "href": "docs/Dmqc.html#what-float-should-i-process-first",
+    "title": "DMQC",
+    "section": "What float should I process first?",
+    "text": "What float should I process first?\nThe following information are available : WHOI analysis to detect possible drift : http://argo.whoi.edu/argo/sbedrift_wmo/ Check against altimetry : https://data-argo.ifremer.fr/etc/argo-ast9-item13-AltimeterComparison/ Check at Coriolis using Argo MinMax climatology tests are available in monthly Coriolis GDAC reports : https://data-argo.ifremer.fr/etc/Report_ObjectiveAnalysisWarning/ DM consistency checks in the North Atlantic: http://www.umr-lops.fr/en/SNO-Argo/Activities/NAARC/Consistency-checks-of-DM-salinity-corrections"
+  },
+  {
+    "objectID": "docs/Dmqc.html#the-dmqc-mentoring-system-for-argo-ctd-data",
+    "href": "docs/Dmqc.html#the-dmqc-mentoring-system-for-argo-ctd-data",
+    "title": "DMQC",
+    "section": "The DMQC Mentoring System for Argo CTD data",
+    "text": "The DMQC Mentoring System for Argo CTD data\nIn order to preserve and share DMQC knowledge for CTD data within the Argo community, one-on-one interactions are needed in addition to detailed documentation of methods. Therefore a DMQC Mentoring System has been set up so that new operators can reach out to a mentor of choice to learn more about DMQC activities in a personalised setting.\nThe following is the list of experienced delayed-mode people, in alphabetical order, and their areas of expertise, who have volunteered to be mentors:\nUday Bhaskar (uday@incois.gov.in) - North Indian Ocean Cecile Cabanes (cecile.cabanes@ifremer.fr) - North Atlantic Ocean John Gilson (jegilson@gmail.com) - North Pacific Ocean, South Pacific Ocean, South Indian Ocean Shigaki Hosoda (hosodas@jamstec.go.jp) - North Pacific Ocean KiRyong Kang (krkang@kma.go.kr) - Yellow Sea, East Sea Birgit Klein (Birgit.Klein@bsh.de) - Southern Ocean, Nordic Sea John Lyman (john.lyman@noaa.gov) - North Pacific Ocean, South Pacific Ocean Giulio Notarstefano (gnotarstefano@inogs.it) - Mediterranean Sea, Black Sea Pelle Robbins (probbins@whoi.edu) - North Atlantic Ocean, South Atlantic Ocean Annie Wong (apsw.uw@gmail.com) - Southern Ocean, South Pacific Ocean, South Indian Ocean, South Atlantic Ocean If you are new to Argo DMQC for CTD data and would like to work with a mentor, please contact one of the volunteers above."
+  },
+  {
+    "objectID": "docs/Dmqc.html#argo-reference-database-for-delayed-mode-qc",
+    "href": "docs/Dmqc.html#argo-reference-database-for-delayed-mode-qc",
+    "title": "DMQC",
+    "section": "Argo Reference database for delayed mode QC",
+    "text": "Argo Reference database for delayed mode QC\nThe free-moving nature of profiling floats means that most float measurements are without accompanying in-situ “ground truth” values for absolute calibration (such as those afforded by shipboard CTD measurements). Therefore Argo delayed-mode procedures for checking sensor drifts and offsets in salinity rely on reference datasets and statistical methods.\n\nLatest version of the Argo reference database\nThe CTD reference database for Argo is updated on a yearly bases by Coriolis team or when there are enough new data to justify an upgrade. The CTD are provided by the PIs, the ARC, Clivar Hydrographic Center and NODC/USA. In areas with poor CTD data, good Argo profiles are used for the delayed mode QC. This Argo reference database is updated by SCRIPPS (J Gilson).\nAccess to reference databases: Because the CTD database may contain CTD data that is not yet freely available, access is restricted to those performing DMQC on the data. To request access, email codac@ifremet.fr.\nDecember 2022 A new version of the ARGO climatology (ARGO_for_DMQC_2022V03) is available on the ftp site.\nJanuary 2022\nA new version of the ARGO climatology (ARGO_for_DMQC_2021V03) is available on the ftp site.\nArgo Reference database 2021V03 Argo Reference database 2021V03\n©Ifremer/coriolis\nDecember 2021\nA new version of the CTD reference database (2021V02) is available on the ftp site. This version takes into account some corrections following the feedback received by the users. Some CTDs have also been added: CTDs provided by scientists, CTDs made during float deployments and some GO-SHIP CTDs retrieved from the CCHDO website.\nCTD Reference Database 2021V02 CTD Reference Database 2021V02\n©Ifremer/coriolis\nMarch 2021\nA new version of the CTD reference database (2021V01) is available on the ftp site. This version takes into account the GO-SHIP Easy Ocean dataset (flag GSD in QCLEVEL), dedicated to delayed mode deep Argo floats data, as well as somes new CTD (CCHDO, scientists,…).\nCTD Reference Database 2021V01 CTD Reference Database 2021V01\nIfremer/Coriolis\nApril 2015\nA new version of the ARGO climatology (ARGO_for_DMQC_2015V01) is available on the ftp site\nArgo Reference Database 2015V01 Argo Reference Database 2015V01\nIfremer/Coriolis\nJanuary 2015\nA new version of the ARGO climatology (ARGO_for_DMQC_2014V04) is available on the ftp site\nArgo Reference Database 2014V04 Argo Reference Database 2014V04\nIfremer/Coriolis\nDecember 2014\nA new version of the CTD reference database (2014V01) is available on the ftp site. This version takes into account somes new CTD (CCHDO, scientists) and a detailled control check on boxes of the area 1. (others areas will be corrected in next versions).\nCTD Reference Database 2014V01 CTD Reference Database 2014V01\nIfremer/Coriolis\nOctober 2014\nA new version of the ARGO climatology (ARGO_for_DMQC_2014V03) is available on the ftp site\nArgo Reference Database 2014V03 Argo Reference Database 2014V03\nIfremer/Coriolis\nJuly 2014\nA new version of the ARGO climatology (ARGO_for_DMQC_2014V02) is available on the ftp site\nArgo Reference Database 2014V02 Argo Reference Database 2014V02\nIfremer/Coriolis\nJanuary 2014\nA new version of the ARGO climatology (ARGO_for_DMQC_2013V04) is available on the ftp site\nArgo Reference Database 2013V04 Argo Reference Database 2013V04\nIfremer/Coriolis\nOctober 2013\nA new version of the ARGO climatology (ARGO_for_DMQC_2013V03) is available on the ftp site\nArgo Reference Database 2013V03 Argo Reference Database 2013V03\nIfremer/coriolis\nMarch 2013\nA new version of the CTD reference database (2013V01) is available on the ftp site. This version takes into account update from WOD2009 and some corrections on data.\nCTD Reference Database 2013V01 CTD Reference Database 2013V01\nIfremer/Coriolis\nJuly 2012\nA new version of the ARGO climatology (ARGO_for_DMQC_2012V02) is available on the ftp site\nArgo Reference Database 2012 V02 Argo Reference Database 2012 V02\nIfremer/Coriolis\nMarch 2012\nA new version of the CTD reference database (2012V01) is available on the ftp site. This version takes into account update from WOD2009 and some new CTD from scientists.\nCTD Reference Database 2012V01 CTD Reference Database 2012V01\nIfremer/Coriolis\nMarch 2011\nA new version of the CTD reference database (2010V02) is available on the ftp site. This version takes into account correction done on CTD data from the version 2010V01 and some new CTD from scientists.\nCTD Reference Database 2010 V02 Coriolis\nDecember 2010\nA new version of the ARGO climatology (ARGO_for_DMQC_2010V04) is available on the ftp site\nArgo Reference Database 2010 V04 Coriolis\nApril 2010\nA new version of the ARGO climatology (ARGO_for_DMQC_2010V01) is available on the ftp site\nArgo Reference Database 2010 V01\nFebruary 2010\nA new version of the CTD reference database is available on the ftp site. This version takes into account the CTD data from the WOD2009.\nCTD reference database 2010V1 July 2009\nA new version of the ARGO climatology (ARGO_for_DMQC_2009V02) is available on the ftp site\nArgo profile reference database October 2008\nJuly 2008\nArgo CTD Reference Data base July 2008\nThe updated reference database for ARGO, including the WOD05 CTD, is now available at Coriolis. This version, that you must reference as ARGO2008V01, takes into account the conversion ITS90 to ITS68 for the temperature. The Argo float Ref DB (argo_clim) provided by John Gilson is also available on the same ftp site.\nNote : If you detect an anomalie in the ARGO2008V01 database, please report to codac indicating the code ‘source’ of the station concerned (in the file ctd_&lt;n°box&gt;.mat) and the correction to be applied : the “source” code allow us to link the data provider and the reference of the station and to provide feedback to the provider to avoid getting the same problem while updating the database.\n\n\nPrevious versions of Argo Reference Data Base\nTo process delayed mode quality control on floats, each DM operator has improved the database for his area and we have at present 4 different reference databases : SeHyd for the Pacific, IOHB for the Indian, BS (Böhme-Send) + ATL CTD or Hydrobase for the Atlantic.\nSeHYD and IOHB are available in a form suitable as input files (wmo_boxes) fro WJO/OW. IOHB has data formatted in both WJO standard levels and as full profiles. SeHYD is available only at WJO standard levels.\nOn the following links, you will have access to those different regional reference databases :\nAtlantic Ocean Recent CTD from Coriolis and Böhme-Send method contact : Codac Atlantic Hydrobase : web site hydrobase Pacific Ocean\nSeHyd from JAMSTEC contact : Taiyo Kobayashi Indian Ocean Indian Ocean HydroBase from JAMSTEC IOHB contact : Taiyo Kobayashi\nSouthern Ocean SODB : web site SODB\nCCHDO Clivar & Carbon Hydrographic Data Office Link to the CCHDO web site CCHDO has extracted for ARGO recent CTD( 2001-2006) and made them accessible to the Argo Delayed mode operators. These data ore on the ifremer ftp site. Please contact codac@ifremer.fr to get an user name / password\nBe careful that all those datasets must be only used for the delayed mode quality control of the Argo floats, some data of the added cruises have confidential access."
+  },
+  {
+    "objectID": "docs/Monitoring.html",
+    "href": "docs/Monitoring.html",
+    "title": "Monitoring GDAC content",
+    "section": "",
+    "text": "The Argo GDAC content monitoring is updated once a week."
+  },
+  {
+    "objectID": "docs/Monitoring.html#all-floats-distribution",
+    "href": "docs/Monitoring.html#all-floats-distribution",
+    "title": "Monitoring GDAC content",
+    "section": "All floats distribution",
+    "text": "All floats distribution"
+  },
+  {
+    "objectID": "docs/Monitoring.html#histogram",
+    "href": "docs/Monitoring.html#histogram",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "docs/Monitoring.html#histogram-percent",
+    "href": "docs/Monitoring.html#histogram-percent",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram percent",
+    "text": "Histogram percent"
+  },
+  {
+    "objectID": "docs/Monitoring.html#histogram-delayed-mode-profiles",
+    "href": "docs/Monitoring.html#histogram-delayed-mode-profiles",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram delayed mode profiles",
+    "text": "Histogram delayed mode profiles"
+  },
+  {
+    "objectID": "docs/Monitoring.html#histogram-delayed-mode-profiles-percent",
+    "href": "docs/Monitoring.html#histogram-delayed-mode-profiles-percent",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram delayed mode profiles percent",
+    "text": "Histogram delayed mode profiles percent"
+  },
+  {
+    "objectID": "docs/Monitoring.html#histogram-delayed-mode-profiles-available-for-dm",
+    "href": "docs/Monitoring.html#histogram-delayed-mode-profiles-available-for-dm",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram delayed mode profiles available for DM",
+    "text": "Histogram delayed mode profiles available for DM"
+  },
+  {
+    "objectID": "docs/Monitoring.html#more-on-argo-floats-dashboard",
+    "href": "docs/Monitoring.html#more-on-argo-floats-dashboard",
+    "title": "Monitoring GDAC content",
+    "section": "More on Argo floats dashboard",
+    "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
+  },
+  {
+    "objectID": "docs/News/Test.html#la-suite",
+    "href": "docs/News/Test.html#la-suite",
+    "title": "Test",
+    "section": "La suite",
+    "text": "La suite\nappearance"
+  },
+  {
+    "objectID": "Monitoring.html",
+    "href": "Monitoring.html",
+    "title": "Monitoring GDAC content",
+    "section": "",
+    "text": "The Argo GDAC content monitoring is updated once a week."
+  },
+  {
+    "objectID": "Monitoring.html#all-floats-distribution",
+    "href": "Monitoring.html#all-floats-distribution",
+    "title": "Monitoring GDAC content",
+    "section": "All floats distribution",
+    "text": "All floats distribution"
+  },
+  {
+    "objectID": "Monitoring.html#histogram",
+    "href": "Monitoring.html#histogram",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "Monitoring.html#histogram-percent",
+    "href": "Monitoring.html#histogram-percent",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram percent",
+    "text": "Histogram percent"
+  },
+  {
+    "objectID": "Monitoring.html#histogram-delayed-mode-profiles",
+    "href": "Monitoring.html#histogram-delayed-mode-profiles",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram delayed mode profiles",
+    "text": "Histogram delayed mode profiles"
+  },
+  {
+    "objectID": "Monitoring.html#histogram-delayed-mode-profiles-percent",
+    "href": "Monitoring.html#histogram-delayed-mode-profiles-percent",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram delayed mode profiles percent",
+    "text": "Histogram delayed mode profiles percent"
+  },
+  {
+    "objectID": "Monitoring.html#histogram-delayed-mode-profiles-available-for-dm",
+    "href": "Monitoring.html#histogram-delayed-mode-profiles-available-for-dm",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram delayed mode profiles available for DM",
+    "text": "Histogram delayed mode profiles available for DM"
+  },
+  {
+    "objectID": "Monitoring.html#more-on-argo-floats-dashboard",
+    "href": "Monitoring.html#more-on-argo-floats-dashboard",
+    "title": "Monitoring GDAC content",
+    "section": "More on Argo floats dashboard",
+    "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
+  },
+  {
+    "objectID": "Dmqc.html",
+    "href": "Dmqc.html",
+    "title": "DMQC",
+    "section": "",
+    "text": "This section is dedicated to Delayed Mode Quality Control activities."
+  },
+  {
+    "objectID": "Dmqc.html#tools-for-dmqc",
+    "href": "Dmqc.html#tools-for-dmqc",
+    "title": "DMQC",
+    "section": "Tools for DMQC",
+    "text": "Tools for DMQC\nThis page aggregates the information related to DMQC tools available to Argo DMQC community\n\nthe GitHub repository for OWC https://github.com/ArgoDMQC/matlab_owc\nthe GitHub repository for the PMEL GUI https://github.com/ArgoDMQC/PMEL_GUI\nthe GitHub repository for the SOCCOM/BGC-Argo processing https://github.com/SOCCOM-BGCArgo/ARGO_PROCESSING\nthe visual quality control for Argo NetCDF data files Scoop-Argo https://www.seanoe.org/data/00374/48531/\n\nWebpage to be updated in the coming months. In the meantime please refer to the list provided here."
+  },
+  {
+    "objectID": "Dmqc.html#what-float-should-i-process-first",
+    "href": "Dmqc.html#what-float-should-i-process-first",
+    "title": "DMQC",
+    "section": "What float should I process first?",
+    "text": "What float should I process first?\nThe following information are available :\n\nWHOI analysis to detect possible drift http://argo.whoi.edu/argo/sbedrift_wmo/\nCheck against altimetry https://data-argo.ifremer.fr/etc/argo-ast9-item13-AltimeterComparison/\nCheck at Coriolis using Argo MinMax climatology tests are available in monthly Coriolis GDAC reports : https://data-argo.ifremer.fr/etc/Report_ObjectiveAnalysisWarning/\nDM consistency checks in the North Atlantic http://www.umr-lops.fr/en/SNO-Argo/Activities/NAARC/Consistency-checks-of-DM-salinity-corrections"
+  },
+  {
+    "objectID": "Dmqc.html#the-dmqc-mentoring-system-for-argo-ctd-data",
+    "href": "Dmqc.html#the-dmqc-mentoring-system-for-argo-ctd-data",
+    "title": "DMQC",
+    "section": "The DMQC Mentoring System for Argo CTD data",
+    "text": "The DMQC Mentoring System for Argo CTD data\nIn order to preserve and share DMQC knowledge for CTD data within the Argo community, one-on-one interactions are needed in addition to detailed documentation of methods. Therefore a DMQC Mentoring System has been set up so that new operators can reach out to a mentor of choice to learn more about DMQC activities in a personalised setting.\nThe following is the list of experienced delayed-mode people, in alphabetical order, and their areas of expertise, who have volunteered to be mentors:\n\nUday Bhaskar (uday@incois.gov.in) - North Indian Ocean\nCecile Cabanes (cecile.cabanes@ifremer.fr) - North Atlantic Ocean\nJohn Gilson (jegilson@gmail.com) - North Pacific Ocean, South Pacific Ocean, South Indian Ocean\nShigaki Hosoda (hosodas@jamstec.go.jp) - North Pacific Ocean\nKiRyong Kang (krkang@kma.go.kr) - Yellow Sea, East Sea\nBirgit Klein (Birgit.Klein@bsh.de) - Southern Ocean, Nordic Sea\nJohn Lyman (john.lyman@noaa.gov) - North Pacific Ocean, South Pacific Ocean\nGiulio Notarstefano (gnotarstefano@inogs.it) - Mediterranean Sea, Black Sea\nPelle Robbins (probbins@whoi.edu) - North Atlantic Ocean, South Atlantic Ocean\nAnnie Wong (apsw.uw@gmail.com) - Southern Ocean, South Pacific Ocean, South Indian Ocean, South Atlantic Ocean\n\nIf you are new to Argo DMQC for CTD data and would like to work with a mentor, please contact one of the volunteers above."
+  },
+  {
+    "objectID": "Dmqc.html#argo-reference-database-for-delayed-mode-qc",
+    "href": "Dmqc.html#argo-reference-database-for-delayed-mode-qc",
+    "title": "DMQC",
+    "section": "Argo Reference database for delayed mode QC",
+    "text": "Argo Reference database for delayed mode QC\nThe free-moving nature of profiling floats means that most float measurements are without accompanying in-situ “ground truth” values for absolute calibration (such as those afforded by shipboard CTD measurements). Therefore Argo delayed-mode procedures for checking sensor drifts and offsets in salinity rely on reference datasets and statistical methods.\n\nLatest version of the Argo reference database\nThe CTD reference database for Argo is updated on a yearly bases by Coriolis team or when there are enough new data to justify an upgrade. The CTD are provided by the PIs, the ARC, Clivar Hydrographic Center and NODC/USA. In areas with poor CTD data, good Argo profiles are used for the delayed mode QC. This Argo reference database is updated by SCRIPPS (J Gilson).\nAccess to reference databases\nBecause the CTD database may contain CTD data that is not yet freely available, access is restricted to those performing DMQC on the data. To request access, email codac@ifremet.fr.\nDecember 2022 A new version of the ARGO climatology (ARGO_for_DMQC_2022V03) is available on the ftp site.\n\n\n\nJanuary 2022 A new version of the ARGO climatology (ARGO_for_DMQC_2021V03) is available on the ftp site.\n\n\n\nDecember 2021 A new version of the CTD reference database (2021V02) is available on the ftp site. This version takes into account some corrections following the feedback received by the users. Some CTDs have also been added: CTDs provided by scientists, CTDs made during float deployments and some GO-SHIP CTDs retrieved from the CCHDO website.\n\n\n\nMarch 2021 A new version of the CTD reference database (2021V01) is available on the ftp site. This version takes into account the GO-SHIP Easy Ocean dataset (flag GSD in QCLEVEL), dedicated to delayed mode deep Argo floats data, as well as somes new CTD (CCHDO, scientists,…).\n\n\n\nJanuary 2022 A new version of the ARGO climatology (ARGO_for_DMQC_2021V03) is available on the ftp site.\n\n\n\nApril 2015 A new version of the ARGO climatology (ARGO_for_DMQC_2015V01) is available on the ftp site\n\n\n\nJanuary 2015 A new version of the ARGO climatology (ARGO_for_DMQC_2014V04) is available on the ftp site\n\n\n\nDecember 2014 A new version of the CTD reference database (2014V01) is available on the ftp site. This version takes into account somes new CTD (CCHDO, scientists) and a detailled control check on boxes of the area 1. (others areas will be corrected in next versions).\n\n\n\nOctober 2014 A new version of the ARGO climatology (ARGO_for_DMQC_2014V03) is available on the ftp site\n\n\n\nJuly 2014 A new version of the ARGO climatology (ARGO_for_DMQC_2014V02) is available on the ftp site\n\n\n\nJanuary 2014 A new version of the ARGO climatology (ARGO_for_DMQC_2013V04) is available on the ftp site\n\n\n\nOctober 2013 A new version of the ARGO climatology (ARGO_for_DMQC_2013V03) is available on the ftp site\n\n\n\nMarch 2013 A new version of the CTD reference database (2013V01) is available on the ftp site. This version takes into account update from WOD2009 and some corrections on data.\n\n\n\nJuly 2012 A new version of the ARGO climatology (ARGO_for_DMQC_2012V02) is available on the ftp site\n\n\n\nMarch 2012 A new version of the CTD reference database (2012V01) is available on the ftp site. This version takes into account update from WOD2009 and some new CTD from scientists.\n\n\n\nMarch 2011 A new version of the CTD reference database (2010V02) is available on the ftp site. This version takes into account correction done on CTD data from the version 2010V01 and some new CTD from scientists.\n\n\n\nDecember 2010 A new version of the ARGO climatology (ARGO_for_DMQC_2010V04) is available on the ftp site\n\n\n\nApril 2010 A new version of the ARGO climatology (ARGO_for_DMQC_2010V01) is available on the ftp site\n\n\n\nFebruary 2010 A new version of the CTD reference database is available on the ftp site. This version takes into account the CTD data from the WOD2009.\n\n\n\nJuly 2009\n\n\n\nArgo profile reference database October 2008\nJuly 2008\n\n\n\nArgo CTD Reference Data base July 2008\nThe updated reference database for ARGO, including the WOD05 CTD, is now available at Coriolis. This version, that you must reference as ARGO2008V01, takes into account the conversion ITS90 to ITS68 for the temperature. The Argo float Ref DB (argo_clim) provided by John Gilson is also available on the same ftp site.\nNote : If you detect an anomalie in the ARGO2008V01 database, please report to codac indicating the code ‘source’ of the station concerned (in the file ctd_&lt;n°box&gt;.mat) and the correction to be applied : the “source” code allow us to link the data provider and the reference of the station and to provide feedback to the provider to avoid getting the same problem while updating the database.\n\n\nPrevious versions of Argo Reference Data Base\nTo process delayed mode quality control on floats, each DM operator has improved the database for his area and we have at present 4 different reference databases : SeHyd for the Pacific, IOHB for the Indian, BS (Böhme-Send) + ATL CTD or Hydrobase for the Atlantic.\nSeHYD and IOHB are available in a form suitable as input files (wmo_boxes) fro WJO/OW. IOHB has data formatted in both WJO standard levels and as full profiles. SeHYD is available only at WJO standard levels.\nOn the following links, you will have access to those different regional reference databases :\nAtlantic Ocean Recent CTD from Coriolis and Böhme-Send method contact : Codac Atlantic Hydrobase : web site hydrobase\nPacific Ocean SeHyd from JAMSTEC contact : Taiyo Kobayashi\nIndian Ocean Indian Ocean HydroBase from JAMSTEC IOHB contact : Taiyo Kobayashi\nSouthern Ocean SODB : web site SODB\nCCHDO Clivar & Carbon Hydrographic Data Office Link to the CCHDO web site CCHDO has extracted for ARGO recent CTD( 2001-2006) and made them accessible to the Argo Delayed mode operators. These data ore on the ifremer ftp site. Please contact codac@ifremer.fr to get an user name / password\nBe careful that all those datasets must be only used for the delayed mode quality control of the Argo floats, some data of the added cruises have confidential access."
+  },
+  {
+    "objectID": "DataAccess.html",
+    "href": "DataAccess.html",
+    "title": "Data access",
+    "section": "",
+    "text": "There are many sources of Argo data depending on the desired format, source and application. A complete presentation is available on https://argo.ucsd.edu/data"
+  },
+  {
+    "objectID": "DataAccess.html#argo-data-sources",
+    "href": "DataAccess.html#argo-data-sources",
+    "title": "Data access",
+    "section": "",
+    "text": "There are many sources of Argo data depending on the desired format, source and application. A complete presentation is available on https://argo.ucsd.edu/data"
+  },
+  {
+    "objectID": "DataAccess.html#ftp-https-s3-data-services",
+    "href": "DataAccess.html#ftp-https-s3-data-services",
+    "title": "Data access",
+    "section": "Ftp, https, s3 data services",
+    "text": "Ftp, https, s3 data services\nArgo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.\n\nftp://ftp.ifremer.fr/ifremer/argo\nhttps://data-argo.ifremer.fr / https://usgodae.org/pub/outgoing/argo\ns3: Argo data are updated daily on https://registry.opendata.aws/argo-gdac-marinedata"
+  },
+  {
+    "objectID": "DataAccess.html#data-format",
+    "href": "DataAccess.html#data-format",
+    "title": "Data access",
+    "section": "Data format",
+    "text": "Data format\nArgo data, metadata, technical data are managed in NetCDF files.\nThe index files list and provide a short description the NetCDF files content. The index files format is ASCII “csv” (comma separated values).\nThe description of the Argo formats, the file naming conventions and more are documented in\n\nArgo user’s manual: https://dx.doi.org/10.13155/29825"
+  },
+  {
+    "objectID": "DataAccess.html#organization",
+    "href": "DataAccess.html#organization",
+    "title": "Data access",
+    "section": "Organization",
+    "text": "Organization\nGDACs are continuously updated in real-time and delayed mode with data from Data Assembly Centers (DACs). The Argo GDAC dataset provides 3 “views” of the data profiles:\n\nDAC: a directory per data assembly center / a directory per profiler / a file per profile\nGEO: a directory per ocean / a directory per year in the ocean / a directory per month of the year / a directory per day of the month / a file per profile of the day\nLATEST_DATA: a directory per year / a directory per month of the year / a directory per day of the month / a file per profile of the day"
+  },
+  {
+    "objectID": "DataAccess.html#argo-data-selection",
+    "href": "DataAccess.html#argo-data-selection",
+    "title": "Data access",
+    "section": "Argo data selection",
+    "text": "Argo data selection\nArgo Data Selection is a web interface to discover, select and subset Argo data. Your selection can be downloaded as NetCDF or CSV files.\n\nhttps://dataselection.euro-argo.eu"
+  },
+  {
+    "objectID": "DataAccess.html#argo-floats-dashboard",
+    "href": "DataAccess.html#argo-floats-dashboard",
+    "title": "Data access",
+    "section": "Argo floats dashboard",
+    "text": "Argo floats dashboard\nArgo Floats Dashboard is a web interface to discover Argo floats with metadata, maps, graphics and technical alerts.\n\nhttps://fleetmonitoring.euro-argo.eu/dashboard"
+  },
+  {
+    "objectID": "DataAccess.html#argo-doi-digital-object-identifier",
+    "href": "DataAccess.html#argo-doi-digital-object-identifier",
+    "title": "Data access",
+    "section": "Argo DOI, Digital Object Identifier",
+    "text": "Argo DOI, Digital Object Identifier\nA digital object identifier (DOI) is a unique identifier for an electronic document or a dataset.\nArgo data-management assigns DOIs to its documents and datasets for two main objectives:\n\nCitation: in a publication the DOI is efficiently tracked by bibliographic surveys\nTraceability: the DOI is a direct and permanent link to the document or data set used in a publication\n\nArgo floats data and metadata from Global Data Assembly Centre (Argo GDAC)\n\nhttps://doi.org/10.17882/42182"
+  },
+  {
+    "objectID": "DataAccess.html#argo-synchronization-service",
+    "href": "DataAccess.html#argo-synchronization-service",
+    "title": "Data access",
+    "section": "Argo synchronization service",
+    "text": "Argo synchronization service\nThe rsync server “vdmzrs.ifremer.fr” server provides a synchronization service between the “dac” directory of the GDAC with a user mirror. The “dac” index files are available from “argo-index”.\nFrom the user side, the rysnc service:\n\nDownloads the new files\nDownloads the updated files\nRemoves the files that have been removed from the GDAC\nCompresses/uncompresses the files during the transfer\nPreserves the files creation/update dates\nLists all the files that have been transferred (easy to use for a user side post-processing)\n\n\nExamples\nSynchronization of a particular float, based on the data centre in charge of data processing:\n\nrsync -avzh –delete vdmzrs.ifremer.fr::argo/coriolis/69001 /home/mydirectory/…\nrsync -avzh –delete vdmzrs.ifremer.fr::argo/aoml/1900050 /home/mydirectory/…\nrsync -avzh –delete vdmzrs.ifremer.fr::argo-index/ /home/mydirectory/…\nSynchronization of the whole dac directory of Argo GDAC – rsync -avzh –delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/…"
+  },
+  {
+    "objectID": "DataAccess.html#erddap-data-server",
+    "href": "DataAccess.html#erddap-data-server",
+    "title": "Data access",
+    "section": "Erddap data server",
+    "text": "Erddap data server\nErddap is NOAA’s data server to scientific data Erddap is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps. This particular Erddap installation has oceanographic data (for example, data from Argo floats, satellites and buoys).\n\nhttps://erddap.ifremer.fr/erddap/tabledap/ArgoFloats.html"
+  },
+  {
+    "objectID": "DataAccess.html#thredds-data-server",
+    "href": "DataAccess.html#thredds-data-server",
+    "title": "Data access",
+    "section": "Thredds data server",
+    "text": "Thredds data server\nUnidata’s Thredds Data Server (TDS) is a web server that provides metadata and data access for scientific datasets, using OPeNDAP, OGC WMS, WCS, HTTP protocols.\n\nhttps://tds0.ifremer.fr/thredds/catalog/CORIOLIS-ARGO-GDAC-OBS/catalog.html"
+  },
+  {
+    "objectID": "ArgoVocabulary.html",
+    "href": "ArgoVocabulary.html",
+    "title": "Vocabularies",
+    "section": "",
+    "text": "Originally known as reference tables, they are used extensively to constrain the contents of the Argo NetCDF files, and to enhance the interoperability of the Argo data system. The Argo Data Management Team chose in 2019 to use the NERC Vocabulary Server (NVS), to further enhance Argo data interoperability\nArgo vocabularies are always evolving, to reflect evolution of Argo technology. These evolutions are managed by the Argo Vocabulary Task Team (AVTT), under the umbrella of the ADMT.\n\n\nThe NERC Vocabulary Server (NVS) provides access to lists of standardised terms that cover a broad spectrum of the oceanographic domain and associated communities. The NVS is technically-managed and hosted by the British Oceanographic Data Centre (BODC), a national facility that is part of the UK’s National Oceanography Centre (NOC). Key funding sources for the NVS include the UK’s Natural Environment Research Council (NERC) as well as European Union’s initiatives such as the Open Network for Marine Environmental Data (NETMAR) programme, the SeaDataNet / SeaDataCloud projects and the Horizons 2020 ENVRI-FAIR project.\nThe NVS conforms to a set of standards designed to be compatible with Semantic Web tools and technologies, allowing its content to support the interoperability of datasets on the Web known as Linked Data. The NVS can be accessed via content negotiation (as RDF/XML), SPARQL endpoint or SOAP web services, upon which browser access is built.\n\n\n\nThe NVS web user interface is called VocPrez, and can be accessed through the link vocab.nerc.ac.uk. VocPrez hosts general information on controlled vocabularies, a complete list of NVS collections (under ‘Vocabularies’) and Simple Knowledge Organization System (SKOS) concept schemes (under ‘Thesauri’), an interactive SPARQL endpoint to allow for machine-readable NVS query responses, and link to other tools hosted on the BODC website.\nOne of the most useful features of VocPrez is the NVS Search interface. This allows a user to search for a term (aka ‘concept’) in a vocabulary collection; search for a term across vocabulary collections; search for vocabulary collections; and explore mappings (i.e. relationships) of terms linking different collections. Search results may be downloaded in tab-delimited (tsv) as well as comma-delimited (csv) formats; moreover, search queries produce search results links that may be bookmarked and shared.\n\n\n\nArgo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance, and will display a list of all the Argo collections (or tables) created to date.\nPlease see below a list of all original Argo reference tables extracted from the Argo User Manual (‘No.’), their corresponding NVS collection IDs (‘Vocab’) and links to the NVS collections themselves as VocPrez search results (‘Search URL’):\nPlease note that each collection also has a static URL, linked in the ‘Vocabularies’ page on VocPrez: https://vocab.nerc.ac.uk/collection/?filter=Argo."
+  },
+  {
+    "objectID": "ArgoVocabulary.html#the-argo-vocabulary-task-team-avtt",
+    "href": "ArgoVocabulary.html#the-argo-vocabulary-task-team-avtt",
+    "title": "Argo Vocabulary",
+    "section": "The Argo Vocabulary Task Team (AVTT)",
+    "text": "The Argo Vocabulary Task Team (AVTT)\nThe Argo NVS collections are overseen by a sub-group of the Argo Data Management Team called the Argo Vocabulary Task Team (AVTT). Each AVTT member is responsible for a subset of Argo tables/collections, based on their interest and contributions. AVTT members are the Editors of the tables/collections, in charge of making appropriate changes on the NVS on behalf of the Argo community.\nThe work of the AVTT is coordinated by an AVTT facilitator and managed in the ArgoVocab repository of the OneArgo github: https://github.com/OneArgo/ArgoVocabs\nThe AVTT meets several times per year in between annual ADMT meetings, to discuss requests from the Argo community for the evolution of Argo vocabularies."
+  },
+  {
+    "objectID": "ArgoVocabulary.html#how-to-request-new-entries-and-suggest-changes-to-argo-vocabulary",
+    "href": "ArgoVocabulary.html#how-to-request-new-entries-and-suggest-changes-to-argo-vocabulary",
+    "title": "Argo Vocabulary",
+    "section": "How to request new entries and suggest changes to Argo vocabulary",
+    "text": "How to request new entries and suggest changes to Argo vocabulary\nTo propose a new Argo code in a vocabulary or initiate a discussion about an existing concept or collection, anyone can open an issue in the ArgoVocabs repository under the OneArgo github:\nhttps://github.com/OneArgo/ArgoVocabs\nIf the issue concerns a specific reference table, it is advised to label the issue with the name of the associated reference table (‘Rxx’). The issue is then assigned to the editor(s) in charge of the reference table. If the issue is a request for a new entry in a table, when approved, the new code is published on NVS, the Argo NetCDF file Format Checker is updated, and the issue is closed. In some cases where the decision is not straightforward, to ensure that the discussion is picked up, the Argo data management mailing list(s) may be contacted, providing the link to the Github issue in question. It is advisable to observe a two-week time limit to progress a discussion; if no comments or feedback ensue in that time frame, the decision can be considered approved by the AVTT and may be be implemented as suggested. If there is no consensus, or if the issue has large implications, the issue requires further discussion at the ADMT annual meeting. If you are unsure of which category your issue falls into, please do not hesitate to contact the ADMT co-chairs.\nAll Argo vocabulary issues are visible on the AVTT issues dashboard (a “project” under the OneArgo github), with associated status reflected in the various columns:\nhttps://github.com/orgs/OneArgo/projects/4/views/1\nIf you need help or have questions about this process, please contact Danielle Wright or Victor Turpin."
+  },
+  {
+    "objectID": "ArgoVocabulary.html#resources",
+    "href": "ArgoVocabulary.html#resources",
+    "title": "Argo Vocabulary",
+    "section": "Resources",
+    "text": "Resources\nM2M access to the NVS via API (NVS SPARQL endpoint) For machine to machine (M2M) access to the Argo Vocabularies on the NVS, the NVS SPARQL endpoint can be used.\nGeneral information on the NVS SPARQL endpoint can be found on the NVS website: https://vocab.nerc.ac.uk/sparql/\nSPARQL queries can be integrated into code written in other programming languages (Python, Matlab etc.).\nFor a basic example, please see the “m2m_NVS_sparql.ipynb” file.\nTo test, open the file into a Jupyter Notebook; edit lines marked by ‘# Switch’ to select either prefLabel/altLabel, and point to specific Argo vocabularies by inserting its name (e.g. ‘R03’) where the line is marked by ‘# Edit’.\nAccess to Argo vocabulary in python: argopy.ArgoNVSReferenceTables feature ArgoNVSReferenceTables is a feature that easily provides access and search to Argo vocabularies from python:\nhttps://argopy.readthedocs.io/en/latest/metadata_fetching.html#reference-tables\nhttps://argopy.readthedocs.io/en/latest/generated/argopy.related.ArgoNVSReferenceTables."
+  },
+  {
+    "objectID": "ArgoVocabulary.html#list-of-argo-vocabulary-editors",
+    "href": "ArgoVocabulary.html#list-of-argo-vocabulary-editors",
+    "title": "Vocabularies",
+    "section": "List of Argo vocabulary editors",
+    "text": "List of Argo vocabulary editors\nhttps://github.com/OneArgo/ArgoVocabs#editors-list"
+  },
+  {
+    "objectID": "ArgoVocabulary.html#updates-on-the-nvs-by-editors",
+    "href": "ArgoVocabulary.html#updates-on-the-nvs-by-editors",
+    "title": "Vocabularies",
+    "section": "Updates on the NVS by editors",
+    "text": "Updates on the NVS by editors\nArgo Vocabulary Editors can update the Argo NVS collections they are responsible for by using the NVS Vocab Editor. Registration on the BODC and VocPrez websites are necessary before updates can be made. Please contact the BODC Vocabulary Management team at vocab.services@bodc.ac.uk for support."
+  },
+  {
+    "objectID": "DataManagementTeam.html",
+    "href": "DataManagementTeam.html",
+    "title": "Data management team",
+    "section": "",
+    "text": "The Argo Data Management Team (ADMT) is composed of at least one representative of each institute involved in Argo data management activities. It reports to the Argo Steering Team on data management issues.\nThe role of the ADMT is to coordinate the data management activities for Argo to ensure an integrated access to Argo data independent to where it’s processed. It defines:"
+  },
+  {
+    "objectID": "DataManagementTeam.html#terms-of-reference",
+    "href": "DataManagementTeam.html#terms-of-reference",
+    "title": "Data management team",
+    "section": "Terms of Reference",
+    "text": "Terms of Reference\nThe Executive Board supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements. It is composed of a Primary and an Alternate representative for each of the main ADMT topics. The Primary and Alternate representatives coordinate so that at least one will attend the Executive Board meetings. Both representatives can attend the same meetings if both are available.\nOn each topic the Primary and Alternate representatives are in charge of working with the ADMT members on the actions linked to their topic and monitoring progress: • Identify issues and possible solutions to be discussed at the Executive Board meetings and at the ADMT meetings. • Ensure effective communications with various user groups via outreach activities. • Ensure Argo data adhere to the FAIR data principles."
+  },
+  {
+    "objectID": "DataManagementTeam.html#members",
+    "href": "DataManagementTeam.html#members",
+    "title": "Data management team",
+    "section": "Members",
+    "text": "Members\n\n\n\n\n\n\n\n\nRole\nPrimary\nAlternate\n\n\n\n\nArgo Data Management Chairs\nMegan ScanderbegClaire Gourcuff\n\n\n\nArgo Director\nBreck Owens\n\n\n\nArgo Steering Team Chairs\nSusan WijffelsBrian King\n\n\n\nBGC Mission\nCatherine SchmechtigTanya Maurer\n\n\n\nTechnical Coordination/Monitoring\nVictor TurpinOrens De Fommervault\n\n\n\nGDACs\nThierry CarvalMichael Frost\n\n\n\nDelay Mode Operators\nAnnie WongCécile Cabanes\n\n\n\nDACs\nClaudia SchmidAnh Tran\n\n\n\nARCs\nUday BhaskarShigeki Hosoda\n\n\n\nGADR\nZhankun Wang\n\n\n\nFormat / User Manual\nThierry CarvalAnnie Wong"
+  },
+  {
+    "objectID": "DataManagementTeam.html#admt-meetings",
+    "href": "DataManagementTeam.html#admt-meetings",
+    "title": "Data management team",
+    "section": "ADMT meetings",
+    "text": "ADMT meetings\n\n\n\nMeeting\n\nlocation\n\n\n\n\n\n25th Argo Data Management\nTrieste\n21-25 Oct 2024\nADMT-25 report"
+  },
+  {
+    "objectID": "DataManagementTeam.html#admt-bgc-meetings",
+    "href": "DataManagementTeam.html#admt-bgc-meetings",
+    "title": "Data management team",
+    "section": "ADMT BGC meetings",
+    "text": "ADMT BGC meetings\n\n\n\nMeeting\nlocation\ndate\nlink\n\n\n\n\n11th BGC-Argo Data Management\n\n6-7 Dec 2022\nADMT-BGC-11 report missing\n\n\n10th BGC-Argo Data Management\n\n6-7 Dec 2021\nADMT-BGC-10 report\n\n\n9th BGC-Argo Data Management\nVirtual meeting\n30 November - 1 Dec 2020\nADMT-BGC-09 report\n\n\n8th BGC-Argo Data Management\nVillefranche\n14-15 Oct 2019\nADMT-BGC-08 report\n\n\n7th BGC-Argo Data Management\nSan Diego\n3-4 Dec 2018\nADMT-BGC-07 report\n\n\n6th BGC-Argo Data Management\nHamburg\n27-28 Nov 2017\nADMT-BGC-06 report\n\n\n5th BGC-Argo Data Management\nTianjin\n26-27 Sept 2016\nADMT-BGC-05 report\n\n\n4th BGC-Argo Data Management\nBermuda\n2-3 Nov 2015\nADMT-BGC-04 report\n\n\n3rd BGC-Argo Data Management\nOttawa\n3-4 Nov 2014\nADMT-BGC-03 report\n\n\n2nd BGC-Argo Data Management\nLiverpool\n14-15 Oct 2013\nADMT-BGC-02 report\n\n\n1st BGC-Argo Data Management\nHyderabad\n12-13 Nov 2012\nADMT-BGC-01 report"
+  },
+  {
+    "objectID": "DataManagementTeam.html#admt-delayed-mode-meetings",
+    "href": "DataManagementTeam.html#admt-delayed-mode-meetings",
+    "title": "Data management team",
+    "section": "ADMT delayed mode meetings",
+    "text": "ADMT delayed mode meetings\n\n\n\nMeeting\nlocation\ndate\nlink\n\n\n\n\n1st Delayed Mode workshop\nSan Diego\n8-13 April 2005\nADMT-DM-WS report"
+  },
+  {
+    "objectID": "Documentation.html",
+    "href": "Documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "How is Argo data management organized ?\n\nA beginners’ guide to accessing Argo data\nArgo data FAQ\n\n\n\nArgo data formats\n\nThe Argo data formats are described in the “Argo user’s manual” https://dx.doi.org/10.13155/29825\nArgo physical parameters list: core-Argo and BGC-Argo\nArgo user manual for technical files\n\nTechnical parameters names\nTechnical parameters naming convention rules\nTechnical and configuration parameters units\n\nArgo metadata files\n\nConfiguration parameter names, core-Argo\nConfiguration parameter names, BGC-Argo\n\nSurface pressure correction table\n\n\n\nQuality control\n\nArgo quality control manual for CTD and trajectory data https://dx.doi.org/10.13155/33951\nArgo quality control manual for dissolved oxygen concentration https://doi.org/10.13155/46542\nBGC-Argo quality control manual for biogeochemical data https://dx.doi.org/10.13155/40879\nBGC-Argo quality control manual for chlorophyll-A concentration https://dx.doi.org/10.13155/35385\nBGC-Argo quality control manual for nitrate concentration https://doi.org/10.13155/84370\nBGC-Argo quality control for radiometry https://doi.org/10.13155/62466\nBGC-Argo quality control manual for pH https://doi.org/10.13155/97828\nBGC Argo quality control manual for particles backscattering https://doi.org/10.13155/60262\n\n\n\nCookbooks, Core-Argo\n\nArgo DAC profile cookbook https://dx.doi.org/10.13155/41151\nArgo DAC trajectory cookbook https://dx.doi.org/10.13155/29824\nCommon method for determining position and Time and attribute the appropriate QC\nCore-Argo DMQC cookbook https://doi.org/10.13155/78994\n\n\n\nCookbooks, BGC-Argo\n\nProcessing Argo oxygen data at the DAC level cookbook https://doi.org/10.13155/39795\nBGC-Argo processing particle backscattering at the DAC level https://dx.doi.org/10.13155/39459\nBGC-Argo processing chlorophyll-A concentration at the DAC level https://dx.doi.org/10.13155/39468\nBGC-Argo processing Argo measurement timing information at the DAC level https://dx.doi.org/10.13155/47998\nProcessing BGC-Argo CDOM concentration at the DAC level https://doi.org/10.13155/54541\nProcessing Bio-Argo nitrate concentration at the DAC Level https://dx.doi.org/10.13155/46121\nProcessing BGC-Argo Radiometric data at the DAC level https://doi.org/10.13155/51541\nProcessing BGC-Argo pH data at the DAC level https://doi.org/10.13155/57195\n\n\n\nCookbooks, GDAC\n\nDescription of the Argo GDAC File Checks: Data Format and Consistency Checks https://dx.doi.org/10.13155/46120\nBGC-Argo synthetic profile file processing and format on Coriolis GDAC https://doi.org/10.13155/55637\nArgo GDAC cookbook https://doi.org/10.13155/46202"
+  },
+  {
+    "objectID": "news/Test.html#la-suite",
+    "href": "news/Test.html#la-suite",
+    "title": "Test",
+    "section": "La suite",
+    "text": "La suite\nappearance"
+  },
+  {
+    "objectID": "news/News.html",
+    "href": "news/News.html",
+    "title": "News",
+    "section": "",
+    "text": "aaa bbb ccc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nADMT actions issued on 2024-11-06\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArgo annual report 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBGC-Argo configuration parameter names December 2024 release\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParameters list updated on 2024-11-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/ArgoAnnualReport2024.html",
+    "href": "news/ArgoAnnualReport2024.html",
+    "title": "Argo annual report 2024",
+    "section": "",
+    "text": "The report waspublished on xxx : https://doixxx.org"
+  },
+  {
+    "objectID": "news/AdmtActions.html",
+    "href": "news/AdmtActions.html",
+    "title": "ADMT actions issued on 2024-11-06",
+    "section": "",
+    "text": "The ADMT actions were updated"
+  },
+  {
+    "objectID": "news/BGC-Argo-configurationParameterNames.html",
+    "href": "news/BGC-Argo-configurationParameterNames.html",
+    "title": "BGC-Argo configuration parameter names December 2024 release",
+    "section": "",
+    "text": "On December 19th 2024, Catherine Schmechtig distributed an update of BGC-Argo configuration parameter names.\nThis update is available on Documentation\nA secondary optode sensor on a stick is accepted."
+  },
+  {
+    "objectID": "news/ParametersUpdate.html",
+    "href": "news/ParametersUpdate.html",
+    "title": "Parameters list updated on 2024-11-05",
+    "section": "",
+    "text": "The parameters list was updated"
+  },
+  {
+    "objectID": "ArgoVocabulary.html#the-nvs",
+    "href": "ArgoVocabulary.html#the-nvs",
+    "title": "Vocabularies",
+    "section": "",
+    "text": "The NERC Vocabulary Server (NVS) provides access to lists of standardised terms that cover a broad spectrum of the oceanographic domain and associated communities. The NVS is technically-managed and hosted by the British Oceanographic Data Centre (BODC), a national facility that is part of the UK’s National Oceanography Centre (NOC). Key funding sources for the NVS include the UK’s Natural Environment Research Council (NERC) as well as European Union’s initiatives such as the Open Network for Marine Environmental Data (NETMAR) programme, the SeaDataNet / SeaDataCloud projects and the Horizons 2020 ENVRI-FAIR project.\nThe NVS conforms to a set of standards designed to be compatible with Semantic Web tools and technologies, allowing its content to support the interoperability of datasets on the Web known as Linked Data. The NVS can be accessed via content negotiation (as RDF/XML), SPARQL endpoint or SOAP web services, upon which browser access is built."
+  },
+  {
+    "objectID": "ArgoVocabulary.html#vocprez",
+    "href": "ArgoVocabulary.html#vocprez",
+    "title": "Vocabularies",
+    "section": "",
+    "text": "The NVS web user interface is called VocPrez, and can be accessed through the link vocab.nerc.ac.uk. VocPrez hosts general information on controlled vocabularies, a complete list of NVS collections (under ‘Vocabularies’) and Simple Knowledge Organization System (SKOS) concept schemes (under ‘Thesauri’), an interactive SPARQL endpoint to allow for machine-readable NVS query responses, and link to other tools hosted on the BODC website.\nOne of the most useful features of VocPrez is the NVS Search interface. This allows a user to search for a term (aka ‘concept’) in a vocabulary collection; search for a term across vocabulary collections; search for vocabulary collections; and explore mappings (i.e. relationships) of terms linking different collections. Search results may be downloaded in tab-delimited (tsv) as well as comma-delimited (csv) formats; moreover, search queries produce search results links that may be bookmarked and shared."
+  },
+  {
+    "objectID": "ArgoVocabulary.html#argo-on-the-nvs",
+    "href": "ArgoVocabulary.html#argo-on-the-nvs",
+    "title": "Vocabularies",
+    "section": "",
+    "text": "Argo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance, and will display a list of all the Argo collections (or tables) created to date.\nPlease see below a list of all original Argo reference tables extracted from the Argo User Manual (‘No.’), their corresponding NVS collection IDs (‘Vocab’) and links to the NVS collections themselves as VocPrez search results (‘Search URL’):\nPlease note that each collection also has a static URL, linked in the ‘Vocabularies’ page on VocPrez: https://vocab.nerc.ac.uk/collection/?filter=Argo."
+  }
+]

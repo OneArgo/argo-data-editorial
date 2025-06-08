@@ -1,0 +1,129 @@
+{
+   "COLOR" : {
+      "MEDS" : "#FF0000",
+      "JMA" : "#FFFF00",
+      "CSIO" : "#00AAFF",
+      "AOML" : "#0000A5",
+      "NMDIS" : "#A50000",
+      "CSIRO" : "#00FFFF",
+      "BODC" : "#0000FF",
+      "GTS" : "#52FFA5",
+      "INCOIS" : "#A5FF52",
+      "KMA" : "#FFAA00",
+      "CORIOLIS" : "#0055FF",
+      "KORDI" : "#FF5500"
+   },
+   "DELAYED" : {
+      "GDAC" : {
+         "CORIOLIS" : [
+            434576
+         ],
+         "KORDI" : [
+            14564
+         ],
+         "BODC" : [
+            102379
+         ],
+         "INCOIS" : [
+            39996
+         ],
+         "KMA" : [
+            35092
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "CSIRO" : [
+            217264
+         ],
+         "MEDS" : [
+            52968
+         ],
+         "CSIO" : [
+            61280
+         ],
+         "JMA" : [
+            218349
+         ],
+         "AOML" : [
+            1432598
+         ]
+      },
+      "TOTAL" : 2611454
+   },
+   "ACTIVE" : {
+      "GDAC" : {
+         "CORIOLIS" : [
+            757
+         ],
+         "KORDI" : [
+            14
+         ],
+         "CSIRO" : [
+            308
+         ],
+         "AOML" : [
+            2338
+         ],
+         "BODC" : [
+            151
+         ],
+         "MEDS" : [
+            194
+         ],
+         "JMA" : [
+            166
+         ],
+         "CSIO" : [
+            70
+         ],
+         "INCOIS" : [
+            82
+         ],
+         "KMA" : [
+            4
+         ]
+      },
+      "TOTAL" : 4084
+   },
+   "ALL" : {
+      "GDAC" : {
+         "AOML" : [
+            9038
+         ],
+         "CSIO" : [
+            555
+         ],
+         "JMA" : [
+            1942
+         ],
+         "MEDS" : [
+            704
+         ],
+         "CSIRO" : [
+            1179
+         ],
+         "NMDIS" : [
+            19
+         ],
+         "KMA" : [
+            256
+         ],
+         "INCOIS" : [
+            548
+         ],
+         "BODC" : [
+            903
+         ],
+         "KORDI" : [
+            125
+         ],
+         "CORIOLIS" : [
+            3797
+         ]
+      },
+      "TOTAL" : 19066
+   },
+   "DATE" : "11/02/2025"
+}
+

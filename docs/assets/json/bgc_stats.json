@@ -1,0 +1,189 @@
+{
+   "NB_OBSERVATION_PARAM" : {
+      "NITRATE" : "51685567",
+      "PSAL" : 0,
+      "TEMP" : "147204122",
+      "DOXY" : "157670894",
+      "IRRADIANCE" : "44748228",
+      "PH_IN_SITU" : "40101751",
+      "CHLA" : "88530475"
+   },
+   "NB_CYCLE_TOTAL" : "324435",
+   "NB_PROFILE_PARAM" : {
+      "TEMP" : "284564",
+      "CHLA" : "149853",
+      "PSAL" : "0",
+      "DOXY" : "325127",
+      "IRRADIANCE" : "62529",
+      "PH_IN_SITU" : "68418",
+      "NITRATE" : "89362"
+   },
+   "NB_FLOAT_BY_DAC" : {
+      "KORDI" : "34",
+      "CSIRO" : "108",
+      "CORIOLIS" : "840",
+      "INCOIS" : "82",
+      "KMA" : "3",
+      "AOML" : "921",
+      "BODC" : "37",
+      "MEDS" : "200",
+      "CSIO" : "68",
+      "JMA" : "128"
+   },
+   "NB_OBSERVATION_PARAM_BY_DAC" : {
+      "KMA" : {
+         "TEMP" : "23192",
+         "DOXY" : "23192"
+      },
+      "INCOIS" : {
+         "NITRATE" : "280916",
+         "DOXY" : "6170339",
+         "CHLA" : "6129443",
+         "PH_IN_SITU" : "94546",
+         "TEMP" : "6170339"
+      },
+      "AOML" : {
+         "CHLA" : "27411393",
+         "TEMP" : "51264492",
+         "NITRATE" : "31565206",
+         "IRRADIANCE" : "1449961",
+         "DOXY" : "59935652",
+         "PH_IN_SITU" : "27256736"
+      },
+      "CSIO" : {
+         "CHLA" : "2294984",
+         "TEMP" : "4548875",
+         "IRRADIANCE" : "1480531",
+         "DOXY" : "4548875",
+         "PH_IN_SITU" : "1005198",
+         "NITRATE" : "1597658"
+      },
+      "JMA" : {
+         "TEMP" : "10915933",
+         "DOXY" : "11004351",
+         "CHLA" : "1689459",
+         "PH_IN_SITU" : "1349369",
+         "NITRATE" : "522400"
+      },
+      "MEDS" : {
+         "CHLA" : "1861480",
+         "TEMP" : "4446955",
+         "IRRADIANCE" : "358145",
+         "DOXY" : "4556349",
+         "PH_IN_SITU" : "454840",
+         "NITRATE" : "323282"
+      },
+      "BODC" : {
+         "IRRADIANCE" : "5098076",
+         "DOXY" : "5595032",
+         "PH_IN_SITU" : "1769269",
+         "NITRATE" : "1756107",
+         "TEMP" : "5595032",
+         "CHLA" : "5277752"
+      },
+      "KORDI" : {
+         "DOXY" : "159733"
+      },
+      "CSIRO" : {
+         "NITRATE" : "1743561",
+         "PH_IN_SITU" : "1242634",
+         "IRRADIANCE" : "1757438",
+         "DOXY" : "8931682",
+         "CHLA" : "4337928",
+         "TEMP" : "8456914"
+      },
+      "CORIOLIS" : {
+         "TEMP" : "55782390",
+         "CHLA" : "39528036",
+         "NITRATE" : "13896437",
+         "DOXY" : "56745689",
+         "IRRADIANCE" : "34604077",
+         "PH_IN_SITU" : "6929159"
+      }
+   },
+   "NB_PROFILE_PARAM_BY_DAC" : {
+      "CORIOLIS" : {
+         "TEMP" : "100092",
+         "CHLA" : "56498",
+         "NITRATE" : "18271",
+         "PH_IN_SITU" : "7957",
+         "DOXY" : "114283",
+         "IRRADIANCE" : "48240"
+      },
+      "KORDI" : {
+         "DOXY" : "3426"
+      },
+      "CSIRO" : {
+         "TEMP" : "23066",
+         "CHLA" : "12086",
+         "PH_IN_SITU" : "2252",
+         "IRRADIANCE" : "3733",
+         "DOXY" : "24448",
+         "NITRATE" : "3405"
+      },
+      "AOML" : {
+         "CHLA" : "52966",
+         "TEMP" : "101028",
+         "NITRATE" : "61533",
+         "DOXY" : "119461",
+         "IRRADIANCE" : "2084",
+         "PH_IN_SITU" : "52801"
+      },
+      "MEDS" : {
+         "TEMP" : "8859",
+         "CHLA" : "2114",
+         "NITRATE" : "329",
+         "IRRADIANCE" : "489",
+         "DOXY" : "10550",
+         "PH_IN_SITU" : "419"
+      },
+      "BODC" : {
+         "NITRATE" : "1773",
+         "PH_IN_SITU" : "1784",
+         "DOXY" : "6736",
+         "IRRADIANCE" : "5897",
+         "TEMP" : "6736",
+         "CHLA" : "6085"
+      },
+      "JMA" : {
+         "NITRATE" : "1246",
+         "TEMP" : "19057",
+         "CHLA" : "2693",
+         "PH_IN_SITU" : "1633",
+         "DOXY" : "20497"
+      },
+      "CSIO" : {
+         "TEMP" : "11859",
+         "CHLA" : "4369",
+         "NITRATE" : "2522",
+         "PH_IN_SITU" : "1477",
+         "DOXY" : "11859",
+         "IRRADIANCE" : "2086"
+      },
+      "INCOIS" : {
+         "CHLA" : "13042",
+         "PH_IN_SITU" : "95",
+         "DOXY" : "13399",
+         "TEMP" : "13399",
+         "NITRATE" : "283"
+      },
+      "KMA" : {
+         "DOXY" : "468",
+         "TEMP" : "468"
+      }
+   },
+   "NB_FLOAT_TOTAL" : "2421",
+   "NB_CYCLE_BY_DAC" : {
+      "KMA" : "468",
+      "INCOIS" : "13298",
+      "AOML" : "119741",
+      "CSIO" : "13079",
+      "JMA" : "20847",
+      "MEDS" : "9903",
+      "BODC" : "6591",
+      "KORDI" : "3426",
+      "CSIRO" : "24452",
+      "CORIOLIS" : "112630"
+   }
+}
+

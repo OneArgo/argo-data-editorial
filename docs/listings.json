@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/docs/News/News.html",
+    "items": [
+      "/docs/News/AdmtActions.html",
+      "/docs/News/ArgoAnnualReport2024.html",
+      "/docs/News/ParametersUpdate.html"
+    ]
+  },
+  {
+    "listing": "/news/News.html",
+    "items": [
+      "/news/AdmtActions.html",
+      "/news/ArgoAnnualReport2024.html",
+      "/news/BGC-Argo-configurationParameterNames.html",
+      "/news/ParametersUpdate.html",
+      "/news/Test.html"
+    ]
+  }
+]

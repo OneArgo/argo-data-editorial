@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   favicon: assets/images/Argo_logo_tallspacer.png
