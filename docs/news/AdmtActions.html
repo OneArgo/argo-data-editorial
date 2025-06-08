@@ -164,6 +164,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  const externalLinks = document.querySelectorAll('a[target="_blank"]');
+
+  externalLinks.forEach(link => {
+
+    link.classList.add('external-link');
+
+  });
+
+});
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
