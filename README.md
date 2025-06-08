@@ -1,2 +1,2 @@
 # argo-data-editorial
-The editorial site of Argo data management team
+The editorial site of Argo data management team.
