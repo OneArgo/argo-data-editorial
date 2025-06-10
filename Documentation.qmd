@@ -8,15 +8,15 @@ title: "Documentation"
 
 # Argo data formats
 - The Argo data formats are described in the "Argo user's manual" [https://dx.doi.org/10.13155/29825](https://dx.doi.org/10.13155/29825){target="_blank"}
-- [R03 - Argo parameters core & bgc](https://github.com/OneArgo/argo-format-user-manual/blob/5f4a9c7a1a5ab4436244ee8a59e03d2ad4674c20/etc/r03-argo-parameters-list-core-and-b.xlsx){target="_blank"}
-- Argo user manual for technical files
+- Reference tables master documents
+  - [R03 - Argo parameters core & bgc](https://github.com/OneArgo/argo-format-user-manual/blob/5f4a9c7a1a5ab4436244ee8a59e03d2ad4674c20/etc/r03-argo-parameters-list-core-and-b.xlsx){target="_blank"}
   - [R14 - Technical parameters names](https://github.com/OneArgo/argo-format-user-manual/blob/5f4a9c7a1a5ab4436244ee8a59e03d2ad4674c20/etc/r14-ArgoTechnicalParameterNames.xlsx){target="_blank"}
+  - [R18 - Configuration parameter names, core-Argo](https://github.com/OneArgo/argo-format-user-manual/blob/5f4a9c7a1a5ab4436244ee8a59e03d2ad4674c20/etc/r18-Core_Argo_ConfigurationParameterNames.xlsx){target="_blank"}
+  - [R18 - Configuration parameter names, bgc-Argo](https://github.com/OneArgo/argo-format-user-manual/blob/5f4a9c7a1a5ab4436244ee8a59e03d2ad4674c20/etc/r18-Bio_Argo_Configuration_Parameter_Names.xlsx){target="_blank"}
+- User manual for technical files
   - [Technical parameters naming convention rules](https://github.com/OneArgo/argo-format-user-manual/blob/7bb1777ecaa00e2f3364956faa0faab4fd6eff21/etc/Technical_Naming_Convention_rules_V4.doc){target="_blank"}
   - [Technical and configuration parameters units](https://github.com/OneArgo/argo-format-user-manual/blob/d1ab29664f9e94d291c002099accd34cb27f8f2c/etc/Table%20Tech%20and%20Conf%20Units.xlsx){target="_blank"}
-- Argo metadata files
-  - [R18 - Configuration parameter names, core-Argo](https://github.com/OneArgo/argo-format-user-manual/blob/5f4a9c7a1a5ab4436244ee8a59e03d2ad4674c20/etc/r18-Core_Argo_ConfigurationParameterNames.xlsx){target="_blank"}
-  - [R18 - Configuration parameter names, BGC-Argo](https://github.com/OneArgo/argo-format-user-manual/blob/5f4a9c7a1a5ab4436244ee8a59e03d2ad4674c20/etc/r18-Bio_Argo_Configuration_Parameter_Names.xlsx){target="_blank"}
-- [Surface pressure correction table](https://github.com/OneArgo/argo-format-user-manual/blob/d1ab29664f9e94d291c002099accd34cb27f8f2c/etc/SurfacePressureCorrectionTable.xls){target="_blank"}
+  - [Surface pressure correction table](https://github.com/OneArgo/argo-format-user-manual/blob/d1ab29664f9e94d291c002099accd34cb27f8f2c/etc/SurfacePressureCorrectionTable.xls){target="_blank"}
 
 # Quality control
 - Argo quality control manual for CTD and trajectory data [https://dx.doi.org/10.13155/33951](https://dx.doi.org/10.13155/33951){target="_blank"}
