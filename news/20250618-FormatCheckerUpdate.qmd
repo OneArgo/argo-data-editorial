@@ -4,6 +4,7 @@ date: "2025-06-18"
 categories: [web]
 #image: "chemin/vers/ton/image.jpg"
 ---
-The Argo NetCDF files format checker was updated on June 18th 2025.  
-You may receive new warnings on the metadata file (the project_name long_name attribute will be revisited).  
-More information on [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.0](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.0){target="_blank"}
+The Argo NetCDF files format checker was updated on June 18, 2025.  
+More information on [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.0](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.0){target="_blank"}  
+
+An [additional minor correction](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.1){target="_blank"} was applied on June 19th 2025.

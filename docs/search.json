@@ -25,7 +25,7 @@
     "href": "news/20250618-FormatCheckerUpdate.html",
     "title": "Argo NetCDF file format checker updated",
     "section": "",
-    "text": "The Argo NetCDF files format checker was updated on June 18th 2025.\nYou may receive new warnings on the metadata file (the project_name long_name attribute will be revisited).\nMore information on https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.0"
+    "text": "The Argo NetCDF files format checker was updated on June 18, 2025.\nMore information on https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.0\nAn additional minor correction was applied on June 19th 2025."
   },
   {
     "objectID": "news/20250526-UserManual.html",
