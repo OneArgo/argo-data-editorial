@@ -251,10 +251,13 @@ Argo data-management assigns DOIs to its documents and datasets for two main obj
 <h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <p>Synchronization of a particular float, based on the data centre in charge of data processing:</p>
 <ul>
-<li>rsync -avzh –delete vdmzrs.ifremer.fr::argo/coriolis/69001 /home/mydirectory/…</li>
-<li>rsync -avzh –delete vdmzrs.ifremer.fr::argo/aoml/1900050 /home/mydirectory/…</li>
-<li>rsync -avzh –delete vdmzrs.ifremer.fr::argo-index/ /home/mydirectory/…</li>
-<li>Synchronization of the whole dac directory of Argo GDAC – rsync -avzh –delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/…</li>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/coriolis/69001 /home/mydirectory/…</li>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/aoml/1900050 /home/mydirectory/…</li>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo-index/ /home/mydirectory/…</li>
+<li>Synchronization of the whole dac directory of Argo GDAC
+<ul>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/…</li>
+</ul></li>
 </ul>
 </section>
 </section>
