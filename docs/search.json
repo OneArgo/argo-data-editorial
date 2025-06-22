@@ -7,18 +7,11 @@
     "text": "The Argo GDAC content monitoring is updated once a week."
   },
   {
-    "objectID": "Test1.html#histogram",
-    "href": "Test1.html#histogram",
+    "objectID": "Test1.html#all-floats-distribution",
+    "href": "Test1.html#all-floats-distribution",
     "title": "Monitoring GDAC content",
-    "section": "Histogram",
-    "text": "Histogram"
-  },
-  {
-    "objectID": "Test1.html#more-on-argo-floats-dashboard",
-    "href": "Test1.html#more-on-argo-floats-dashboard",
-    "title": "Monitoring GDAC content",
-    "section": "More on Argo floats dashboard",
-    "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
+    "section": "All floats distribution",
+    "text": "All floats distribution"
   },
   {
     "objectID": "news/20250618-FormatCheckerUpdate.html",
