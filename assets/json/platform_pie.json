@@ -1,129 +1,129 @@
 {
-   "COLOR" : {
-      "MEDS" : "#FF0000",
-      "JMA" : "#FFFF00",
-      "CSIO" : "#00AAFF",
-      "AOML" : "#0000A5",
-      "NMDIS" : "#A50000",
-      "CSIRO" : "#00FFFF",
-      "BODC" : "#0000FF",
-      "GTS" : "#52FFA5",
-      "INCOIS" : "#A5FF52",
-      "KMA" : "#FFAA00",
-      "CORIOLIS" : "#0055FF",
-      "KORDI" : "#FF5500"
-   },
-   "DELAYED" : {
+   "ACTIVE" : {
+      "TOTAL" : 4008,
       "GDAC" : {
-         "CORIOLIS" : [
-            434576
+         "INCOIS" : [
+            104
+         ],
+         "CSIRO" : [
+            278
+         ],
+         "MEDS" : [
+            207
          ],
          "KORDI" : [
-            14564
+            15
+         ],
+         "CORIOLIS" : [
+            756
+         ],
+         "KMA" : [
+            4
+         ],
+         "JMA" : [
+            165
          ],
          "BODC" : [
-            102379
+            144
+         ],
+         "CSIO" : [
+            89
+         ],
+         "AOML" : [
+            2246
+         ]
+      }
+   },
+   "DATE" : "17/06/2025",
+   "DELAYED" : {
+      "GDAC" : {
+         "NMDIS" : [
+            2388
          ],
          "INCOIS" : [
-            39996
+            76508
+         ],
+         "MEDS" : [
+            54359
+         ],
+         "KORDI" : [
+            15746
+         ],
+         "CSIRO" : [
+            222310
          ],
          "KMA" : [
             35092
          ],
-         "NMDIS" : [
-            2388
+         "CORIOLIS" : [
+            444857
          ],
-         "CSIRO" : [
-            217264
-         ],
-         "MEDS" : [
-            52968
-         ],
-         "CSIO" : [
-            61280
+         "AOML" : [
+            1475430
          ],
          "JMA" : [
-            218349
+            218513
          ],
-         "AOML" : [
-            1432598
-         ]
-      },
-      "TOTAL" : 2611454
-   },
-   "ACTIVE" : {
-      "GDAC" : {
-         "CORIOLIS" : [
-            757
-         ],
-         "KORDI" : [
-            14
-         ],
-         "CSIRO" : [
-            308
-         ],
-         "AOML" : [
-            2338
+         "CSIO" : [
+            62913
          ],
          "BODC" : [
-            151
-         ],
-         "MEDS" : [
-            194
-         ],
-         "JMA" : [
-            166
-         ],
-         "CSIO" : [
-            70
-         ],
-         "INCOIS" : [
-            82
-         ],
-         "KMA" : [
-            4
+            102379
          ]
       },
-      "TOTAL" : 4084
+      "TOTAL" : 2710495
+   },
+   "COLOR" : {
+      "KMA" : "#FFAA00",
+      "CSIO" : "#00AAFF",
+      "JMA" : "#FFFF00",
+      "NMDIS" : "#A50000",
+      "KORDI" : "#FF5500",
+      "GTS" : "#52FFA5",
+      "CORIOLIS" : "#0055FF",
+      "AOML" : "#0000A5",
+      "BODC" : "#0000FF",
+      "INCOIS" : "#A5FF52",
+      "MEDS" : "#FF0000",
+      "CSIRO" : "#00FFFF"
    },
    "ALL" : {
+      "TOTAL" : 19398,
       "GDAC" : {
-         "AOML" : [
-            9038
-         ],
-         "CSIO" : [
-            555
-         ],
-         "JMA" : [
-            1942
-         ],
-         "MEDS" : [
-            704
-         ],
          "CSIRO" : [
-            1179
-         ],
-         "NMDIS" : [
-            19
-         ],
-         "KMA" : [
-            256
-         ],
-         "INCOIS" : [
-            548
-         ],
-         "BODC" : [
-            903
+            1200
          ],
          "KORDI" : [
             125
          ],
+         "MEDS" : [
+            722
+         ],
+         "INCOIS" : [
+            569
+         ],
+         "NMDIS" : [
+            19
+         ],
+         "BODC" : [
+            910
+         ],
+         "CSIO" : [
+            578
+         ],
+         "JMA" : [
+            1964
+         ],
+         "AOML" : [
+            9152
+         ],
          "CORIOLIS" : [
-            3797
+            3898
+         ],
+         "KMA" : [
+            261
          ]
-      },
-      "TOTAL" : 19066
-   },
-   "DATE" : "11/02/2025"
+      }
+   }
 }
 
