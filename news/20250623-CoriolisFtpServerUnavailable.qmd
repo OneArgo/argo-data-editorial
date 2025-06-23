@@ -1,0 +1,14 @@
+---
+title: "Coriolis GDAC FTP Connection Issue"
+date: "2025-06-23"
+categories: [run]
+#image: "chemin/vers/ton/image.jpg"
+---
+
+The FTP connection to the server ftp.ifremer.fr is blocked today, Monday, June 23rd.
+
+As a result, GDAC Coriolis is unable to download files from the various DACs. We'll let you know once the situation returns to normal.
+
+Synchronization with GDAC-US will allow GDAC Coriolis to stay up-to-date, but with a delay of several hours.
+
+We apologize for this service degradation.

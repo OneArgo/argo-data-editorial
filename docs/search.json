@@ -14,6 +14,13 @@
     "text": "All floats distribution"
   },
   {
+    "objectID": "news/20250623-CoriolisFtpServerUnavailable.html",
+    "href": "news/20250623-CoriolisFtpServerUnavailable.html",
+    "title": "Coriolis GDAC FTP Connection Issue",
+    "section": "",
+    "text": "The FTP connection to the server ftp.ifremer.fr is blocked today, Monday, June 23rd.\nAs a result, GDAC Coriolis is unable to download files from the various DACs. We’ll let you know once the situation returns to normal.\nSynchronization with GDAC-US will allow GDAC Coriolis to stay up-to-date, but with a delay of several hours.\nWe apologize for this service degradation."
+  },
+  {
     "objectID": "news/20250618-FormatCheckerUpdate.html",
     "href": "news/20250618-FormatCheckerUpdate.html",
     "title": "Argo NetCDF file format checker updated",
@@ -116,7 +123,7 @@
     "href": "DataManagementTeam.html#admt-meetings",
     "title": "Data management team",
     "section": "ADMT meetings",
-    "text": "ADMT meetings\n\n\n\nMeeting\n\nlocation\n\n\n\n\n\n25th Argo Data Management\nTrieste\n21-25 Oct 2024\nADMT-25 report"
+    "text": "ADMT meetings\n\n\n\nMeeting\n\nlocation\n\n\n\n\n\n25th Argo Data Management\nTrieste\n21-25 Oct 2024\nADMT-25 report\n\n\n24th Argo Data Management\nHobbart\nxxxx\nADMT-25 report"
   },
   {
     "objectID": "ArgoVocabulary.html",
@@ -294,10 +301,17 @@
     "text": "These 4 documents have been removed from the “Documentation” page. They are now available in the NVS vocabulary server, which is a more suitable place for such documents.\n\nArgo physical parameters list: core-Argo and BGC-Argo R03\nTechnical parameters names R14\nConfiguration parameter names, core-Argo R18\nConfiguration parameter names, BGC-Argo R18"
   },
   {
+    "objectID": "news/20250623-ArgoUserManual-new-version.html",
+    "href": "news/20250623-ArgoUserManual-new-version.html",
+    "title": "Argo user’s manual version 3.43.0",
+    "section": "",
+    "text": "The major version 3.43.0 of “Argo user’s manual” was published on June 23rd 2025. It is available on https://dx.doi.org/10.13155/29825\nThere are 19 changes:\n\nThroughout the document: added links to individual Reference tables in the NVS\n§2.2.1 optional global attribute “id” contains “Argo GDAC DOI”. Argo GDAC data DOI global attribute is optional and recommended https://github.com/nvs-vocabs/ArgoVocabs/issues/43 and https://github.com/OneArgo/ADMT/issues/72\n§2.2.4 §2.3.4 §2.4.4 PI_NAME has a controlled vocabulary https://github.com/OneArgo/ArgoVocabs/issues/6\n§2.4.7.1 SENSOR_FIRMWARE_VERSION https://github.com/OneArgo/ArgoVocabs/issues/55\n§2.4.5 deployment_platform dimension extended to string128 https://github.com/OneArgo/ArgoVocabs/issues/2#issuecomment-2437421119\n§2.2.4 §2.3.4 §2.4.4 PROJECT_NAME comment revision\n§2.4.4 add PROGRAM_NAME variable https://github.com/OneArgo/ArgoVocabs/issues/5\n§2.4.4 PROJECT_NAME long_name changed\n§2.4.7.1 SENSOR_MODEL comment clarification: the new definition of SENSOR_MODEL is “as defined by the sensor manufacturer” (reference table R27) https://github.com/OneArgo/ArgoVocabs/issues/55\n§3.22 … §3.28: remove the remaining tyinurl\n§3.1 add “Argo auxiliary meta-data” data type\n§3.2.1: add a comment to provide examples when *_qc= ’ ’ can occur as per https://github.com/OneArgo/ArgoVocabs/issues/21\n§3.3. remove the sentence about FillValue = 99999.f. The FillValue of various parameters are now specified in R03.\n§3.3.1 How to indicate multiple sensors for the same parameter https://github.com/OneArgo/ArgoVocabs/issues/81\n§3.11 change from grey list to supplemental sensor exclusion list in reference table 11 (example) https://github.com/OneArgo/ADMT/discussions/70\n§3.33 add PI_NAME reference table\n§4.1.2.2. Under File Naming Convention, change the filename prefix of the synthetic files from “M” to “S”.\n§6.2 remove greylist paragraph https://github.com/OneArgo/ADMT/discussions/70\n§6.2 “Grey list” removed: the greylist management is internal, documented in the Quality control manual.\n\nNote: the version 3.42.0 was published in May 2025, but not advertised. The 19 changes are from both the 3.42.0 and 3.43.0 versions. See the details in page 12 of the manual."
+  },
+  {
     "objectID": "news/News.html",
     "href": "news/News.html",
     "title": "News",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\n\n\n\n\nJun 18, 2025\n\n\n\n\n\nArgo NetCDF file format checker updated\n\n\n\n\n\nweb\n\n\n\n\nJun 5, 2025\n\n\n\n\n\nDocumentation: 4 lists now managed in NVS vocabulary server\n\n\n\n\n\nweb\n\n\n\n\nMay 26, 2025\n\n\n\n\n\nArgo user’s manual v3.42.0 release\n\n\n\n\n\nmanual\n\n\n\n\nDec 19, 2024\n\n\n\n\n\nBGC-Argo configuration parameter names December 2024 release\n\n\n\n\n\nvocab\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\n\n\n\n\nJun 23, 2025\n\n\n\n\n\nArgo user’s manual version 3.43.0\n\n\n\n\n\ndoc\n\n\n\n\nJun 23, 2025\n\n\n\n\n\nCoriolis GDAC FTP Connection Issue\n\n\n\n\n\nrun\n\n\n\n\nJun 18, 2025\n\n\n\n\n\nArgo NetCDF file format checker updated\n\n\n\n\n\nweb\n\n\n\n\nJun 5, 2025\n\n\n\n\n\nDocumentation: 4 lists now managed in NVS vocabulary server\n\n\n\n\n\nweb\n\n\n\n\nMay 26, 2025\n\n\n\n\n\nArgo user’s manual v3.42.0 release\n\n\n\n\n\nmanual\n\n\n\n\nDec 19, 2024\n\n\n\n\n\nBGC-Argo configuration parameter names December 2024 release\n\n\n\n\n\nvocab\n\n\n\n\n\nNo matching items"
   }
 ]
