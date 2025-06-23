@@ -1,7 +1,7 @@
 ---
 title: "Argo user's manual version 3.43.0"
 date: "2025-06-23"
-categories: [web]
+categories: [doc]
 #image: "chemin/vers/ton/image.jpg"
 ---
 The major version 3.43.0 of "Argo user's manual" was published on June 23rd 2025.
