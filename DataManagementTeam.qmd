@@ -114,4 +114,4 @@ On each topic the Primary and Alternate representatives are in charge of working
 | Meeting |  | location |  | date |  | link |
 |---|---|---|---|
 | 25th Argo Data Management | Trieste | 21-25 Oct 2024 |[ADMT-25 report](https://doi.org/10.13155/104797){target="_blank"} | 
-| 24th Argo Data Management | Hobbart | xxxx |[ADMT-25 report](https://doi.org/10.13155/104797){target="_blank"} | 
+| 24th Argo Data Management | Hobbart | 23-27 Oct 2024 |[ADMT-24 report](https://doi.org/10.13155/104797){target="_blank"} | 
