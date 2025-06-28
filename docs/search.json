@@ -2,16 +2,23 @@
   {
     "objectID": "Test1.html",
     "href": "Test1.html",
-    "title": "Monitoring GDAC content",
+    "title": "Argo maps",
     "section": "",
     "text": "The Argo GDAC content monitoring is updated once a week."
   },
   {
-    "objectID": "Test1.html#all-floats-distribution",
-    "href": "Test1.html#all-floats-distribution",
-    "title": "Monitoring GDAC content",
-    "section": "All floats distribution",
-    "text": "All floats distribution"
+    "objectID": "Test1.html#the-last-12-months",
+    "href": "Test1.html#the-last-12-months",
+    "title": "Argo maps",
+    "section": "The last 12 months",
+    "text": "The last 12 months"
+  },
+  {
+    "objectID": "Test1.html#carte-interactive",
+    "href": "Test1.html#carte-interactive",
+    "title": "Argo maps",
+    "section": "Carte interactive",
+    "text": "Carte interactive"
   },
   {
     "objectID": "news/20250623-CoriolisFtpServerUnavailable.html",
