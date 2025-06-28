@@ -50,4 +50,5 @@ resources:
   - "assets/json/"
   - "assets/images/"
   - "assets/js/"
+  - "maps/"
 
