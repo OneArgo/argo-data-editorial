@@ -3,7 +3,5 @@ title: "Argo maps"
 ---
 The Argo GDAC content monitoring is updated once a week.
 
-## The last 12 months
-## Carte interactive
-
+## The last 12 months map
 <iframe src="maps/index.html" width="100%" height="700" style="border:none;"></iframe>

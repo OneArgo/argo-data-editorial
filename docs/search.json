@@ -7,18 +7,11 @@
     "text": "The Argo GDAC content monitoring is updated once a week."
   },
   {
-    "objectID": "Test1.html#the-last-12-months",
-    "href": "Test1.html#the-last-12-months",
+    "objectID": "Test1.html#the-last-12-months-map",
+    "href": "Test1.html#the-last-12-months-map",
     "title": "Argo maps",
-    "section": "The last 12 months",
-    "text": "The last 12 months"
-  },
-  {
-    "objectID": "Test1.html#carte-interactive",
-    "href": "Test1.html#carte-interactive",
-    "title": "Argo maps",
-    "section": "Carte interactive",
-    "text": "Carte interactive"
+    "section": "The last 12 months map",
+    "text": "The last 12 months map"
   },
   {
     "objectID": "news/20250623-CoriolisFtpServerUnavailable.html",
@@ -96,6 +89,13 @@
     "title": "Monitoring GDAC content",
     "section": "More on Argo floats dashboard",
     "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
+  },
+  {
+    "objectID": "Monitoring.html#the-last-12-months-map",
+    "href": "Monitoring.html#the-last-12-months-map",
+    "title": "Monitoring GDAC content",
+    "section": "The last 12 months map",
+    "text": "The last 12 months map"
   },
   {
     "objectID": "Documentation.html",
