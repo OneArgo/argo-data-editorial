@@ -1,6 +1,6 @@
 ---
 title: "GDAC June updates: kiost and argo_sensor_exclusion_list.txt "
-date: "2025-06-23"
+date: "2025-06-30"
 categories: [run,gdac]
 #image: "chemin/vers/ton/image.jpg"
 ---
