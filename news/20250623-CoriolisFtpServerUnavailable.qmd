@@ -5,6 +5,7 @@ categories: [run]
 #image: "chemin/vers/ton/image.jpg"
 ---
 
+## Initial message
 The FTP connection to the server ftp.ifremer.fr is blocked today, Monday, June 23rd.
 
 As a result, GDAC Coriolis is unable to download files from the various DACs. We'll let you know once the situation returns to normal.
@@ -12,3 +13,8 @@ As a result, GDAC Coriolis is unable to download files from the various DACs. We
 Synchronization with GDAC-US will allow GDAC Coriolis to stay up-to-date, but with a delay of several hours.
 
 We apologize for this service degradation.
+
+## Conclusion
+The connection issue with the ftp.ifremer.fr server was **resolved on Wednesday, June 25, around 1:00 PM**.
+
+It was ultimately limited to FTP downloads of Argo data for GDAC users. Contrary to what was initially reported, **the FTP upload of data by Argo DACs to the GDAC was not affected**.

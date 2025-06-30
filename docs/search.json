@@ -18,7 +18,7 @@
     "href": "news/20250630-GdacJuneUpdate.html",
     "title": "GDAC June updates: kiost and argo_sensor_exclusion_list.txt",
     "section": "",
-    "text": "Two changes regarding the Argo GDAC were scheduled for Monday, June 30, 2025.\n\nRenaming the Korean DAC KORDI to KIOST (with no impact on NetCDF file content)\nRemoving the Argo GDAC greylist (no more public access)\nRestricting access to the argo_sensor_exclusion_list.txt (which replaces the greylist) to on-demand access (by request to sismer@ifremer.fr).\n\nThis update was finalized on June 30, 2025, at 12:10 UTC."
+    "text": "Three changes regarding the Argo GDAC were scheduled for Monday, June 30, 2025.\n\nRenaming the Korean DAC KORDI to KIOST (with no impact on NetCDF file content)\nRemoving the Argo GDAC greylist (no more public access)\nRestricting access to the argo_sensor_exclusion_list.txt (which replaces the greylist) to on-demand access (by request to sismer@ifremer.fr).\n\nThis update was finalized on June 30, 2025, at 12:10 UTC."
   },
   {
     "objectID": "news/20250623-ArgoUserManual-new-version.html",
@@ -327,6 +327,20 @@
     "title": "Coriolis GDAC FTP Connection Issue",
     "section": "",
     "text": "The FTP connection to the server ftp.ifremer.fr is blocked today, Monday, June 23rd.\nAs a result, GDAC Coriolis is unable to download files from the various DACs. We’ll let you know once the situation returns to normal.\nSynchronization with GDAC-US will allow GDAC Coriolis to stay up-to-date, but with a delay of several hours.\nWe apologize for this service degradation."
+  },
+  {
+    "objectID": "news/20250623-CoriolisFtpServerUnavailable.html#initial-message",
+    "href": "news/20250623-CoriolisFtpServerUnavailable.html#initial-message",
+    "title": "Coriolis GDAC FTP Connection Issue",
+    "section": "",
+    "text": "The FTP connection to the server ftp.ifremer.fr is blocked today, Monday, June 23rd.\nAs a result, GDAC Coriolis is unable to download files from the various DACs. We’ll let you know once the situation returns to normal.\nSynchronization with GDAC-US will allow GDAC Coriolis to stay up-to-date, but with a delay of several hours.\nWe apologize for this service degradation."
+  },
+  {
+    "objectID": "news/20250623-CoriolisFtpServerUnavailable.html#conclusion",
+    "href": "news/20250623-CoriolisFtpServerUnavailable.html#conclusion",
+    "title": "Coriolis GDAC FTP Connection Issue",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe connection issue with the ftp.ifremer.fr server was resolved on Wednesday, June 25, around 1:00 PM.\nIt was ultimately limited to FTP downloads of Argo data for GDAC users. Contrary to what was initially reported, the FTP upload of data by Argo DACs to the GDAC was not affected."
   },
   {
     "objectID": "news/News.html",
