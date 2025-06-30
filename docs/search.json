@@ -327,5 +327,12 @@
     "title": "News",
     "section": "",
     "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\n\n\n\n\nJun 23, 2025\n\n\n\n\n\nArgo user’s manual version 3.43.0\n\n\n\n\n\ndoc\n\n\n\n\nJun 23, 2025\n\n\n\n\n\nCoriolis GDAC FTP Connection Issue\n\n\n\n\n\nrun\n\n\n\n\nJun 18, 2025\n\n\n\n\n\nArgo NetCDF file format checker updated\n\n\n\n\n\nweb\n\n\n\n\nJun 5, 2025\n\n\n\n\n\nDocumentation: 4 lists now managed in NVS vocabulary server\n\n\n\n\n\nweb\n\n\n\n\nMay 26, 2025\n\n\n\n\n\nArgo user’s manual v3.42.0 release\n\n\n\n\n\nmanual\n\n\n\n\nDec 19, 2024\n\n\n\n\n\nBGC-Argo configuration parameter names December 2024 release\n\n\n\n\n\nvocab\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/20250630-GdacJuneUpdate.html",
+    "href": "news/20250630-GdacJuneUpdate.html",
+    "title": "GDAC June updates: kiost and argo_sensor_exclusion_list.txt",
+    "section": "",
+    "text": "Two changes regarding the Argo GDAC were scheduled for Monday, June 30, 2025.\n\nRenaming the Korean DAC KORDI to KIOST (with no impact on NetCDF file content)\nRemoving the Argo GDAC greylist (no more public access)\nRestricting access to the argo_sensor_exclusion_list.txt (which replaces the greylist) to on-demand access (by request to sismer@ifremer.fr).\n\nThis update was finalized on June 30, 2025, at 12:10 UTC."
   }
 ]

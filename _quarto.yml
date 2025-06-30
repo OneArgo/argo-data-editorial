@@ -10,9 +10,9 @@ website:
     left: |
       Argo data management
     center:
-      - icon: gitlab
-        href: https://gitlab.ifremer.fr/coriolis/argodatamgt
-        aria-label: Argo data management web GitLab
+      - icon: github
+        href: https://github.com/OneArgo/argo-data-editorial
+        aria-label: Argo data management editorial web site
         text: Source Code
   navbar:
     pinned: true

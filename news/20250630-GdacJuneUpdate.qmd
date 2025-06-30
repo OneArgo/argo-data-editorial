@@ -1,0 +1,14 @@
+---
+title: "GDAC June updates: kiost and argo_sensor_exclusion_list.txt "
+date: "2025-06-23"
+categories: [run,gdac]
+#image: "chemin/vers/ton/image.jpg"
+---
+
+Two changes regarding the Argo GDAC were scheduled for Monday, June 30, 2025.
+
+* **Renaming the Korean DAC KORDI to KIOST** (with no impact on NetCDF file content)
+* **Removing the Argo GDAC greylist** (no more public access)
+* **Restricting access to the argo_sensor_exclusion_list.txt** (which replaces the greylist) to on-demand access (by request to sismer@ifremer.fr).
+
+This update was finalized on June 30, 2025, at 12:10 UTC.
