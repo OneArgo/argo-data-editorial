@@ -60,6 +60,18 @@
       /* Make sure the button is on top */
     }
 
+    #fullScreen {
+      position: absolute;
+      top: 130px;
+      left: 10px;
+      background-color: rgb(55, 0, 255);
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      z-index: 10;
+      /* Make sure the button is on top */
+    }
     #loading {
       height: 15%;
       position: absolute;
@@ -87,9 +99,10 @@
 
 <body style="height: 100%; margin: 0">
   <div id="map" style="height: 100%"></div>
-  <button id="reloadButton">Reload</button>
+  <button id="reloadButton">reload</button>
   <button id="loopButton">loop</button>
-  <button id="formButton">form</button>
+  <button id="formButton">globe</button>
+  <button id="fullScreen">full screen</button>
   <div id="monthContainer"></div>
 
   <img id="loading" src="https://i.gifer.com/ZKZg.gif" alt="Loading..." />
@@ -145,9 +158,9 @@
         "pk.eyJ1IjoiYmdvbnRpZXIiLCJhIjoiY2x5NzZ5c2RtMDMwcTJpczk2MWl2bGNkbiJ9.BqgxlFA18JAH6p07bXfI0g";
       map = new mapboxgl.Map({
         container: "map",
-        //style: "mapbox://styles/mapbox/satellite-v8",
+        style: "mapbox://styles/mapbox/satellite-v8",
         //style: "mapbox://styles/mapbox/light-v11",
-        style: "mapbox://styles/mapbox/standard",
+        //style: "mapbox://styles/mapbox/standard",
         center: [0, 0],
         zoom: 1,
         projection: form,
@@ -230,18 +243,18 @@
 
     function setupECharts(BJData) {
 
-      const formatColorMap = {
-        "AO": "#d48265",
-        "IF": "#2f4554",
-        "ME": "#ca8622",
-        "BO": "#61a0a8",
-        "HZ": "#f58231",
-        "CS": "#A0522D",
-        "KM": "#C81FF0",
-        "KO": "#FF66B3",
-        "IN": "#bda29a",
-        "JA": "#f7ff3c",
-        "default": "#aaaaaa"
+        const formatColorMap = {
+        "AO": "#ffd166", // jaune
+        "IF": "#06d6a0", // vert
+        "ME": "#118ab2", // bleu
+        "BO": "#06d6a0", // bleu-gris
+        "HZ": "#f58231", // orange vif
+        "CS": "#ef476f", // rose vif
+        "KM": "#C81FF0", // violet
+        "KO": "#FF66B3", // rose
+        "IN": "#bda29a", // beige rosé
+        "JA": "#f7ff3c", // jaune vif
+        "default": "#6e7074" // gris acier
       };
 
       showTime();
@@ -453,6 +466,7 @@
 
         setupECharts(BJData);
       });
+
     document
       .getElementById("formButton")
       .addEventListener("click", function () {
@@ -464,6 +478,22 @@
           ? (formButton.style.backgroundColor = "orange")
           : (formButton.style.backgroundColor = "black");
         initializeMap();
+      });
+
+    document
+      .getElementById("fullScreen")
+      .addEventListener("click", function () {
+        clearInterval(intervalid),
+          document.getElementById("monthContainer").textContent = ""
+        showTime()
+        form == "mercator" ? (form = "globe") : (form = "mercator");
+        form == "mercator"
+          ? (fullScreen.style.backgroundColor = "orange")
+          : (fullScreen.style.backgroundColor = "black");
+        initializeMap();
+
+        // Ouvre une URL dans un nouvel onglet
+        window.open("https://oneargo.github.io/argo-data-editorial/maps/stations-argo-12months.html", "_blank");
       });
 
     // Initialize the map on page load
