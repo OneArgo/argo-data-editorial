@@ -294,11 +294,18 @@
     "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
   },
   {
-    "objectID": "Monitoring.html#the-last-12-months-map",
-    "href": "Monitoring.html#the-last-12-months-map",
+    "objectID": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
+    "href": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
     "title": "Monitoring GDAC content",
-    "section": "The last 12 months map",
-    "text": "The last 12 months map"
+    "section": "The last 12 months map from Argo index file",
+    "text": "The last 12 months map from Argo index file"
+  },
+  {
+    "objectID": "Monitoring.html#the-last-12-months-map-from-coriolis---copernicus-marine-service",
+    "href": "Monitoring.html#the-last-12-months-map-from-coriolis---copernicus-marine-service",
+    "title": "Monitoring GDAC content",
+    "section": "The last 12 months map from Coriolis - Copernicus marine service",
+    "text": "The last 12 months map from Coriolis - Copernicus marine service\nCoriolis - Copernicus marine service applies additional QC on Argo profiles, which may explain differences with the above Argo map"
   },
   {
     "objectID": "news/20250526-UserManual.html",
