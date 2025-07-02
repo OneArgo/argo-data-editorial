@@ -301,13 +301,6 @@
     "text": "The last 12 months map from Argo index file"
   },
   {
-    "objectID": "Monitoring.html#the-last-12-months-map-from-coriolis---copernicus-marine-service",
-    "href": "Monitoring.html#the-last-12-months-map-from-coriolis---copernicus-marine-service",
-    "title": "Monitoring GDAC content",
-    "section": "The last 12 months map from Coriolis - Copernicus marine service",
-    "text": "The last 12 months map from Coriolis - Copernicus marine service\nCoriolis - Copernicus marine service applies additional QC on Argo profiles, which may explain differences with the above Argo map"
-  },
-  {
     "objectID": "news/20250526-UserManual.html",
     "href": "news/20250526-UserManual.html",
     "title": "Argo user’s manual v3.42.0 release",
