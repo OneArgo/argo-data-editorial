@@ -3,6 +3,9 @@ title: "Monitoring GDAC content"
 ---
 The Argo GDAC content monitoring is updated once a week.
 
+## Active floats
+<div id="pie_active"></div>
+
 ## All floats distribution
 <div id="pie_graph"></div>
 
@@ -32,3 +35,4 @@ The Argo GDAC content monitoring is updated once a week.
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="assets/js/GdacStatistics.js"></script>
+<script src="assets/js/GdacActive.js"></script>

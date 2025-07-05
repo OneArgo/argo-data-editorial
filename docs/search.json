@@ -2,16 +2,16 @@
   {
     "objectID": "Test1.html",
     "href": "Test1.html",
-    "title": "Argo maps",
+    "title": "Monitoring GDAC content",
     "section": "",
     "text": "The Argo GDAC content monitoring is updated once a week."
   },
   {
-    "objectID": "Test1.html#the-last-12-months-map",
-    "href": "Test1.html#the-last-12-months-map",
-    "title": "Argo maps",
-    "section": "The last 12 months map",
-    "text": "The last 12 months map"
+    "objectID": "Test1.html#histogram-delayed-mode-profiles",
+    "href": "Test1.html#histogram-delayed-mode-profiles",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram delayed mode profiles",
+    "text": "Histogram delayed mode profiles"
   },
   {
     "objectID": "news/20250630-GdacJuneUpdate.html",
@@ -243,6 +243,13 @@
     "title": "Monitoring GDAC content",
     "section": "",
     "text": "The Argo GDAC content monitoring is updated once a week."
+  },
+  {
+    "objectID": "Monitoring.html#active-floats",
+    "href": "Monitoring.html#active-floats",
+    "title": "Monitoring GDAC content",
+    "section": "Active floats",
+    "text": "Active floats"
   },
   {
     "objectID": "Monitoring.html#all-floats-distribution",
