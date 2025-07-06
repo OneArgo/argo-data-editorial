@@ -3,12 +3,26 @@ title: "Monitoring GDAC content"
 ---
 The Argo GDAC content monitoring is updated once a week.
 
+## Histogram
+<style>
+#Histogram {
+  width: 100%;
+  height: 400px; /* ou la hauteur que tu veux */
+  min-height: 300px;
+}
+</style>
+<div id="Histogram"></div>
 
-## Histogram delayed mode profiles
-<div id="active_pie"></div>
-
+## Histogram percent
+<style>
+#Histogram_percent {
+  width: 100%;
+  height: 400px; /* ou la hauteur que tu veux */
+  min-height: 300px;
+}
+</style>
+<div id="Histogram_percent"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="assets/js/GdacActive.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script src="assets/js/histogram_echart.js"></script>

@@ -139,8 +139,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#histogram" id="toc-histogram" class="nav-link active" data-scroll-target="#histogram">Histogram</a></li>
+  <li><a href="#active-floats" id="toc-active-floats" class="nav-link active" data-scroll-target="#active-floats">Active floats</a></li>
+  <li><a href="#all-floats" id="toc-all-floats" class="nav-link" data-scroll-target="#all-floats">All floats</a></li>
+  <li><a href="#histogram" id="toc-histogram" class="nav-link" data-scroll-target="#histogram">Histogram</a></li>
   <li><a href="#histogram-percent" id="toc-histogram-percent" class="nav-link" data-scroll-target="#histogram-percent">Histogram percent</a></li>
+  <li><a href="#the-last-12-months-map-from-argo-index-file" id="toc-the-last-12-months-map-from-argo-index-file" class="nav-link" data-scroll-target="#the-last-12-months-map-from-argo-index-file">The last 12 months map from Argo index file</a></li>
+  <li><a href="#more-on-argo-floats-dashboard" id="toc-more-on-argo-floats-dashboard" class="nav-link" data-scroll-target="#more-on-argo-floats-dashboard">More on Argo floats dashboard</a></li>
   </ul>
 </nav>
     </div>
@@ -167,6 +171,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The Argo GDAC content monitoring is updated once a week.</p>
+<section id="active-floats" class="level2">
+<h2 class="anchored" data-anchor-id="active-floats">Active floats</h2>
+<style>
+#pie_active {
+  width: 100%;
+  height: 400px; /* ou la hauteur que tu veux */
+  min-height: 300px;
+}
+</style>
+<div id="pie_active">
+
+</div>
+</section>
+<section id="all-floats" class="level2">
+<h2 class="anchored" data-anchor-id="all-floats">All floats</h2>
+<style>
+#pie_all {
+  width: 100%;
+  height: 400px; /* ou la hauteur que tu veux */
+  min-height: 300px;
+}
+</style>
+<div id="pie_all">
+
+</div>
+</section>
 <section id="histogram" class="level2">
 <h2 class="anchored" data-anchor-id="histogram">Histogram</h2>
 <style>
@@ -192,8 +222,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="Histogram_percent">
 
 </div>
+</section>
+<section id="the-last-12-months-map-from-argo-index-file" class="level2">
+<h2 class="anchored" data-anchor-id="the-last-12-months-map-from-argo-index-file">The last 12 months map from Argo index file</h2>
+<iframe src="maps/stations-argo-12months.html" width="100%" height="700" style="border:none;">
+</iframe>
+</section>
+<section id="more-on-argo-floats-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="more-on-argo-floats-dashboard">More on Argo floats dashboard</h2>
+<p><a href="https://fleetmonitoring.euro-argo.eu" target="_blank" rel="noopener noreferrer">https://fleetmonitoring.euro-argo.eu</a></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script src="assets/js/GdacEchart.js"></script>
 <script src="assets/js/histogram_echart.js"></script>
 
 
