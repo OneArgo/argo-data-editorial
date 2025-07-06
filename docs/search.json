@@ -7,18 +7,18 @@
     "text": "The Argo GDAC content monitoring is updated once a week."
   },
   {
-    "objectID": "Test1.html#histogram",
-    "href": "Test1.html#histogram",
+    "objectID": "Test1.html#histogram-of-data-modes",
+    "href": "Test1.html#histogram-of-data-modes",
     "title": "Monitoring GDAC content",
-    "section": "Histogram",
-    "text": "Histogram"
+    "section": "Histogram of data modes",
+    "text": "Histogram of data modes"
   },
   {
-    "objectID": "Test1.html#histogram-percent",
-    "href": "Test1.html#histogram-percent",
+    "objectID": "Test1.html#histogram-of-data-modes-percent",
+    "href": "Test1.html#histogram-of-data-modes-percent",
     "title": "Monitoring GDAC content",
-    "section": "Histogram percent",
-    "text": "Histogram percent"
+    "section": "Histogram of data modes percent",
+    "text": "Histogram of data modes percent"
   },
   {
     "objectID": "news/20250630-GdacJuneUpdate.html",
@@ -49,50 +49,64 @@
     "text": "On December 19th 2024, Catherine Schmechtig distributed an update of BGC-Argo configuration parameter names.\nThis update is available on Documentation\nA secondary optode sensor on a stick is accepted."
   },
   {
-    "objectID": "Monitoring new.html",
-    "href": "Monitoring new.html",
+    "objectID": "Monitoring.html",
+    "href": "Monitoring.html",
     "title": "Monitoring GDAC content",
     "section": "",
     "text": "The Argo GDAC content monitoring is updated once a week."
   },
   {
-    "objectID": "Monitoring new.html#active-floats",
-    "href": "Monitoring new.html#active-floats",
+    "objectID": "Monitoring.html#active-floats",
+    "href": "Monitoring.html#active-floats",
     "title": "Monitoring GDAC content",
     "section": "Active floats",
     "text": "Active floats"
   },
   {
-    "objectID": "Monitoring new.html#all-floats",
-    "href": "Monitoring new.html#all-floats",
+    "objectID": "Monitoring.html#all-floats",
+    "href": "Monitoring.html#all-floats",
     "title": "Monitoring GDAC content",
     "section": "All floats",
     "text": "All floats"
   },
   {
-    "objectID": "Monitoring new.html#histogram",
-    "href": "Monitoring new.html#histogram",
+    "objectID": "Monitoring.html#histogram",
+    "href": "Monitoring.html#histogram",
     "title": "Monitoring GDAC content",
     "section": "Histogram",
     "text": "Histogram"
   },
   {
-    "objectID": "Monitoring new.html#histogram-percent",
-    "href": "Monitoring new.html#histogram-percent",
+    "objectID": "Monitoring.html#histogram-percent",
+    "href": "Monitoring.html#histogram-percent",
     "title": "Monitoring GDAC content",
     "section": "Histogram percent",
     "text": "Histogram percent"
   },
   {
-    "objectID": "Monitoring new.html#the-last-12-months-map-from-argo-index-file",
-    "href": "Monitoring new.html#the-last-12-months-map-from-argo-index-file",
+    "objectID": "Monitoring.html#histogram-of-data-modes",
+    "href": "Monitoring.html#histogram-of-data-modes",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram of data modes",
+    "text": "Histogram of data modes"
+  },
+  {
+    "objectID": "Monitoring.html#histogram-of-data-modes-percent",
+    "href": "Monitoring.html#histogram-of-data-modes-percent",
+    "title": "Monitoring GDAC content",
+    "section": "Histogram of data modes percent",
+    "text": "Histogram of data modes percent"
+  },
+  {
+    "objectID": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
+    "href": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
     "title": "Monitoring GDAC content",
     "section": "The last 12 months map from Argo index file",
     "text": "The last 12 months map from Argo index file"
   },
   {
-    "objectID": "Monitoring new.html#more-on-argo-floats-dashboard",
-    "href": "Monitoring new.html#more-on-argo-floats-dashboard",
+    "objectID": "Monitoring.html#more-on-argo-floats-dashboard",
+    "href": "Monitoring.html#more-on-argo-floats-dashboard",
     "title": "Monitoring GDAC content",
     "section": "More on Argo floats dashboard",
     "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
@@ -294,71 +308,71 @@
     "text": "We provide access to Argo data, we document data processing, formats and quality control procedures.\n\nMore information on Argo ? visit Argo program\nA question ? contact argo.net\n\n\nHow to acknowledge Argo data ?\nSince Argo data are freely available, we kindly request that the following acknowledgement be included in any publication or product that utilizes Argo data:\n“These data were collected and made freely available by the International Argo Program and the national programs that contribute to it. (https://argo.ucsd.edu, https://www.ocean-ops.org). The Argo Program is part of the Global Ocean Observing System.”"
   },
   {
-    "objectID": "Monitoring.html",
-    "href": "Monitoring.html",
+    "objectID": "MonitoringOld.html",
+    "href": "MonitoringOld.html",
     "title": "Monitoring GDAC content",
     "section": "",
     "text": "The Argo GDAC content monitoring is updated once a week."
   },
   {
-    "objectID": "Monitoring.html#active-floats",
-    "href": "Monitoring.html#active-floats",
+    "objectID": "MonitoringOld.html#active-floats",
+    "href": "MonitoringOld.html#active-floats",
     "title": "Monitoring GDAC content",
     "section": "Active floats",
     "text": "Active floats"
   },
   {
-    "objectID": "Monitoring.html#all-floats-distribution",
-    "href": "Monitoring.html#all-floats-distribution",
+    "objectID": "MonitoringOld.html#all-floats-distribution",
+    "href": "MonitoringOld.html#all-floats-distribution",
     "title": "Monitoring GDAC content",
     "section": "All floats distribution",
     "text": "All floats distribution"
   },
   {
-    "objectID": "Monitoring.html#histogram",
-    "href": "Monitoring.html#histogram",
+    "objectID": "MonitoringOld.html#histogram",
+    "href": "MonitoringOld.html#histogram",
     "title": "Monitoring GDAC content",
     "section": "Histogram",
     "text": "Histogram"
   },
   {
-    "objectID": "Monitoring.html#histogram-percent",
-    "href": "Monitoring.html#histogram-percent",
+    "objectID": "MonitoringOld.html#histogram-percent",
+    "href": "MonitoringOld.html#histogram-percent",
     "title": "Monitoring GDAC content",
     "section": "Histogram percent",
     "text": "Histogram percent"
   },
   {
-    "objectID": "Monitoring.html#histogram-delayed-mode-profiles",
-    "href": "Monitoring.html#histogram-delayed-mode-profiles",
+    "objectID": "MonitoringOld.html#histogram-delayed-mode-profiles",
+    "href": "MonitoringOld.html#histogram-delayed-mode-profiles",
     "title": "Monitoring GDAC content",
     "section": "Histogram delayed mode profiles",
     "text": "Histogram delayed mode profiles"
   },
   {
-    "objectID": "Monitoring.html#histogram-delayed-mode-profiles-percent",
-    "href": "Monitoring.html#histogram-delayed-mode-profiles-percent",
+    "objectID": "MonitoringOld.html#histogram-delayed-mode-profiles-percent",
+    "href": "MonitoringOld.html#histogram-delayed-mode-profiles-percent",
     "title": "Monitoring GDAC content",
     "section": "Histogram delayed mode profiles percent",
     "text": "Histogram delayed mode profiles percent"
   },
   {
-    "objectID": "Monitoring.html#histogram-delayed-mode-profiles-available-for-dm",
-    "href": "Monitoring.html#histogram-delayed-mode-profiles-available-for-dm",
+    "objectID": "MonitoringOld.html#histogram-delayed-mode-profiles-available-for-dm",
+    "href": "MonitoringOld.html#histogram-delayed-mode-profiles-available-for-dm",
     "title": "Monitoring GDAC content",
     "section": "Histogram delayed mode profiles available for DM",
     "text": "Histogram delayed mode profiles available for DM"
   },
   {
-    "objectID": "Monitoring.html#more-on-argo-floats-dashboard",
-    "href": "Monitoring.html#more-on-argo-floats-dashboard",
+    "objectID": "MonitoringOld.html#more-on-argo-floats-dashboard",
+    "href": "MonitoringOld.html#more-on-argo-floats-dashboard",
     "title": "Monitoring GDAC content",
     "section": "More on Argo floats dashboard",
     "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
   },
   {
-    "objectID": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
-    "href": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
+    "objectID": "MonitoringOld.html#the-last-12-months-map-from-argo-index-file",
+    "href": "MonitoringOld.html#the-last-12-months-map-from-argo-index-file",
     "title": "Monitoring GDAC content",
     "section": "The last 12 months map from Argo index file",
     "text": "The last 12 months map from Argo index file"
@@ -404,54 +418,5 @@
     "title": "News",
     "section": "",
     "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\n\n\n\n\nJun 30, 2025\n\n\n\n\n\nGDAC June updates: kiost and argo_sensor_exclusion_list.txt\n\n\n\n\n\nrun, gdac\n\n\n\n\nJun 23, 2025\n\n\n\n\n\nArgo user’s manual version 3.43.0\n\n\n\n\n\ndoc\n\n\n\n\nJun 23, 2025\n\n\n\n\n\nCoriolis GDAC FTP Connection Issue\n\n\n\n\n\nrun\n\n\n\n\nJun 18, 2025\n\n\n\n\n\nArgo NetCDF file format checker updated\n\n\n\n\n\nweb\n\n\n\n\nJun 5, 2025\n\n\n\n\n\nDocumentation: 4 lists now managed in NVS vocabulary server\n\n\n\n\n\nweb\n\n\n\n\nMay 26, 2025\n\n\n\n\n\nArgo user’s manual v3.42.0 release\n\n\n\n\n\nmanual\n\n\n\n\nDec 19, 2024\n\n\n\n\n\nBGC-Argo configuration parameter names December 2024 release\n\n\n\n\n\nvocab\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "MonitoringNew.html",
-    "href": "MonitoringNew.html",
-    "title": "Monitoring GDAC content",
-    "section": "",
-    "text": "The Argo GDAC content monitoring is updated once a week."
-  },
-  {
-    "objectID": "MonitoringNew.html#active-floats",
-    "href": "MonitoringNew.html#active-floats",
-    "title": "Monitoring GDAC content",
-    "section": "Active floats",
-    "text": "Active floats"
-  },
-  {
-    "objectID": "MonitoringNew.html#all-floats",
-    "href": "MonitoringNew.html#all-floats",
-    "title": "Monitoring GDAC content",
-    "section": "All floats",
-    "text": "All floats"
-  },
-  {
-    "objectID": "MonitoringNew.html#more-on-argo-floats-dashboard",
-    "href": "MonitoringNew.html#more-on-argo-floats-dashboard",
-    "title": "Monitoring GDAC content",
-    "section": "More on Argo floats dashboard",
-    "text": "More on Argo floats dashboard\nhttps://fleetmonitoring.euro-argo.eu"
-  },
-  {
-    "objectID": "MonitoringNew.html#the-last-12-months-map-from-argo-index-file",
-    "href": "MonitoringNew.html#the-last-12-months-map-from-argo-index-file",
-    "title": "Monitoring GDAC content",
-    "section": "The last 12 months map from Argo index file",
-    "text": "The last 12 months map from Argo index file"
-  },
-  {
-    "objectID": "MonitoringNew.html#histogram",
-    "href": "MonitoringNew.html#histogram",
-    "title": "Monitoring GDAC content",
-    "section": "Histogram",
-    "text": "Histogram"
-  },
-  {
-    "objectID": "MonitoringNew.html#histogram-percent",
-    "href": "MonitoringNew.html#histogram-percent",
-    "title": "Monitoring GDAC content",
-    "section": "Histogram percent",
-    "text": "Histogram percent"
   }
 ]
