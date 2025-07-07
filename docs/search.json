@@ -256,49 +256,49 @@
     "href": "Monitoring.html#active-floats",
     "title": "Monitoring GDAC content",
     "section": "Active floats",
-    "text": "Active floats"
+    "text": "Active floats\nAn Argo float is active if it has transmitted data within the last 30 days.\nThe counting is done by DAC (Data Assembly Center). There are 11 DACs worldwide that process Argo float data and distribute it to the GDAC (Global Data Assembly Centre)."
   },
   {
     "objectID": "Monitoring.html#all-floats",
     "href": "Monitoring.html#all-floats",
     "title": "Monitoring GDAC content",
     "section": "All floats",
-    "text": "All floats"
+    "text": "All floats\nNumber of floats per DAC, deployed from 1997 to date."
   },
   {
-    "objectID": "Monitoring.html#histogram",
-    "href": "Monitoring.html#histogram",
+    "objectID": "Monitoring.html#histogram-of-vertical-profiles",
+    "href": "Monitoring.html#histogram-of-vertical-profiles",
     "title": "Monitoring GDAC content",
-    "section": "Histogram",
-    "text": "Histogram"
+    "section": "Histogram of vertical profiles",
+    "text": "Histogram of vertical profiles\nAnnual distribution of vertical profiles carried out by Argo floats. A vertical profile is a measurement of temperature and salinity at different depths in the ocean, down to 2000 meters or more. Some floats measure additional parameters such as oxygen, chlorophyll, pH, nitrate, and optics."
   },
   {
-    "objectID": "Monitoring.html#histogram-percent",
-    "href": "Monitoring.html#histogram-percent",
+    "objectID": "Monitoring.html#histogram-of-profiles-percent",
+    "href": "Monitoring.html#histogram-of-profiles-percent",
     "title": "Monitoring GDAC content",
-    "section": "Histogram percent",
-    "text": "Histogram percent"
+    "section": "Histogram of profiles percent",
+    "text": "Histogram of profiles percent\nIdentical to the previous graph, but in percentages by year and DACs."
   },
   {
     "objectID": "Monitoring.html#histogram-of-data-modes",
     "href": "Monitoring.html#histogram-of-data-modes",
     "title": "Monitoring GDAC content",
     "section": "Histogram of data modes",
-    "text": "Histogram of data modes"
+    "text": "Histogram of data modes\nArgo float vertical profiles are processed and distributed by the DACs in real-time mode (within a few hours), then in delayed-mode (within a few months) by their scientific lead (PI - Principal Investigator)."
   },
   {
     "objectID": "Monitoring.html#histogram-of-data-modes-percent",
     "href": "Monitoring.html#histogram-of-data-modes-percent",
     "title": "Monitoring GDAC content",
     "section": "Histogram of data modes percent",
-    "text": "Histogram of data modes percent"
+    "text": "Histogram of data modes percent\nIdentical to the previous graph, but in percentages."
   },
   {
     "objectID": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
     "href": "Monitoring.html#the-last-12-months-map-from-argo-index-file",
     "title": "Monitoring GDAC content",
     "section": "The last 12 months map from Argo index file",
-    "text": "The last 12 months map from Argo index file"
+    "text": "The last 12 months map from Argo index file\nThis animated map clearly illustrates the global coverage of the Argo observation network. The floats are colored by DAC. Click on “full screen” for a better visualization."
   },
   {
     "objectID": "Monitoring.html#more-on-argo-floats-dashboard",

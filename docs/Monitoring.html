@@ -141,8 +141,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#active-floats" id="toc-active-floats" class="nav-link active" data-scroll-target="#active-floats">Active floats</a></li>
   <li><a href="#all-floats" id="toc-all-floats" class="nav-link" data-scroll-target="#all-floats">All floats</a></li>
-  <li><a href="#histogram" id="toc-histogram" class="nav-link" data-scroll-target="#histogram">Histogram</a></li>
-  <li><a href="#histogram-percent" id="toc-histogram-percent" class="nav-link" data-scroll-target="#histogram-percent">Histogram percent</a></li>
+  <li><a href="#histogram-of-vertical-profiles" id="toc-histogram-of-vertical-profiles" class="nav-link" data-scroll-target="#histogram-of-vertical-profiles">Histogram of vertical profiles</a></li>
+  <li><a href="#histogram-of-profiles-percent" id="toc-histogram-of-profiles-percent" class="nav-link" data-scroll-target="#histogram-of-profiles-percent">Histogram of profiles percent</a></li>
   <li><a href="#histogram-of-data-modes" id="toc-histogram-of-data-modes" class="nav-link" data-scroll-target="#histogram-of-data-modes">Histogram of data modes</a></li>
   <li><a href="#histogram-of-data-modes-percent" id="toc-histogram-of-data-modes-percent" class="nav-link" data-scroll-target="#histogram-of-data-modes-percent">Histogram of data modes percent</a></li>
   <li><a href="#the-last-12-months-map-from-argo-index-file" id="toc-the-last-12-months-map-from-argo-index-file" class="nav-link" data-scroll-target="#the-last-12-months-map-from-argo-index-file">The last 12 months map from Argo index file</a></li>
@@ -175,6 +175,8 @@ ul.task-list li input[type="checkbox"] {
 <p>The Argo GDAC content monitoring is updated once a week.</p>
 <section id="active-floats" class="level2">
 <h2 class="anchored" data-anchor-id="active-floats">Active floats</h2>
+<p>An <strong>Argo float is active if it has transmitted data within the last 30 days</strong>.<br>
+The <strong>counting is done by DAC (Data Assembly Center)</strong>. There are <strong>11 DACs worldwide</strong> that process Argo float data and distribute it to the <strong>GDAC (Global Data Assembly Centre)</strong>.</p>
 <style>
 #pie_active {
   width: 100%;
@@ -188,6 +190,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="all-floats" class="level2">
 <h2 class="anchored" data-anchor-id="all-floats">All floats</h2>
+<p>Number of floats per DAC, deployed from 1997 to date.</p>
 <style>
 #pie_all {
   width: 100%;
@@ -199,8 +202,9 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 </section>
-<section id="histogram" class="level2">
-<h2 class="anchored" data-anchor-id="histogram">Histogram</h2>
+<section id="histogram-of-vertical-profiles" class="level2">
+<h2 class="anchored" data-anchor-id="histogram-of-vertical-profiles">Histogram of vertical profiles</h2>
+<p>Annual distribution of vertical profiles carried out by Argo floats. A vertical profile is a measurement of temperature and salinity at different depths in the ocean, down to 2000 meters or more. Some floats measure additional parameters such as oxygen, chlorophyll, pH, nitrate, and optics.</p>
 <style>
 #Histogram {
   width: 100%;
@@ -212,8 +216,9 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 </section>
-<section id="histogram-percent" class="level2">
-<h2 class="anchored" data-anchor-id="histogram-percent">Histogram percent</h2>
+<section id="histogram-of-profiles-percent" class="level2">
+<h2 class="anchored" data-anchor-id="histogram-of-profiles-percent">Histogram of profiles percent</h2>
+<p>Identical to the previous graph, but in percentages by year and DACs.</p>
 <style>
 #Histogram_percent {
   width: 100%;
@@ -227,6 +232,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="histogram-of-data-modes" class="level2">
 <h2 class="anchored" data-anchor-id="histogram-of-data-modes">Histogram of data modes</h2>
+<p>Argo float vertical profiles are processed and distributed by the DACs in real-time mode (within a few hours), then in delayed-mode (within a few months) by their scientific lead (PI - Principal Investigator).</p>
 <style>
 #HistogramDataMode {
   width: 100%;
@@ -240,6 +246,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="histogram-of-data-modes-percent" class="level2">
 <h2 class="anchored" data-anchor-id="histogram-of-data-modes-percent">Histogram of data modes percent</h2>
+<p>Identical to the previous graph, but in percentages.</p>
 <style>
 #HistogramDataModePercent {
   width: 100%;
@@ -253,6 +260,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="the-last-12-months-map-from-argo-index-file" class="level2">
 <h2 class="anchored" data-anchor-id="the-last-12-months-map-from-argo-index-file">The last 12 months map from Argo index file</h2>
+<p>This animated map clearly illustrates the global coverage of the Argo observation network. The floats are colored by DAC. Click on “full screen” for a better visualization.</p>
 <iframe src="maps/stations-argo-12months.html" width="100%" height="700" style="border:none;">
 </iframe>
 </section>
