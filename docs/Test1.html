@@ -134,15 +134,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#histogram-of-data-modes" id="toc-histogram-of-data-modes" class="nav-link active" data-scroll-target="#histogram-of-data-modes">Histogram of data modes</a></li>
-  <li><a href="#histogram-of-data-modes-percent" id="toc-histogram-of-data-modes-percent" class="nav-link" data-scroll-target="#histogram-of-data-modes-percent">Histogram of data modes percent</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -167,37 +160,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The Argo GDAC content monitoring is updated once a week.</p>
-<section id="histogram-of-data-modes" class="level2">
-<h2 class="anchored" data-anchor-id="histogram-of-data-modes">Histogram of data modes</h2>
-<style>
-#HistogramDataMode {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="HistogramDataMode">
+<div id="map" style="width:100%;height:600px;">
 
 </div>
-</section>
-<section id="histogram-of-data-modes-percent" class="level2">
-<h2 class="anchored" data-anchor-id="histogram-of-data-modes-percent">Histogram of data modes percent</h2>
-<style>
-#HistogramDataModePercent {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="HistogramDataModePercent">
+<div id="monthContainer">
 
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-<script src="assets/js/histogramDelayedEchart.js"></script>
+<button id="reloadButton">
+Reload
+</button>
+<button id="loopButton">
+Loop
+</button>
+<button id="formButton">
+Form
+</button>
+<button id="fullScreen">
+FullScreen
+</button>
+<div id="loading" style="display:none;">
+Chargement…
+</div>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="assets/js/EchartsLayer.js"></script>
+<script src="assets/js/mapEcharts.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="assets/lib/echarts-all-3.js"></script>
+<link href="assets/lib/mapbox-gl.css" rel="stylesheet">
+<script src="assets/js/EchartsLayer.js"></script>
+<p><link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet"></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script>

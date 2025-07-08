@@ -50,4 +50,6 @@ resources:
   - "assets/json/"
   - "assets/images/"
   - "assets/js/"
-  - "maps/"
+  - "assets/csv/"
+  - "assets/lib/"
+  - "assets/csv/"

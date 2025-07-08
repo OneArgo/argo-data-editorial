@@ -1,0 +1,29 @@
+---
+title: "Monitoring GDAC content"
+---
+The Argo GDAC content monitoring is updated once a week.
+
+<div id="map" style="width:100%;height:600px;"></div>
+<div id="monthContainer"></div>
+<button id="reloadButton">Reload</button>
+<button id="loopButton">Loop</button>
+<button id="formButton">Form</button>
+<button id="fullScreen">FullScreen</button>
+<div id="loading" style="display:none;">Chargement...</div>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="assets/js/EchartsLayer.js"></script>
+<script src="assets/js/mapEcharts.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="assets/lib/echarts-all-3.js"></script>
+<link href="assets/lib/mapbox-gl.css" rel="stylesheet" />
+<script src="assets/js/EchartsLayer.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet" />
