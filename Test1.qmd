@@ -80,7 +80,7 @@ Identical to the previous graph, but in percentages.
 ## The last 12 months map from Argo index file
 This animated map clearly illustrates the global coverage of the Argo observation network. The floats are colored by DAC. Click on "full screen" for a better visualization.  
   
-<iframe src="mapEcharts.html" width="100%" height="700" style="border:none;"></iframe>
+<iframe src="mapEcharts.html" width="100%" height="600" style="border:none;"></iframe>
 
 ## More on Argo floats dashboard
 <a href="https://fleetmonitoring.euro-argo.eu" target="_blank" rel="noopener noreferrer">https://fleetmonitoring.euro-argo.eu</a>
