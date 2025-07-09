@@ -1,0 +1,14 @@
+---
+title: "Argo user's manual version 3.44.0"
+date: "2025-07-09"
+categories: [doc]
+#image: "chemin/vers/ton/image.jpg"
+---
+The minor version 3.44.0 of "Argo user's manual" was published on July 9th 2025.
+It is available on [https://dx.doi.org/10.13155/29825](https://dx.doi.org/10.13155/29825){target="_blank"}
+
+There is one change:
+
+- §3.3.1, §3.25.1, §2.4.7.1 and §2.4.7.2 <br>This release includes the completion of rules to indicate multiple sensors. While the PARAMETER field was handled in release 3.43.0, the SENSOR field is now also covered (addressing ticket [https://github.com/OneArgo/ArgoVocabs/issues/81](https://github.com/OneArgo/ArgoVocabs/issues/81){target="_blank"}).
+
+See the details on page 13 of the manual.
