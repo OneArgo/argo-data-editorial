@@ -5,7 +5,7 @@ The Argo GDAC content monitoring is updated once a week.
 
 ## Active floats
 An **Argo float is active if it has transmitted data within the last 30 days**.  
-The **counting is done by DAC (Data Assembly Center)**. There are **11 DACs worldwide** that process Argo float data and distribute it to the **GDAC (Global Data Assembly Centre)**.  
+The **counting is done by DAC (Data Assembly Center)**. There are **11 DACs worldwide** that process Argo floats data and distribute it to the **GDAC (Global Data Assembly Centre)**.  
   
 <style>
 #pie_active {
