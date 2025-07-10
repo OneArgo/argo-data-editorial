@@ -1,12 +1,7 @@
 ---
 title: "Monitoring GDAC content"
 ---
-The Argo GDAC content monitoring is updated once a week.
-
 ## Active floats
-An **Argo float is active if it has transmitted data within the last 30 days**.  
-The **counting is done by DAC (Data Assembly Center)**. There are **11 DACs worldwide** that process Argo float data and distribute it to the **GDAC (Global Data Assembly Centre)**.  
-  
 <style>
 #pie_active {
   width: 100%;
@@ -16,78 +11,44 @@ The **counting is done by DAC (Data Assembly Center)**. There are **11 DACs worl
 </style>
 <div id="pie_active"></div>
 
-## All floats
-Number of floats per DAC, deployed from 1997 to date.  
-  
-<style>
-#pie_all {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="pie_all"></div>
-
-## Histogram of vertical profiles
-Annual distribution of vertical profiles carried out by Argo floats. A vertical profile is a measurement of temperature and salinity at different depths in the ocean, down to 2000 meters or more. Some floats measure additional parameters such as oxygen, chlorophyll, pH, nitrate, and optics.  
-  
-<style>
-#Histogram {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="Histogram"></div>
-
-## Histogram of profiles percent
-Identical to the previous graph, but in percentages by year and DACs.  
-  
-<style>
-#Histogram_percent {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="Histogram_percent"></div>
-
-## Histogram of data modes
-Argo float vertical profiles are processed and distributed by the DACs in real-time mode (within a few hours), then in delayed-mode (within a few months) by their scientific lead (PI - Principal Investigator).  
-  
-<style>
-#HistogramDataMode {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="HistogramDataMode"></div>
-
-## Histogram of data modes percent
-Identical to the previous graph, but in percentages.  
-  
-<style>
-#HistogramDataModePercent {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="HistogramDataModePercent"></div>
-
-
-## The last 12 months map from Argo index file
-This animated map clearly illustrates the global coverage of the Argo observation network. The floats are colored by DAC. Click on "full screen" for a better visualization.  
-  
-<iframe src="mapEcharts.html" width="100%" height="600" style="border:none;"></iframe>
-
-## More on Argo floats dashboard
-<a href="https://fleetmonitoring.euro-argo.eu" target="_blank" rel="noopener noreferrer">https://fleetmonitoring.euro-argo.eu</a>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 <script src="assets/js/pieEchart.js"></script>
 <script src="assets/js/histogramEchart.js"></script>
 <script src="assets/js/histogramDelayedEchart.js"></script>
+
+
+<div id="mapbox-section">
+  <div id="map" style="width:100%;height:500px;"></div>
+  <div id="monthContainer"></div>
+  <button id="reloadButton">Reload</button>
+  <button id="loopButton">Loop</button>
+  <button id="formButton">3D</button>
+  <button id="fullScreen">FullScreen</button>
+  <div id="loading" style="display:none;">Chargement...</div>
+</div>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="assets/js/EchartsLayer.js"></script>
+<script src="assets/js/mapEcharts.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="assets/lib/echarts-all-3.js"></script>
+<script src="assets/js/EchartsLayer.js"></script>
+<!-- <link href="assets/lib/mapbox-gl.css" rel="stylesheet" /> -->
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet" />
+
+<style>
+body:not(#mapbox-section) .mapboxgl-control-container,
+body:not(#mapbox-section) .mapboxgl-map {
+  all: unset;
+}
+</style>
 
