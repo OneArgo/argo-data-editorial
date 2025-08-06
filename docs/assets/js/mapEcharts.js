@@ -364,7 +364,7 @@ document
         initializeMap();
 
         // Ouvre une URL dans un nouvel onglet
-        window.open("/mapEcharts.html", "_blank");
+        window.open("../../mapEcharts.html", "_blank");
     });
 
 // Initialize the map on page load
