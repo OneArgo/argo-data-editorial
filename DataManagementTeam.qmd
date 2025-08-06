@@ -101,7 +101,7 @@ On each topic the Primary and Alternate representatives are in charge of working
 | Technical Coordination/Monitoring | Victor Turpin<br>Orens De Fommervault |  |
 | GDACs | Thierry Carval<br>Michael Frost |  |
 | Delay Mode Operators | Annie Wong<br>Cécile Cabanes |  |
-| DACs | Claudia Schmid<br>Anh Tran |  |
+| DACs | Candice Hall<br>Anh Tran |  |
 | ARCs | Uday Bhaskar<br>Shigeki Hosoda |  |
 | GADR | Zhankun Wang |  |
 | Format / User Manual | Thierry Carval<br>Annie Wong |  |
