@@ -222,20 +222,21 @@ function setupECharts(BJData) {
     echartslayer.chart.setOption(option);
 }
 
+// Function to show the time in the monthContainer
 function showTime() {
-    var interval = 1;
+    let interval = 1;
+    clearInterval(intervalid); // On s'assure de ne pas lancer plusieurs intervalles
     intervalid = setInterval(() => {
-        date = new Date(mindate.getTime() + interval * dayinterval * 2000 / 1000);
-        document.getElementById("monthContainer").textContent =
-            month[date.getMonth()] + ' ' + date.getDate();
-        interval += 1;
+        let date = new Date(mindate.getTime() + interval * dayinterval * 2000 / 1000);
         if (date > maxdate) {
-            interval = 0;
-            clearInterval(intervalid);
-            document.getElementById("monthContainer").textContent = "";
+            date = new Date(maxdate); // Gèle la date à maxdate
         }
+        document.getElementById("monthContainer").textContent =
+            month[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear();
+        interval++;
     }, 2000);
 }
+
 function showloading() {
     document.getElementById("loading").style.display = "block";
 }
