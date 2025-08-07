@@ -47,8 +47,9 @@ format:
       - assets/js/script.js.html
 
 resources:
-  - "assets/json/"
+  - "assets/css/"
+  - "assets/csv/"
   - "assets/images/"
   - "assets/js/"
-  - "assets/csv/"
-  - "assets/lib/"
+  - "assets/json/"
+

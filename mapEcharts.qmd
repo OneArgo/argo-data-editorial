@@ -24,17 +24,10 @@ standalone: true
 
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="assets/js/EchartsLayer.js"></script>
-<script src="assets/js/mapEcharts.js"></script>
 <script src="https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="assets/lib/echarts-all-3.js"></script>
+<script src="assets/js/mapEcharts.js"></script>
+<script src="assets/js/echarts-all-3.js"></script>
 <script src="assets/js/EchartsLayer.js"></script>
-<!-- <link href="assets/lib/mapbox-gl.css" rel="stylesheet" /> -->
+
 <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet" />
+
