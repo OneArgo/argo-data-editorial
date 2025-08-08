@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Monitoring GDAC content</title>
+<title>Diagramme Température vs Salinité</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#active-floats" id="toc-active-floats" class="nav-link active" data-scroll-target="#active-floats">Active floats</a></li>
+  <li><a href="#température-vs-salinité" id="toc-température-vs-salinité" class="nav-link active" data-scroll-target="#température-vs-salinité">📈 Température vs Salinité</a></li>
   </ul>
 </nav>
     </div>
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Monitoring GDAC content</h1>
+<h1 class="title">Diagramme Température vs Salinité</h1>
 </div>
 
 
@@ -165,57 +165,64 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="active-floats" class="level2">
-<h2 class="anchored" data-anchor-id="active-floats">Active floats</h2>
-<style>
-#pie_active {
-  width: 100%;
-  height: 400px; /* ou la hauteur que tu veux */
-  min-height: 300px;
-}
-</style>
-<div id="pie_active">
+<section id="température-vs-salinité" class="level2">
+<h2 class="anchored" data-anchor-id="température-vs-salinité">📈 Température vs Salinité</h2>
+<div id="chart" style="width: 800px; height: 500px; margin: auto;">
 
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-<script src="assets/js/pieEchart.js"></script>
-<script src="assets/js/histogramEchart.js"></script>
-<script src="assets/js/histogramDelayedEchart.js"></script>
-<div id="mapbox-section">
-<div id="map" style="width:100%;height:500px;">
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script>
+  const chart = echarts.init(document.getElementById('chart'));
 
-</div>
-<div id="monthContainer">
+  fetch('assets/csv/EasyArgoIA-booleanQc.csv')
+    .then(response => response.text())
+    .then(csvText => {
+      Papa.parse(csvText, {
+        header: true,
+        dynamicTyping: true,
+        complete: function(results) {
+          const rows = results.data;
 
-</div>
-<button id="reloadButton">Reload</button> <button id="loopButton">Loop</button> <button id="formButton">3D</button> <button id="fullScreen">FullScreen</button>
-<div id="loading" style="display:none;">
-Chargement…
-</div>
-</div>
-<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="assets/js/EchartsLayer.js"></script>
-<script src="assets/js/mapEcharts.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="assets/lib/echarts-all-3.js"></script>
-<script src="assets/js/EchartsLayer.js"></script>
-<!-- <link href="assets/lib/mapbox-gl.css" rel="stylesheet" /> -->
-<p><link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet"></p>
-<style>
-body:not(#mapbox-section) .mapboxgl-control-container,
-body:not(#mapbox-section) .mapboxgl-map {
-  all: unset;
-}
-</style>
+          // // Filtrer les lignes valides
+          // const filtered = rows.filter(row => row.salinity_ok === 1);
+          // // Extraire les paires [salinity, temperature]
+          // const dataPoints = filtered.map(row => [row.salinity, row.temperature]);
+          const dataPoints = rows.map(row => [row.salinity, row.temperature]);
+
+          const option = {
+            title: {
+              text: 'Température vs Salinité',
+              left: 'center'
+            },
+            tooltip: {
+              trigger: 'item',
+              formatter: params => `Salinité: ${params.value[0]}<br>Température: ${params.value[1]}`
+            },
+            xAxis: {
+              name: 'Salinité',
+              type: 'value'
+            },
+            yAxis: {
+              name: 'Température (°C)',
+              type: 'value'
+            },
+            series: [{
+              name: 'Mesures',
+              type: 'scatter',
+              symbolSize: 8,
+              data: dataPoints,
+              itemStyle: {
+                color: '#91cc75'
+              }
+            }]
+          };
+
+          chart.setOption(option);
+        }
+      });
+    });
+</script>
 
 
 </section>
