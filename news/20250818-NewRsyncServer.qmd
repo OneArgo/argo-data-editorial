@@ -5,5 +5,5 @@ categories: [infra]
 #image: "chemin/vers/ton/image.jpg"
 ---
 The Argo data synchronization server has been updated as of Monday, August 18, 2025.  
-The functionalities for Argo data users will remain the same.  
+The functionalities for Argo data users remain the same.  
 Please refer to the [Argo synchronization service user guide](https://oneargo.github.io/argo-data-editorial/DataAccess.html#argo-synchronization-service){target="_blank"} for instructions.
