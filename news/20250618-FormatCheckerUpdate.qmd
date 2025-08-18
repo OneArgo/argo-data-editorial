@@ -1,7 +1,7 @@
 ---
 title: "Argo NetCDF file format checker updated"
 date: "2025-06-18"
-categories: [web]
+categories: [infra]
 #image: "chemin/vers/ton/image.jpg"
 ---
 The Argo NetCDF files format checker was updated on June 18, 2025.  

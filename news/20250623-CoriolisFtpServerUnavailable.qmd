@@ -1,7 +1,7 @@
 ---
 title: "Coriolis GDAC FTP Connection Issue"
 date: "2025-06-23"
-categories: [run]
+categories: [infra]
 #image: "chemin/vers/ton/image.jpg"
 ---
 
