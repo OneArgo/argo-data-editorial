@@ -1,6 +1,6 @@
 ---
 title: "Production of Sprof files is not working properly"
-date: "2025-08-19"
+date: "2025-08-20"
 categories: [infra]
 #image: "chemin/vers/ton/image.jpg"
 ---
