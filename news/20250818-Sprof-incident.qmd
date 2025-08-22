@@ -6,6 +6,6 @@ categories: [infra]
 ---
 Since August 4th, the production of Sprof files by Coriolis GDAC is not working properly.
 Normal Sprof production may not resume until September.
-In the interim, I will manually generate updates.
+In the interim, Sprof files are manually created or updated.
 
 A S-prof file is a data format used to store data from an Argo float. It combines both physical measurements (temperature and salinity) and biogeochemical parameters into one file, simplifying data access and analysis.
