@@ -4,8 +4,31 @@ date: "2025-08-19"
 categories: [infra]
 #image: "chemin/vers/ton/image.jpg"
 ---
-Since August 4th, the production of Sprof files by Coriolis GDAC is not working properly.
-Normal Sprof production may not resume until September.
-In the interim, Sprof files are manually created or updated.
+**Incident Status**  
+Between August 4 and September 3, the production of S-prof files by the Coriolis GDAC was partially or fully interrupted. The nominal generation of S-prof files resumed gradually, and the backlog was cleared on September 3.
 
-A S-prof file is a data format used to store data from an Argo float. It combines both physical measurements (temperature and salinity) and biogeochemical parameters into one file, simplifying data access and analysis.
+An S-prof file is a data format used to store data from an Argo float. It combines both physical measurements (temperature and salinity) and biogeochemical parameters into a single file, which simplifies data access and analysis.
+
+**Incident Resolution**
+
+- Since August 19, 2025, the generation of S-prof (single and multi-profile) has partially resumed.
+- On September 1, the generation of new multi-profile S-profs resumed as normal.
+- On September 3, the backlog of S-profs (single and multi-profile) missing since August 4 was cleared.
+
+Some S-prof files cannot be generated. They are listed at https://data-argo.ifremer.fr/etc/argo-synthetic-profile-log/  
+The most common error concerns C-prof and B-prof files that do not have the same number of data levels.
+
+
+| DAC       | multi-profile files recovered on September 3 |
+|-----------|-------------------------------|
+| aoml      | 73 |
+| bodc      | 11 |
+| coriolis  | 81 |
+| csio      | 8  |
+| csiro     | 12 |
+| incois    | 9  |
+| jma       | 3  |
+| kiost     | 0  |
+| kma       | 0  |
+| meds      | 26 |
+
