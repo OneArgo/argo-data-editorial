@@ -1,65 +1,24 @@
 ---
-title: "Diagramme Température vs Salinité"
-format: html
-editor: visual
+title: ADMT - Argo data management team
+---
+We provide access to Argo data, we document data processing, formats and quality control procedures.
+
+- More information on Argo ? [visit Argo program](https://argo.ucsd.edu/){target="_blank"}<br>
+- A question ? [contact argo.net](mailto:support@argo.net)<br>
+
+
+# How to acknowledge Argo data ?
+Since Argo data are freely available, we kindly request that the following acknowledgement be included in any publication or product that utilizes Argo data:  
+*"These data were collected and made freely available by the International Argo Program and the national programs that contribute to it. ([https://argo.ucsd.edu](https://argo.ucsd.edu), [https://www.ocean-ops.org](https://www.ocean-ops.org)). The Argo Program is part of the Global Ocean Observing System."*
+
+# News
+
+---
+listing:
+  contents: news
+  type: default
+  sort: "date desc"
+  type: table
+  fields: [date, image, title, description, categories]
 ---
 
-## 📈 Température vs Salinité
-
-```{=html}
-<div id="chart" style="width: 800px; height: 500px; margin: auto;"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-
-<script>
-  const chart = echarts.init(document.getElementById('chart'));
-
-  fetch('assets/csv/EasyArgoIA-booleanQc.csv')
-    .then(response => response.text())
-    .then(csvText => {
-      Papa.parse(csvText, {
-        header: true,
-        dynamicTyping: true,
-        complete: function(results) {
-          const rows = results.data;
-
-          // // Filtrer les lignes valides
-          // const filtered = rows.filter(row => row.salinity_ok === 1);
-          // // Extraire les paires [salinity, temperature]
-          // const dataPoints = filtered.map(row => [row.salinity, row.temperature]);
-          const dataPoints = rows.map(row => [row.salinity, row.temperature]);
-
-          const option = {
-            title: {
-              text: 'Température vs Salinité',
-              left: 'center'
-            },
-            tooltip: {
-              trigger: 'item',
-              formatter: params => `Salinité: ${params.value[0]}<br>Température: ${params.value[1]}`
-            },
-            xAxis: {
-              name: 'Salinité',
-              type: 'value'
-            },
-            yAxis: {
-              name: 'Température (°C)',
-              type: 'value'
-            },
-            series: [{
-              name: 'Mesures',
-              type: 'scatter',
-              symbolSize: 8,
-              data: dataPoints,
-              itemStyle: {
-                color: '#91cc75'
-              }
-            }]
-          };
-
-          chart.setOption(option);
-        }
-      });
-    });
-</script>

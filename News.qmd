@@ -1,6 +1,7 @@
 ---
 title: "News"
 listing:
+  contents: news
   sort: "date desc"
   type: table
   image-align: left

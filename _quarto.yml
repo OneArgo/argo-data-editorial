@@ -21,7 +21,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: news/News.qmd
+      - href: News.qmd
         text: News
       - href: DataAccess.qmd
         text: Data
