@@ -11,3 +11,12 @@ We provide access to Argo data, we document data processing, formats and quality
 Since Argo data are freely available, we kindly request that the following acknowledgement be included in any publication or product that utilizes Argo data:  
 *"These data were collected and made freely available by the International Argo Program and the national programs that contribute to it. ([https://argo.ucsd.edu](https://argo.ucsd.edu), [https://www.ocean-ops.org](https://www.ocean-ops.org)). The Argo Program is part of the Global Ocean Observing System."*
 
+# News
+---
+listing:
+  contents: news
+  type: default
+  sort: "date desc"
+  type: table
+  fields: [date, image, title, description, categories]
+---
