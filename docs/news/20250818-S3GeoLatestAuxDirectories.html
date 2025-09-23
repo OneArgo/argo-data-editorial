@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-09-23">
 
-<title>Documentation</title>
+<title>S3 GDAC: Daily synchronization now includes ‘latest_data’, ‘geo’, and ‘aux’ branches.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/images/Argo_logo_tallspacer.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fd053a38988e21bb3d3b0b617a2084cf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ae2d0dcda2edce4ab590422bb373b64f.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/images/Argo_logo_tallspacer.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-6561bbde787c299e21493071c8edc6ff.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-4ebd2eb7c9ff38b57148d0e3da08e0a3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -80,8 +81,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/images/Argo_logo_tallspacer.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/images/Argo_logo_tallspacer.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,31 +92,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./DataAccess.html"> 
+    <a class="nav-link" href="../DataAccess.html"> 
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Documentation.html" aria-current="page"> 
+    <a class="nav-link" href="../Documentation.html"> 
 <span class="menu-text">Documentation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./DataManagementTeam.html"> 
+    <a class="nav-link" href="../DataManagementTeam.html"> 
 <span class="menu-text">ADMT</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Dmqc.html"> 
+    <a class="nav-link" href="../Dmqc.html"> 
 <span class="menu-text">DMQC</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ArgoVocabulary.html"> 
+    <a class="nav-link" href="../ArgoVocabulary.html"> 
 <span class="menu-text">Vocabularies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Monitoring.html"> 
+    <a class="nav-link" href="../Monitoring.html"> 
 <span class="menu-text">Monitoring</span></a>
   </li>  
 </ul>
@@ -130,33 +131,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#how-is-argo-data-management-organized" id="toc-how-is-argo-data-management-organized" class="nav-link active" data-scroll-target="#how-is-argo-data-management-organized">How is Argo data management organized ?</a></li>
-  <li><a href="#argo-data-formats" id="toc-argo-data-formats" class="nav-link" data-scroll-target="#argo-data-formats">Argo data formats</a></li>
-  <li><a href="#quality-control" id="toc-quality-control" class="nav-link" data-scroll-target="#quality-control">Quality control</a></li>
-  <li><a href="#cookbooks-core-argo" id="toc-cookbooks-core-argo" class="nav-link" data-scroll-target="#cookbooks-core-argo">Cookbooks, Core-Argo</a></li>
-  <li><a href="#cookbooks-bgc-argo" id="toc-cookbooks-bgc-argo" class="nav-link" data-scroll-target="#cookbooks-bgc-argo">Cookbooks, BGC-Argo</a></li>
-  <li><a href="#cookbooks-gdac" id="toc-cookbooks-gdac" class="nav-link" data-scroll-target="#cookbooks-gdac">Cookbooks, GDAC</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Documentation</h1>
-</div>
+<h1 class="title">S3 GDAC: Daily synchronization now includes ‘latest_data’, ‘geo’, and ‘aux’ branches.</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">gdac</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 23, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -166,71 +165,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="how-is-argo-data-management-organized" class="level1">
-<h1>How is Argo data management organized ?</h1>
+<p>Since August 2023, the ‘dac’ branch of the GDAC Argo has been synchronized daily on Amazon S3:</p>
 <ul>
-<li><a href="https://argo.ucsd.edu/data/how-to-use-argo-files/" target="_blank">A beginners’ guide to accessing Argo data</a></li>
-<li><a href="https://argo.ucsd.edu/data/data-faq/" target="_blank">Argo data FAQ</a></li>
+<li><a href="https://registry.opendata.aws/argo-gdac-marinedata" target="_blank">https://registry.opendata.aws/argo-gdac-marinedata</a></li>
 </ul>
-</section>
-<section id="argo-data-formats" class="level1">
-<h1>Argo data formats</h1>
-<ul>
-<li>The Argo data formats are described in the “Argo user’s manual”:<br><a href="https://dx.doi.org/10.13155/29825" target="_blank">https://dx.doi.org/10.13155/29825</a></li>
-<li>Reference tables master documents are available from:<br><a href="https://github.com/OneArgo/argo-format-user-manual/tree/main/etc" target="_blank">https://github.com/OneArgo/argo-format-user-manual/tree/main/etc</a></li>
-<li>User manual for technical files
-<ul>
-<li><a href="https://github.com/OneArgo/argo-format-user-manual/blob/7bb1777ecaa00e2f3364956faa0faab4fd6eff21/etc/Technical_Naming_Convention_rules_V4.doc" target="_blank">Technical parameters naming convention rules</a></li>
-<li><a href="https://github.com/OneArgo/argo-format-user-manual/blob/d1ab29664f9e94d291c002099accd34cb27f8f2c/etc/Table%20Tech%20and%20Conf%20Units.xlsx" target="_blank">Technical and configuration parameters units</a></li>
-<li><a href="https://github.com/OneArgo/argo-format-user-manual/blob/d1ab29664f9e94d291c002099accd34cb27f8f2c/etc/SurfacePressureCorrectionTable.xls" target="_blank">Surface pressure correction table</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="quality-control" class="level1">
-<h1>Quality control</h1>
-<ul>
-<li>Argo quality control manual for CTD and trajectory data <a href="https://dx.doi.org/10.13155/33951" target="_blank">https://dx.doi.org/10.13155/33951</a></li>
-<li>Argo quality control manual for dissolved oxygen concentration <a href="https://doi.org/10.13155/46542" target="_blank">https://doi.org/10.13155/46542</a></li>
-<li>BGC-Argo quality control manual for biogeochemical data <a href="https://dx.doi.org/10.13155/40879" target="_blank">https://dx.doi.org/10.13155/40879</a></li>
-<li>BGC-Argo quality control manual for chlorophyll-A concentration <a href="https://dx.doi.org/10.13155/35385" target="_blank">https://dx.doi.org/10.13155/35385</a></li>
-<li>BGC-Argo quality control manual for nitrate concentration <a href="https://doi.org/10.13155/84370" target="_blank">https://doi.org/10.13155/84370</a></li>
-<li>BGC-Argo quality control for radiometry <a href="https://doi.org/10.13155/62466" target="_blank">https://doi.org/10.13155/62466</a></li>
-<li>BGC-Argo quality control manual for pH <a href="https://doi.org/10.13155/97828" target="_blank">https://doi.org/10.13155/97828</a></li>
-<li>BGC Argo quality control manual for particles backscattering <a href="https://doi.org/10.13155/60262" target="_blank">https://doi.org/10.13155/60262</a></li>
-</ul>
-</section>
-<section id="cookbooks-core-argo" class="level1">
-<h1>Cookbooks, Core-Argo</h1>
-<ul>
-<li>Argo DAC profile cookbook <a href="https://dx.doi.org/10.13155/41151" target="_blank">https://dx.doi.org/10.13155/41151</a></li>
-<li>Argo DAC trajectory cookbook <a href="https://dx.doi.org/10.13155/29824" target="_blank">https://dx.doi.org/10.13155/29824</a></li>
-<li><a href="https://github.com/OneArgo/argo-format-user-manual/blob/ae417bbbe9806b80637b9d7d9824f2484986228d/etc/Method-Position-Time-QC.pdf" target="_blank">Common method for determining position and Time and attribute the appropriate QC</a></li>
-<li>Core-Argo DMQC cookbook <a href="https://doi.org/10.13155/78994" target="_blank">https://doi.org/10.13155/78994</a></li>
-</ul>
-</section>
-<section id="cookbooks-bgc-argo" class="level1">
-<h1>Cookbooks, BGC-Argo</h1>
-<ul>
-<li>Processing Argo oxygen data at the DAC level cookbook <a href="https://doi.org/10.13155/39795" target="_blank">https://doi.org/10.13155/39795</a></li>
-<li>BGC-Argo processing particle backscattering at the DAC level <a href="https://dx.doi.org/10.13155/39459" target="_blank">https://dx.doi.org/10.13155/39459</a></li>
-<li>BGC-Argo processing chlorophyll-A concentration at the DAC level <a href="https://dx.doi.org/10.13155/39468" target="_blank">https://dx.doi.org/10.13155/39468</a></li>
-<li>BGC-Argo processing Argo measurement timing information at the DAC level <a href="https://dx.doi.org/10.13155/47998" target="_blank">https://dx.doi.org/10.13155/47998</a></li>
-<li>Processing BGC-Argo CDOM concentration at the DAC level <a href="https://doi.org/10.13155/54541" target="_blank">https://doi.org/10.13155/54541</a></li>
-<li>Processing Bio-Argo nitrate concentration at the DAC Level <a href="https://dx.doi.org/10.13155/46121" target="_blank">https://dx.doi.org/10.13155/46121</a></li>
-<li>Processing BGC-Argo Radiometric data at the DAC level <a href="https://doi.org/10.13155/51541" target="_blank">https://doi.org/10.13155/51541</a></li>
-<li>Processing BGC-Argo pH data at the DAC level <a href="https://doi.org/10.13155/57195" target="_blank">https://doi.org/10.13155/57195</a></li>
-</ul>
-</section>
-<section id="cookbooks-gdac" class="level1">
-<h1>Cookbooks, GDAC</h1>
-<ul>
-<li>Description of the Argo GDAC File Checks: Data Format and Consistency Checks <a href="https://dx.doi.org/10.13155/46120" target="_blank">https://dx.doi.org/10.13155/46120</a></li>
-<li>BGC-Argo synthetic profile file processing and format on Coriolis GDAC <a href="https://doi.org/10.13155/55637" target="_blank">https://doi.org/10.13155/55637</a></li>
-<li>Argo GDAC cookbook <a href="https://doi.org/10.13155/46202" target="_blank">https://doi.org/10.13155/46202</a></li>
-</ul>
+<p>The ‘latest_data’, ‘geo’, and ‘aux’ branches have now been added to the daily synchronization. This means all Argo data (profiles, trajectories, metadata, auxiliary data) are now accessible on AWS S3.</p>
+<p>This synchronization on AWS S3 provides cloud-native access to the data, which greatly facilitates its use by the scientific community.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script>
@@ -475,6 +417,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -585,6 +529,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

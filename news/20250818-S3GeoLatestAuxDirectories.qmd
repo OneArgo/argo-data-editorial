@@ -1,0 +1,13 @@
+---
+title: "S3 GDAC: Daily synchronization now includes 'latest_data', 'geo', and 'aux' branches."
+date: "2025-09-23"
+categories: [gdac]
+#image: "chemin/vers/ton/image.jpg"
+---
+Since August 2023, the 'dac' branch of the GDAC Argo has been synchronized daily on Amazon S3:
+
+- [https://registry.opendata.aws/argo-gdac-marinedata](https://registry.opendata.aws/argo-gdac-marinedata){target="_blank"}
+
+The 'latest_data', 'geo', and 'aux' branches have now been added to the daily synchronization. This means all Argo data (profiles, trajectories, metadata, auxiliary data) are now accessible on AWS S3.
+
+This synchronization on AWS S3 provides cloud-native access to the data, which greatly facilitates its use by the scientific community.

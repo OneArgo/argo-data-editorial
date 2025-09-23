@@ -50,3 +50,4 @@ resources:
   - "assets/images/"
   - "assets/js/"
   - "assets/json/"
+  - CNAME
