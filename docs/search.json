@@ -147,6 +147,13 @@
     "text": "Ftp, https, s3 data services\nArgo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.\n\nftp://ftp.ifremer.fr/ifremer/argo\nhttps://data-argo.ifremer.fr / https://usgodae.org/pub/outgoing/argo\ns3: Argo data are updated daily on https://registry.opendata.aws/argo-gdac-marinedata"
   },
   {
+    "objectID": "DataAccess.html#argo-doi-digital-object-identifier",
+    "href": "DataAccess.html#argo-doi-digital-object-identifier",
+    "title": "Data access",
+    "section": "Argo DOI, Digital Object Identifier",
+    "text": "Argo DOI, Digital Object Identifier\nA digital object identifier (DOI) is a unique identifier for an electronic document or a dataset.\nArgo data-management assigns DOIs to its documents and datasets for two main objectives:\n\nCitation: in a publication the DOI is efficiently tracked by bibliographic surveys\nTraceability: the DOI is a direct and permanent link to the document or data set used in a publication\n\nArgo floats data and metadata from Global Data Assembly Centre (Argo GDAC)\n\nhttps://doi.org/10.17882/42182"
+  },
+  {
     "objectID": "DataAccess.html#data-format",
     "href": "DataAccess.html#data-format",
     "title": "Data access",
@@ -173,13 +180,6 @@
     "title": "Data access",
     "section": "Argo floats dashboard",
     "text": "Argo floats dashboard\nArgo Floats Dashboard is a web interface to discover Argo floats with metadata, maps, graphics and technical alerts.\n\nhttps://fleetmonitoring.euro-argo.eu/dashboard"
-  },
-  {
-    "objectID": "DataAccess.html#argo-doi-digital-object-identifier",
-    "href": "DataAccess.html#argo-doi-digital-object-identifier",
-    "title": "Data access",
-    "section": "Argo DOI, Digital Object Identifier",
-    "text": "Argo DOI, Digital Object Identifier\nA digital object identifier (DOI) is a unique identifier for an electronic document or a dataset.\nArgo data-management assigns DOIs to its documents and datasets for two main objectives:\n\nCitation: in a publication the DOI is efficiently tracked by bibliographic surveys\nTraceability: the DOI is a direct and permanent link to the document or data set used in a publication\n\nArgo floats data and metadata from Global Data Assembly Centre (Argo GDAC)\n\nhttps://doi.org/10.17882/42182"
   },
   {
     "objectID": "DataAccess.html#argo-synchronization-service",
