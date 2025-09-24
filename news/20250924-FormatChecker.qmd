@@ -1,0 +1,11 @@
+---
+title: "File format checker version 2.9.3 released"
+date: "2025-09-24"
+categories: [gdac]
+#image: "chemin/vers/ton/image.jpg"
+---
+The Argo NetCDF file format checker version 2.9.3 was released and activated on both US and Coriolis GDAC.  
+This new version include (among other minor changes) the capacity to validate timeseries of technical data as described in the Argo User's Manual.
+
+- [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.3](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v2.9.3){target="_blank"}
+
