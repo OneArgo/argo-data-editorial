@@ -1,6 +1,6 @@
 ---
 title: "Framework for adding new sensors and new mission parameters in Argo"
-date: "2025-09-24"
+date: "2025-09-26"
 categories: [gdac]
 #image: "chemin/vers/ton/image.jpg"
 ---
