@@ -3,6 +3,7 @@
     "listing": "/Test1.html",
     "items": [
       "/news/20250924-FormatChecker.html",
+      "/news/20250926-ArgoGuidelines.html",
       "/news/20250923-S3GeoLatestAuxDirectories.html",
       "/news/20250818-Sprof-incident.html",
       "/news/20250818-NewRsyncServer.html",
@@ -20,6 +21,7 @@
     "listing": "/index.html",
     "items": [
       "/news/20250924-FormatChecker.html",
+      "/news/20250926-ArgoGuidelines.html",
       "/news/20250923-S3GeoLatestAuxDirectories.html",
       "/news/20250818-Sprof-incident.html",
       "/news/20250818-NewRsyncServer.html",
@@ -37,6 +39,7 @@
     "listing": "/News.html",
     "items": [
       "/news/20250924-FormatChecker.html",
+      "/news/20250926-ArgoGuidelines.html",
       "/news/20250923-S3GeoLatestAuxDirectories.html",
       "/news/20250818-Sprof-incident.html",
       "/news/20250818-NewRsyncServer.html",

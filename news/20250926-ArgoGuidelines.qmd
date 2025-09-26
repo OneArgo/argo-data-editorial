@@ -1,0 +1,15 @@
+---
+title: "Framework for adding new sensors and new mission parameters in Argo"
+date: "2025-09-24"
+categories: [gdac]
+#image: "chemin/vers/ton/image.jpg"
+---
+The framework for adding new sensors and new mission parameters in Argo version 1.0.0 is now published.
+
+- Bittig Henry, Takeshita Yuichihiro, Wong Annie P.S., Schmechtig Catherine, Maurer Tanya, Owens W. Brechner (2025). **Framework for adding new sensors and new mission parameters in Argo.** Ifremer. [https://doi.org/10.13155/108751](https://doi.org/10.13155/108751){target="_blank"}
+
+This document is listed in the [documentation guidelines](https://www.argodatamgt.org/Documentation.html#Guidelines).
+
+In 2018, UNESCO's Intergovernmental Oceanographic Commission approved six biogeochemical parameters for Argo floats and established a framework for future parameter additions. Since then, new sensors and CTDs have been evaluated for their readiness and cost-effectiveness in the global Argo program.
+The development process follows three phases: experimental, pilot, and global implementation. As Argo expands, clearer definitions of these phases and transition criteria have become necessary, along with a framework that encourages experimentation while preventing it from overwhelming Argo's core missions.
+This document describes the pathway for admitting new sensors and mission parameters into Argo through these three phases. While following IOC-UNESCO guidelines for new parameters, it extends to include new sensors with additional considerations for the Argo data system to prevent unnecessary burden. The framework acknowledges that not all experimental work will advance to pilot or global phases, providing transparency about required procedures and practical guidance for each development stage.
