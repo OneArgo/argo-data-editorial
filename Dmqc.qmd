@@ -11,8 +11,11 @@ This page aggregates the information related to DMQC tools available to Argo DMQ
 - the GitHub repository for the PMEL GUI [https://github.com/ArgoDMQC/PMEL_GUI](https://github.com/ArgoDMQC/PMEL_GUI){target="_blank"}
 - the GitHub repository for the SOCCOM/BGC-Argo processing [https://github.com/SOCCOM-BGCArgo/ARGO_PROCESSING](https://github.com/SOCCOM-BGCArgo/ARGO_PROCESSING){target="_blank"}
 - the visual quality control for Argo NetCDF data files Scoop-Argo [https://www.seanoe.org/data/00374/48531/](https://www.seanoe.org/data/00374/48531/){target="_blank"}
-
-Webpage to be updated in the coming months. In the meantime please refer to the list provided [here](https://argo.ucsd.edu/data/argo-software-tools/){target="_blank"}.
+- Argo Canada's BGC DMQC python package: [https://github.com/ArgoCanada/bgcArgoDMQC](https://github.com/ArgoCanada/bgcArgoDMQC){target="_blank"}
+- Deep DMQC tools, including Deep CTD selection and DM_cpcor, both available from [https://github.com/ArgoDMQC/Deep_Argo_DMTools](https://github.com/ArgoDMQC/Deep_Argo_DMTools){target="_blank"}
+- DM_FILLER, written in R, to fill BD files with adjustments: [https://github.com/catsch/DM_FILLER](https://github.com/catsch/DM_FILLER){target="_blank"}
+- LOCODOX: [https://github.com/euroargodev/LOCODOX](https://github.com/euroargodev/LOCODOX){target="_blank"}
+- RBRargo_DMQC routines: [https://github.com/ArgoDMQC/RBRargo_DMQC](https://github.com/euroargodev/LOCODOX){target="_blank"}
 
 ## What float should I process first?
 The following information are available :
