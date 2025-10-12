@@ -1,129 +1,129 @@
 {
-   "DELAYED" : {
-      "GDAC" : {
-         "INCOIS" : [
-            76515
-         ],
-         "JMA" : [
-            219806
-         ],
-         "KMA" : [
-            35197
-         ],
-         "MEDS" : [
-            55091
-         ],
-         "AOML" : [
-            1495229
-         ],
-         "CSIRO" : [
-            225486
-         ],
-         "BODC" : [
-            102662
-         ],
-         "CSIO" : [
-            63271
-         ],
-         "NMDIS" : [
-            2388
-         ],
-         "KIOST" : [
-            15892
-         ],
-         "CORIOLIS" : [
-            447799
-         ]
-      },
-      "TOTAL" : 2739336
+   "COLOR" : {
+      "NMDIS" : "#A50000",
+      "KMA" : "#FFAA00",
+      "JMA" : "#FFFF00",
+      "BODC" : "#0000FF",
+      "GTS" : "#52FFA5",
+      "AOML" : "#0000A5",
+      "CSIRO" : "#00FFFF",
+      "KORDI" : "#FF5500",
+      "INCOIS" : "#A5FF52",
+      "MEDS" : "#FF0000",
+      "CORIOLIS" : "#0055FF",
+      "CSIO" : "#00AAFF"
    },
    "ALL" : {
       "GDAC" : {
-         "NMDIS" : [
-            19
-         ],
-         "KIOST" : [
-            125
-         ],
-         "CORIOLIS" : [
-            3983
-         ],
-         "INCOIS" : [
-            569
-         ],
-         "JMA" : [
-            1979
-         ],
-         "BODC" : [
-            912
-         ],
-         "CSIRO" : [
-            1205
-         ],
          "AOML" : [
-            9257
+            9259
          ],
          "CSIO" : [
             579
          ],
-         "KMA" : [
-            263
+         "KIOST" : [
+            125
          ],
          "MEDS" : [
             722
-         ]
-      },
-      "TOTAL" : 19613
-   },
-   "COLOR" : {
-      "GTS" : "#52FFA5",
-      "CORIOLIS" : "#0055FF",
-      "KORDI" : "#FF5500",
-      "AOML" : "#0000A5",
-      "BODC" : "#0000FF",
-      "CSIRO" : "#00FFFF",
-      "KMA" : "#FFAA00",
-      "NMDIS" : "#A50000",
-      "INCOIS" : "#A5FF52",
-      "JMA" : "#FFFF00",
-      "CSIO" : "#00AAFF",
-      "MEDS" : "#FF0000"
-   },
-   "ACTIVE" : {
-      "TOTAL" : 4003,
-      "GDAC" : {
+         ],
          "CORIOLIS" : [
-            754
-         ],
-         "KIOST" : [
-            14
-         ],
-         "CSIO" : [
-            82
+            3995
          ],
          "CSIRO" : [
-            254
-         ],
-         "BODC" : [
-            131
-         ],
-         "AOML" : [
-            2297
+            1211
          ],
          "KMA" : [
-            4
+            263
+         ],
+         "BODC" : [
+            912
+         ],
+         "JMA" : [
+            1980
+         ],
+         "INCOIS" : [
+            569
+         ],
+         "NMDIS" : [
+            19
+         ]
+      },
+      "TOTAL" : 19634
+   },
+   "ACTIVE" : {
+      "GDAC" : {
+         "AOML" : [
+            2295
+         ],
+         "CSIO" : [
+            81
+         ],
+         "CORIOLIS" : [
+            759
          ],
          "MEDS" : [
-            208
+            207
+         ],
+         "KIOST" : [
+            9
+         ],
+         "BODC" : [
+            130
          ],
          "JMA" : [
             158
          ],
          "INCOIS" : [
-            101
+            100
+         ],
+         "KMA" : [
+            4
+         ],
+         "CSIRO" : [
+            260
          ]
-      }
+      },
+      "TOTAL" : 4003
    },
-   "DATE" : "30/09/2025"
+   "DATE" : "07/10/2025",
+   "DELAYED" : {
+      "GDAC" : {
+         "NMDIS" : [
+            2388
+         ],
+         "KMA" : [
+            35197
+         ],
+         "CSIRO" : [
+            225673
+         ],
+         "JMA" : [
+            219806
+         ],
+         "INCOIS" : [
+            76567
+         ],
+         "BODC" : [
+            102757
+         ],
+         "CORIOLIS" : [
+            447799
+         ],
+         "MEDS" : [
+            55091
+         ],
+         "KIOST" : [
+            15892
+         ],
+         "AOML" : [
+            1499739
+         ],
+         "CSIO" : [
+            63271
+         ]
+      },
+      "TOTAL" : 2744180
+   }
 }
 
