@@ -3,6 +3,7 @@ title: "Monitoring GDAC content"
 ---
 The Argo GDAC content monitoring is updated once a week.
 
+
 ## Active floats
 An **Argo float is active if it has transmitted data within the last 30 days**.  
 The **counting is done by DAC (Data Assembly Center)**. There are **11 DACs worldwide** that process Argo floats data and distribute it to the **GDAC (Global Data Assembly Centre)**.  
@@ -90,4 +91,22 @@ This animated map clearly illustrates the global coverage of the Argo observatio
 <script src="assets/js/pieEchart.js"></script>
 <script src="assets/js/histogramEchart.js"></script>
 <script src="assets/js/histogramDelayedEchart.js"></script>
+
+## Date du dernier histogramme
+
+<div id="date_histogram"></div>
+
+<script>
+fetch('https://www.argodatamgt.org/assets/json/histogram_gdac.json')
+  .then(response => response.json())
+  .then(data => {
+    // Si le JSON est un tableau d'objets, prenez la première valeur
+    // Sinon, adaptez selon la structure réelle du JSON
+    let date = data.DATE || (Array.isArray(data) && data[0]?.DATE) || "Non disponible";
+    document.getElementById('date_histogram').innerText = "DATE : " + date;
+  })
+  .catch(() => {
+    document.getElementById('date_histogram').innerText = "DATE : Non disponible";
+  });
+</script>
 
