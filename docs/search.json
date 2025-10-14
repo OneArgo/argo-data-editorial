@@ -65,30 +65,30 @@
   {
     "objectID": "DataManagementTeam.html",
     "href": "DataManagementTeam.html",
-    "title": "Data management team",
+    "title": "The Argo Data Management Team",
     "section": "",
-    "text": "The Argo Data Management Team (ADMT) is composed of at least one representative of each institute involved in Argo data management activities. It reports to the Argo Steering Team on data management issues.\nThe role of the ADMT is to coordinate the data management activities for Argo to ensure an integrated access to Argo data independent to where it’s processed. It defines:"
+    "text": "The Argo Data Management Team (ADMT) is composed of at least one representative of each institute involved in Argo data management activities. It reports to the Argo Steering Team on data management issues.\nThe role of the ADMT is to coordinate the data management activities for Argo to ensure an integrated access to Argo data independent to where it’s processed. It defines:\nThe ADMT uses github as a tool to manage its activities: https://github.com/OneArgo"
   },
   {
     "objectID": "DataManagementTeam.html#terms-of-reference",
     "href": "DataManagementTeam.html#terms-of-reference",
-    "title": "Data management team",
+    "title": "The Argo Data Management Team",
     "section": "Terms of Reference",
     "text": "Terms of Reference\nThe Executive Board supports the ADMT co-chairs in steering ADMT activities to fulfil AST requirements. It is composed of a Primary and an Alternate representative for each of the main ADMT topics. The Primary and Alternate representatives coordinate so that at least one will attend the Executive Board meetings. Both representatives can attend the same meetings if both are available.\nOn each topic the Primary and Alternate representatives are in charge of working with the ADMT members on the actions linked to their topic and monitoring progress: • Identify issues and possible solutions to be discussed at the Executive Board meetings and at the ADMT meetings. • Ensure effective communications with various user groups via outreach activities. • Ensure Argo data adhere to the FAIR data principles."
   },
   {
     "objectID": "DataManagementTeam.html#members",
     "href": "DataManagementTeam.html#members",
-    "title": "Data management team",
+    "title": "The Argo Data Management Team",
     "section": "Members",
     "text": "Members\n\n\n\n\n\n\n\n\nRole\nPrimary\nAlternate\n\n\n\n\nArgo Data Management Chairs\nMegan ScanderbegClaire Gourcuff\n\n\n\nArgo Director\nBreck Owens\n\n\n\nArgo Steering Team Chairs\nSusan WijffelsBrian King\n\n\n\nBGC Mission\nCatherine SchmechtigTanya Maurer\n\n\n\nTechnical Coordination/Monitoring\nVictor TurpinOrens De Fommervault\n\n\n\nGDACs\nThierry CarvalMichael Frost\n\n\n\nDelay Mode Operators\nAnnie WongCécile Cabanes\n\n\n\nDACs\nCandice HallAnh Tran\n\n\n\nARCs\nUday BhaskarShigeki Hosoda\n\n\n\nGADR\nZhankun Wang\n\n\n\nFormat / User Manual\nThierry CarvalAnnie Wong"
   },
   {
     "objectID": "DataManagementTeam.html#admt-meetings",
     "href": "DataManagementTeam.html#admt-meetings",
-    "title": "Data management team",
+    "title": "The Argo Data Management Team",
     "section": "ADMT meetings",
-    "text": "ADMT meetings\n\n\n\nMeeting\n\nlocation\n\n\n\n\n\n25th Argo Data Management\nTrieste\n21-25 Oct 2024\nADMT-25 report\n\n\n24th Argo Data Management\nHobbart\n23-27 Oct 2024\nADMT-24 report"
+    "text": "ADMT meetings\n\n\n\nMeeting\n\nlocation\n\n\n\n\n\n25th Argo Data Management\nTrieste\n21-25 Oct 2024\nADMT-25 report\n\n\n24th Argo Data Management\nHobart\n23-27 Oct 2023\nADMT-24 report\n\n\n\nPrevious meeting reports will be made available here in the coming months. In between, they can be accessed here."
   },
   {
     "objectID": "ArgoVocabulary.html",
