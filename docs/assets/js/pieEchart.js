@@ -28,7 +28,7 @@ $(function () {
 						text: data.ACTIVE.TOTAL + ' active floats on Argo GDAC',
 						subtext: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
-						top: 20
+						top: 30
 					},
 					// title: {
 					// 	text: data.ACTIVE.TOTAL + ' active floats on Argo GDAC',
