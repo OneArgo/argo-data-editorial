@@ -1,8 +1,7 @@
 ---
 title: "Monitoring GDAC content"
 ---
-The Argo GDAC content monitoring is updated once a week.
-
+The Argo GDAC monitoring is updated weekly.
 
 ## Active floats
 An **Argo float is active if it has transmitted data within the last 30 days**.  

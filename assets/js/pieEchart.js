@@ -84,21 +84,12 @@ $(function () {
 				var myChart = echarts.init(chartDom);
 
 				var option = {
-					// title: {
-					// 	text: data.ALL.TOTAL + ' floats on Argo GDAC',
-					// 	left: 'center'
-					// },
 					title: {
 						text: data.ALL.TOTAL + ' floats on Argo GDAC',
 						subtext: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
 						top: 10
 					},
-					// subtitle: {
-					// 	text: '(C) Coriolis data center - ' + data.DATE,
-					// 	left: 'center',
-					// 	top: 30
-					// },
 					tooltip: {
 						trigger: 'item',
 						formatter: function (params) {
