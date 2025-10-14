@@ -8,7 +8,7 @@ The role of the ADMT is to coordinate the data management activities for Argo to
 - the data format and its evolution
 - the quality control procedures both in real-time and delayed mode
 
-The ADMT uses github as a tool to manage its activities: <https://github.com/OneArgo>[https://github.com/OneArgo]{target="_blank"}
+The ADMT uses github as a tool to manage its activities: [https://github.com/OneArgo](https://github.com/OneArgo){target="_blank"}
 
 # Argo Data System components
 Argo data are processed and distributed through a network involving different actors:
