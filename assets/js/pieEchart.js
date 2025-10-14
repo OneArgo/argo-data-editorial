@@ -36,11 +36,11 @@ $(function () {
 							return '<b>Number of ' + params.name + ' platform</b>: ' + data.ACTIVE.GDAC[params.name];
 						}
 					},
-					legend: {
-						orient: 'vertical',
-						left: 'left',
-						data: Object.keys(data.ACTIVE.GDAC)
-					},
+					// legend: {
+					// 	orient: 'vertical',
+					// 	left: 'left',
+					// 	data: Object.keys(data.ACTIVE.GDAC)
+					// },
 					series: [
 						{
 							name: 'Platform Number',
@@ -84,15 +84,21 @@ $(function () {
 				var myChart = echarts.init(chartDom);
 
 				var option = {
+					// title: {
+					// 	text: data.ALL.TOTAL + ' floats on Argo GDAC',
+					// 	left: 'center'
+					// },
 					title: {
 						text: data.ALL.TOTAL + ' floats on Argo GDAC',
-						left: 'center'
-					},
-					subtitle: {
-						text: '(C) Coriolis data center - ' + data.DATE,
+						subtext: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
-						top: 30
+						top: 10
 					},
+					// subtitle: {
+					// 	text: '(C) Coriolis data center - ' + data.DATE,
+					// 	left: 'center',
+					// 	top: 30
+					// },
 					tooltip: {
 						trigger: 'item',
 						formatter: function (params) {
