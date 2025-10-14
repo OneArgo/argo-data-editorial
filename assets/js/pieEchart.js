@@ -28,22 +28,18 @@ $(function () {
 						text: data.ACTIVE.TOTAL + ' active floats on Argo GDAC',
 						subtext: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
-						top: 30
-					},
-					// title: {
-					// 	text: data.ACTIVE.TOTAL + ' active floats on Argo GDAC',
-					// 	left: 'center'
-					// },
-					subtitle: {
-						text: '(C) Coriolis data center - ' + data.DATE,
-						left: 'center',
-						top: 30
+						top: 10
 					},
 					tooltip: {
 						trigger: 'item',
 						formatter: function (params) {
 							return '<b>Number of ' + params.name + ' platform</b>: ' + data.ACTIVE.GDAC[params.name];
 						}
+					},
+					legend: {
+						orient: 'vertical',
+						left: 'left',
+						data: Object.keys(data.ACTIVE.GDAC)
 					},
 					series: [
 						{
