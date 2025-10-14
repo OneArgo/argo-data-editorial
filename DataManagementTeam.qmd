@@ -1,5 +1,5 @@
 ---
-title: "Data management team"
+title: "The Argo Data Management Team"
 ---
 The Argo Data Management Team (ADMT) is composed of at least one representative of each institute involved in Argo data management activities. It reports to the Argo Steering Team on data management issues.  
 The role of the ADMT is to coordinate the data management activities for Argo to ensure an integrated access to Argo data independent to where it's processed. It defines:
@@ -7,6 +7,8 @@ The role of the ADMT is to coordinate the data management activities for Argo to
 - the Argo data management infrastructure and the role of each component
 - the data format and its evolution
 - the quality control procedures both in real-time and delayed mode
+
+The ADMT uses github as a tool to manage its activities: [https://github.com/OneArgo](https://github.com/OneArgo){target="_blank"}
 
 # Argo Data System components
 Argo data are processed and distributed through a network involving different actors:
@@ -114,4 +116,6 @@ On each topic the Primary and Alternate representatives are in charge of working
 | Meeting |  | location |  | date |  | link |
 |---|---|---|---|
 | 25th Argo Data Management | Trieste | 21-25 Oct 2024 |[ADMT-25 report](https://doi.org/10.13155/104797){target="_blank"} | 
-| 24th Argo Data Management | Hobbart | 23-27 Oct 2024 |[ADMT-24 report](https://doi.org/10.13155/104797){target="_blank"} | 
+| 24th Argo Data Management | Hobart  | 23-27 Oct 2023 |[ADMT-24 report](https://doi.org/10.13155/104797){target="_blank"} | 
+
+Previous meeting reports will be made available here in the coming months. In between, they can be accessed [here](https://argo.ucsd.edu/organization/argo-meetings/argo-data-management-team-meetings/).

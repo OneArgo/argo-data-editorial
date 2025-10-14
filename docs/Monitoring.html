@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,12 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6561bbde787c299e21493071c8edc6ff.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fd053a38988e21bb3d3b0b617a2084cf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ae2d0dcda2edce4ab590422bb373b64f.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-4ebd2eb7c9ff38b57148d0e3da08e0a3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -143,6 +143,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#histogram-of-data-modes-percent" id="toc-histogram-of-data-modes-percent" class="nav-link" data-scroll-target="#histogram-of-data-modes-percent">Histogram of data modes percent</a></li>
   <li><a href="#the-last-12-months-map-from-argo-index-file" id="toc-the-last-12-months-map-from-argo-index-file" class="nav-link" data-scroll-target="#the-last-12-months-map-from-argo-index-file">The last 12 months map from Argo index file</a></li>
   <li><a href="#more-on-argo-floats-dashboard" id="toc-more-on-argo-floats-dashboard" class="nav-link" data-scroll-target="#more-on-argo-floats-dashboard">More on Argo floats dashboard</a></li>
+  <li><a href="#date-du-dernier-histogramme" id="toc-date-du-dernier-histogramme" class="nav-link" data-scroll-target="#date-du-dernier-histogramme">Date du dernier histogramme</a></li>
   </ul>
 </nav>
     </div>
@@ -268,6 +269,25 @@ The <strong>counting is done by DAC (Data Assembly Center)</strong>. There are <
 <script src="assets/js/pieEchart.js"></script>
 <script src="assets/js/histogramEchart.js"></script>
 <script src="assets/js/histogramDelayedEchart.js"></script>
+</section>
+<section id="date-du-dernier-histogramme" class="level2">
+<h2 class="anchored" data-anchor-id="date-du-dernier-histogramme">Date du dernier histogramme</h2>
+<div id="date_histogram">
+
+</div>
+<script>
+fetch('https://www.argodatamgt.org/assets/json/histogram_gdac.json')
+  .then(response => response.json())
+  .then(data => {
+    // Si le JSON est un tableau d'objets, prenez la première valeur
+    // Sinon, adaptez selon la structure réelle du JSON
+    let date = data.DATE || (Array.isArray(data) && data[0]?.DATE) || "Non disponible";
+    document.getElementById('date_histogram').innerText = "DATE : " + date;
+  })
+  .catch(() => {
+    document.getElementById('date_histogram').innerText = "DATE : Non disponible";
+  });
+</script>
 
 
 </section>
@@ -515,6 +535,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -625,6 +647,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
