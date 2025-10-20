@@ -49,9 +49,8 @@ Argo Floats Dashboard is a web interface to discover Argo floats with metadata, 
 - [https://fleetmonitoring.euro-argo.eu/dashboard](https://fleetmonitoring.euro-argo.eu/dashboard){target="_blank"}
 
 ## Argo synchronization service
-The rsync server "vdmzrs.ifremer.fr" server provides a synchronization service between the "dac" directory of the GDAC with a user mirror. The "dac" index files are available from "argo-index".
-
-From the user side, the rysnc service:
+The synchronization service is available from Ifremer "rsync" and from "aws s3 sync".
+From the user side, the synchronization service:
 
 - Downloads the new files
 - Downloads the updated files
@@ -60,14 +59,26 @@ From the user side, the rysnc service:
 - Preserves the files creation/update dates
 - Lists all the files that have been transferred (easy to use for a user side post-processing)
 
-### Examples
+### Ifremer rsync
+The rsync server "vdmzrs.ifremer.fr" provides a synchronization service between the "dac" directory of the GDAC with a user mirror. The "dac" index files are available from "argo-index".
+
+#### Examples
 Synchronization of a particular float, based on the data centre in charge of data processing:
 
-- rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo/coriolis/69001 /home/mydirectory/...
-- rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo/aoml/1900050 /home/mydirectory/...
-- rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo-index/ /home/mydirectory/...
+- rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo/coriolis/69001 mydirectory
+- rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo/aoml/1900050 mydirectory
+- rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo-index/ mydirectory
 - Synchronization of the whole dac directory of Argo GDAC
-  - rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/...
+  - rsync -avzh \-\-delete vdmzrs.ifremer.fr::argo/ mydirectory
+
+### aws s3 sync
+The aws s3 sync command allows you to synchronize the content of a local directory with the GDAC Argo S3 bucket, copying only new or modified files.
+
+#### Examples
+- aws s3 sync --no-sign-request s3://argo-gdac-sandbox/pub/dac/coriolis/6902833 mydirectory
+- aws s3 sync --no-sign-request s3://argo-gdac-sandbox/pub/aux/coriolis/6902833 mydirectory
+- aws s3 sync --no-sign-request s3://argo-gdac-sandbox/pub/idx mydirectory
+
 
 ## Erddap data server
 Erddap is NOAA’s data server to scientific data

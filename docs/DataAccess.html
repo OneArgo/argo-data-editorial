@@ -144,7 +144,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#argo-floats-dashboard" id="toc-argo-floats-dashboard" class="nav-link" data-scroll-target="#argo-floats-dashboard">Argo floats dashboard</a></li>
   <li><a href="#argo-synchronization-service" id="toc-argo-synchronization-service" class="nav-link" data-scroll-target="#argo-synchronization-service">Argo synchronization service</a>
   <ul class="collapse">
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#ifremer-rsync" id="toc-ifremer-rsync" class="nav-link" data-scroll-target="#ifremer-rsync">Ifremer rsync</a></li>
+  <li><a href="#aws-s3-sync" id="toc-aws-s3-sync" class="nav-link" data-scroll-target="#aws-s3-sync">aws s3 sync</a></li>
   </ul></li>
   <li><a href="#erddap-data-server" id="toc-erddap-data-server" class="nav-link" data-scroll-target="#erddap-data-server">Erddap data server</a></li>
   <li><a href="#thredds-data-server" id="toc-thredds-data-server" class="nav-link" data-scroll-target="#thredds-data-server">Thredds data server</a></li>
@@ -233,8 +234,7 @@ The description of the Argo formats, the file naming conventions and more are do
 </section>
 <section id="argo-synchronization-service" class="level2">
 <h2 class="anchored" data-anchor-id="argo-synchronization-service">Argo synchronization service</h2>
-<p>The rsync server “vdmzrs.ifremer.fr” server provides a synchronization service between the “dac” directory of the GDAC with a user mirror. The “dac” index files are available from “argo-index”.</p>
-<p>From the user side, the rysnc service:</p>
+<p>The synchronization service is available from Ifremer “rsync” and from “aws s3 sync”. From the user side, the synchronization service:</p>
 <ul>
 <li>Downloads the new files</li>
 <li>Downloads the updated files</li>
@@ -243,18 +243,34 @@ The description of the Argo formats, the file naming conventions and more are do
 <li>Preserves the files creation/update dates</li>
 <li>Lists all the files that have been transferred (easy to use for a user side post-processing)</li>
 </ul>
-<section id="examples" class="level3">
-<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<section id="ifremer-rsync" class="level3">
+<h3 class="anchored" data-anchor-id="ifremer-rsync">Ifremer rsync</h3>
+<p>The rsync server “vdmzrs.ifremer.fr” provides a synchronization service between the “dac” directory of the GDAC with a user mirror. The “dac” index files are available from “argo-index”.</p>
+<section id="examples" class="level4">
+<h4 class="anchored" data-anchor-id="examples">Examples</h4>
 <p>Synchronization of a particular float, based on the data centre in charge of data processing:</p>
 <ul>
-<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/coriolis/69001 /home/mydirectory/…</li>
-<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/aoml/1900050 /home/mydirectory/…</li>
-<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo-index/ /home/mydirectory/…</li>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/coriolis/69001 mydirectory</li>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/aoml/1900050 mydirectory</li>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo-index/ mydirectory</li>
 <li>Synchronization of the whole dac directory of Argo GDAC
 <ul>
-<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/ /home/mydirectory/…</li>
+<li>rsync -avzh --delete vdmzrs.ifremer.fr::argo/ mydirectory</li>
 </ul></li>
 </ul>
+</section>
+</section>
+<section id="aws-s3-sync" class="level3">
+<h3 class="anchored" data-anchor-id="aws-s3-sync">aws s3 sync</h3>
+<p>The aws s3 sync command allows you to synchronize the content of a local directory with the GDAC Argo S3 bucket, copying only new or modified files.</p>
+<section id="examples-1" class="level4">
+<h4 class="anchored" data-anchor-id="examples-1">Examples</h4>
+<ul>
+<li>aws s3 sync –no-sign-request s3://argo-gdac-sandbox/pub/dac/coriolis/6902833 mydirectory</li>
+<li>aws s3 sync –no-sign-request s3://argo-gdac-sandbox/pub/aux/coriolis/6902833 mydirectory</li>
+<li>aws s3 sync –no-sign-request s3://argo-gdac-sandbox/pub/idx mydirectory</li>
+</ul>
+</section>
 </section>
 </section>
 <section id="erddap-data-server" class="level2">
