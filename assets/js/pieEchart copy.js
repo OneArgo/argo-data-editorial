@@ -26,9 +26,12 @@ $(function () {
 				var option = {
 					title: {
 						text: data.ACTIVE.TOTAL + ' active floats on Argo GDAC',
-						subtext: '(C) Coriolis data center - ' + data.DATE,
+						left: 'center'
+					},
+					subtitle: {
+						text: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
-						top: 10
+						top: 30
 					},
 					tooltip: {
 						trigger: 'item',
@@ -36,11 +39,6 @@ $(function () {
 							return '<b>Number of ' + params.name + ' platform</b>: ' + data.ACTIVE.GDAC[params.name];
 						}
 					},
-					// legend: {
-					// 	orient: 'vertical',
-					// 	left: 'left',
-					// 	data: Object.keys(data.ACTIVE.GDAC)
-					// },
 					series: [
 						{
 							name: 'Platform Number',
@@ -86,9 +84,12 @@ $(function () {
 				var option = {
 					title: {
 						text: data.ALL.TOTAL + ' floats on Argo GDAC',
-						subtext: '(C) Coriolis data center - ' + data.DATE,
+						left: 'center'
+					},
+					subtitle: {
+						text: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
-						top: 10
+						top: 30
 					},
 					tooltip: {
 						trigger: 'item',
@@ -132,19 +133,19 @@ $(function () {
 *
 */
 function sortCollection(data) {
-	// Convertit l'objet en tableau de paires [clé, valeur]
-	var items = Object.entries(data);
+    // Convertit l'objet en tableau de paires [clé, valeur]
+    var items = Object.entries(data);
 
-	// Trie le tableau par valeur décroissante
-	items.sort(function (a, b) {
-		return b[1] - a[1];
-	});
+    // Trie le tableau par valeur décroissante
+    items.sort(function(a, b) {
+        return b[1] - a[1];
+    });
 
-	// Recrée un objet trié
-	var sorted_collection = {};
-	items.forEach(function (item) {
-		sorted_collection[item[0]] = item[1];
-	});
+    // Recrée un objet trié
+    var sorted_collection = {};
+    items.forEach(function(item) {
+        sorted_collection[item[0]] = item[1];
+    });
 
-	return sorted_collection;
+    return sorted_collection;
 }
