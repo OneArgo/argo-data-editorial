@@ -91,21 +91,3 @@ This animated map clearly illustrates the global coverage of the Argo observatio
 <script src="assets/js/histogramEchart.js"></script>
 <script src="assets/js/histogramDelayedEchart.js"></script>
 
-## Date du dernier histogramme
-
-<div id="date_histogram"></div>
-
-<script>
-fetch('https://www.argodatamgt.org/assets/json/histogram_gdac.json')
-  .then(response => response.json())
-  .then(data => {
-    // Si le JSON est un tableau d'objets, prenez la première valeur
-    // Sinon, adaptez selon la structure réelle du JSON
-    let date = data.DATE || (Array.isArray(data) && data[0]?.DATE) || "Non disponible";
-    document.getElementById('date_histogram').innerText = "DATE : " + date;
-  })
-  .catch(() => {
-    document.getElementById('date_histogram').innerText = "DATE : Non disponible";
-  });
-</script>
-
