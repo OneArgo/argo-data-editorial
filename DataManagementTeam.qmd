@@ -40,7 +40,7 @@ Each country is represented by one or several persons in charge of Argo data man
 | CANADA | Delayed Mode Operator | Zhimin (Robert) Ma | MEDS, Fisheries and Oceans Canada, 200 Kent St Ottawa, On, K1A 0E6 Canada | Zhimin.Ma@dfo-mpo.gc.ca |
 | CANADA | BGC Delayed Mode Operator | Chris Gordon | BIO, Van Steenburgh Building 308, Dartmouth, Nova Scotia | Chris.Gordon@dfo-mpo.gc.ca |
 | CHINA | DAC | MingMei Dong | NMDIS, No.93 Liuwei Road, Hedong District, Tianjin, China, 300171 | dmm_nmdis@163.com |
-| CHINA | DAC | Zenghong Liu | CSIO, Second Institute of Oceanography, MNR, No. 36 Baochubei Road, Hangzhou, Zhejiang, China 310012 | liuzenghong@139.com |
+| CHINA | DAC | Zenghong Liu | CSIO, Second Institute of Oceanography, MNR, No. 36 Baochubei Road, Hangzhou, Zhejiang, China 310012 | zliu@sio.org.cn |
 | CHINA | BGC data | Xiaogang Xing | CSIO, Second Institute of Oceanography, MNR, No. 36 Baochubei Road, Hangzhou, Zhejiang, China 310012 | xing@sio.org.cn |
 | FRANCE | DAC/GDAC | Thierry Carval | Ifremer OPS/Coriolis BP 70 29280 Plouzané France | Thierry.Carval@ifremer.fr |
 | FRANCE | DAC | Vincent Bernard | Ifremer OPS/Coriolis BP 70 29280 Plouzané France | Vincent.Bernard@ifremer.fr |
