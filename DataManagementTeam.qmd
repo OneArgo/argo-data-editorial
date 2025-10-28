@@ -37,7 +37,7 @@ Each country is represented by one or several persons in charge of Argo data man
 | AUSTRALIA | Delayed Mode Operator | Jenny Lovell | CSIRO Environment, GPO Box 1538 Hobart, TAS 7000, Australia | Jenny.Lovell@csiro.au |
 | AUSTRALIA | BGC Delayed Mode Operator | Christina Schallenberg | CSIRO Environment, GPO Box 1538 Hobart, TAS 7000, Australia | Christina.schallenberg@csiro.au |
 | CANADA | DAC | Anh Tran | MEDS, Fisheries and Oceans Canada, 200 Kent St Ottawa, On, K1A 0E6 Canada | Anh.Tran@dfo-mpo.gc.ca |
-| CANADA | Delayed Mode Operator | Zhimin (Robert) Ma | MEDS, Fisheries and Oceans Canada, 200 Kent St Ottawa, On, K1A 0E6 Canada | Zhimin.Ma@dfo-mpo.gc.ca |
+| CANADA | Delayed Mode Operator | Qi Wang | MEDS, Fisheries and Oceans Canada, 200 Kent St Ottawa, On, K1A 0E6 Canada | Qi.Wang@dfo-mpo.gc.ca |
 | CANADA | BGC Delayed Mode Operator | Chris Gordon | BIO, Van Steenburgh Building 308, Dartmouth, Nova Scotia | Chris.Gordon@dfo-mpo.gc.ca |
 | CHINA | DAC | MingMei Dong | NMDIS, No.93 Liuwei Road, Hedong District, Tianjin, China, 300171 | dmm_nmdis@163.com |
 | CHINA | DAC | Zenghong Liu | CSIO, Second Institute of Oceanography, MNR, No. 36 Baochubei Road, Hangzhou, Zhejiang, China 310012 | zliu@sio.org.cn |
@@ -65,7 +65,7 @@ Each country is represented by one or several persons in charge of Argo data man
 | SOUTH KOREA | DAC KMA | HyeongJun Jo | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | hjjo543@gmail.com |
 | SOUTH KOREA | Delayed Mode Operator | Sora Kim | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | srkim1227@knu.ac.kr |
 | SOUTH KOREA | Delayed Mode Operator | Yumi Song | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | ymsong@knu.ac.kr |
-| SOUTH KOREA | DAC KIOST/KORDI | Kyunghee Oh | Korea Institute of Ocean Science & Technology, 787 Haean-ro(st), Ansan, Gyeonggi, 15627, Korea | khoh@kiost.ac.kr |
+| SOUTH KOREA | DAC KIOST, Delayed Mode Operator | Kyunghee Oh | Korea Institute of Ocean Science & Technology, 385, Haeyang-ro, Yeongdo-gu, Busan Metropolitan City, 49111, KOREA | khoh@kiost.ac.kr |
 | SPAIN | Delayed Mode Operator | Alberto Gonzalez Santa | Instituto Español de Oceanografía, Centro Oceanográfico de Canarias, Dársena pesquera de San Andrés, parcela 8, 38180 Santa Cruz de Tenerife Spain | alberto.gonzalez@ieo.es |
 | SPAIN | Delayed Mode Operator | Lara Diaz | SOCIB | ldiaz@socib.es |
 | UK | DAC | Clare Bellingham | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | crbilhm@bodc.ac.uk |

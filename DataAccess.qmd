@@ -75,9 +75,9 @@ Synchronization of a particular float, based on the data centre in charge of dat
 The aws s3 sync command allows you to synchronize the content of a local directory with the GDAC Argo S3 bucket, copying only new or modified files.
 
 #### Examples
-- aws s3 sync --no-sign-request s3://argo-gdac-sandbox/pub/dac/coriolis/6902833 mydirectory
-- aws s3 sync --no-sign-request s3://argo-gdac-sandbox/pub/aux/coriolis/6902833 mydirectory
-- aws s3 sync --no-sign-request s3://argo-gdac-sandbox/pub/idx mydirectory
+- aws s3 sync \-\-no-sign-request s3://argo-gdac-sandbox/pub/dac/coriolis/6902833 mydirectory
+- aws s3 sync \-\-no-sign-request s3://argo-gdac-sandbox/pub/aux/coriolis/6902833 mydirectory
+- aws s3 sync \-\-no-sign-request s3://argo-gdac-sandbox/pub/idx mydirectory
 
 
 ## Erddap data server
