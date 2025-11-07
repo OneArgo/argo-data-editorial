@@ -7,7 +7,9 @@ This section is dedicated to Delayed Mode Quality Control activities.
 
 This page aggregates the information related to DMQC tools available to Argo DMQC community
 
-- the GitHub repository for OWC [https://github.com/ArgoDMQC/matlab_owc](https://github.com/ArgoDMQC/matlab_owc){target="_blank"}
+- the GitHub repository for OWC:
+    - Matlab version: [https://github.com/ArgoDMQC/matlab_owc](https://github.com/ArgoDMQC/matlab_owc){target="_blank"}
+    - Python version: [https://github.com/euroargodev/argodmqc_owc](https://github.com/euroargodev/argodmqc_owc){target="_blank"}
 - the GitHub repository for the PMEL GUI [https://github.com/ArgoDMQC/PMEL_GUI](https://github.com/ArgoDMQC/PMEL_GUI){target="_blank"}
 - the GitHub repository for the SOCCOM/BGC-Argo processing [https://github.com/SOCCOM-BGCArgo/ARGO_PROCESSING](https://github.com/SOCCOM-BGCArgo/ARGO_PROCESSING){target="_blank"}
 - the visual quality control for Argo NetCDF data files Scoop-Argo [https://www.seanoe.org/data/00374/48531/](https://www.seanoe.org/data/00374/48531/){target="_blank"}
