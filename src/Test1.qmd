@@ -1,24 +1,21 @@
 ---
-title: ADMT - Argo data management team
+title: "Test"
 ---
-We provide access to Argo data, we document data processing, formats and quality control procedures.
+The Argo GDAC monitoring is updated weekly.
 
-- More information on Argo ? [visit Argo program](https://argo.ucsd.edu/){target="_blank"}<br>
-- A question ? [contact argo.net](mailto:support@argo.net)<br>
+## Active floats
+An **Argo float is active if it has transmitted data within the last 30 days**.  
+The **counting is done by DAC (Data Assembly Center)**. There are **11 DACs worldwide** that process Argo floats data and distribute it to the **GDAC (Global Data Assembly Centre)**.  
+  
+<style>
+#pie_active {
+  width: 100%;
+  height: 400px; /* ou la hauteur que tu veux */
+  min-height: 300px;
+}
+</style>
+<div id="pie_active"></div>
 
-
-# How to acknowledge Argo data ?
-Since Argo data are freely available, we kindly request that the following acknowledgement be included in any publication or product that utilizes Argo data:  
-*"These data were collected and made freely available by the International Argo Program and the national programs that contribute to it. ([https://argo.ucsd.edu](https://argo.ucsd.edu), [https://www.ocean-ops.org](https://www.ocean-ops.org)). The Argo Program is part of the Global Ocean Observing System."*
-
-# News
-
----
-listing:
-  contents: news
-  type: default
-  sort: "date desc"
-  type: table
-  fields: [date, image, title, description, categories]
----
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script src="assets/js/pieEchart.js"></script>
