@@ -2,7 +2,7 @@ $(function () {
 	$(document).ready(function () {
 		var sorted_collection = {};
 
-		$.getJSON("assets/json/platform_pie.json", function (data) {
+		$.getJSON("https://co.ifremer.fr/co/co040702/co-argoGdac/json/platform_pie.json", function (data) {
 			if ($("#pie_active").length > 0) {
 				// Tri des données
 				sorted_collection = sortCollection(data.ACTIVE.GDAC);
@@ -26,12 +26,9 @@ $(function () {
 				var option = {
 					title: {
 						text: data.ACTIVE.TOTAL + ' active floats on Argo GDAC',
-						left: 'center'
-					},
-					subtitle: {
-						text: '(C) Coriolis data center - ' + data.DATE,
+						subtext: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
-						top: 30
+						top: 10
 					},
 					tooltip: {
 						trigger: 'item',
@@ -39,6 +36,11 @@ $(function () {
 							return '<b>Number of ' + params.name + ' platform</b>: ' + data.ACTIVE.GDAC[params.name];
 						}
 					},
+					// legend: {
+					// 	orient: 'vertical',
+					// 	left: 'left',
+					// 	data: Object.keys(data.ACTIVE.GDAC)
+					// },
 					series: [
 						{
 							name: 'Platform Number',
@@ -84,12 +86,9 @@ $(function () {
 				var option = {
 					title: {
 						text: data.ALL.TOTAL + ' floats on Argo GDAC',
-						left: 'center'
-					},
-					subtitle: {
-						text: '(C) Coriolis data center - ' + data.DATE,
+						subtext: '(C) Coriolis data center - ' + data.DATE,
 						left: 'center',
-						top: 30
+						top: 10
 					},
 					tooltip: {
 						trigger: 'item',
@@ -133,19 +132,19 @@ $(function () {
 *
 */
 function sortCollection(data) {
-    // Convertit l'objet en tableau de paires [clé, valeur]
-    var items = Object.entries(data);
+	// Convertit l'objet en tableau de paires [clé, valeur]
+	var items = Object.entries(data);
 
-    // Trie le tableau par valeur décroissante
-    items.sort(function(a, b) {
-        return b[1] - a[1];
-    });
+	// Trie le tableau par valeur décroissante
+	items.sort(function (a, b) {
+		return b[1] - a[1];
+	});
 
-    // Recrée un objet trié
-    var sorted_collection = {};
-    items.forEach(function(item) {
-        sorted_collection[item[0]] = item[1];
-    });
+	// Recrée un objet trié
+	var sorted_collection = {};
+	items.forEach(function (item) {
+		sorted_collection[item[0]] = item[1];
+	});
 
-    return sorted_collection;
+	return sorted_collection;
 }
