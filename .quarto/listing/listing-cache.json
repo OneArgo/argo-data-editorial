@@ -1,0 +1,13 @@
+{
+  "listingMap": {
+    "index.qmd": [
+      "news"
+    ],
+    "News.qmd": [
+      "news"
+    ],
+    "Test1.qmd": [
+      "news"
+    ]
+  }
+}

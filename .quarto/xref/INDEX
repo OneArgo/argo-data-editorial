@@ -1,0 +1,95 @@
+{
+  "Documentation.qmd": {
+    "Documentation.html": "7bbb670f"
+  },
+  "index.qmd": {
+    "index.html": "e0a54ee2"
+  },
+  "news/20241219-BGC-Argo-configurationParameterNames.qmd": {
+    "20241219-BGC-Argo-configurationParameterNames.html": "270fcca8"
+  },
+  "news/20250526-UserManual.qmd": {
+    "20250526-UserManual.html": "a68e7f05"
+  },
+  "news/20250605-DocumentUpdate.qmd": {
+    "20250605-DocumentUpdate.html": "0b95d988"
+  },
+  "news/News.qmd": {
+    "News.html": "5dce0aca"
+  },
+  "ArgoVocabulary.qmd": {
+    "ArgoVocabulary.html": "0c0fbfd8"
+  },
+  "DataAccess.qmd": {
+    "DataAccess.html": "6f1c0bab"
+  },
+  "DataManagementTeam.qmd": {
+    "DataManagementTeam.html": "02a81ed5"
+  },
+  "Dmqc.qmd": {
+    "Dmqc.html": "6c2ea636"
+  },
+  "Monitoring.qmd": {
+    "Monitoring.html": "8899251e"
+  },
+  "Test1.qmd": {
+    "Test1.html": "278362fd"
+  },
+  "news/20250618-FormatCheckerUpdate.qmd": {
+    "20250618-FormatCheckerUpdate.html": "9cc14257"
+  },
+  "news/20250623-ArgoUserManual-new-version.qmd": {
+    "20250623-ArgoUserManual-new-version.html": "99b7179f"
+  },
+  "news/20250623-CoriolisFtpServerUnavailable.qmd": {
+    "20250623-CoriolisFtpServerUnavailable.html": "d43af129"
+  },
+  "news/20250630-GdacJuneUpdate.qmd": {
+    "20250630-GdacJuneUpdate.html": "78a20ff3"
+  },
+  "Monitoring-activepie.qmd": {
+    "Monitoring-activepie.html": "3fb1741a"
+  },
+  "Monitoring new.qmd": {
+    "Monitoring new.html": "d2d2452b"
+  },
+  "MonitoringNew.qmd": {
+    "MonitoringNew.html": "e38e85e4"
+  },
+  "MonitoringOld.qmd": {
+    "MonitoringOld.html": "bd1d9ea3"
+  },
+  "map.qmd": {
+    "map.html": "d67efb6d"
+  },
+  "mapEchart.qmd": {
+    "mapEchart.html": "0f94ab27"
+  },
+  "mapEcharts.qmd": {
+    "mapEcharts.html": "fabf734d"
+  },
+  "news/20250709-ArgoUserManual-new-version.qmd": {
+    "20250709-ArgoUserManual-new-version.html": "33651ff5"
+  },
+  "mapEcharts asupprimer.qmd": {
+    "mapEcharts asupprimer.html": "92c20465"
+  },
+  "news/20250818-NewRsyncServer.qmd": {
+    "20250818-NewRsyncServer.html": "22e36ca0"
+  },
+  "news/20250818-Sprof-incident.qmd": {
+    "20250818-Sprof-incident.html": "0ce36012"
+  },
+  "News.qmd": {
+    "News.html": "7c2b8d1f"
+  },
+  "news/20250924-FormatChecker.qmd": {
+    "20250924-FormatChecker.html": "f999193c"
+  },
+  "news/20250923-S3GeoLatestAuxDirectories.qmd": {
+    "20250923-S3GeoLatestAuxDirectories.html": "e35a6777"
+  },
+  "news/20250926-ArgoGuidelines.qmd": {
+    "20250926-ArgoGuidelines.html": "3e47937f"
+  }
+}
