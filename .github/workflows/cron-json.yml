@@ -1,0 +1,24 @@
+name: Update JSON Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Tous les jours à minuit
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Download JSON
+        run: |
+          curl -o src/assets/json/platform_pie.json https://co.ifremer.fr/co/co040702/co-argoGdac/json/platform_pie.json
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/assets/json/platform_pie.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update platform_pie.json"
+          git push
