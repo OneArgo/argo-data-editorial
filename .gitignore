@@ -1,3 +1,6 @@
-/src/.quarto/
+.quarto/
 /src/_site/
 .vscode/
+
+# macOS Specific File
+.DS_Store
