@@ -1,7 +1,109 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>302 Found</title>
-</head><body>
-<h1>Found</h1>
-<p>The document has moved <a href="http://www.ifremer.fr/">here</a>.</p>
-</body></html>
+{
+   "UNAVAILABLE_VALUES" : {
+      "MEDS" : [
+         56369,
+         33616
+      ],
+      "CSIRO" : [
+         227585,
+         14282
+      ],
+      "NMDIS" : [
+         2388,
+         72
+      ],
+      "KMA" : [
+         35475,
+         3590
+      ],
+      "KIOST" : [
+         15892,
+         690
+      ],
+      "CORIOLIS" : [
+         450519,
+         123326
+      ],
+      "AOML" : [
+         1512144,
+         193363
+      ],
+      "CSIO" : [
+         63635,
+         18512
+      ],
+      "BODC" : [
+         103223,
+         40784
+      ],
+      "JMA" : [
+         222482,
+         52224
+      ],
+      "INCOIS" : [
+         76567,
+         13283
+      ]
+   },
+   "GDAC" : [
+      "NMDIS",
+      "MEDS",
+      "KMA",
+      "KIOST",
+      "JMA",
+      "INCOIS",
+      "CSIRO",
+      "CSIO",
+      "CORIOLIS",
+      "BODC",
+      "AOML"
+   ],
+   "DATE" : "16/12/2025",
+   "AVAILABLE_VALUES" : {
+      "INCOIS" : [
+         66061,
+         8601
+      ],
+      "BODC" : [
+         89366,
+         30485
+      ],
+      "CSIO" : [
+         62082,
+         14640
+      ],
+      "JMA" : [
+         198146,
+         45142
+      ],
+      "AOML" : [
+         1331320,
+         125863
+      ],
+      "KMA" : [
+         34156,
+         2561
+      ],
+      "CORIOLIS" : [
+         407928,
+         103667
+      ],
+      "KIOST" : [
+         15461,
+         342
+      ],
+      "MEDS" : [
+         53181,
+         30200
+      ],
+      "CSIRO" : [
+         212258,
+         7486
+      ],
+      "NMDIS" : [
+         2387,
+         72
+      ]
+   }
+}
+

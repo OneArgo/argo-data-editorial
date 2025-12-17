@@ -1,7 +1,126 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>302 Found</title>
-</head><body>
-<h1>Found</h1>
-<p>The document has moved <a href="http://www.ifremer.fr/">here</a>.</p>
-</body></html>
+{
+   "DELAYED" : {
+      "TOTAL" : 2766279,
+      "GDAC" : {
+         "CORIOLIS" : [
+            450519
+         ],
+         "KMA" : [
+            35475
+         ],
+         "KIOST" : [
+            15892
+         ],
+         "MEDS" : [
+            56369
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "CSIRO" : [
+            227585
+         ],
+         "AOML" : [
+            1512144
+         ],
+         "BODC" : [
+            103223
+         ],
+         "CSIO" : [
+            63635
+         ],
+         "JMA" : [
+            222482
+         ],
+         "INCOIS" : [
+            76567
+         ]
+      }
+   },
+   "ALL" : {
+      "GDAC" : {
+         "JMA" : [
+            1995
+         ],
+         "CSIO" : [
+            584
+         ],
+         "BODC" : [
+            924
+         ],
+         "INCOIS" : [
+            569
+         ],
+         "NMDIS" : [
+            19
+         ],
+         "CSIRO" : [
+            1218
+         ],
+         "MEDS" : [
+            722
+         ],
+         "CORIOLIS" : [
+            4036
+         ],
+         "KMA" : [
+            263
+         ],
+         "KIOST" : [
+            125
+         ],
+         "AOML" : [
+            9298
+         ]
+      },
+      "TOTAL" : 19753
+   },
+   "ACTIVE" : {
+      "TOTAL" : 4081,
+      "GDAC" : {
+         "AOML" : [
+            2286
+         ],
+         "INCOIS" : [
+            98
+         ],
+         "JMA" : [
+            167
+         ],
+         "BODC" : [
+            138
+         ],
+         "CSIO" : [
+            83
+         ],
+         "CORIOLIS" : [
+            814
+         ],
+         "KIOST" : [
+            9
+         ],
+         "CSIRO" : [
+            283
+         ],
+         "MEDS" : [
+            203
+         ]
+      }
+   },
+   "COLOR" : {
+      "AOML" : "#0000A5",
+      "GTS" : "#52FFA5",
+      "CORIOLIS" : "#0055FF",
+      "KMA" : "#FFAA00",
+      "MEDS" : "#FF0000",
+      "CSIRO" : "#00FFFF",
+      "NMDIS" : "#A50000",
+      "INCOIS" : "#A5FF52",
+      "CSIO" : "#00AAFF",
+      "BODC" : "#0000FF",
+      "JMA" : "#FFFF00",
+      "KORDI" : "#FF5500"
+   },
+   "DATE" : "16/12/2025"
+}
+
