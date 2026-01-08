@@ -65,7 +65,8 @@ async function loadData() {
     maxdate = new Date(0);
 
     try {
-        const data = await d3.csv("assets/csv/stations-argo-12months.csv", d3.autoType); // <-- CSV file path
+        // const data = await d3.csv("assets/csv/stations-argo-12months.csv", d3.autoType); // <-- CSV file path
+        const data = await d3.csv("assets/csv/stations-tst.csv", d3.autoType); // <-- CSV file path
 
         // Group data by platform_code (equivalent to ID)
         const grouped = {};
