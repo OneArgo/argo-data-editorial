@@ -8,6 +8,3 @@ This animated map clearly illustrates the global coverage of the Argo observatio
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-<script src="assets/js/pieEchart.js"></script>
-<script src="assets/js/histogramEchart.js"></script>
-<script src="assets/js/histogramDelayedEchart.js"></script>
