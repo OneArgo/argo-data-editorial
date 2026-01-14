@@ -1,126 +1,126 @@
 {
-   "DATE" : "06/01/2026",
-   "DELAYED" : {
-      "TOTAL" : 2768874,
-      "GDAC" : {
-         "JMA" : [
-            222482
-         ],
-         "MEDS" : [
-            56959
-         ],
-         "CORIOLIS" : [
-            451130
-         ],
-         "NMDIS" : [
-            2388
-         ],
-         "CSIO" : [
-            63635
-         ],
-         "BODC" : [
-            103223
-         ],
-         "INCOIS" : [
-            76567
-         ],
-         "KIOST" : [
-            15892
-         ],
-         "AOML" : [
-            1513538
-         ],
-         "CSIRO" : [
-            227585
-         ],
-         "KMA" : [
-            35475
-         ]
-      }
-   },
-   "ACTIVE" : {
-      "GDAC" : {
-         "INCOIS" : [
-            98
-         ],
-         "JMA" : [
-            164
-         ],
-         "BODC" : [
-            136
-         ],
-         "MEDS" : [
-            200
-         ],
-         "KIOST" : [
-            9
-         ],
-         "AOML" : [
-            2318
-         ],
-         "CORIOLIS" : [
-            821
-         ],
-         "CSIO" : [
-            82
-         ],
-         "CSIRO" : [
-            292
-         ]
-      },
-      "TOTAL" : 4120
-   },
-   "COLOR" : {
-      "KMA" : "#FFAA00",
-      "CSIRO" : "#00FFFF",
-      "CSIO" : "#00AAFF",
-      "GTS" : "#52FFA5",
-      "KORDI" : "#FF5500",
-      "MEDS" : "#FF0000",
-      "JMA" : "#FFFF00",
-      "BODC" : "#0000FF",
-      "INCOIS" : "#A5FF52",
-      "CORIOLIS" : "#0055FF",
-      "AOML" : "#0000A5",
-      "NMDIS" : "#A50000"
-   },
    "ALL" : {
       "GDAC" : {
-         "KIOST" : [
-            125
-         ],
-         "AOML" : [
-            9331
-         ],
-         "BODC" : [
-            926
-         ],
-         "INCOIS" : [
-            569
+         "NMDIS" : [
+            19
          ],
          "CSIRO" : [
-            1223
+            1225
+         ],
+         "CORIOLIS" : [
+            4051
          ],
          "KMA" : [
             263
          ],
-         "CORIOLIS" : [
-            4040
+         "BODC" : [
+            926
          ],
-         "NMDIS" : [
-            19
-         ],
-         "JMA" : [
-            1996
-         ],
-         "MEDS" : [
-            722
+         "AOML" : [
+            9360
          ],
          "CSIO" : [
             584
+         ],
+         "MEDS" : [
+            723
+         ],
+         "INCOIS" : [
+            569
+         ],
+         "KIOST" : [
+            125
+         ],
+         "JMA" : [
+            1998
          ]
       },
-      "TOTAL" : 19798
+      "TOTAL" : 19843
+   },
+   "ACTIVE" : {
+      "GDAC" : {
+         "CSIRO" : [
+            295
+         ],
+         "BODC" : [
+            134
+         ],
+         "AOML" : [
+            2348
+         ],
+         "CORIOLIS" : [
+            837
+         ],
+         "INCOIS" : [
+            98
+         ],
+         "MEDS" : [
+            197
+         ],
+         "CSIO" : [
+            81
+         ],
+         "JMA" : [
+            165
+         ],
+         "KIOST" : [
+            9
+         ]
+      },
+      "TOTAL" : 4164
+   },
+   "DELAYED" : {
+      "TOTAL" : 2773419,
+      "GDAC" : {
+         "MEDS" : [
+            56959
+         ],
+         "CSIO" : [
+            63635
+         ],
+         "INCOIS" : [
+            76567
+         ],
+         "JMA" : [
+            222482
+         ],
+         "KIOST" : [
+            15892
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "CSIRO" : [
+            227585
+         ],
+         "CORIOLIS" : [
+            452407
+         ],
+         "KMA" : [
+            35475
+         ],
+         "BODC" : [
+            103223
+         ],
+         "AOML" : [
+            1516806
+         ]
+      }
+   },
+   "DATE" : "13/01/2026",
+   "COLOR" : {
+      "JMA" : "#FFFF00",
+      "CSIO" : "#00AAFF",
+      "MEDS" : "#FF0000",
+      "KMA" : "#FFAA00",
+      "BODC" : "#0000FF",
+      "KORDI" : "#FF5500",
+      "NMDIS" : "#A50000",
+      "GTS" : "#52FFA5",
+      "INCOIS" : "#A5FF52",
+      "AOML" : "#0000A5",
+      "CORIOLIS" : "#0055FF",
+      "CSIRO" : "#00FFFF"
    }
 }
 
