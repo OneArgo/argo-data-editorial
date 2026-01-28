@@ -115,6 +115,7 @@ On each topic the Primary and Alternate representatives are in charge of working
 
 | Meeting |  | location |  | date |  | link |
 |---|---|---|---|
+| 26th Argo Data Management | Woodshole | 20-24 Oct 2025 |[ADMT-26 report](https://doi.org/10.13155/111804){target="_blank"} | 
 | 25th Argo Data Management | Trieste | 21-25 Oct 2024 |[ADMT-25 report](https://doi.org/10.13155/104797){target="_blank"} | 
 | 24th Argo Data Management | Hobart  | 23-27 Oct 2023 |[ADMT-24 report](https://doi.org/10.13155/104797){target="_blank"} | 
 
