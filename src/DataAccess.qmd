@@ -9,7 +9,7 @@ A complete presentation is available on [https://argo.ucsd.edu/data](https://arg
 Argo data are freely available from US-Godae and Coriolis GDAC sites with ftp, https or s3 protocols.
 
 - [ftp://ftp.ifremer.fr/ifremer/argo](ftp://ftp.ifremer.fr/ifremer/argo){target="_blank"}
-- [https://data-argo.ifremer.fr](https://data-argo.ifremer.fr){target="_blank"} / [ https://usgodae.org will become https://nrlgodae1.nrlmry.navy.mil/pub/outgoing/argo](https://nrlgodae1.nrlmry.navy.mil/pub/outgoing/argo){target="_blank"}
+- [https://data-argo.ifremer.fr](https://data-argo.ifremer.fr){target="_blank"} / [https://nrlgodae1.nrlmry.navy.mil/pub/outgoing/argo](https://nrlgodae1.nrlmry.navy.mil/pub/outgoing/argo){target="_blank"}
 - s3: Argo data are updated daily on [https://registry.opendata.aws/argo-gdac-marinedata](https://registry.opendata.aws/argo-gdac-marinedata){target="_blank"}
 
 ## Argo DOI, Digital Object Identifier
