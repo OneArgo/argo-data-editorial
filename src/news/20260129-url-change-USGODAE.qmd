@@ -1,0 +1,7 @@
+---
+title: "Change in url for the US GDAC"
+date: "2026-01-29"
+categories: [gdac]
+#image: "chemin/vers/ton/image.jpg"
+---
+The US GDAC is changing its URL from  [https://usgodae.org](https://usgodae.org){target="_blank"} to [https://nrlgodae1.nrlmry.navy.mil](https://nrlgodae1.nrlmry.navy.mil){target="_blank"}. The new website is already live and the old one will stop being active on 2 February 2026. 
