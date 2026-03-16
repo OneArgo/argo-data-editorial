@@ -56,8 +56,8 @@ Each country is represented by one or several persons in charge of Argo data man
 | GERMANY | BGC Delayed Mode Operator | Henry Bittig | Leibniz Institute for Baltic Sea Research Warnemünde, Seestraße 15, 18119 Rostock-Warnemünde, Germany | henry.bittig@io-warnemuende.de |
 | INDIA | DAC & I-ARC | TVS Udaya Bhaskar | Indian National Centre for Ocean Information Services, Post Box No:21,"Ocean Valley",Gajularamaram B.O, Via- IDA Jeedimetla S.O, Hyderabad - 500 055, India. | uday@incois.gov.in |
 | INDIA | DAC & I-ARC | Pavan Kumar J. | Indian National Centre for Ocean Information Services, Post Box No:21,"Ocean Valley",Gajularamaram B.O, Via- IDA Jeedimetla S.O, Hyderabad - 500 055, India. | pavankumar.j@incois.gov.in |
-| ITALY | Delayed Mode Operator and MEDArgo-ARC | Giulio Notarstefano | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | gnotarstefano@inogs.it |
-| ITALY | Delayed Mode Operator and MEDArgo-ARC | Antonella Gallo | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | agallo@inogs.it |
+| ITALY | Delayed Mode Operator and MEDArgo-ARC | Giulio Notarstefano | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | gnotarstefano@ogs.it |
+| ITALY | Delayed Mode Operator and MEDArgo-ARC | Antonella Gallo | OGS, Borgo Grotta Gigante 42/C Sgonico (TS) Italy 34010 | agallo@ogs.it |
 | JAPAN | DAC | Mayu Yamamoto | Japan Meteorological Agency 3-6-9 Toranomon, Minato-ku, Tokyo, 105-8341, Japan | argoadmin@climar.kishou.go.jp<br>mayu_yamamoto@met.kishou.go.jp |
 | JAPAN | Delayed Mode Operator | Kanako Sato | JAMSTEC, 2-15 Natsushima-cho, Yokosuka, 237-0061 Japan | k_sato@jamstec.go.jp |
 | JAPAN | P-ARC | Shigeki Hosoda | JAMSTEC, 2-15 Natsushima-cho, Yokosuka, 237-0061 Japan | hosodas@jamstec.go.jp |
