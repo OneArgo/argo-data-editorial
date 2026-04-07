@@ -19,6 +19,9 @@ This page aggregates the information related to DMQC tools available to Argo DMQ
 - LOCODOX: [https://github.com/euroargodev/LOCODOX](https://github.com/euroargodev/LOCODOX){target="_blank"}
 - RBRargo_DMQC routines: [https://github.com/ArgoDMQC/RBRargo_DMQC](https://github.com/euroargodev/LOCODOX){target="_blank"}
 
+## DMQC meetings
+Virtual DMQC meetings are organised by CSIRO every 2 months. These informal meetings are open to everyone. More information: [https://www.marine.csiro.au/argo/dmqc/html/ArgoDM-Disc.html](https://www.marine.csiro.au/argo/dmqc/html/ArgoDM-Disc.html){target="_blank"} 
+
 ## What float should I process first?
 The following information are available :
 
