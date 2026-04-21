@@ -1,0 +1,16 @@
+---
+title: "Argo NetCDF File Format Checker v3.0.0 Released"
+date: "2026-04-21"
+categories: [gdac]
+image: "assets/images/ArgoNetCDFFormat.png"
+---
+A new version (v3.0.0) of the File Checker has been released:
+
+- [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.0](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.0){target="_blank"}
+
+This major v3.0.0 update is essential for maintaining data compliance with the newest international network standards.
+
+You will need to update **both** the .jar executable and the file_checker_spec folder.
+This new major version mainly includes the use of NVS reference tables (updated 21/04/2026) to perform format and metadata checks. These tables are included in the file_checker_spec folder.
+
+Other notable changes: activation of logs (console and file), PI_NAME check against the R40 table, and a fix for NaN/Inf checks in Trajectory files.
