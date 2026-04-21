@@ -2,7 +2,7 @@
 title: "Argo NetCDF File Format Checker v3.0.0 Released"
 date: "2026-04-21"
 categories: [gdac]
-image: "assets/images/ArgoNetCDFFormat.png"
+image: "/assets/images/ArgoNetCDFFormat.png"
 ---
 A new version (v3.0.0) of the File Checker has been released:
 
