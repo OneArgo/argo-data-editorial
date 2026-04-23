@@ -5,7 +5,7 @@ categories: [gdac]
 image: "/assets/images/ArgoNetCDFFormat.png"
 ---
 
-A corrective version (v3.0.2) of the File Checker has been released. It addresses 3 issues that rejected some files that were actually compliant with the format specifications. The 3 issues are listed in this release page:
+A corrective release (v3.0.2) of the File Checker has been published. It addresses 3 issues that caused some compliant files to be incorrectly rejected. The 3 issues are listed on the release page:
 
 - [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.2](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.2){target="_blank"}
 
