@@ -63,11 +63,12 @@ Each country is represented by one or several persons in charge of Argo data man
 | JAPAN | P-ARC | Shigeki Hosoda | JAMSTEC, 2-15 Natsushima-cho, Yokosuka, 237-0061 Japan | hosodas@jamstec.go.jp |
 | NORWAY | Delayed Mode Operator | Kjell Arne Mork | Institute of Marine Research, NO-5817 Bergen, Norway | kjell.arne.mork@hi.no |
 | NORWAY | BGC Delayed Mode Operator | Siv Lauvset |NORCE Research Climate, NO-5838 Bergen, Norway | sivk@norceresearch.no |
-| SOUTH KOREA | DAC KMA | Ki-Ryong Kang | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | krkang@kma.go.kr |
-| SOUTH KOREA | DAC KMA | HyeongJun Jo | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | hjjo543@gmail.com |
-| SOUTH KOREA | Delayed Mode Operator | Sora Kim | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | srkim1227@knu.ac.kr |
-| SOUTH KOREA | Delayed Mode Operator | Yumi Song | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | ymsong@knu.ac.kr |
-| SOUTH KOREA | DAC KIOST, Delayed Mode Operator | Kyunghee Oh | Korea Institute of Ocean Science & Technology, 385, Haeyang-ro, Yeongdo-gu, Busan Metropolitan City, 49111, KOREA | khoh@kiost.ac.kr |
+| SOUTH KOREA | DAC KMA | Baek-Jo Kim | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | swanykim@korea.kr |
+| SOUTH KOREA | DAC KMA | Dongjin Kim | National Institute of Meteorological Sciences(NIMS)Korea Meteorological Administration (KMA) 33 Seohobuk-ro Seogwipo-si Jeju, KOREA | djkim3197@korea.kr |
+| SOUTH KOREA | Delayed Mode Operator | JongJin Park | Korea Autonomous Ocean observing System (KAOS), Kyugpook National University | jjpark@knu.ac.kr |
+| SOUTH KOREA | DAC KIOST Delayed Mode Operator | KyungHee Oh | Korean Institute of Ocean Science & Technology, 385, Haeyang-ro, Yeongdogu, Busan, 49111, Korea | khoh@kiost.ac.kr |
+| SOUTH KOREA | DAC KIOST Delayed Mode Operator | EunJin Kim | Korea Institute of Ocean Science & Technology, 385, Haeyang-ro, Yeongdo-gu, Busan, 49111, Korea | badajinny@kiost.ac.kr |
+| SOUTH KOREA | DAC KIOST Delayed Mode Operator | Gawon Lee | Korea Institute of Ocean Science & Technology, 385, Haeyang-ro, Yeongdo-gu, Busan, 49111, Korea | gwlee@kiost.ac.kr |
 | SPAIN | Delayed Mode Operator | Alberto Gonzalez Santa | Instituto Español de Oceanografía, Centro Oceanográfico de Canarias, Dársena pesquera de San Andrés, parcela 8, 38180 Santa Cruz de Tenerife Spain | alberto.gonzalez@ieo.es |
 | SPAIN | Delayed Mode Operator | Lara Diaz | SOCIB | ldiaz@socib.es |
 | UK | DAC | Clare Bellingham | National Oceanography Centre, Joseph Proudman Building, 6 Brownlow Street, Liverpool, L3 5DA, United Kingdom | crbilhm@bodc.ac.uk |
