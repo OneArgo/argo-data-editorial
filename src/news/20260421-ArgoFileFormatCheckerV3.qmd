@@ -1,21 +1,22 @@
 ---
-title: "Argo NetCDF File Format Checker v3.0.2 Released"
-date: "2026-04-23"
+title: "Argo NetCDF File Format Checker v3.0.3 Released"
+date: "2026-04-28"
 categories: [gdac]
 image: "/assets/images/ArgoNetCDFFormat.png"
 ---
 
-A corrective release (v3.0.2) of the File Checker has been published. It addresses 3 issues that caused some compliant files to be incorrectly rejected. The 3 issues are listed on the release page:
-
-- [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.2](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.2){target="_blank"}
-
+**2026-04-28**
+A minor release (v3.0.3) of the File Checker has been published. The 2 changes are listed on the release page: [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.3](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.3){target="_blank"}
 
 
-**date: "2026-04-21"**
 
-A new version (v3.0.0) of the File Checker has been released:
+**2026-04-23**
+A corrective release (v3.0.2) of the File Checker has been published. It addresses 3 issues that caused some compliant files to be incorrectly rejected. The 3 issues are listed on the release page: [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.2](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.2){target="_blank"}
 
-- [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.0](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.0){target="_blank"}
+
+
+**2026-04-21**
+A new version (v3.0.0) of the File Checker has been released: [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.0](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.0){target="_blank"}
 
 This major v3.0.0 update is essential for maintaining data compliance with the newest international network standards.
 
