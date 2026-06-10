@@ -1,103 +1,31 @@
 {
-   "ACTIVE" : {
-      "TOTAL" : 4317,
-      "GDAC" : {
-         "CSIRO" : [
-            276
-         ],
-         "KIOST" : [
-            19
-         ],
-         "CSIO" : [
-            74
-         ],
-         "INCOIS" : [
-            120
-         ],
-         "AOML" : [
-            2499
-         ],
-         "BODC" : [
-            154
-         ],
-         "JMA" : [
-            147
-         ],
-         "MEDS" : [
-            197
-         ],
-         "CORIOLIS" : [
-            831
-         ]
-      }
-   },
-   "COLOR" : {
-      "BODC" : "#0000FF",
-      "NMDIS" : "#A50000",
-      "CORIOLIS" : "#0055FF",
-      "CSIRO" : "#00FFFF",
-      "INCOIS" : "#A5FF52",
-      "CSIO" : "#00AAFF",
-      "JMA" : "#FFFF00",
-      "MEDS" : "#FF0000",
-      "KORDI" : "#FF5500",
-      "KMA" : "#FFAA00",
-      "GTS" : "#52FFA5",
-      "AOML" : "#0000A5"
-   },
-   "DATE" : "05/05/2026",
-   "DELAYED" : {
-      "GDAC" : {
-         "CSIRO" : [
-            231183
-         ],
-         "KIOST" : [
-            15979
-         ],
-         "KMA" : [
-            35475
-         ],
-         "CSIO" : [
-            75622
-         ],
-         "INCOIS" : [
-            76567
-         ],
-         "AOML" : [
-            1554271
-         ],
-         "NMDIS" : [
-            2388
-         ],
-         "BODC" : [
-            104309
-         ],
-         "JMA" : [
-            229396
-         ],
-         "CORIOLIS" : [
-            463338
-         ],
-         "MEDS" : [
-            58319
-         ]
-      },
-      "TOTAL" : 2846847
-   },
+   "DATE" : "09/06/2026",
    "ALL" : {
-      "TOTAL" : 20165,
+      "TOTAL" : 20243,
       "GDAC" : {
-         "NMDIS" : [
-            19
+         "INCOIS" : [
+            597
          ],
-         "JMA" : [
-            2004
+         "CSIRO" : [
+            1248
          ],
          "BODC" : [
             941
          ],
+         "CSIO" : [
+            593
+         ],
+         "AOML" : [
+            9587
+         ],
+         "NMDIS" : [
+            19
+         ],
+         "KMA" : [
+            264
+         ],
          "CORIOLIS" : [
-            4116
+            4135
          ],
          "MEDS" : [
             724
@@ -105,20 +33,95 @@
          "KIOST" : [
             130
          ],
-         "CSIRO" : [
-            1242
+         "JMA" : [
+            2005
+         ]
+      }
+   },
+   "COLOR" : {
+      "JMA" : "#FFFF00",
+      "KORDI" : "#FF5500",
+      "GTS" : "#52FFA5",
+      "MEDS" : "#FF0000",
+      "KMA" : "#FFAA00",
+      "NMDIS" : "#A50000",
+      "CORIOLIS" : "#0055FF",
+      "AOML" : "#0000A5",
+      "BODC" : "#0000FF",
+      "CSIO" : "#00AAFF",
+      "INCOIS" : "#A5FF52",
+      "CSIRO" : "#00FFFF"
+   },
+   "ACTIVE" : {
+      "TOTAL" : 4214,
+      "GDAC" : {
+         "AOML" : [
+            2493
          ],
          "KMA" : [
-            263
+            4
          ],
-         "CSIO" : [
-            590
+         "JMA" : [
+            144
+         ],
+         "CORIOLIS" : [
+            820
+         ],
+         "CSIRO" : [
+            270
+         ],
+         "MEDS" : [
+            195
          ],
          "INCOIS" : [
-            597
+            44
          ],
+         "KIOST" : [
+            18
+         ],
+         "BODC" : [
+            146
+         ],
+         "CSIO" : [
+            80
+         ]
+      }
+   },
+   "DELAYED" : {
+      "TOTAL" : 2874063,
+      "GDAC" : {
          "AOML" : [
-            9539
+            1573533
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "KMA" : [
+            35475
+         ],
+         "CORIOLIS" : [
+            468627
+         ],
+         "INCOIS" : [
+            76567
+         ],
+         "CSIRO" : [
+            232579
+         ],
+         "CSIO" : [
+            75975
+         ],
+         "BODC" : [
+            104309
+         ],
+         "JMA" : [
+            229396
+         ],
+         "MEDS" : [
+            58801
+         ],
+         "KIOST" : [
+            16413
          ]
       }
    }
