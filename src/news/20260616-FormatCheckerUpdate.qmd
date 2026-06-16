@@ -1,0 +1,8 @@
+---
+title: "Argo NetCDF file format checker updated"
+date: "2026-06-16"
+categories: [infra]
+image: "/assets/images/ArgoNetCDFFormat.png"
+---
+The Argo NetCDF files format checker was updated on June 16th, 2026.  
+More information on [https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.5](https://github.com/OneArgo/ArgoFormatChecker/releases/tag/v3.0.5){target="_blank"}  
