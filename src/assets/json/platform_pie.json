@@ -1,9 +1,129 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<title>503 Service Unavailable</title>
-</head><body>
-<h1>Service Unavailable</h1>
-<p>The server is temporarily unable to service your
-request due to maintenance downtime or capacity
-problems. Please try again later.</p>
-</body></html>
+{
+   "ALL" : {
+      "TOTAL" : 20260,
+      "GDAC" : {
+         "AOML" : [
+            9601
+         ],
+         "CSIRO" : [
+            1248
+         ],
+         "CSIO" : [
+            593
+         ],
+         "JMA" : [
+            2006
+         ],
+         "INCOIS" : [
+            597
+         ],
+         "BODC" : [
+            941
+         ],
+         "NMDIS" : [
+            19
+         ],
+         "KMA" : [
+            264
+         ],
+         "KIOST" : [
+            130
+         ],
+         "CORIOLIS" : [
+            4135
+         ],
+         "MEDS" : [
+            726
+         ]
+      }
+   },
+   "COLOR" : {
+      "CORIOLIS" : "#0055FF",
+      "MEDS" : "#FF0000",
+      "INCOIS" : "#A5FF52",
+      "KORDI" : "#FF5500",
+      "BODC" : "#0000FF",
+      "NMDIS" : "#A50000",
+      "KMA" : "#FFAA00",
+      "CSIRO" : "#00FFFF",
+      "JMA" : "#FFFF00",
+      "GTS" : "#52FFA5",
+      "CSIO" : "#00AAFF",
+      "AOML" : "#0000A5"
+   },
+   "DATE" : "16/06/2026",
+   "DELAYED" : {
+      "GDAC" : {
+         "AOML" : [
+            1578853
+         ],
+         "CSIRO" : [
+            233075
+         ],
+         "CSIO" : [
+            75975
+         ],
+         "JMA" : [
+            229396
+         ],
+         "INCOIS" : [
+            76567
+         ],
+         "BODC" : [
+            104309
+         ],
+         "KMA" : [
+            35475
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "KIOST" : [
+            16413
+         ],
+         "MEDS" : [
+            59139
+         ],
+         "CORIOLIS" : [
+            468627
+         ]
+      },
+      "TOTAL" : 2880217
+   },
+   "ACTIVE" : {
+      "TOTAL" : 4221,
+      "GDAC" : {
+         "CSIRO" : [
+            269
+         ],
+         "CSIO" : [
+            79
+         ],
+         "JMA" : [
+            144
+         ],
+         "AOML" : [
+            2498
+         ],
+         "KIOST" : [
+            19
+         ],
+         "CORIOLIS" : [
+            815
+         ],
+         "MEDS" : [
+            197
+         ],
+         "INCOIS" : [
+            54
+         ],
+         "BODC" : [
+            142
+         ],
+         "KMA" : [
+            4
+         ]
+      }
+   }
+}
+
