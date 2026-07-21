@@ -1,114 +1,14 @@
 {
-   "ACTIVE" : {
-      "GDAC" : {
-         "INCOIS" : [
-            58
-         ],
-         "MEDS" : [
-            202
-         ],
-         "BODC" : [
-            139
-         ],
-         "KIOST" : [
-            19
-         ],
-         "CSIRO" : [
-            267
-         ],
-         "JMA" : [
-            146
-         ],
-         "KMA" : [
-            4
-         ],
-         "CORIOLIS" : [
-            816
-         ],
-         "CSIO" : [
-            78
-         ],
-         "AOML" : [
-            2503
-         ]
-      },
-      "TOTAL" : 4232
-   },
-   "ALL" : {
-      "TOTAL" : 20341,
-      "GDAC" : {
-         "KMA" : [
-            264
-         ],
-         "CORIOLIS" : [
-            4153
-         ],
-         "BODC" : [
-            946
-         ],
-         "KIOST" : [
-            130
-         ],
-         "JMA" : [
-            2011
-         ],
-         "AOML" : [
-            9642
-         ],
-         "CSIO" : [
-            593
-         ],
-         "INCOIS" : [
-            597
-         ],
-         "NMDIS" : [
-            19
-         ],
-         "MEDS" : [
-            738
-         ],
-         "CSIRO" : [
-            1248
-         ]
-      }
-   },
-   "COLOR" : {
-      "BODC" : "#0000FF",
-      "JMA" : "#FFFF00",
-      "KORDI" : "#FF5500",
-      "GTS" : "#52FFA5",
-      "CORIOLIS" : "#0055FF",
-      "KMA" : "#FFAA00",
-      "NMDIS" : "#A50000",
-      "MEDS" : "#FF0000",
-      "INCOIS" : "#A5FF52",
-      "CSIRO" : "#00FFFF",
-      "CSIO" : "#00AAFF",
-      "AOML" : "#0000A5"
-   },
-   "DATE" : "14/07/2026",
    "DELAYED" : {
       "GDAC" : {
          "CSIO" : [
             76052
          ],
-         "AOML" : [
-            1586603
-         ],
          "MEDS" : [
             59139
          ],
-         "NMDIS" : [
-            2388
-         ],
-         "INCOIS" : [
-            76369
-         ],
          "CSIRO" : [
-            234690
-         ],
-         "CORIOLIS" : [
-            468891
+            234902
          ],
          "KMA" : [
             35595
@@ -116,14 +16,114 @@
          "BODC" : [
             104810
          ],
+         "CORIOLIS" : [
+            468891
+         ],
+         "AOML" : [
+            1590078
+         ],
          "JMA" : [
             229396
          ],
+         "NMDIS" : [
+            2388
+         ],
          "KIOST" : [
             16413
+         ],
+         "INCOIS" : [
+            76369
          ]
       },
-      "TOTAL" : 2890346
+      "TOTAL" : 2894033
+   },
+   "DATE" : "21/07/2026",
+   "ALL" : {
+      "TOTAL" : 20349,
+      "GDAC" : {
+         "CORIOLIS" : [
+            4153
+         ],
+         "CSIO" : [
+            593
+         ],
+         "MEDS" : [
+            739
+         ],
+         "CSIRO" : [
+            1248
+         ],
+         "KMA" : [
+            264
+         ],
+         "BODC" : [
+            947
+         ],
+         "KIOST" : [
+            130
+         ],
+         "INCOIS" : [
+            597
+         ],
+         "AOML" : [
+            9648
+         ],
+         "JMA" : [
+            2011
+         ],
+         "NMDIS" : [
+            19
+         ]
+      }
+   },
+   "COLOR" : {
+      "AOML" : "#0000A5",
+      "JMA" : "#FFFF00",
+      "GTS" : "#52FFA5",
+      "CORIOLIS" : "#0055FF",
+      "MEDS" : "#FF0000",
+      "BODC" : "#0000FF",
+      "CSIRO" : "#00FFFF",
+      "INCOIS" : "#A5FF52",
+      "NMDIS" : "#A50000",
+      "KORDI" : "#FF5500",
+      "CSIO" : "#00AAFF",
+      "KMA" : "#FFAA00"
+   },
+   "ACTIVE" : {
+      "GDAC" : {
+         "AOML" : [
+            2501
+         ],
+         "JMA" : [
+            145
+         ],
+         "INCOIS" : [
+            72
+         ],
+         "KIOST" : [
+            19
+         ],
+         "KMA" : [
+            4
+         ],
+         "CSIRO" : [
+            266
+         ],
+         "BODC" : [
+            137
+         ],
+         "CSIO" : [
+            78
+         ],
+         "MEDS" : [
+            201
+         ],
+         "CORIOLIS" : [
+            815
+         ]
+      },
+      "TOTAL" : 4238
    }
 }
 
