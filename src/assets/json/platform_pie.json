@@ -1,20 +1,93 @@
 {
-   "ALL" : {
+   "DELAYED" : {
       "GDAC" : {
-         "JMA" : [
-            2013
+         "MEDS" : [
+            59139
          ],
          "INCOIS" : [
-            597
-         ],
-         "AOML" : [
-            9650
+            76369
          ],
          "BODC" : [
-            947
+            104810
+         ],
+         "CORIOLIS" : [
+            468891
+         ],
+         "CSIRO" : [
+            235626
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "AOML" : [
+            1599258
+         ],
+         "JMA" : [
+            229396
+         ],
+         "KIOST" : [
+            16413
+         ],
+         "KMA" : [
+            35595
          ],
          "CSIO" : [
-            593
+            76143
+         ]
+      },
+      "TOTAL" : 2904028
+   },
+   "ACTIVE" : {
+      "TOTAL" : 4296,
+      "GDAC" : {
+         "CSIO" : [
+            78
+         ],
+         "BODC" : [
+            139
+         ],
+         "MEDS" : [
+            211
+         ],
+         "CORIOLIS" : [
+            822
+         ],
+         "CSIRO" : [
+            262
+         ],
+         "KMA" : [
+            4
+         ],
+         "INCOIS" : [
+            119
+         ],
+         "JMA" : [
+            150
+         ],
+         "KIOST" : [
+            19
+         ],
+         "AOML" : [
+            2492
+         ]
+      }
+   },
+   "ALL" : {
+      "GDAC" : {
+         "KMA" : [
+            264
+         ],
+         "JMA" : [
+            2016
+         ],
+         "KIOST" : [
+            130
+         ],
+         "AOML" : [
+            9654
+         ],
+         "CORIOLIS" : [
+            4169
          ],
          "NMDIS" : [
             19
@@ -22,108 +95,35 @@
          "CSIRO" : [
             1248
          ],
-         "KIOST" : [
-            130
-         ],
-         "KMA" : [
-            264
-         ],
-         "CORIOLIS" : [
-            4154
-         ],
-         "MEDS" : [
-            739
-         ]
-      },
-      "TOTAL" : 20354
-   },
-   "ACTIVE" : {
-      "GDAC" : {
-         "CSIRO" : [
-            262
-         ],
-         "KIOST" : [
-            19
-         ],
-         "KMA" : [
-            4
-         ],
-         "CORIOLIS" : [
-            809
-         ],
-         "MEDS" : [
-            200
-         ],
-         "JMA" : [
-            148
+         "CSIO" : [
+            594
          ],
          "INCOIS" : [
-            119
-         ],
-         "AOML" : [
-            2493
-         ],
-         "BODC" : [
-            135
-         ],
-         "CSIO" : [
-            77
-         ]
-      },
-      "TOTAL" : 4266
-   },
-   "DELAYED" : {
-      "GDAC" : {
-         "AOML" : [
-            1593606
-         ],
-         "INCOIS" : [
-            76369
-         ],
-         "JMA" : [
-            229396
-         ],
-         "CSIO" : [
-            76052
-         ],
-         "BODC" : [
-            104810
-         ],
-         "KIOST" : [
-            16413
-         ],
-         "CSIRO" : [
-            235302
-         ],
-         "NMDIS" : [
-            2388
+            597
          ],
          "MEDS" : [
-            59139
+            744
          ],
-         "CORIOLIS" : [
-            468891
-         ],
-         "KMA" : [
-            35595
+         "BODC" : [
+            951
          ]
       },
-      "TOTAL" : 2897961
+      "TOTAL" : 20386
    },
-   "DATE" : "28/07/2026",
+   "DATE" : "04/08/2026",
    "COLOR" : {
-      "JMA" : "#FFFF00",
-      "AOML" : "#0000A5",
-      "MEDS" : "#FF0000",
-      "NMDIS" : "#A50000",
-      "BODC" : "#0000FF",
-      "GTS" : "#52FFA5",
       "CSIO" : "#00AAFF",
-      "INCOIS" : "#A5FF52",
-      "KMA" : "#FFAA00",
       "CORIOLIS" : "#0055FF",
+      "NMDIS" : "#A50000",
+      "CSIRO" : "#00FFFF",
+      "AOML" : "#0000A5",
+      "JMA" : "#FFFF00",
+      "KMA" : "#FFAA00",
+      "GTS" : "#52FFA5",
+      "BODC" : "#0000FF",
       "KORDI" : "#FF5500",
-      "CSIRO" : "#00FFFF"
+      "MEDS" : "#FF0000",
+      "INCOIS" : "#A5FF52"
    }
 }
 
