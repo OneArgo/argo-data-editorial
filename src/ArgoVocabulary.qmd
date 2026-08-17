@@ -2,7 +2,7 @@
 title: "Vocabularies"
 ---
 # Argo vocabularies
-Originally known as reference tables, they are used extensively to constrain the contents of the Argo NetCDF files, and to enhance the interoperability of the Argo data system. The Argo Data Management Team chose in 2019 to use the NERC Vocabulary Server (NVS), to further enhance Argo data interoperability
+Originally known as reference tables, they are used extensively to constrain the contents of the Argo NetCDF files, and to enhance the interoperability of the Argo data system. The Argo Data Management Team chose in 2019 to use the [NERC Vocabulary Server (NVS)](https://vocab.nerc.ac.uk), to further enhance Argo data interoperability.
 
 Argo vocabularies are always evolving, to reflect evolution of Argo technology. These evolutions are managed by the Argo Vocabulary Task Team (AVTT), under the umbrella of the ADMT.
 
