@@ -21,29 +21,27 @@ One of the most useful features of VocPrez is the NVS Search interface. This all
 ## Argo on the NVS
 Argo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: [https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance](https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance), and will display a list of all the Argo collections (or tables) created to date.
 
-Please see below a list of all original Argo reference tables extracted from the Argo User Manual (‘No.’), their corresponding NVS collection IDs (‘Vocab’) and links to the NVS collections themselves as VocPrez search results (‘Search URL’):
-
 Please note that each collection also has a static URL, linked in the ‘Vocabularies’ page on VocPrez: [https://vocab.nerc.ac.uk/collection/?filter=Argo](https://vocab.nerc.ac.uk/collection/?filter=Argo).
 
-# The Argo Vocabulary Task Team (AVTT)
-The Argo NVS collections are overseen by a sub-group of the Argo Data Management Team called the Argo Vocabulary Task Team (AVTT). Each AVTT member is responsible for a subset of Argo tables/collections, based on their interest and contributions. AVTT members are the Editors of the tables/collections, in charge of making appropriate changes on the NVS on behalf of the Argo community.
+# The Argo Vocabulary and Format Task Team (AVFTT)
+The Argo NVS collections are overseen by a sub-group of the Argo Data Management Team called the Argo Vocabulary and Format Task Team (AVFTT, formerly AVTT). Each AVFTT member is responsible for a subset of Argo tables/collections, based on their interest and contributions. AVFTT members are the Editors of the tables/collections, in charge of making appropriate changes on the NVS on behalf of the Argo community.
 
-The work of the AVTT is coordinated by an AVTT facilitator and managed in the ArgoVocab repository of the OneArgo github: [https://github.com/OneArgo/ArgoVocabs](https://github.com/OneArgo/ArgoVocabs)
+The work of the AVFTT is currently co-chaired by Victor Turpin and Delphine Dobler and managed in the ArgoVocab repository of the OneArgo github: [https://github.com/OneArgo/ArgoVocabs](https://github.com/OneArgo/ArgoVocabs). 
 
-The AVTT meets several times per year in between annual ADMT meetings, to discuss requests from the Argo community for the evolution of Argo vocabularies.
+The AVFTT meets several times per year in between annual ADMT meetings, to discuss requests from the Argo community for the evolution of Argo vocabularies.
 
 # How to request new entries and suggest changes to Argo vocabulary
 To propose a new Argo code in a vocabulary or initiate a discussion about an existing concept or collection, anyone can open an issue in the ArgoVocabs repository under the OneArgo github:
 
-[https://github.com/OneArgo/ArgoVocabs](https://github.com/OneArgo/ArgoVocabs) 
+[https://github.com/OneArgo/ArgoVocabs/issues](https://github.com/OneArgo/ArgoVocabs/issues) 
 
-If the issue concerns a specific reference table, it is advised to label the issue with the name of the associated reference table (‘Rxx’). The issue is then assigned to the editor(s) in charge of the reference table. If the issue is a request for a new entry in a table, when approved, the new code is published on NVS, the Argo NetCDF file Format Checker is updated, and the issue is closed. In some cases where the decision is not straightforward, to ensure that the discussion is picked up, the Argo data management mailing list(s) may be contacted, providing the link to the Github issue in question. It is advisable to observe a two-week time limit to progress a discussion; if no comments or feedback ensue in that time frame, the decision can be considered approved by the AVTT and may be be implemented as suggested. If there is no consensus, or if the issue has large implications, the issue requires further discussion at the ADMT annual meeting. If you are unsure of which category your issue falls into, please do not hesitate to contact the ADMT co-chairs.
+If the issue concerns a specific reference table, it is advised to label the issue with the name of the associated reference table (‘Rxx’). The issue is then assigned to the editor(s) in charge of the reference table. If the issue is a request for a new entry in a table, when approved, the new code is published on NVS, the Argo NetCDF file Format Checker is updated, and the issue is closed. In some cases where the decision is not straightforward, to ensure that the discussion is picked up, the Argo data management mailing list(s) may be contacted, providing the link to the Github issue in question. It is advisable to observe a two-week time limit to progress a discussion; if no comments or feedback ensue in that time frame, the decision can be considered approved by the AVFTT and may be be implemented as suggested. If there is no consensus, or if the issue has large implications, the issue requires further discussion at the ADMT annual meeting. If you are unsure of which category your issue falls into, please do not hesitate to contact the AVFTT co-chairs.
 
 All Argo vocabulary issues are visible on the AVTT issues dashboard (a "project" under the OneArgo github), with associated status reflected in the various columns:
 
 [https://github.com/orgs/OneArgo/projects/4/views/1](https://github.com/orgs/OneArgo/projects/4/views/1)
 
-If you need help or have questions about this process, please contact Danielle Wright or Victor Turpin.
+If you need help or have questions about this process, please contact Delphine Dobler or Victor Turpin, co-chairs of the AVFTT.
 
 # Resources
 M2M access to the NVS via API (NVS SPARQL endpoint)
