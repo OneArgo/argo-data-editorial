@@ -97,19 +97,19 @@ On each topic the Primary and Alternate representatives are in charge of working
 •	Ensure Argo data adhere to the FAIR data principles.
 
 ## Members
-| Role | Primary | Alternate |
-|---|---|---|
-| Argo Data Management Chairs | Megan Scanderbeg<br>Claire Gourcuff |  |
-| Argo Director | Breck Owens |  |
-| Argo Steering Team Chairs | Susan Wijffels<br>Brian King |  |
-| BGC Mission | Catherine Schmechtig<br>Tanya Maurer |  |
-| Technical Coordination/Monitoring | Victor Turpin<br>Orens De Fommervault |  |
-| GDACs | Thierry Carval<br>Michael Frost |  |
-| Delay Mode Operators | Annie Wong<br>Cécile Cabanes |  |
-| DACs | Candice Hall<br>Anh Tran |  |
-| ARCs | Uday Bhaskar<br>Shigeki Hosoda |  |
-| GADR | Zhankun Wang |  |
-| Format / User Manual | Thierry Carval<br>Annie Wong |  |
+| Role | | 
+|---|---|
+| Argo Data Management Chairs | Megan Scanderbeg<br>Claire Gourcuff | 
+| Argo Director | Breck Owens |  
+| Argo Steering Team Chairs | Susan Wijffels<br>Brian King |  
+| BGC Mission | Catherine Schmechtig<br>Tanya Maurer | 
+| Technical Coordination/Monitoring | Victor Turpin<br>Orens De Fommervault | 
+| GDACs | Thierry Carval<br>Michael Frost | 
+| Delay Mode Operators | Annie Wong<br>Cécile Cabanes |  
+| DACs | Candice Hall<br>Anh Tran |  
+| ARCs | Uday Bhaskar<br>Shigeki Hosoda |  
+| GADR | Zhankun Wang |  
+| Format / Vocabulary | Thierry Carval<br>Annie Wong<br>Delphine Dobler |  
 
 
 # Meetings and reports
