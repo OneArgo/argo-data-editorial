@@ -1,129 +1,129 @@
 {
-   "DATE" : "08/09/2026",
-   "COLOR" : {
-      "BODC" : "#0000FF",
-      "CSIRO" : "#00FFFF",
-      "NMDIS" : "#A50000",
-      "CSIO" : "#00AAFF",
-      "INCOIS" : "#A5FF52",
-      "KORDI" : "#FF5500",
-      "MEDS" : "#FF0000",
-      "JMA" : "#FFFF00",
-      "AOML" : "#0000A5",
-      "CORIOLIS" : "#0055FF",
-      "GTS" : "#52FFA5",
-      "KMA" : "#FFAA00"
-   },
-   "ALL" : {
-      "TOTAL" : 20483,
+   "ACTIVE" : {
       "GDAC" : {
          "MEDS" : [
-            744
-         ],
-         "INCOIS" : [
-            604
-         ],
-         "KMA" : [
-            264
-         ],
-         "KIOST" : [
-            135
-         ],
-         "JMA" : [
-            2019
+            200
          ],
          "CORIOLIS" : [
-            4187
-         ],
-         "CSIRO" : [
-            1255
+            810
          ],
          "BODC" : [
-            960
+            145
+         ],
+         "INCOIS" : [
+            126
          ],
          "AOML" : [
-            9699
+            2526
          ],
          "CSIO" : [
-            597
+            75
          ],
-         "NMDIS" : [
-            19
+         "JMA" : [
+            153
+         ],
+         "KMA" : [
+            4
+         ],
+         "KIOST" : [
+            23
+         ],
+         "CSIRO" : [
+            267
          ]
-      }
+      },
+      "TOTAL" : 4329
    },
    "DELAYED" : {
-      "TOTAL" : 2919957,
+      "TOTAL" : 2924607,
       "GDAC" : {
-         "JMA" : [
-            229396
-         ],
          "KIOST" : [
             16413
          ],
          "KMA" : [
             35595
          ],
-         "INCOIS" : [
-            76369
+         "CSIRO" : [
+            236617
          ],
-         "MEDS" : [
-            60158
-         ],
-         "NMDIS" : [
-            2388
+         "JMA" : [
+            229396
          ],
          "CSIO" : [
             78081
          ],
-         "BODC" : [
-            105205
-         ],
          "AOML" : [
-            1606560
+            1608516
          ],
-         "CSIRO" : [
-            236508
+         "INCOIS" : [
+            76369
+         ],
+         "NMDIS" : [
+            2388
+         ],
+         "BODC" : [
+            105380
+         ],
+         "MEDS" : [
+            61258
          ],
          "CORIOLIS" : [
-            473284
+            474594
          ]
       }
    },
-   "ACTIVE" : {
+   "COLOR" : {
+      "GTS" : "#52FFA5",
+      "JMA" : "#FFFF00",
+      "CSIRO" : "#00FFFF",
+      "BODC" : "#0000FF",
+      "KORDI" : "#FF5500",
+      "MEDS" : "#FF0000",
+      "KMA" : "#FFAA00",
+      "INCOIS" : "#A5FF52",
+      "AOML" : "#0000A5",
+      "CSIO" : "#00AAFF",
+      "NMDIS" : "#A50000",
+      "CORIOLIS" : "#0055FF"
+   },
+   "DATE" : "15/09/2026",
+   "ALL" : {
       "GDAC" : {
-         "MEDS" : [
-            200
-         ],
-         "KMA" : [
-            4
-         ],
-         "INCOIS" : [
-            124
-         ],
-         "JMA" : [
-            149
-         ],
-         "KIOST" : [
-            24
-         ],
          "CORIOLIS" : [
-            814
+            4187
          ],
-         "CSIRO" : [
-            266
+         "MEDS" : [
+            744
+         ],
+         "NMDIS" : [
+            19
          ],
          "BODC" : [
-            146
+            960
          ],
          "AOML" : [
-            2514
+            9721
          ],
          "CSIO" : [
-            76
+            598
+         ],
+         "INCOIS" : [
+            606
+         ],
+         "CSIRO" : [
+            1255
+         ],
+         "KIOST" : [
+            135
+         ],
+         "KMA" : [
+            264
+         ],
+         "JMA" : [
+            2026
          ]
       },
-      "TOTAL" : 4317
+      "TOTAL" : 20515
    }
 }
 
