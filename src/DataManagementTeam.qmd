@@ -103,7 +103,7 @@ On each topic the Primary and Alternate representatives are in charge of working
 | Argo Director | Breck Owens |  
 | Argo Steering Team Chairs | Susan Wijffels<br>Brian King |  
 | BGC Mission | Catherine Schmechtig<br>Tanya Maurer | 
-| Technical Coordination/Monitoring | Victor Turpin<br>Orens De Fommervault | 
+| Technical Coordination/Monitoring | Victor Turpin | 
 | GDACs | Thierry Carval<br>Michael Frost | 
 | Delay Mode Operators | Annie Wong<br>Cécile Cabanes |  
 | DACs | Candice Hall<br>Anh Tran |  
