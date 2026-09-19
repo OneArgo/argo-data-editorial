@@ -1,53 +1,109 @@
-<!doctype html>
-<html class="no-js" lang="">
+{
+   "DATE" : "15/09/2026",
+   "UNAVAILABLE_VALUES" : {
+      "AOML" : [
+         1608516,
+         172527
+      ],
+      "CSIO" : [
+         78081,
+         7017
+      ],
+      "INCOIS" : [
+         76369,
+         16617
+      ],
+      "KIOST" : [
+         16413,
+         798
+      ],
+      "KMA" : [
+         35595,
+         3690
+      ],
+      "CSIRO" : [
+         236617,
+         13741
+      ],
+      "JMA" : [
+         229396,
+         51434
+      ],
+      "MEDS" : [
+         61258,
+         35117
+      ],
+      "CORIOLIS" : [
+         474594,
+         135621
+      ],
+      "NMDIS" : [
+         2388,
+         72
+      ],
+      "BODC" : [
+         105380,
+         45073
+      ]
+   },
+   "AVAILABLE_VALUES" : {
+      "JMA" : [
+         205050,
+         43939
+      ],
+      "KMA" : [
+         34276,
+         2561
+      ],
+      "KIOST" : [
+         15953,
+         342
+      ],
+      "CSIRO" : [
+         220356,
+         7910
+      ],
+      "INCOIS" : [
+         65876,
+         13476
+      ],
+      "AOML" : [
+         1406548,
+         109799
+      ],
+      "CSIO" : [
+         74438,
+         6335
+      ],
+      "BODC" : [
+         90376,
+         34444
+      ],
+      "NMDIS" : [
+         2387,
+         72
+      ],
+      "MEDS" : [
+         57499,
+         32127
+      ],
+      "CORIOLIS" : [
+         428594,
+         115776
+      ]
+   },
+   "GDAC" : [
+      "NMDIS",
+      "MEDS",
+      "KMA",
+      "KIOST",
+      "JMA",
+      "INCOIS",
+      "CSIRO",
+      "CSIO",
+      "CORIOLIS",
+      "BODC",
+      "AOML"
+   ]
+}
 
-<head>
-  <meta charset="utf-8">
-  <title>Ifremer</title>
-
-  <link rel="icon"
-    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABhlBMVEUAAAAAK78AOcYAM8cAMMYAMccAMsgAIL8AMcYAMsYAMsYAMsYAMccAMsYAOcYAL8oANMQAMMUAMcYAMscAM8YAMcMAM8wALcMAMMYAMsUAMsYAMsYAMsYAMsYAMsYAM8YAMsYAMsYAMsYAM8UAM8EAMsYAMsYAN8gAQL8AM8kAMsYAMsYAAP8AK9UAOsUAMsYAM8UAM8UAMsYAM8YAMsYAMsYAM8YANcEANcoAMsQAMsYAMccAM8YAMsUAMsgAM8gAMccAM8QAJ8QAMMEAMcUAMscAMsYAMsYAMsYAM8YAM8YAMcYAM8kAOcYAOMcALcoANskAMcYANMYAMsYAMMYAMsUAM8IAQL8AMcUAM8QAN8gANsMANMgAMcUAMcgAMsYAM8UAMMgAMsYAMsgAL8YAAP8AO8QAQMYANskANcoAMMQAMMIAMsUANMgAOcwAAP8AMc4AMcIAMM8AMs0ANcUAL8QALtEAIN8AM8wAM8wALssAN8gALcsAAP8AN78AVaoAMsb///+/oP5vAAAAgHRSTlMADCRfWkkuCILd7um1dRsrJ09DUlUvChFv6/30+vDx4+/7zXMt5dIXCEvzwQEGNbNqI4/P+P6mHWVs5L+XQjM8TkENWnyn+fzs1LDtUBIgP0JjdfepdhkEVF8OL0U5gefHSqrQbAMNJCErW2WjSigCGhUgOD5SCwgFHicqIgQcA6JTlXQAAAABYktHRIESuq7+AAAACXBIWXMAAAA0AAAANAHOpKDoAAAAB3RJTUUH5gsJEQMO12CbJwAAAPJJREFUOMtjYBgFCMDIxMzCyoZHATsHJ1cDNw8vGx+/gKCQsKCICKuoGIoKcQnJhoYGKWkZWakGrgY5eYWGBkUlZWQ1KqoNSEAWQqmpw+U1NLUasABtHai8rp6+HDYFDQZQBYZGxiZYFZiageXNLSytpJGFrW2Ebe2AwN7BESTvZOvs4urW0ODu7uFp49XQ4O3jixoKfv4BgUHcwVIKIaFh4REyWpE6qPJRftExsXHa8QmJIF8lJaeghWJqWnpGZlZ2Tq44mBubhyafr1NQWFRcUlqGKxpSyysqq6prcMdTbX65b109nojUSa3I12EYBYQAAAf6WvZpE/CAAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTExLTA5VDE3OjAzOjE0KzAwOjAwfpxiEgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0xMS0wOVQxNzowMzoxNCswMDowMA/B2q4AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC"
-    type="image/png">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="/ifremer-error-pages/css/normalize.css">
-  <link rel="stylesheet" href="/ifremer-error-pages/css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-  <div class="top">
-    <img src="/ifremer-error-pages/img/logos.svg" />
-  </div>
-  <div class="middle">
-    <h1>Site temporairement indisponible</h1>
-    <span>Retrouvez-nous bientôt. Merci de votre patience.</span>
-    <h1>Site temporarily unavailable</h1>
-    <span>We will come back soon. Thanks for your patience.</span>
-  </div>
-  <div class="bottom">
-    <a href="https://twitter.com/ifremer_fr" class="social-icon"><img src="/ifremer-error-pages/img/twitter.svg"
-        target="_blank" /></a>
-    <a href="https://www.facebook.com/ifremer.fr" class="social-icon"><img src="/ifremer-error-pages/img/facebook.svg"
-        target="_blank" /></a>
-    <a href="https://www.linkedin.com/company/ifremer/" class="social-icon"><img
-        src="/ifremer-error-pages/img/linkedin.svg" target="_blank" /></a>
-    <a href="https://www.youtube.com/c/ifremertv" class="social-icon"><img src="/ifremer-error-pages/img/youtube.svg"
-        target="_blank" /></a>
-    <a href="https://www.instagram.com/ifremer_officiel/" class="social-icon"><img
-        src="/ifremer-error-pages/img/instagram.svg" target="_blank" /></a>
-  </div>
-
-</body>
-
-</html>
