@@ -19,7 +19,7 @@ One of the most useful features of VocPrez is the NVS Search interface. This all
  
 
 ## Argo on the NVS
-Argo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: [https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance](https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=governance), and will display a list of all the Argo collections (or tables) created to date.
+Argo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: [https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=definition,governance](https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=definition,governance), and will display a list of all the Argo collections (or tables) created to date.
 
 Please note that each collection also has a static URL, linked in the ‘Vocabularies’ page on VocPrez: [https://vocab.nerc.ac.uk/collection/?filter=Argo](https://vocab.nerc.ac.uk/collection/?filter=Argo).
 
