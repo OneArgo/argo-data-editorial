@@ -29,7 +29,7 @@ website:
         text: ADMT
       - href: Dmqc.qmd
         text: DMQC
-      - href: DACS.qmd
+      - href: DACs.qmd
         text: DACs
       - href: ArgoVocabulary.qmd
         text: Vocabularies
