@@ -10,7 +10,9 @@ If you are looking for DMQC tools please look at the [DMQC](https://www.argodata
 
 - Coriolis Argo RT processing chain  
     - in a container: [https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
+
         *How to run the Containerised Coriolis processing chain was presented during a workshop organised in 2024. Access to the recording is provided below (section DAC workshops 2024).* 
+
     - the Matlab code: [https://doi.org/10.17882/45589](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
 
 - Sprof files generation: [https://github.com/euroargodev/matsprof](https://github.com/euroargodev/matsprof) & [https://github.com/euroargodev/pysprof](https://github.com/euroargodev/pysprof)
