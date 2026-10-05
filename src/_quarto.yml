@@ -29,6 +29,8 @@ website:
         text: ADMT
       - href: Dmqc.qmd
         text: DMQC
+      - href: DACS.qmd
+        text: DACs
       - href: ArgoVocabulary.qmd
         text: Vocabularies
       - href: Monitoring.qmd
