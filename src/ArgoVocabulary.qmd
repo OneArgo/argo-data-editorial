@@ -16,7 +16,6 @@ The NVS conforms to a set of standards designed to be compatible with Semantic W
 The NVS web user interface is called VocPrez, and can be accessed through the link vocab.nerc.ac.uk. VocPrez hosts general information on controlled vocabularies, a complete list of NVS collections (under ‘Vocabularies’) and Simple Knowledge Organization System (SKOS) concept schemes (under ‘Thesauri’), an interactive SPARQL endpoint to allow for machine-readable NVS query responses, and link to other tools hosted on the BODC website.
 
 One of the most useful features of VocPrez is the NVS Search interface. This allows a user to search for a term (aka ‘concept’) in a vocabulary collection; search for a term across vocabulary collections; search for vocabulary collections; and explore mappings (i.e. relationships) of terms linking different collections. Search results may be downloaded in tab-delimited (tsv) as well as comma-delimited (csv) formats; moreover, search queries produce search results links that may be bookmarked and shared.
- 
 
 ## Argo on the NVS
 Argo vocabularies on the NVS can be extracted in the VocPrez NVS Search interface by typing ‘argo’ in the vocabulary collections search bar and ticking ‘Governance’ only. The search result can be accessed through this link: [https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=definition,governance](https://vocab.nerc.ac.uk/search_nvs/cvl/?searchstr=argo&options=definition,governance), and will display a list of all the Argo collections (or tables) created to date.
@@ -54,9 +53,8 @@ SPARQL queries can be integrated into code written in other programming language
 For a basic example, please see the "m2m_NVS_sparql.ipynb" file.
 
 To test, open the file into a Jupyter Notebook; edit lines marked by '# Switch' to select either prefLabel/altLabel, and point to specific Argo vocabularies by inserting its name (e.g. 'R03') where the line is marked by '# Edit'.
-
  
-##Access to Argo vocabulary in python: argopy.ArgoNVSReferenceTables feature
+## Access to Argo vocabulary in python: argopy.ArgoNVSReferenceTables feature
 ArgoNVSReferenceTables is a feature that easily provides access and search to Argo vocabularies from python:
 
 [https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html](https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html)
