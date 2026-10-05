@@ -10,7 +10,7 @@ If you are looking for DMQC tools please look at the [DMQC](https://www.argodata
 
 - Coriolis Argo RT processing chain  
     - in a container: [https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
-        *How to run the Containerised Coriolis processing chain was presented during a workshop organised in 2024. Access to the recording is provided below (section DAC workshops - 2024). 
+        *How to run the Containerised Coriolis processing chain was presented during a workshop organised in 2024. Access to the recording is provided below (section DAC workshops 2024).* 
     - the Matlab code: [https://doi.org/10.17882/45589](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
 
 - Sprof files generation: [https://github.com/euroargodev/matsprof](https://github.com/euroargodev/matsprof) & [https://github.com/euroargodev/pysprof](https://github.com/euroargodev/pysprof)
@@ -64,7 +64,8 @@ Since 2025, regular informal virtual DAC meetings have been set-up, to foster di
 - [Feedback from ADMT25 (new DAC actions) / discussion on a future v3.2 for Argo metadata files](https://docs.google.com/presentation/d/1RZrUr1k_GF6GWRYWWXopFZvX33OPASD88N9XM8aqVx4/edit?slide=id.p#slide=id.p)
 - [Presentation of AOML DAC workflow](https://drive.google.com/file/d/1k3INqUKmMv5fyJuJH2Xo2iwXLwwfsg8X/view?usp=sharing)
 
-# DAC workshops - 2024
+# DAC workshops 2024
 Two virtual DAC workshops were organised in February 2024 in order to discuss ways to modernize the Argo data system. Material from these workshops is available here:
+
 - [First workshop (2 Feb.)](https://drive.google.com/drive/folders/1ST_Wh8Ok3-kCIs8wO4nyZihKEv947A6u?usp=sharing)
-- [Second workshop (24 Feb.)](https://drive.google.com/drive/folders/1pEcRo-Pz-9uXamfItksIO_hIesO5vLoJ?usp=sharing) - includes demo of how to run the containterized Coriolis processing chain (from 8'20'')
+- [Second workshop (24 Feb.)](https://drive.google.com/drive/folders/1pEcRo-Pz-9uXamfItksIO_hIesO5vLoJ?usp=sharing) (includes demo of how to run the containterized Coriolis processing chain (from 8'20''))
