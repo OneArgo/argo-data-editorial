@@ -1,8 +1,8 @@
 ---
 title: "Tools and ressources for DACs"
 ---
-This section gathers resources for Argo DACs regarding RT processing. It includes code for float decoding and RTQC, link to discussion forum, DAC meetings information etc. 
-If you are looking for DMQC tools please look at the dedicated section.
+This section gathers resources for Argo DACs regarding Real Time processing. It includes code for float decoding and RTQC, link to discussion forum, DAC meetings information etc. 
+If you are looking for DMQC tools please look at the [DMQC](https://www.argodatamgt.org/Dmqc.html) section.
 
 # Tools 
 
@@ -10,6 +10,7 @@ If you are looking for DMQC tools please look at the dedicated section.
 
 - Coriolis Argo RT processing chain  
     - in a container: [https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
+        *How to run the Containerised Coriolis processing chain was presented during a workshop organised in 2025. Access to the recording is provided [here](). 
     - the Matlab code: [https://doi.org/10.17882/45589](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
 
 - Sprof files generation: [https://github.com/euroargodev/matsprof](https://github.com/euroargodev/matsprof) & [https://github.com/euroargodev/pysprof](https://github.com/euroargodev/pysprof)
@@ -49,16 +50,21 @@ See more on metadata in the Vocabularies section
 
 
 # Regular DAC meetings
-Since 2025, regular informal DAC meetings have been set-up, to foster discussion, knowledge exchange and collaboration between the various DACs. These meetings are currently co-organised by Candice Hall (AOML/US) Clare Bellingham and Kamila Walicka (BODC/UK). If you would like to suggest a topic for an upcoming DAC meeting, please don’t hesitate to reach out to Candice, Clare and Kamila.
+Since 2025, regular informal virtual DAC meetings have been set-up, to foster discussion, knowledge exchange and collaboration between the various DACs. These meetings are currently co-organised by Candice Hall (AOML/US) Clare Bellingham and Kamila Walicka (BODC/UK). If you would like to suggest a topic for an upcoming DAC meeting, please don’t hesitate to reach out to Candice, Clare and Kamila.
 
 ### June 2026 
 - [Metadata v3.2 update & WIS2 metadata coordination](https://docs.google.com/presentation/d/1S4AutDtgYRFGMZpW3clw6Ma95ADAdEjh7_OjqooO6og/edit?slide=id.g3f242dd02fb_0_26#slide=id.g3f242dd02fb_0_26)
 - [Presentation of KIOST DAC workflow](https://docs.google.com/presentation/d/1Y1VxCSmFDRAaiWovaPZ2Sfx9cKmNjXyu/edit?usp=sharing&ouid=109021107852655771328&rtpof=true&sd=true)
 
 ### March 2026 
-- Metadata loader & validator - BODC
+- [Metadata loader & validator - BODC] (https://drive.google.com/file/d/1lPIsLyLYkXQpswO6M3skDBqBhs6OYW3S/view?usp=sharing)
 - [Presentation of CSIRO DAC workflow](https://docs.google.com/presentation/d/1xCHvQKA5GlJORHG2S4Y_fZ0AVpCA3tX_/edit?usp=sharing&ouid=109021107852655771328&rtpof=true&sd=true)
 
 ### December 2025
 - [Feedback from ADMT25 (new DAC actions) / discussion on a future v3.2 for Argo metadata files](https://docs.google.com/presentation/d/1RZrUr1k_GF6GWRYWWXopFZvX33OPASD88N9XM8aqVx4/edit?slide=id.p#slide=id.p)
 - [Presentation of AOML DAC workflow](https://drive.google.com/file/d/1k3INqUKmMv5fyJuJH2Xo2iwXLwwfsg8X/view?usp=sharing)
+
+# DAC workshops - 2024
+Two virtual DAC workshops were organised in February 2024 in order to discuss ways to modernize the Argo data system. Material from these workshops is available here:
+- [First workshop (2 Feb.)](https://drive.google.com/drive/folders/1ST_Wh8Ok3-kCIs8wO4nyZihKEv947A6u?usp=sharing)
+- [Second workshop (24 Feb.)](https://drive.google.com/drive/folders/1pEcRo-Pz-9uXamfItksIO_hIesO5vLoJ?usp=sharing) - includes demo of how to run the containterized Coriolis processing chain (from 8'20'')
