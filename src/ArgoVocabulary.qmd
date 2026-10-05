@@ -43,7 +43,8 @@ All Argo vocabulary issues are visible on the AVTT issues dashboard (a "project"
 If you need help or have questions about this process, please contact Delphine Dobler or Victor Turpin, co-chairs of the AVFTT.
 
 # Resources
-## M2M access to the NVS via API (NVS SPARQL endpoint)
+## M2M access to the NVS via API
+### NVS SPARQL
 For machine to machine (M2M) access to the Argo Vocabularies on the NVS, the NVS SPARQL endpoint can be used.
 
 General information on the NVS SPARQL endpoint can be found on the NVS website: [https://vocab.nerc.ac.uk/sparql/](https://vocab.nerc.ac.uk/sparql/)
@@ -54,8 +55,8 @@ For a basic example, please see the "m2m_NVS_sparql.ipynb" file.
 
 To test, open the file into a Jupyter Notebook; edit lines marked by '# Switch' to select either prefLabel/altLabel, and point to specific Argo vocabularies by inserting its name (e.g. 'R03') where the line is marked by '# Edit'.
  
-## Access to Argo vocabulary in python: argopy.ArgoNVSReferenceTables feature
-ArgoNVSReferenceTables is a feature that easily provides access and search to Argo vocabularies from python:
+### Access to Argo vocabulary in python using argopy
+argopy.ArgoNVSReferenceTables is a feature that easily provides access and search to Argo vocabularies from python:
 
 [https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html](https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html)
 
