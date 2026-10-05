@@ -1,0 +1,64 @@
+---
+title: "Tools and ressources for DACs"
+---
+This section gathers resources for Argo DACs regarding RT processing. It includes code for float decoding and RTQC, link to discussion forum, DAC meetings information etc. 
+If you are looking for DMQC tools please look at the dedicated section.
+
+# Tools 
+
+## Data processing and files creation
+
+- Coriolis Argo RT processing chain  
+    - in a container: [https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
+    - the Matlab code: [https://doi.org/10.17882/45589](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
+
+- Sprof files generation: [https://github.com/euroargodev/matsprof](https://github.com/euroargodev/matsprof) & [https://github.com/euroargodev/pysprof](https://github.com/euroargodev/pysprof)
+
+
+## Parameters computation
+
+- PAR: 
+    - [https://github.com/euroargodev/matIRR2PAR](https://github.com/euroargodev/matIRR2PAR) & [https://github.com/euroargodev/pyIRR2PAR](https://github.com/euroargodev/pyIRR2PAR)
+    - [https://github.com/euroargodev/PAR_BGC_Argo](https://github.com/euroargodev/PAR_BGC_Argo)
+
+
+## GTS encoding
+- MEDS BUFR encoder: [https://github.com/trana99/ArgoBufrEncoder](https://github.com/trana99/ArgoBufrEncoder)
+- MetOFfice BUFR encoder *(link to come soon)*
+
+## RTQC
+- BGC RTQC for CHLA and BBP in python:  [https://github.com/ArgoCanada/medsrtqc](https://github.com/ArgoCanada/medsrtqc)
+- Spike test: [https://github.com/ArgoRTQC/matlab_MEDD](https://github.com/ArgoRTQC/matlab_MEDD)
+- Radiometry QC: [https://github.com/euroargodev/radiometry_QC](https://github.com/euroargodev/radiometry_QC)
+- BBP RTQC: [https://github.com/euroargodev/BBP_RTQC](https://github.com/euroargodev/BBP_RTQC)
+
+## File checker
+Argo NetCDF file format checker:  [https://github.com/OneArgo/ArgoFormatChecker](https://github.com/OneArgo/ArgoFormatChecker) 
+
+## Metadata 
+- Argo metadata schema: [https://github.com/euroargodev/sensor_metadata_json](https://github.com/euroargodev/sensor_metadata_json)
+- Validator: https://github.com/euroargodev/argo-metadata-validator
+- Loader: https://github.com/euroargodev/argo-metadata-loader
+See more on metadata in the Vocabularies section
+*Link to SBS & RBR metadata portals to be added soon* 
+
+## Processing Argo data under ice:
+- [https://github.com/euroargodev/ArgoUnderIceArctic](https://github.com/euroargodev/ArgoUnderIceArctic)
+- [https://github.com/euroargodev/terrain-following](https://github.com/euroargodev/terrain-following)
+- [https://github.com/euroargodev/Coriolis-under-ice-positioning](https://github.com/euroargodev/Coriolis-under-ice-positioning)
+
+
+# Regular DAC meetings
+Since 2025, regular informal DAC meetings have been set-up, to foster discussion, knowledge exchange and collaboration between the various DACs. These meetings are currently co-organised by Candice Hall (AOML/US) Clare Bellingham and Kamila Walicka (BODC/UK). If you would like to suggest a topic for an upcoming DAC meeting, please don’t hesitate to reach out to Candice, Clare and Kamila.
+
+### June 2026 
+- [Metadata v3.2 update & WIS2 metadata coordination](https://docs.google.com/presentation/d/1S4AutDtgYRFGMZpW3clw6Ma95ADAdEjh7_OjqooO6og/edit?slide=id.g3f242dd02fb_0_26#slide=id.g3f242dd02fb_0_26)
+- [Presentation of KIOST DAC workflow](https://docs.google.com/presentation/d/1Y1VxCSmFDRAaiWovaPZ2Sfx9cKmNjXyu/edit?usp=sharing&ouid=109021107852655771328&rtpof=true&sd=true)
+
+### March 2026 
+- Metadata loader & validator - BODC
+- [Presentation of CSIRO DAC workflow](https://docs.google.com/presentation/d/1xCHvQKA5GlJORHG2S4Y_fZ0AVpCA3tX_/edit?usp=sharing&ouid=109021107852655771328&rtpof=true&sd=true)
+
+### December 2025
+- [Feedback from ADMT25 (new DAC actions) / discussion on a future v3.2 for Argo metadata files](https://docs.google.com/presentation/d/1RZrUr1k_GF6GWRYWWXopFZvX33OPASD88N9XM8aqVx4/edit?slide=id.p#slide=id.p)
+- [Presentation of AOML DAC workflow](https://drive.google.com/file/d/1k3INqUKmMv5fyJuJH2Xo2iwXLwwfsg8X/view?usp=sharing)
