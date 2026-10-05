@@ -9,13 +9,9 @@ If you are looking for DMQC tools please look at the [DMQC](https://www.argodata
 ## Data processing and files creation
 
 - Coriolis Argo RT processing chain  
-    - in a container: [https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
-
-        *How to run the Containerised Coriolis processing chain was presented during a workshop organised in 2024. Access to the recording is provided below (section DAC workshops 2024).* 
-
-    - the Matlab code: [https://doi.org/10.17882/45589](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container) 
-
-- Sprof files generation: [https://github.com/euroargodev/matsprof](https://github.com/euroargodev/matsprof) & [https://github.com/euroargodev/pysprof](https://github.com/euroargodev/pysprof)
+    - in a container: [https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container)  *How to run the Containerised Coriolis processing chain was presented during a workshop organised in 2024. Access to the recording is provided below (section ##DAC-workshops-2024).* 
+    - the Matlab code: [https://doi.org/10.17882/45589](https://github.com/euroargodev/Coriolis-data-processing-chain-for-Argo-floats-container)  
+- Sprof files generation: [https://github.com/euroargodev/matsprof](https://github.com/euroargodev/matsprof) & [https://github.com/euroargodev/pysprof](https://github.com/euroargodev/pysprof)  
 
 
 ## Parameters computation
@@ -27,7 +23,7 @@ If you are looking for DMQC tools please look at the [DMQC](https://www.argodata
 
 ## GTS encoding
 - MEDS BUFR encoder: [https://github.com/trana99/ArgoBufrEncoder](https://github.com/trana99/ArgoBufrEncoder)
-- MetOFfice BUFR encoder *(link to come soon)*
+- MetOffice BUFR encoder *(link to come soon)*
 
 ## RTQC
 - BGC RTQC for CHLA and BBP in python:  [https://github.com/ArgoCanada/medsrtqc](https://github.com/ArgoCanada/medsrtqc)
@@ -59,7 +55,7 @@ Since 2025, regular informal virtual DAC meetings have been set-up, to foster di
 - [Presentation of KIOST DAC workflow](https://docs.google.com/presentation/d/1Y1VxCSmFDRAaiWovaPZ2Sfx9cKmNjXyu/edit?usp=sharing&ouid=109021107852655771328&rtpof=true&sd=true)
 
 ### March 2026 
-- [Metadata loader & validator - BODC] (https://drive.google.com/file/d/1lPIsLyLYkXQpswO6M3skDBqBhs6OYW3S/view?usp=sharing)
+- [Metadata loader & validator - BODC](https://drive.google.com/file/d/1lPIsLyLYkXQpswO6M3skDBqBhs6OYW3S/view?usp=sharing)
 - [Presentation of CSIRO DAC workflow](https://docs.google.com/presentation/d/1xCHvQKA5GlJORHG2S4Y_fZ0AVpCA3tX_/edit?usp=sharing&ouid=109021107852655771328&rtpof=true&sd=true)
 
 ### December 2025
