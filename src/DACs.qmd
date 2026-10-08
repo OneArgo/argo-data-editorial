@@ -24,7 +24,7 @@ If you are looking for DMQC tools please look at the [DMQC](https://www.argodata
 
 ## GTS encoding
 - MEDS BUFR encoder: [https://github.com/trana99/ArgoBufrEncoder](https://github.com/trana99/ArgoBufrEncoder)
-- MetOffice BUFR encoder: [https://www.seanoe.org/data/00464/57596/](https://www.seanoe.org/data/00464/57596/)
+- MetOffice BUFR encoder: [https://doi.org/10.17882/57596](https://doi.org/10.17882/57596)
 
 ## RTQC
 - BGC RTQC for CHLA and BBP in python:  [https://github.com/ArgoCanada/medsrtqc](https://github.com/ArgoCanada/medsrtqc)
