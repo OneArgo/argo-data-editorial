@@ -55,10 +55,51 @@ For a basic example, please see the ["m2m_NVS_sparql.ipynb"](https://github.com/
 
 To test, open the file into a Jupyter Notebook; edit lines marked by '# Switch' to select either prefLabel/altLabel, and point to specific Argo vocabularies by inserting its name (e.g. 'R03') where the line is marked by '# Edit'.
  
-### Access to Argo vocabulary in python using argopy
-argopy.ArgoNVSReferenceTables is a feature that easily provides access and search to Argo vocabularies from python:
+### Access to Argo vocabulary in python using Argopy
 
-[https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html](https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html)
+Argopy provides specific classes for NVS reference table, value and mapping. Each class provides direct online (and offline) access to the NVS content. [Check the documentation for all details](https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html)
+
+**Examples**
+
+```python
+from argopy import ArgoReferenceTable
+
+# Use an Argo parameter name, documented by one of the Argo reference tables:
+art = ArgoReferenceTable('SENSOR')
+
+# or a reference table identifier:
+art = ArgoReferenceTable('R25')
+
+# or a URN:
+art = ArgoReferenceTable.from_urn('SDN:R25::CTD_TEMP')
+```
+The ``art`` object holds all information from the NVS as attributes and comes with search and export methods. Check documentation on [ArgoReferenceTable](https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html#reference-tables).
+
+```python
+from argopy import ArgoReferenceValue
+
+# One possible value for the Argo parameter 'SENSOR_MODEL':
+arv = ArgoReferenceValue('AANDERAA_OPTODE_3835')
+
+# For ambiguous value seen in more than one Reference Table
+arv = ArgoReferenceValue('4', reference='RT_QC_FLAG')
+arv = ArgoReferenceValue('4', reference='RR2')
+
+# From NVS/URN jargon:
+arv = ArgoReferenceValue.from_urn('SDN:R27::AANDERAA_OPTODE_3835')
+```
+The ``arv`` object holds all information from the NVS as attributes and comes with export methods. Check documentation on [ArgoReferenceValue](https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html#reference-values).
+
+```python
+from argopy import ArgoReferenceMapping
+
+# Use two Argo parameter names, documented by one of the Argo reference tables:
+arm = ArgoReferenceMapping('PLATFORM_MAKER', 'PLATFORM_TYPE')
+
+# or reference table identifiers:
+arm = ArgoReferenceMapping('R24', 'R23')
+```
+The ``arm`` object holds all information from the NVS as attributes and comes with export methods. Check documentation on [ArgoReferenceMapping](https://argopy.readthedocs.io/en/latest/advanced-tools/metadata/nvs_ref_tables.html#reference-value-relationships).
 
 
 ## List of Argo vocabulary editors
