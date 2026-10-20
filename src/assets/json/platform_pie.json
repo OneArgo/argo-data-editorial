@@ -1,129 +1,129 @@
 {
-   "COLOR" : {
-      "NMDIS" : "#A50000",
-      "CSIO" : "#00AAFF",
-      "GTS" : "#52FFA5",
-      "INCOIS" : "#A5FF52",
-      "CORIOLIS" : "#0055FF",
-      "BODC" : "#0000FF",
-      "JMA" : "#FFFF00",
-      "AOML" : "#0000A5",
-      "KMA" : "#FFAA00",
-      "KORDI" : "#FF5500",
-      "CSIRO" : "#00FFFF",
-      "MEDS" : "#FF0000"
-   },
-   "DATE" : "13/10/2026",
-   "ACTIVE" : {
-      "TOTAL" : 4370,
+   "DELAYED" : {
       "GDAC" : {
-         "KMA" : [
-            6
+         "INCOIS" : [
+            76369
          ],
-         "CSIRO" : [
-            270
+         "KMA" : [
+            35595
+         ],
+         "BODC" : [
+            106294
+         ],
+         "AOML" : [
+            1618202
          ],
          "CSIO" : [
-            75
+            82257
+         ],
+         "MEDS" : [
+            61285
+         ],
+         "JMA" : [
+            239083
+         ],
+         "CORIOLIS" : [
+            475904
+         ],
+         "NMDIS" : [
+            2388
          ],
          "KIOST" : [
-            23
-         ],
-         "AOML" : [
-            2556
-         ],
-         "JMA" : [
-            154
-         ],
-         "BODC" : [
-            147
-         ],
-         "MEDS" : [
-            198
-         ],
-         "CORIOLIS" : [
-            801
-         ],
-         "INCOIS" : [
-            140
-         ]
-      }
-   },
-   "ALL" : {
-      "TOTAL" : 20619,
-      "GDAC" : {
-         "JMA" : [
-            2027
-         ],
-         "AOML" : [
-            9786
-         ],
-         "MEDS" : [
-            744
-         ],
-         "INCOIS" : [
-            621
-         ],
-         "CORIOLIS" : [
-            4192
-         ],
-         "BODC" : [
-            965
+            16413
          ],
          "CSIRO" : [
-            1266
-         ],
-         "KMA" : [
-            266
-         ],
-         "CSIO" : [
-            598
+            237085
+         ]
+      },
+      "TOTAL" : 2950875
+   },
+   "ALL" : {
+      "GDAC" : {
+         "CSIRO" : [
+            1267
          ],
          "KIOST" : [
             135
          ],
          "NMDIS" : [
             19
-         ]
-      }
-   },
-   "DELAYED" : {
-      "TOTAL" : 2949194,
-      "GDAC" : {
-         "JMA" : [
-            238472
-         ],
-         "AOML" : [
-            1617132
-         ],
-         "MEDS" : [
-            61285
          ],
          "CORIOLIS" : [
-            475904
+            4193
          ],
-         "INCOIS" : [
-            76369
+         "JMA" : [
+            2028
          ],
-         "BODC" : [
-            106294
+         "MEDS" : [
+            744
          ],
          "CSIO" : [
-            82257
+            600
          ],
          "KMA" : [
-            35595
+            266
+         ],
+         "INCOIS" : [
+            621
+         ],
+         "AOML" : [
+            9791
+         ],
+         "BODC" : [
+            965
+         ]
+      },
+      "TOTAL" : 20629
+   },
+   "ACTIVE" : {
+      "GDAC" : {
+         "KIOST" : [
+            23
          ],
          "CSIRO" : [
-            237085
+            271
          ],
-         "KIOST" : [
-            16413
+         "CORIOLIS" : [
+            795
          ],
-         "NMDIS" : [
-            2388
+         "MEDS" : [
+            198
+         ],
+         "JMA" : [
+            155
+         ],
+         "KMA" : [
+            6
+         ],
+         "INCOIS" : [
+            138
+         ],
+         "AOML" : [
+            2556
+         ],
+         "BODC" : [
+            145
+         ],
+         "CSIO" : [
+            76
          ]
-      }
+      },
+      "TOTAL" : 4363
+   },
+   "DATE" : "20/10/2026",
+   "COLOR" : {
+      "GTS" : "#52FFA5",
+      "CSIRO" : "#00FFFF",
+      "KORDI" : "#FF5500",
+      "NMDIS" : "#A50000",
+      "CORIOLIS" : "#0055FF",
+      "JMA" : "#FFFF00",
+      "MEDS" : "#FF0000",
+      "CSIO" : "#00AAFF",
+      "INCOIS" : "#A5FF52",
+      "KMA" : "#FFAA00",
+      "AOML" : "#0000A5",
+      "BODC" : "#0000FF"
    }
 }
 
