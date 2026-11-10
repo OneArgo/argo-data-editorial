@@ -1,117 +1,27 @@
 {
-   "ALL" : {
-      "GDAC" : {
-         "KIOST" : [
-            135
-         ],
-         "JMA" : [
-            2028
-         ],
-         "AOML" : [
-            9818
-         ],
-         "NMDIS" : [
-            19
-         ],
-         "CSIO" : [
-            602
-         ],
-         "INCOIS" : [
-            622
-         ],
-         "KMA" : [
-            266
-         ],
-         "CSIRO" : [
-            1269
-         ],
-         "CORIOLIS" : [
-            4196
-         ],
-         "MEDS" : [
-            746
-         ],
-         "BODC" : [
-            965
-         ]
-      },
-      "TOTAL" : 20666
-   },
-   "DATE" : "03/11/2026",
-   "COLOR" : {
-      "MEDS" : "#FF0000",
-      "CORIOLIS" : "#0055FF",
-      "CSIRO" : "#00FFFF",
-      "BODC" : "#0000FF",
-      "KMA" : "#FFAA00",
-      "INCOIS" : "#A5FF52",
-      "CSIO" : "#00AAFF",
-      "NMDIS" : "#A50000",
-      "KORDI" : "#FF5500",
-      "AOML" : "#0000A5",
-      "GTS" : "#52FFA5",
-      "JMA" : "#FFFF00"
-   },
-   "ACTIVE" : {
-      "GDAC" : {
-         "BODC" : [
-            143
-         ],
-         "CORIOLIS" : [
-            801
-         ],
-         "CSIRO" : [
-            273
-         ],
-         "MEDS" : [
-            194
-         ],
-         "INCOIS" : [
-            138
-         ],
-         "JMA" : [
-            149
-         ],
-         "CSIO" : [
-            76
-         ],
-         "KIOST" : [
-            23
-         ],
-         "AOML" : [
-            2555
-         ],
-         "KMA" : [
-            6
-         ]
-      },
-      "TOTAL" : 4358
-   },
    "DELAYED" : {
+      "TOTAL" : 2958178,
       "GDAC" : {
-         "NMDIS" : [
-            2388
-         ],
-         "AOML" : [
-            1621994
-         ],
          "JMA" : [
             239083
+         ],
+         "CSIO" : [
+            82633
+         ],
+         "AOML" : [
+            1623246
+         ],
+         "CSIRO" : [
+            237664
          ],
          "KIOST" : [
             16413
          ],
-         "MEDS" : [
-            61285
-         ],
          "CORIOLIS" : [
-            476085
+            476293
          ],
-         "CSIRO" : [
-            237589
-         ],
-         "BODC" : [
-            106294
+         "NMDIS" : [
+            2388
          ],
          "KMA" : [
             35789
@@ -119,11 +29,101 @@
          "INCOIS" : [
             76369
          ],
-         "CSIO" : [
-            82633
+         "MEDS" : [
+            62006
+         ],
+         "BODC" : [
+            106294
          ]
-      },
-      "TOTAL" : 2955922
+      }
+   },
+   "ACTIVE" : {
+      "TOTAL" : 4394,
+      "GDAC" : {
+         "INCOIS" : [
+            142
+         ],
+         "KMA" : [
+            6
+         ],
+         "MEDS" : [
+            196
+         ],
+         "BODC" : [
+            146
+         ],
+         "JMA" : [
+            149
+         ],
+         "CSIO" : [
+            76
+         ],
+         "AOML" : [
+            2574
+         ],
+         "KIOST" : [
+            23
+         ],
+         "CORIOLIS" : [
+            810
+         ],
+         "CSIRO" : [
+            272
+         ]
+      }
+   },
+   "COLOR" : {
+      "CSIO" : "#00AAFF",
+      "KORDI" : "#FF5500",
+      "JMA" : "#FFFF00",
+      "CSIRO" : "#00FFFF",
+      "CORIOLIS" : "#0055FF",
+      "AOML" : "#0000A5",
+      "INCOIS" : "#A5FF52",
+      "KMA" : "#FFAA00",
+      "NMDIS" : "#A50000",
+      "BODC" : "#0000FF",
+      "GTS" : "#52FFA5",
+      "MEDS" : "#FF0000"
+   },
+   "DATE" : "10/11/2026",
+   "ALL" : {
+      "TOTAL" : 20699,
+      "GDAC" : {
+         "BODC" : [
+            965
+         ],
+         "MEDS" : [
+            747
+         ],
+         "INCOIS" : [
+            622
+         ],
+         "KMA" : [
+            266
+         ],
+         "NMDIS" : [
+            19
+         ],
+         "CORIOLIS" : [
+            4208
+         ],
+         "KIOST" : [
+            135
+         ],
+         "CSIRO" : [
+            1269
+         ],
+         "AOML" : [
+            9838
+         ],
+         "CSIO" : [
+            602
+         ],
+         "JMA" : [
+            2028
+         ]
+      }
    }
 }
 
